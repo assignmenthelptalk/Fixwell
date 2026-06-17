@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import TrustBar from '../components/TrustBar.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import CTABanner from '../components/CTABanner.astro';
+import ReviewsSection from '../components/ReviewsSection.astro';
+import LocationGrid from '../components/LocationGrid.astro';
+import QuoteForm from '../components/QuoteForm.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
+import WorkGallery from '../components/WorkGallery.astro';
+import { site } from '../data/site';
+
+const faqs = [
+  { q: 'What areas do you cover?', a: 'We cover Salisbury and surrounding areas including Amesbury, Wilton, Tidworth, Fordingbridge, Downton, and Andover. If you are unsure whether we cover your area, give us a call.' },
+  { q: 'Are you insured?', a: 'Yes, FixWell Services is fully insured with public liability insurance for all work we undertake. We are happy to provide proof of insurance on request.' },
+  { q: 'How quickly can you respond?', a: 'For emergency callouts we aim to be with you the same day, often within a few hours. For non-urgent work we typically book within 1–3 days.' },
+  { q: 'Do you provide free quotes?', a: 'Yes, all quotes are completely free and carry no obligation. We will assess the job and give you a fixed price or hourly rate before any work begins.' },
+  { q: 'What types of work do you do?', a: 'We cover a wide range of domestic and landlord maintenance work including plumbing, electrics, carpentry, painting, garden maintenance, and full renovations. If you are unsure, just ask.' },
+  { q: 'Can you help landlords and letting agents?', a: 'Absolutely. We work with many landlords and letting agents across Wiltshire, offering between-tenancy cleans, maintenance programmes, and rapid response repairs to keep your properties lettable.' },
+];
+---
+<BaseLayout
+  title="Handyman Services Salisbury | FixWell Services"
+  description="Professional handyman services in Salisbury and Wiltshire. Emergency repairs, property maintenance, plumbing, electrics, and more. Fully insured. Call 07391 599 078."
+  canonical={site.url}
+>
+  <Hero
+    variant="homepage"
+    title="Salisbury's Trusted Handyman Service"
+    subtitle="Emergency repairs, property maintenance, and home improvements — done properly the first time."
+    badge="⚡ Same-Day Emergency Response"
+    ctaPrimary={{ text: 'Get a Free Quote', href: '#quote' }}
+    ctaSecondary={{ text: 'Call Now', href: `tel:${site.phone}` }}
+  />
+  <TrustBar />
+  <ServiceGrid heading="Our Services" />
+  <CTABanner
+    heading="Emergency? We Can Help Today."
+    subtext="Call us now for same-day response across Salisbury and Wiltshire."
+    variant="orange"
+  />
+  <WorkGallery />
+  <ReviewsSection />
+  <LocationGrid />
+  <QuoteForm heading="Get Your Free Quote" />
+  <FAQAccordion faqs={faqs} heading="Common Questions" />
+</BaseLayout>

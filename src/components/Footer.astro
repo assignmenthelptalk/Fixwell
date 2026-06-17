@@ -1,0 +1,187 @@
+---
+import { site } from '../data/site';
+import { footerServiceLinks, footerAreaLinks, footerInfoLinks } from '../data/navigation';
+---
+
+<footer class="footer">
+  <div class="footer__main">
+    <div class="container footer__grid">
+      <!-- Brand column -->
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <span class="logo-icon">FW</span>
+          <span class="logo-text">
+            <strong>FixWell Services</strong>
+            <small>{site.tagline}</small>
+          </span>
+        </div>
+        <p>Professional, fully insured handyman services across Salisbury and Wiltshire. No job too big or too small.</p>
+        <div class="footer__contact">
+          <a href={`tel:${site.phone}`} class="footer__phone">
+            📞 {site.phoneDisplay}
+          </a>
+          <a href={`mailto:${site.email}`} class="footer__email">
+            ✉ {site.email}
+          </a>
+          <span class="footer__address">📍 {site.address}</span>
+        </div>
+        <p class="footer__hours">Mon–Sun, 7am–8pm</p>
+        <div class="footer__social">
+          <a href="https://www.facebook.com/fixwellservices" target="_blank" rel="noopener noreferrer" aria-label="FixWell Services on Facebook">
+            <img src="/facebook_icon.png" alt="Facebook" width="28" height="28" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div class="footer__col">
+        <h3>Services</h3>
+        <ul>
+          {footerServiceLinks.map((l) => (
+            <li><a href={l.href}>{l.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Areas -->
+      <div class="footer__col">
+        <h3>Areas Covered</h3>
+        <ul>
+          {footerAreaLinks.map((l) => (
+            <li><a href={l.href}>{l.label}</a></li>
+          ))}
+        </ul>
+        <h3 style="margin-top:1.5rem;">Advice</h3>
+        <ul>
+          {footerInfoLinks.map((l) => (
+            <li><a href={l.href}>{l.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Trust & CTA -->
+      <div class="footer__col">
+        <h3>Why FixWell?</h3>
+        <ul class="footer__trust">
+          <li>✅ Fully insured</li>
+          <li>✅ Industry qualifications</li>
+          <li>✅ Same-day emergency callouts</li>
+          <li>✅ No job too big or small</li>
+          <li>✅ Competitive rates £20–£40/hr</li>
+          <li>✅ Serving Salisbury since 2020</li>
+        </ul>
+        <a href="/contact" class="btn btn--primary" style="margin-top:1.5rem;width:100%;justify-content:center;">
+          Get a Free Quote
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <p>&copy; {new Date().getFullYear()} FixWell Services. All rights reserved.</p>
+      <nav aria-label="Legal links">
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer { background: var(--navy-dark); color: rgba(255,255,255,.8); }
+
+  .footer__main { padding: 3.5rem 0 2rem; }
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr 1.5fr;
+    gap: 2.5rem;
+  }
+
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    margin-bottom: 1rem;
+  }
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--orange);
+    color: white;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    font-size: .9rem;
+    flex-shrink: 0;
+  }
+  .logo-text strong { display: block; color: white; font-size: 1.05rem; }
+  .logo-text small { font-size: .75rem; color: rgba(255,255,255,.6); }
+
+  .footer__brand p {
+    color: rgba(255,255,255,.65);
+    font-size: .9rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+  }
+
+  .footer__contact {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: .75rem;
+  }
+  .footer__phone, .footer__email {
+    color: white;
+    font-size: .9rem;
+    font-weight: 600;
+    transition: color .15s;
+  }
+  .footer__phone:hover, .footer__email:hover { color: var(--orange-light); }
+  .footer__address { font-size: .875rem; color: rgba(255,255,255,.6); }
+  .footer__hours { font-size: .8rem; color: rgba(255,255,255,.5); }
+
+  .footer__col h3 {
+    color: white;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    margin-bottom: 1rem;
+  }
+  .footer__col ul { list-style: none; display: flex; flex-direction: column; gap: .4rem; }
+  .footer__col ul li { font-size: .875rem; }
+  .footer__col ul a { color: rgba(255,255,255,.65); transition: color .15s; }
+  .footer__col ul a:hover { color: white; }
+
+  .footer__trust li { font-size: .875rem; color: rgba(255,255,255,.75); }
+  .footer__trust { gap: .5rem !important; }
+
+  .footer__bottom {
+    border-top: 1px solid rgba(255,255,255,.1);
+    padding: 1.25rem 0;
+  }
+  .footer__bottom-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
+  .footer__bottom p { font-size: .8rem; color: rgba(255,255,255,.4); }
+  .footer__bottom nav { display: flex; gap: 1.5rem; }
+  .footer__bottom nav a { font-size: .8rem; color: rgba(255,255,255,.4); transition: color .15s; }
+  .footer__bottom nav a:hover { color: rgba(255,255,255,.8); }
+
+  @media (max-width: 1024px) {
+    .footer__grid { grid-template-columns: 1fr 1fr; }
+    .footer__brand { grid-column: span 2; }
+  }
+
+  @media (max-width: 640px) {
+    .footer__grid { grid-template-columns: 1fr; }
+    .footer__brand { grid-column: span 1; }
+  }
+</style>

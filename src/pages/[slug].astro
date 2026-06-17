@@ -1,0 +1,265 @@
+---
+import ServiceLayout from '../layouts/ServiceLayout.astro';
+import InfoLayout from '../layouts/InfoLayout.astro';
+import Hero from '../components/Hero.astro';
+import TrustBar from '../components/TrustBar.astro';
+import CTABanner from '../components/CTABanner.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
+import QuoteForm from '../components/QuoteForm.astro';
+import { allCorePages, coreHubPages, type CorePage } from '../data/corePages';
+import { allOuterPages, type OuterPage } from '../data/outerPages';
+
+export async function getStaticPaths() {
+  return [
+    ...allCorePages.map((p) => ({
+      params: { slug: p.slug },
+      props: { page: p, kind: 'core' as const },
+    })),
+    ...allOuterPages.map((p) => ({
+      params: { slug: p.slug },
+      props: { page: p, kind: 'outer' as const },
+    })),
+  ];
+}
+
+type Props =
+  | { kind: 'core'; page: CorePage }
+  | { kind: 'outer'; page: OuterPage };
+
+const { page, kind } = Astro.props;
+const corePage = kind === 'core' ? (page as CorePage) : null;
+const outerPage = kind === 'outer' ? (page as OuterPage) : null;
+
+let parentLabel: string | undefined;
+let parentSlugStr: string | undefined;
+let linkedPages: CorePage[] = [];
+
+if (corePage) {
+  if (corePage.parentSlug) {
+    const parent = allCorePages.find((p) => p.slug === corePage.parentSlug);
+    if (parent) {
+      parentLabel = parent.shortLabel ?? parent.h1;
+      parentSlugStr = parent.slug;
+    }
+  }
+  linkedPages = allCorePages.filter((p) => corePage.linksTo.includes(p.id));
+}
+
+const heroVariant =
+  kind === 'outer'
+    ? 'article'
+    : corePage?.pageType === 'location'
+    ? 'location'
+    : 'service';
+
+const pageImages: Record<string, { src: string; alt: string }> = {
+  'plumbing-repairs-salisbury':              { src: '/blog_image_1.webp', alt: 'Plumber repairing pipework under a sink' },
+  'plumbing-leak-repairs-salisbury':         { src: '/blog_image_1.webp', alt: 'Plumber fixing a leaking pipe' },
+  'painting-decorating-salisbury':           { src: '/image_5.jpg',       alt: 'Wallpaper being applied during a decorating job in Wiltshire' },
+  'fence-repair-salisbury':                  { src: '/blog_image_2.webp', alt: 'Fence post replacement in a garden' },
+  'furniture-assembly-salisbury':            { src: '/image_2.jpg',       alt: 'Trampoline being assembled in a Salisbury garden' },
+  'odd-jobs-salisbury':                      { src: '/image_2.jpg',       alt: 'Handyman completing an odd job — garden equipment assembly' },
+  'garden-maintenance-salisbury':            { src: '/image_6.png',       alt: 'Raised garden bed built from timber in a Wiltshire garden' },
+  'paving-slab-replacement-salisbury':       { src: '/image_3.jpg',       alt: 'Garden furniture on neatly laid paving slabs' },
+  'home-repairs-salisbury':                  { src: '/image_4.jpg',       alt: 'Window seal being repaired on a residential property' },
+  'property-maintenance-salisbury':          { src: '/image_4.jpg',       alt: 'Property maintenance — window repair in Salisbury' },
+  'emergency-handyman-salisbury':            { src: '/image_1.jpg',       alt: 'FixWell tradesman carrying out an emergency repair on a shed roof' },
+  'landlord-property-maintenance-salisbury': { src: '/image_4.jpg',       alt: 'Property maintenance work for a landlord in Salisbury' },
+};
+
+const pageImage = page ? pageImages[page.slug] : undefined;
+---
+
+{corePage && (
+  <ServiceLayout
+    title={corePage.title}
+    description={corePage.metaDescription}
+    h1={corePage.h1}
+    slug={corePage.slug}
+    pageType={corePage.pageType}
+    parentLabel={parentLabel}
+    parentSlug={parentSlugStr}
+    macroContext={corePage.macroContext}
+  >
+    <Hero
+      variant={heroVariant as 'service' | 'location'}
+      title={corePage.h1}
+      subtitle={corePage.macroContext}
+      badge={corePage.pageType === 'location' ? `Handyman in ${corePage.shortLabel ?? corePage.h1}` : undefined}
+      ctaPrimary={{ text: 'Get a Free Quote', href: '/contact' }}
+      ctaSecondary={{ text: 'Call Now', href: 'tel:07391599078' }}
+    />
+    <TrustBar />
+
+    <section class="section page-body">
+      <div class="container page-body__inner">
+        <div class="page-body__content">
+          {pageImage && (
+            <img
+              src={pageImage.src}
+              alt={pageImage.alt}
+              class="page-body__img"
+              loading="lazy"
+              decoding="async"
+            />
+          )}
+          <h2>About This Service</h2>
+          <p>{corePage.macroContext}</p>
+          {corePage.pageType === 'location' && (
+            <p>
+              Whether you need emergency repairs, routine maintenance, or a full renovation,
+              FixWell Services covers {corePage.shortLabel ?? 'this area'} and the surrounding villages.
+              We aim for same-day response on urgent jobs and next-day availability for planned work.
+            </p>
+          )}
+        </div>
+        {linkedPages.length > 0 && (
+          <aside class="page-body__sidebar">
+            <div class="card related-card">
+              <h3>Related Services</h3>
+              <ul class="related-list">
+                {linkedPages.map((lp) => (
+                  <li>
+                    <a href={`/${lp.slug}`}>
+                      {lp.icon && <span aria-hidden="true">{lp.icon}</span>}
+                      {lp.shortLabel ?? lp.h1}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </aside>
+        )}
+      </div>
+    </section>
+
+    {linkedPages.length > 2 && corePage.pageType !== 'service-detail' && (
+      <section class="section section--light related-grid">
+        <div class="container">
+          <div class="section-header">
+            <h2>
+              {corePage.pageType === 'location'
+                ? `Our Services in ${corePage.shortLabel ?? corePage.h1}`
+                : 'Related Services'}
+            </h2>
+          </div>
+          <div class="grid-3">
+            {linkedPages.map((lp) => (
+              <a href={`/${lp.slug}`} class="card linked-card">
+                {lp.icon && <span class="linked-card__icon" aria-hidden="true">{lp.icon}</span>}
+                <h3>{lp.shortLabel ?? lp.h1}</h3>
+                <p>{lp.metaDescription.slice(0, 90)}…</p>
+                <span class="linked-card__cta">Learn more →</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <CTABanner />
+
+    {corePage.faqs && corePage.faqs.length > 0 && (
+      <FAQAccordion faqs={corePage.faqs} />
+    )}
+
+    <QuoteForm />
+  </ServiceLayout>
+)}
+
+{outerPage && (
+  <InfoLayout
+    title={outerPage.title}
+    description={outerPage.metaDescription}
+    h1={outerPage.h1}
+    slug={outerPage.slug}
+    faqs={outerPage.faqs}
+  >
+    <Hero
+      variant="article"
+      title={outerPage.h1}
+      subtitle={outerPage.macroContext}
+      ctaPrimary={{ text: 'Find a Handyman', href: '/contact' }}
+    />
+
+    <article class="article-body section">
+      <div class="container article-body__inner">
+        <div class="article-content">
+          {outerPage.sections.map((s) => (
+            <div class="article-section">
+              <h2>{s.heading}</h2>
+              <p>{s.body}</p>
+            </div>
+          ))}
+        </div>
+        <aside class="article-sidebar">
+          <div class="card sidebar-cta">
+            <h3>Need a Handyman?</h3>
+            <p>FixWell Services covers Salisbury and Wiltshire. Get a free quote today.</p>
+            <a href="/contact" class="btn btn--primary">Get a Free Quote</a>
+            <a href="tel:07391599078" class="btn btn--outline">📞 07391 599 078</a>
+          </div>
+          <div class="card sidebar-services">
+            <h3>Our Services</h3>
+            <ul class="sidebar-service-list">
+              {coreHubPages.slice(0, 6).map((p) => (
+                <li><a href={`/${p.slug}`}>{p.shortLabel ?? p.h1}</a></li>
+              ))}
+            </ul>
+            <a href="/handyman-services-salisbury" class="see-all">View all services →</a>
+          </div>
+        </aside>
+      </div>
+    </article>
+
+    <CTABanner heading="Professional Handyman in Salisbury" variant="navy" />
+
+    {outerPage.faqs && outerPage.faqs.length > 0 && (
+      <FAQAccordion faqs={outerPage.faqs} />
+    )}
+  </InfoLayout>
+)}
+
+<style>
+  /* Core page body */
+  .page-body__img { width: 100%; border-radius: var(--radius-lg); margin-bottom: 1.5rem; aspect-ratio: 16/9; object-fit: cover; }
+  .page-body__inner { display: grid; grid-template-columns: 1fr 280px; gap: 2.5rem; align-items: start; }
+  .page-body__content h2 { color: var(--navy); margin-bottom: .75rem; }
+  .page-body__content p { color: var(--text-muted); line-height: 1.75; margin-bottom: 1rem; }
+  .related-card h3 { color: var(--navy); margin-bottom: .75rem; font-size: 1rem; }
+  .related-list { list-style: none; display: flex; flex-direction: column; gap: .4rem; }
+  .related-list a { font-size: .875rem; color: var(--text-muted); display: flex; align-items: center; gap: .4rem; padding: .3rem 0; border-bottom: 1px solid var(--border); }
+  .related-list a:hover { color: var(--navy); }
+  /* Related grid */
+  .linked-card { display: flex; flex-direction: column; gap: .4rem; text-decoration: none; transition: transform .2s, box-shadow .2s; }
+  .linked-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+  .linked-card__icon { font-size: 1.75rem; }
+  .linked-card h3 { color: var(--navy); font-size: .95rem; }
+  .linked-card p { color: var(--text-muted); font-size: .85rem; flex: 1; line-height: 1.6; }
+  .linked-card__cta { font-size: .85rem; font-weight: 600; color: var(--orange); margin-top: auto; }
+  /* Article body */
+  .article-body__inner { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; }
+  .article-content { max-width: 100%; }
+  .article-section { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+  .article-section:last-child { border-bottom: none; }
+  .article-section h2 { color: var(--navy); font-size: 1.375rem; margin-bottom: .75rem; }
+  .article-section p { color: var(--text-muted); line-height: 1.8; }
+  /* Sidebar */
+  .article-sidebar { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 5rem; }
+  .sidebar-cta { display: flex; flex-direction: column; gap: .75rem; background: var(--navy); border-color: var(--navy); }
+  .sidebar-cta h3 { color: white; }
+  .sidebar-cta p { color: rgba(255,255,255,.8); font-size: .875rem; }
+  .sidebar-cta .btn--primary { background: var(--orange); border-color: var(--orange); }
+  .sidebar-cta .btn--outline { border-color: white; color: white; }
+  .sidebar-cta .btn--outline:hover { background: white; color: var(--navy); }
+  .sidebar-services h3 { color: var(--navy); font-size: .95rem; margin-bottom: .75rem; }
+  .sidebar-service-list { list-style: none; display: flex; flex-direction: column; }
+  .sidebar-service-list a { font-size: .875rem; color: var(--text-muted); padding: .4rem 0; display: block; border-bottom: 1px solid var(--border); }
+  .sidebar-service-list a:hover { color: var(--navy); }
+  .see-all { display: inline-block; margin-top: .75rem; font-size: .85rem; font-weight: 600; color: var(--orange); }
+  @media (max-width: 900px) {
+    .page-body__inner { grid-template-columns: 1fr; }
+    .article-body__inner { grid-template-columns: 1fr; }
+    .article-sidebar { position: static; }
+  }
+</style>

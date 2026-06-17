@@ -1,0 +1,32 @@
+---
+import { site } from '../data/site';
+interface Props { heading?: string; subtext?: string; variant?: 'orange' | 'navy'; }
+const {
+  heading = 'Ready to Get Started?',
+  subtext = 'Call us or fill in the form for a free, no-obligation quote.',
+  variant = 'orange',
+} = Astro.props;
+---
+<section class={`cta-banner cta-banner--${variant}`} aria-label="Call to action">
+  <div class="container cta-banner__inner">
+    <div>
+      <h2>{heading}</h2>
+      <p>{subtext}</p>
+    </div>
+    <div class="cta-banner__actions">
+      <a href={`tel:${site.phone}`} class="btn btn--white btn--lg">📞 {site.phoneDisplay}</a>
+      <a href="/contact" class="btn btn--outline-white btn--lg">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
+<style>
+  .cta-banner { padding: 3rem 0; }
+  .cta-banner--orange { background: var(--orange); }
+  .cta-banner--navy { background: var(--navy); }
+  .cta-banner__inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+  .cta-banner h2 { color: white; font-size: clamp(1.375rem, 3vw, 1.875rem); margin-bottom: .5rem; }
+  .cta-banner p { color: rgba(255,255,255,.85); font-size: 1rem; }
+  .cta-banner__actions { display: flex; gap: 1rem; flex-wrap: wrap; flex-shrink: 0; }
+  .btn--outline-white { background: transparent; color: white; border: 2px solid white; }
+  .btn--outline-white:hover { background: white; color: var(--navy); }
+</style>

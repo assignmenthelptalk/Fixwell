@@ -1,0 +1,66 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import BreadcrumbNav from '../components/BreadcrumbNav.astro';
+import { site } from '../data/site';
+
+interface Props {
+  title: string;
+  description: string;
+  h1: string;
+  slug: string;
+  pageType: 'service-hub' | 'service-detail' | 'location';
+  parentLabel?: string;
+  parentSlug?: string;
+  macroContext: string;
+}
+
+const { title, description, h1, slug, pageType, parentLabel, parentSlug, macroContext } = Astro.props;
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  ...(parentSlug && parentLabel ? [{ label: parentLabel, href: `/${parentSlug}` }] : []),
+  { label: h1, href: `/${slug}` },
+];
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: h1,
+  description: macroContext,
+  provider: {
+    '@type': 'LocalBusiness',
+    '@id': `${site.url}/#business`,
+    name: site.name,
+  },
+  areaServed: {
+    '@type': 'GeoCircle',
+    geoMidpoint: {
+      '@type': 'GeoCoordinates',
+      latitude: 51.0693,
+      longitude: -1.7948,
+    },
+    geoRadius: '30000',
+  },
+  url: `${site.url}/${slug}`,
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbs.map((b, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: b.label,
+    item: b.href.startsWith('http') ? b.href : `${site.url}${b.href}`,
+  })),
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  schema={[serviceSchema, breadcrumbSchema]}
+>
+  <BreadcrumbNav crumbs={breadcrumbs} />
+  <slot />
+</BaseLayout>

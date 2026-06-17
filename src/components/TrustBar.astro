@@ -1,0 +1,64 @@
+---
+const signals = [
+  { icon: '🛡️', label: 'Fully Insured', detail: 'Public liability covered' },
+  { icon: '🎓', label: 'Qualified', detail: 'Industry-recognised qualifications' },
+  { icon: '⚡', label: 'Same-Day Available', detail: 'Emergency callouts covered' },
+  { icon: '📍', label: 'Local Experts', detail: 'Salisbury & Wiltshire based' },
+  { icon: '💬', label: 'Free Quotes', detail: 'No obligation estimates' },
+  { icon: '⭐', label: 'Trusted Service', detail: 'Highly rated by customers' },
+];
+---
+
+<section class="trust-bar section--light" aria-label="Trust signals">
+  <div class="container">
+    <ul class="trust-bar__list" role="list">
+      {signals.map((s) => (
+        <li class="trust-bar__item">
+          <span class="trust-bar__icon" aria-hidden="true">{s.icon}</span>
+          <div>
+            <strong>{s.label}</strong>
+            <small>{s.detail}</small>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .trust-bar { padding-block: 1.5rem; border-bottom: 1px solid var(--border); }
+
+  .trust-bar__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+
+  .trust-bar__item {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    padding: .625rem 1.25rem;
+    flex: 1;
+    min-width: 160px;
+    border-right: 1px solid var(--border);
+  }
+  .trust-bar__item:last-child { border-right: none; }
+
+  .trust-bar__icon { font-size: 1.375rem; flex-shrink: 0; }
+
+  .trust-bar__item div { display: flex; flex-direction: column; gap: .1rem; }
+  .trust-bar__item strong { font-size: .875rem; font-weight: 700; color: var(--navy); line-height: 1.2; }
+  .trust-bar__item small { font-size: .75rem; color: var(--text-light); }
+
+  @media (max-width: 768px) {
+    .trust-bar__item { border-right: none; min-width: calc(50% - 1rem); }
+    .trust-bar__list { gap: .5rem; }
+  }
+
+  @media (max-width: 480px) {
+    .trust-bar__item { min-width: 100%; }
+  }
+</style>

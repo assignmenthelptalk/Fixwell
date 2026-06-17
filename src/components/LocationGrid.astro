@@ -1,0 +1,34 @@
+---
+import { locationPages } from '../data/corePages';
+interface Props { heading?: string; }
+const { heading = 'Areas We Cover' } = Astro.props;
+---
+<section class="location-grid section" aria-labelledby="locations-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag">Coverage Area</span>
+      <h2 id="locations-heading">{heading}</h2>
+      <p>Based in Salisbury, we serve all surrounding towns and villages across Wiltshire.</p>
+    </div>
+    <div class="grid-3">
+      {locationPages.map(p => (
+        <a href={`/${p.slug}`} class="location-card card">
+          <span class="location-card__pin" aria-hidden="true">📍</span>
+          <div>
+            <h3>{p.shortLabel ?? p.h1}</h3>
+            <p>{p.metaDescription.slice(0, 90)}…</p>
+          </div>
+          <span class="location-card__link">View local services →</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+<style>
+  .location-card { display: flex; flex-direction: column; gap: .75rem; text-decoration: none; transition: transform .2s, box-shadow .2s; }
+  .location-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+  .location-card__pin { font-size: 1.5rem; }
+  .location-card h3 { color: var(--navy); font-size: 1rem; margin-bottom: .25rem; }
+  .location-card p { color: var(--text-muted); font-size: .875rem; line-height: 1.6; flex: 1; }
+  .location-card__link { font-size: .875rem; font-weight: 600; color: var(--orange); margin-top: auto; }
+</style>

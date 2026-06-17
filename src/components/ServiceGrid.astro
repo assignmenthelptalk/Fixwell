@@ -1,0 +1,33 @@
+---
+import { coreHubPages } from '../data/corePages';
+interface Props { heading?: string; exclude?: string; }
+const { heading = 'Our Services', exclude } = Astro.props;
+const pages = coreHubPages.filter(p => p.slug !== exclude);
+---
+<section class="service-grid section section--light" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag">What We Do</span>
+      <h2 id="services-heading">{heading}</h2>
+      <p>Professional handyman services across Salisbury and Wiltshire — one call for any job.</p>
+    </div>
+    <div class="grid-3">
+      {pages.map(p => (
+        <a href={`/${p.slug}`} class="service-card card">
+          {p.icon && <span class="service-card__icon" aria-hidden="true">{p.icon}</span>}
+          <h3>{p.shortLabel ?? p.h1}</h3>
+          <p>{p.metaDescription.slice(0, 100)}…</p>
+          <span class="service-card__link">Learn more →</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+<style>
+  .service-card { display: flex; flex-direction: column; gap: .5rem; text-decoration: none; transition: transform .2s, box-shadow .2s; }
+  .service-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+  .service-card__icon { font-size: 2rem; }
+  .service-card h3 { color: var(--navy); font-size: 1rem; }
+  .service-card p { color: var(--text-muted); font-size: .875rem; line-height: 1.6; flex: 1; }
+  .service-card__link { font-size: .875rem; font-weight: 600; color: var(--orange); margin-top: auto; }
+</style>

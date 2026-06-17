@@ -1,0 +1,58 @@
+---
+const reviews = [
+  {
+    name: 'Sarah M.',
+    location: 'Salisbury',
+    rating: 5,
+    text: 'Absolutely brilliant service. Called in the morning about a burst pipe and FixWell were with me by lunchtime. Professional, tidy, and fixed it properly. Will definitely use again.',
+    service: 'Emergency Plumbing',
+  },
+  {
+    name: 'David T.',
+    location: 'Amesbury',
+    rating: 5,
+    text: 'Great handyman service for my rental properties. Always reliable, arrives when they say they will, and does a proper job. Highly recommended for landlords in the area.',
+    service: 'Landlord Maintenance',
+  },
+  {
+    name: 'Claire R.',
+    location: 'Wilton',
+    rating: 5,
+    text: 'Had several odd jobs done — shelves, a broken door, and skirting boards painted. Excellent standard of work throughout and very reasonably priced. Friendly and professional.',
+    service: 'Odd Jobs & Decorating',
+  },
+];
+---
+<section class="reviews section" aria-labelledby="reviews-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag">Customer Reviews</span>
+      <h2 id="reviews-heading">Trusted by Homeowners & Landlords</h2>
+      <p>Fully insured, professional, and reliable — here is what our customers say.</p>
+    </div>
+    <div class="grid-3">
+      {reviews.map((r) => (
+        <article class="card review-card">
+          <div class="review-stars" aria-label={`${r.rating} out of 5 stars`}>
+            {'★'.repeat(r.rating)}
+          </div>
+          <blockquote>
+            <p>"{r.text}"</p>
+          </blockquote>
+          <footer class="review-footer">
+            <strong>{r.name}</strong>
+            <span>{r.location} · {r.service}</span>
+          </footer>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+<style>
+  .review-card { display: flex; flex-direction: column; gap: 1rem; }
+  .review-stars { color: #f59e0b; font-size: 1.1rem; letter-spacing: .05em; }
+  blockquote p { color: var(--text-muted); font-size: .95rem; line-height: 1.7; font-style: italic; }
+  .review-footer { display: flex; flex-direction: column; gap: .15rem; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border); }
+  .review-footer strong { color: var(--navy); font-size: .9rem; }
+  .review-footer span { color: var(--text-light); font-size: .8rem; }
+</style>

@@ -1,0 +1,63 @@
+---
+const photos = [
+  { src: '/image_1.jpg',       alt: 'FixWell tradesman repairing a shed roof in Salisbury',         caption: 'Shed roof repair, Salisbury' },
+  { src: '/blog_image_1.webp', alt: 'Plumber fixing under-sink pipework',                            caption: 'Under-sink plumbing repair' },
+  { src: '/image_5.jpg',       alt: 'Wallpaper being hung during a decorating job in Wiltshire',     caption: 'Painting & decorating, Wiltshire' },
+  { src: '/blog_image_2.webp', alt: 'Fence post replacement in a Salisbury garden',                  caption: 'Fence post repair' },
+  { src: '/image_4.jpg',       alt: 'Window seal being repaired on a residential property',          caption: 'Window seal repair' },
+  { src: '/image_6.png',       alt: 'Raised garden bed built from timber in a Wiltshire garden',     caption: 'Raised garden bed installation' },
+];
+---
+<section class="gallery section section--light" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag">Our Work</span>
+      <h2 id="gallery-heading">Recent Jobs in Salisbury &amp; Wiltshire</h2>
+      <p>A selection of completed jobs — from emergency repairs to garden projects.</p>
+    </div>
+    <div class="gallery__grid">
+      {photos.map((p) => (
+        <figure class="gallery__item">
+          <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
+          <figcaption>{p.caption}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>
+<style>
+  .gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .gallery__item {
+    margin: 0;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    position: relative;
+  }
+  .gallery__item img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+    transition: transform .4s ease;
+  }
+  .gallery__item:hover img { transform: scale(1.04); }
+  figcaption {
+    padding: .6rem .875rem;
+    font-size: .8rem;
+    color: var(--text-light);
+    background: white;
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  }
+  @media (max-width: 768px) {
+    .gallery__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .gallery__grid { grid-template-columns: 1fr; }
+  }
+</style>

@@ -1,0 +1,98 @@
+---
+import { site } from '../data/site';
+interface Props { heading?: string; }
+const { heading = 'Get a Free Quote' } = Astro.props;
+---
+<section class="quote-form section" id="quote" aria-labelledby="form-heading">
+  <div class="container">
+    <div class="quote-form__inner">
+      <div class="quote-form__info">
+        <h2 id="form-heading">{heading}</h2>
+        <p>Describe your job and we will get back to you with a quote — usually within a few hours.</p>
+        <ul class="form-benefits">
+          <li>✅ Free, no-obligation quote</li>
+          <li>✅ Rapid response, usually same day</li>
+          <li>✅ Fixed-price or hourly rate options</li>
+          <li>✅ Fully insured for all work</li>
+        </ul>
+        <div class="form-direct">
+          <p>Prefer to call?</p>
+          <a href={`tel:${site.phone}`} class="form-phone">{site.phoneDisplay}</a>
+          <p class="form-hours">Mon–Sun, 7am–8pm</p>
+        </div>
+      </div>
+      <form class="form" action={site.formAction} method="POST">
+        <input type="hidden" name="_subject" value="New quote request from fixwellservices.co.uk" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value={`${site.url}/contact?sent=true`} />
+        <input type="text" name="_honey" style="display:none" tabindex="-1" />
+
+        <div class="form__row">
+          <div class="form__group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required placeholder="e.g. John Smith" />
+          </div>
+          <div class="form__group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required placeholder="e.g. 07700 900123" />
+          </div>
+        </div>
+        <div class="form__group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" />
+        </div>
+        <div class="form__group">
+          <label for="service">Type of Work</label>
+          <select id="service" name="service">
+            <option value="">Select a service...</option>
+            <option>Emergency Repair</option>
+            <option>Property Maintenance</option>
+            <option>Home Repairs</option>
+            <option>Plumbing</option>
+            <option>Electrical</option>
+            <option>Carpentry</option>
+            <option>Painting & Decorating</option>
+            <option>Garden Maintenance</option>
+            <option>Renovation</option>
+            <option>Landlord Services</option>
+            <option>Odd Jobs</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label for="message">Describe Your Job *</label>
+          <textarea id="message" name="message" required rows="4" placeholder="Please describe what needs doing, where you are located, and any access details..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg form__submit">Send Quote Request →</button>
+      </form>
+    </div>
+  </div>
+</section>
+<style>
+  .quote-form__inner { display: grid; grid-template-columns: 1fr 1.5fr; gap: 3rem; align-items: start; }
+  .quote-form__info h2 { margin-bottom: .75rem; }
+  .quote-form__info > p { margin-bottom: 1.5rem; }
+  .form-benefits { list-style: none; display: flex; flex-direction: column; gap: .4rem; margin-bottom: 1.5rem; }
+  .form-benefits li { font-size: .9rem; color: var(--text-muted); }
+  .form-direct { border-top: 1px solid var(--border); padding-top: 1rem; }
+  .form-direct p { font-size: .875rem; color: var(--text-muted); margin-bottom: .25rem; }
+  .form-phone { font-size: 1.25rem; font-weight: 700; color: var(--navy); }
+  .form-phone:hover { color: var(--orange); }
+  .form-hours { font-size: .8rem; color: var(--text-light); margin-top: .25rem !important; }
+  .form { background: var(--bg-light); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem; }
+  .form__row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .form__group { display: flex; flex-direction: column; gap: .4rem; }
+  label { font-size: .875rem; font-weight: 600; color: var(--navy); }
+  input, select, textarea {
+    padding: .75rem 1rem; border: 1.5px solid var(--border); border-radius: var(--radius);
+    font-size: .95rem; font-family: var(--font); color: var(--text); background: white;
+    transition: border-color .15s; width: 100%;
+  }
+  input:focus, select:focus, textarea:focus { outline: none; border-color: var(--navy); }
+  textarea { resize: vertical; min-height: 100px; }
+  .form__submit { width: 100%; justify-content: center; }
+  @media (max-width: 768px) {
+    .quote-form__inner { grid-template-columns: 1fr; }
+    .form__row { grid-template-columns: 1fr; }
+  }
+</style>

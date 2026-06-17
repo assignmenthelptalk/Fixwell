@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import TrustBar from '../components/TrustBar.astro';
+import CTABanner from '../components/CTABanner.astro';
+import ReviewsSection from '../components/ReviewsSection.astro';
+import BreadcrumbNav from '../components/BreadcrumbNav.astro';
+import { site } from '../data/site';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'About Us', href: '/about' },
+];
+---
+<BaseLayout
+  title="About FixWell Services | Handyman Salisbury"
+  description="FixWell Services is a professional handyman company based in Salisbury, Wiltshire. Fully insured, experienced, and dedicated to doing the job properly."
+  canonical={`${site.url}/about`}
+>
+  <BreadcrumbNav crumbs={crumbs} />
+  <Hero
+    variant="service"
+    title="About FixWell Services"
+    subtitle="A reliable, professional handyman service you can actually trust — based right here in Salisbury."
+    badge="Salisbury, Wiltshire"
+  />
+  <TrustBar />
+
+  <section class="section about-body">
+    <div class="container about-grid">
+      <div class="about-content">
+        <img
+          src="/image_1.jpg"
+          alt="FixWell Services tradesman carrying out a repair on a shed roof in Salisbury"
+          class="about-photo"
+          loading="eager"
+          decoding="async"
+        />
+        <h2>Who We Are</h2>
+        <p>FixWell Services is a locally owned handyman company based in Salisbury, Wiltshire. We serve homeowners, landlords, and letting agents across the city and surrounding towns.</p>
+        <p>We started because we saw a real gap in the market: finding a reliable tradesperson who turns up on time, does the job properly, and charges a fair price should not be this hard. That is what we set out to fix.</p>
+
+        <h2>What Makes Us Different</h2>
+        <p>We are not a large impersonal company. When you call FixWell, you deal with us directly — no middlemen, no call centres. We give you a straight answer on whether we can help, a fair quote, and a firm appointment time we actually keep.</p>
+        <p>All work is fully insured, and we always leave the property clean and tidy. We treat your home the same way we would want our own treated.</p>
+
+        <h2>Our Coverage Area</h2>
+        <p>Based in Salisbury (SP2), we cover the whole city and regularly work in Amesbury, Wilton, Tidworth, Fordingbridge, Downton, and Andover. If you are within a reasonable distance of Salisbury, chances are we can help.</p>
+
+        <h2>Landlord &amp; Property Professionals</h2>
+        <p>We work with many local landlords and letting agents, providing scheduled maintenance, between-tenancy cleans, and rapid response repairs. We understand that vacant properties cost money and we make keeping them lettable our priority.</p>
+      </div>
+      <aside class="about-aside">
+        <div class="card about-contact-card">
+          <h3>Get in Touch</h3>
+          <p>Ready to book or need a quick question answered? We are available Monday to Sunday, 7am–8pm.</p>
+          <a href={`tel:${site.phone}`} class="btn btn--primary btn--lg">📞 {site.phoneDisplay}</a>
+          <a href="/contact" class="btn btn--outline">Get a Free Quote</a>
+          <div class="about-details">
+            <p><strong>Email:</strong> <a href={`mailto:${site.email}`}>{site.email}</a></p>
+            <p><strong>Hours:</strong> Mon–Sun, 7am–8pm</p>
+            <p><strong>Address:</strong> {site.address}</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <ReviewsSection />
+  <CTABanner />
+</BaseLayout>
+
+<style>
+  .about-grid { display: grid; grid-template-columns: 1fr 340px; gap: 3rem; align-items: start; }
+  .about-photo { width: 100%; border-radius: var(--radius-lg); margin-bottom: 2rem; aspect-ratio: 16/9; object-fit: cover; }
+  .about-content h2 { margin: 1.75rem 0 .75rem; font-size: 1.375rem; color: var(--navy); }
+  .about-content h2:first-child { margin-top: 0; }
+  .about-content p { color: var(--text-muted); margin-bottom: 1rem; line-height: 1.75; }
+  .about-contact-card { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 5rem; }
+  .about-contact-card h3 { color: var(--navy); margin-bottom: .25rem; }
+  .about-contact-card p { color: var(--text-muted); font-size: .9rem; }
+  .about-details { border-top: 1px solid var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: .4rem; }
+  .about-details p { font-size: .85rem; color: var(--text-muted); margin: 0; }
+  .about-details a { color: var(--navy); }
+  @media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; } .about-contact-card { position: static; } }
+</style>

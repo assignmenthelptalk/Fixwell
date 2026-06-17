@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import QuoteForm from '../components/QuoteForm.astro';
+import BreadcrumbNav from '../components/BreadcrumbNav.astro';
+import { site } from '../data/site';
+
+const sent = Astro.url.searchParams.get('sent') === 'true';
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Contact', href: '/contact' },
+];
+---
+<BaseLayout
+  title="Get a Free Quote | FixWell Services Salisbury"
+  description="Request a free quote from FixWell Services. We cover Salisbury and Wiltshire for all handyman and property maintenance work. Call 07391 599 078 or fill in the form."
+  canonical={`${site.url}/contact`}
+>
+  <BreadcrumbNav crumbs={crumbs} />
+  <Hero
+    variant="service"
+    title="Get a Free Quote"
+    subtitle="Fill in the form below or call us directly — we respond quickly and aim to visit within 1–2 days."
+    badge="Free, No-Obligation"
+  />
+
+  {sent && (
+    <div class="sent-banner">
+      <div class="container">
+        <p>✅ <strong>Message sent!</strong> We will get back to you within a few hours. If your job is urgent, please call us directly on <a href={`tel:${site.phone}`}>{site.phoneDisplay}</a>.</p>
+      </div>
+    </div>
+  )}
+
+  <QuoteForm heading="Request a Quote" />
+
+  <section class="section contact-info">
+    <div class="container">
+      <div class="grid-3">
+        <div class="card">
+          <h3>📞 Call Us</h3>
+          <p>For urgent or emergency jobs, calling is the fastest way to reach us.</p>
+          <a href={`tel:${site.phone}`} class="contact-big-link">{site.phoneDisplay}</a>
+          <p class="contact-small">Mon–Sun, 7am–8pm</p>
+        </div>
+        <div class="card">
+          <h3>✉️ Email</h3>
+          <p>For non-urgent enquiries or if you prefer to write, email us any time.</p>
+          <a href={`mailto:${site.email}`} class="contact-big-link">{site.email}</a>
+          <p class="contact-small">We usually reply within a few hours</p>
+        </div>
+        <div class="card">
+          <h3>📍 Based In</h3>
+          <p>We are based in Salisbury and serve the wider Wiltshire area.</p>
+          <p class="contact-big-link" style="font-size:1rem">{site.address}</p>
+          <p class="contact-small">Covering Salisbury, Amesbury, Wilton &amp; more</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .sent-banner { background: #d1fae5; border-bottom: 1px solid #6ee7b7; padding: 1rem 0; }
+  .sent-banner p { color: #065f46; font-size: .95rem; }
+  .sent-banner a { color: #065f46; font-weight: 600; }
+  .contact-big-link { display: block; font-size: 1.1rem; font-weight: 700; color: var(--navy); margin: .5rem 0; word-break: break-all; }
+  .contact-big-link:hover { color: var(--orange); }
+  .contact-small { font-size: .8rem; color: var(--text-light); }
+  .contact-info .card { display: flex; flex-direction: column; gap: .4rem; }
+  .contact-info .card h3 { color: var(--navy); font-size: 1rem; }
+  .contact-info .card p { color: var(--text-muted); font-size: .875rem; }
+</style>

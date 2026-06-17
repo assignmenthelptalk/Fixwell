@@ -1,0 +1,39 @@
+---
+interface FAQ { q: string; a: string; }
+interface Props { faqs: FAQ[]; heading?: string; }
+const { faqs, heading = 'Frequently Asked Questions' } = Astro.props;
+---
+<section class="faq section section--light" aria-labelledby="faq-heading">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="faq-heading">{heading}</h2>
+    </div>
+    <div class="faq__list">
+      {faqs.map((f, i) => (
+        <details class="faq__item" name="faq-group">
+          <summary class="faq__question">
+            <span>{f.q}</span>
+            <span class="faq__icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="faq__answer"><p>{f.a}</p></div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+<style>
+  .faq__list { max-width: 760px; margin-inline: auto; display: flex; flex-direction: column; gap: .5rem; }
+  .faq__item { background: white; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .faq__item[open] { box-shadow: var(--shadow-md); }
+  .faq__question {
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    padding: 1.1rem 1.25rem; cursor: pointer; list-style: none; font-weight: 600;
+    color: var(--navy); font-size: .95rem; user-select: none;
+  }
+  .faq__question::-webkit-details-marker { display: none; }
+  .faq__question:hover { background: var(--bg-light); }
+  .faq__icon { font-size: 1.25rem; font-weight: 400; color: var(--orange); flex-shrink: 0; transition: transform .2s; }
+  .faq__item[open] .faq__icon { transform: rotate(45deg); }
+  .faq__answer { padding: 0 1.25rem 1.1rem; }
+  .faq__answer p { color: var(--text-muted); font-size: .9rem; line-height: 1.7; }
+</style>
