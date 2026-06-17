@@ -1,0 +1,349 @@
+﻿export const outerSubContent: Record<string, {
+  metaDescription: string;
+  intro: string;
+  sections: { heading: string; body: string }[];
+  faqs: { q: string; a: string }[];
+}> = {
+
+  'assured-shorthold-tenancy-maintenance-obligations': {
+    metaDescription:
+      'Landlord repair obligations under an Assured Shorthold Tenancy in England — Section 11 Landlord and Tenant Act 1985, Homes Act 2018, gas safety, EICR, EPC minimum ratings, and tenant rights explained.',
+    intro:
+      'Under an Assured Shorthold Tenancy (AST), a landlord must maintain the structure and exterior of the property, all heating and hot water installations, gas and electrical systems, and sanitation — regardless of what the tenancy agreement says. These duties are imposed by Section 11 of the Landlord and Tenant Act 1985 and cannot be contracted away. Since 2018, the Homes (Fitness for Human Habitation) Act has extended this further: the property must remain fit to live in throughout the tenancy, or a tenant can sue in the County Court. This article sets out exactly what those obligations cover, which statutory compliance requirements sit alongside them, and where tenant responsibility begins.',
+
+    sections: [
+      {
+        heading: 'What Is an Assured Shorthold Tenancy and Why It Defines Repair Obligations',
+        body: 'An Assured Shorthold Tenancy is the default form of residential tenancy in England for private rentals. It arises automatically where a private landlord lets a dwelling at a market rent to individual tenants who occupy it as their only or principal home, and where the annual rent is between £1,000 and £100,000. The AST framework, governed by the Housing Act 1988 (as amended by the Housing Act 1996), gives tenants security of occupation during the fixed term and defines notice procedures — Section 21 (no-fault possession) and Section 8 (fault-based). Critically, the AST framework does not define repair obligations on its face; those come from separate legislation that applies automatically to all qualifying tenancies. A landlord cannot use the tenancy agreement to reduce or remove the statutory repairing duties that Parliament has imposed.',
+      },
+      {
+        heading: 'Section 11 of the Landlord and Tenant Act 1985 — Precise Legal Scope',
+        body: 'Section 11 applies to all residential tenancies granted for a term of less than seven years. It requires the landlord to keep in repair and proper working order: (1) the structure and exterior of the dwelling, including walls, roof, foundations, external doors, windows, window frames, and external pipes and drains; (2) installations for the supply of water, gas, and electricity, and for sanitation — including basins, sinks, baths, toilets, and drainage; (3) installations for space heating and water heating. The obligation to "keep in repair" means the landlord must restore the element to a condition of proper working order if it falls below that standard — it does not require the landlord to improve the property beyond its existing standard. Section 11 does NOT cover: the tenant\'s own fittings and decorations; damage caused by the tenant; external features the landlord does not own; or anything beyond the dwelling itself. Attempts to exclude or restrict Section 11 by a tenancy agreement clause are void under Section 12.',
+      },
+      {
+        heading: 'The Homes (Fitness for Human Habitation) Act 2018 — Extended Obligations',
+        body: 'The Homes (Fitness for Human Habitation) Act 2018, which amends the Landlord and Tenant Act 1985, requires that a rented property be fit for human habitation at the time the tenancy is granted and throughout the tenancy. The Act uses the 29 hazard categories of the Housing Health and Safety Rating System (HHSRS) as its baseline: these include damp and mould growth, excess cold (a property that cannot maintain 18°C in living areas), structural instability, electrical hazards, entry by intruders, falling on stairs or between levels, and fire. The practical impact is significant: even if a fault does not fall neatly under Section 11 — for example, severe condensation mould caused by inadequate ventilation — a tenant can now bring a claim under the 2018 Act. Tenants can apply to the County Court for an injunction compelling the landlord to carry out works, and/or for damages. The Act applies to all tenancies created on or after 20 March 2019; from 20 March 2020 it covers all existing tenancies.',
+      },
+      {
+        heading: 'Statutory Compliance: Gas, Electrical Inspections, and Energy Performance',
+        body: 'Alongside the repairing obligations, three compliance requirements apply to AST properties. Gas safety: the Gas Safety (Installation and Use) Regulations 1998 require landlords to have all gas appliances and flues checked annually by a Gas Safe registered engineer. The resulting Gas Safety Certificate (CP12) must be provided to existing tenants within 28 days of the check and to new tenants before they move in. Failure is a criminal offence. Electrical safety: since 1 July 2020, all private rented properties in England must have an Electrical Installation Condition Report (EICR) carried out by a qualified electrician at least every five years. The EICR must be provided to tenants within 28 days of completion and to the local authority on request. Any remedial work coded C1 (immediate danger) or C2 (potentially dangerous) must be completed within 28 days. Energy performance: since April 2018 (new tenancies) and April 2020 (all tenancies), private rented properties must achieve a minimum EPC rating of E. Properties rated F or G cannot be legally let. The government has proposed raising this to a minimum C rating for new tenancies by 2028.',
+      },
+      {
+        heading: 'Tenant Responsibilities, Fair Wear and Tear, and Dispute Resolution',
+        body: 'Tenants under an AST are responsible for: using the property in a tenant-like manner (keeping it clean and ventilated, not causing deliberate or negligent damage); reporting defects to the landlord promptly in writing; carrying out minor maintenance that falls within ordinary use (replacing light bulbs, unblocking drains caused by their own use); and carrying out any specific repairs they have expressly agreed to in the tenancy agreement. The concept of "fair wear and tear" means that normal deterioration from ordinary use — minor scuffs on walls, worn carpet in high-traffic areas, faded paintwork — cannot be charged to a tenant\'s deposit. Damage beyond this threshold can be. Deposit disputes are resolved through the adjudication process of the relevant deposit protection scheme (Tenancy Deposit Scheme, Deposit Protection Service, or MyDeposits). For repair disputes, tenants can report non-compliance to Wiltshire Council\'s Environmental Health team, who can serve an Improvement Notice under the Housing Act 2004. Where a landlord in Salisbury needs reliable contractors to meet these obligations on time, FixWell Services provides fully insured property maintenance across the city and surrounding villages.',
+      },
+    ],
+
+    faqs: [
+      {
+        q: 'Can a landlord include a clause in an AST making the tenant responsible for all repairs?',
+        a: 'No. Section 12 of the Landlord and Tenant Act 1985 makes any clause that purports to exclude or restrict the landlord\'s obligations under Section 11 void. The statutory repairing duties apply regardless of what the tenancy agreement says.',
+      },
+      {
+        q: 'How quickly must a landlord respond to a repair request under an AST?',
+        a: 'The law requires a "reasonable time." In practice, the courts and local authorities treat emergencies (no heating in winter, water ingress, security breach) as requiring same-day or next-day response. Routine repairs should be completed within 14–28 days. Urgent safety issues identified in an EICR must be resolved within 28 days (or sooner if C1-rated).',
+      },
+      {
+        q: 'What does an EICR check and how often is it required for rented properties?',
+        a: 'An Electrical Installation Condition Report (EICR) assesses the condition of all fixed electrical wiring, consumer units, sockets, switches, and earthing in the property. It must be carried out every five years by a qualified electrician. New tenants must receive a copy before moving in. The report codes faults as C1 (immediate danger — requires action within 28 days), C2 (potentially dangerous — 28 days), or C3 (recommendation only).',
+      },
+      {
+        q: 'Does the Homes (Fitness for Human Habitation) Act 2018 apply to existing tenancies?',
+        a: 'Yes. Since 20 March 2020 it applies to all private rented tenancies in England, including those that started before the Act came into force. A tenant can bring a County Court claim if the property is unfit for human habitation, even if the tenancy pre-dates the Act.',
+      },
+      {
+        q: 'What is the minimum EPC rating a rented property must have?',
+        a: 'Since April 2020, all privately rented properties in England must hold a valid EPC with a minimum rating of E. Properties rated F or G cannot be legally let and the landlord faces a civil penalty of up to £4,000. The government has proposed requiring new tenancies to achieve a minimum C rating by 2028.',
+      },
+      {
+        q: 'Who is responsible for garden maintenance under an AST?',
+        a: 'Garden maintenance is generally the tenant\'s responsibility under an AST unless the agreement explicitly states otherwise. However, the landlord must maintain boundary fences and structural garden features (retaining walls, garden gates forming part of the property boundary) as part of the exterior of the dwelling under Section 11.',
+      },
+    ],
+  },
+
+  'managing-rental-property-remotely-maintenance': {
+    metaDescription:
+      'How to manage maintenance for a rental property in Salisbury or Wiltshire when you live elsewhere — legal obligations for overseas landlords, inspection frequency, emergency protocols, contractor networks, and property management apps.',
+    intro:
+      'Managing a rental property from a distance — whether you live in another part of the UK or abroad — is entirely achievable, but it demands more deliberate systems than local landlords typically need. In England, remote landlords face the same legal maintenance obligations as any other landlord: Section 11 of the Landlord and Tenant Act 1985, the Homes (Fitness for Human Habitation) Act 2018, annual gas safety checks, five-yearly EICRs, and same-day emergency response expectations. The difference is logistics: without a physical presence in Salisbury, every one of those obligations depends on having the right people, processes, and tools in place before a problem arises.',
+
+    sections: [
+      {
+        heading: 'Legal Requirements for Landlords Living Outside Wiltshire or Abroad',
+        body: 'If you are a UK-resident landlord living outside Wiltshire, no specific legal agent requirement applies — you can manage the property yourself or use any agent. If your usual place of abode is outside the UK, however, the Non-Resident Landlord (NRL) Scheme applies. Under HMRC\'s NRL Scheme, your letting agent is legally required to deduct basic rate income tax (currently 20%) from rental income at source and pay it to HMRC, unless you have applied to HMRC for approval to receive rents gross using form NRL1. Approval typically takes 6–8 weeks and is granted if your UK tax affairs are up to date. Beyond tax, UK law does not mandate a locally resident managing agent for overseas landlords in the way that some jurisdictions do — but practically, operating a property in Salisbury without a trusted local contact is extremely difficult once an emergency arises.',
+      },
+      {
+        heading: 'Building a Reliable Local Contractor Network in Wiltshire',
+        body: 'The single most effective action a remote landlord can take is establishing a relationship with a reliable, fully insured local property maintenance provider before problems arise. This means vetting contractors properly: confirming public liability insurance (minimum £1m, ideally £2m), checking qualifications for gas (Gas Safe) and electrical work (NICEIC or NAPIT registered), asking for references from other landlords, and confirming local presence with a verifiable address. For routine handyman work — skirting board repairs, door adjustments, fence fixing, minor plumbing — an insured local handyman who holds a spare key and knows the property is invaluable. Set a pre-authorised spend threshold (typically £150–£250) so the contractor can handle minor urgent issues without waiting for your approval. For specialist trades (boiler, electrics), have a Gas Safe engineer and an NICEIC electrician on your contact list before you need them.',
+      },
+      {
+        heading: 'Inspection Frequency, Notice Requirements, and Documentation',
+        body: 'The law requires a minimum of 24 hours\' written notice before a landlord or contractor enters the property (Section 11, Housing Act 1988). Recommended inspection frequency is quarterly for the first year of a tenancy, moving to twice-yearly once a reliable tenant is established. Annual inspections are the absolute minimum. Each inspection should produce a photographic record and a written schedule of condition — this protects both parties in any deposit dispute and provides evidence of your proactive compliance with the Homes Act 2018. For remote landlords, a trusted property maintenance provider can conduct inspections on your behalf, producing a written report with photographs sent to you digitally within 24 hours of the visit.',
+      },
+      {
+        heading: 'Digital Tools for Remote Property Management',
+        body: 'Several property management platforms help remote landlords track maintenance, rent, and compliance from anywhere. Arthur Online (from ~£1 per unit/month) provides maintenance job management, contractor communication, document storage, and tenant portals. Landlord Vision offers similar features with a UK-focused compliance tracker for gas, electrical, and EPC certificates. Fixflo is a dedicated maintenance reporting platform used by letting agents and self-managing landlords — tenants report issues via a portal, the system categorises urgency, and you receive notifications. Goodlord handles tenancy management including referencing and rent collection. For communication, a shared WhatsApp group or dedicated email alias (e.g. repairs@yourproperty.com forwarded to your phone) ensures tenant maintenance requests are never missed. The key principle is that every reported issue should generate a written record with a timestamp — this demonstrates responsiveness if a dispute arises.',
+      },
+      {
+        heading: 'Emergency Maintenance Protocol — What to Have Ready Before a Crisis',
+        body: 'Define your emergency protocol before a tenant calls at 11pm on a Friday. The categories that constitute a genuine maintenance emergency are: loss of heating or hot water between October and April; water ingress causing active flooding or ceiling damage; a security breach (broken lock, storm-damaged door or window); total loss of electrical power; and any gas smell (National Gas Emergency Service: 0800 111 999 — this is always the first call for gas). For each emergency category, your tenant should have a pre-written contact card that tells them who to call, in what order. Your local handyman or maintenance provider should be contactable out of hours and authorised to respond immediately up to your pre-agreed spend threshold. For remote landlords in Salisbury, FixWell Services works with several landlords based outside Wiltshire — holding a spare key, responding to tenant calls, and keeping landlords informed by phone or email throughout.',
+      },
+    ],
+
+    faqs: [
+      {
+        q: 'Do I need a letting agent if I live outside the UK and rent a property in Salisbury?',
+        a: 'Not legally, but practically you need a local contact. The Non-Resident Landlord Scheme requires your letting agent (if you use one) to deduct tax at source — or you can apply to HMRC via form NRL1 to receive rents gross. There is no legal requirement to use a formal letting agent for property management, but having a trusted local maintenance contact is essential for meeting your repair obligations.',
+      },
+      {
+        q: 'How often must a landlord inspect a rental property in England?',
+        a: 'There is no statutory minimum inspection frequency, but quarterly is the professional recommendation for the first year, moving to twice-yearly for established tenancies. A minimum of 24 hours\' written notice must be given before any visit. All inspections should be documented with photographs and a written schedule of condition.',
+      },
+      {
+        q: 'Can a maintenance contractor hold keys to my rental property?',
+        a: 'Yes, provided your tenant is aware and has consented in the tenancy agreement. A key-holding arrangement with a trusted local maintenance provider is standard practice for remote landlords. The contractor should provide a signed key receipt, and the key should be stored securely with a reference system rather than a label showing the property address.',
+      },
+      {
+        q: 'What is a reasonable pre-authorised maintenance spend threshold for a remote landlord?',
+        a: 'Most remote landlords set an emergency authorisation threshold of £150–£250. This allows a contractor to handle minor urgent repairs (a broken latch, a leaking overflow pipe, a seized door lock) without waiting for landlord approval. Any work above the threshold requires prior sign-off. This threshold should be written into your agreement with the maintenance provider.',
+      },
+      {
+        q: 'What property management apps are best for remote landlords in the UK?',
+        a: 'Arthur Online and Landlord Vision are the most comprehensive for UK landlords managing compliance and maintenance. Fixflo is the best dedicated maintenance-reporting tool. For simpler setups, a WhatsApp group with your tenant and contractor, combined with a shared Google Drive folder for certificates and inspection photos, works well at no cost.',
+      },
+      {
+        q: 'What happens if my tenant reports a repair and I do not respond in time?',
+        a: 'If you fail to respond within a reasonable time, the tenant can report you to Wiltshire Council\'s Environmental Health team, who can issue an Improvement Notice. The tenant can also apply to the County Court under the Homes (Fitness for Human Habitation) Act 2018 for an injunction and/or damages. Having a local maintenance provider who can respond on your behalf protects you from this outcome.',
+      },
+    ],
+  },
+
+  'garden-maintenance-seasons-wiltshire': {
+    metaDescription:
+      'Seasonal garden maintenance guide for Wiltshire — chalk downland and clay vale soil conditions, frost dates, spring through winter task lists, and common Wiltshire garden issues explained.',
+    intro:
+      'Wiltshire\'s gardens sit across two distinct soil types that demand different approaches: the free-draining, alkaline chalk downlands that ring Salisbury to the north, east, and south, and the heavier, moisture-retentive clay vale soils of the river valleys — the Avon, Wylye, and Nadder. Average last frost in the Salisbury area falls in late March to early April, with occasional late frosts into May on exposed downland sites. Annual rainfall is moderate at around 750mm — enough to support most garden plants but insufficient to prevent drought stress on chalk soils in dry summers. Understanding which soil type and microclimate you are working with is the foundation of effective seasonal maintenance.',
+
+    sections: [
+      {
+        heading: "Wiltshire\'s Climate and Soil — Why It Matters for Garden Maintenance",
+        body: 'Wiltshire has a temperate oceanic climate (Köppen classification Cfb) — mild and relatively wet in winter, warm and moderately dry in summer, with no prolonged extremes. However, the county\'s varied topography creates distinct microclimates. The chalk downlands above Salisbury (Salisbury Plain, the downland ridge to the east) are exposed, fast-draining, and prone to drought stress in summer. Soils are typically thin, alkaline (pH 7.5–8.0), and low in organic matter — excellent for drought-tolerant plants but demanding for anything that needs consistent moisture or an acid pH. The clay vale soils of the Avon and Wylye valleys are heavier, slower to drain, prone to compaction when worked wet, and can become waterlogged in winter. They are, however, naturally more fertile. In Salisbury itself, many garden soils are a mix — modified by decades of cultivation and often containing building rubble in older city gardens. Knowing your soil type dictates your amendment strategy, planting choices, and maintenance calendar.',
+      },
+      {
+        heading: 'Spring Garden Maintenance in Wiltshire (March–May)',
+        body: 'March is the key transition month. Lawn aeration and scarification should be carried out once the soil is no longer saturated — typically mid-to-late March in Salisbury. Apply a slow-release spring lawn feed (high nitrogen) and overseed any bare patches. Herbaceous borders should be cut back to ground level and divided if clumps are more than three years old — this is best done before new growth exceeds 10cm. Hard-prune Hybrid Tea and Floribunda roses by mid-March (to an outward-facing bud, 30–45cm from ground), but leave climbing roses until after their first flush. Check and repair winter storm damage to fences, gates, and trellis before climbing plants begin growth. Re-lay any frost-heaved paving slabs — a common issue on chalk soils where minor ground movement occurs with freeze/thaw cycles. After the last frost (late March to mid-April in Salisbury), sow hardy annuals direct and plant out summer bulbs: dahlias should not go in until after the last frost date. Apply a pre-emergent weed suppressant to paths and gravel areas in April.',
+      },
+      {
+        heading: 'Summer Garden Maintenance in Wiltshire (June–August)',
+        body: 'Summer maintenance in Wiltshire centres on growth management and infrastructure. Lawns should be mown weekly at a minimum cut height of 3cm — never lower in dry weather, as scalping causes rapid browning on chalk soils. Deep, infrequent watering (two to three times per week rather than daily light watering) encourages deep root establishment. Hedge trimming should be completed before or after the bird nesting season, which runs from March to August under the Wildlife and Countryside Act 1981. Informal hedges can be trimmed in late August; formal box and yew hedges are best cut in late August after growth has hardened. June to August is the optimal window for treating and re-oiling hardwood decking and fences — dry weather allows the treatment to penetrate fully before autumn rain. Inspect all fence posts for ground contact decay and treat the base with preservative. Check drainage channels and gullies around the property now while they are accessible — addressing any pooling is far easier in dry weather than after October rains.',
+      },
+      {
+        heading: 'Autumn Garden Maintenance in Wiltshire (September–November)',
+        body: 'Autumn is the most consequential maintenance season for gardens in Wiltshire. Plant spring bulbs in September and October: daffodils and alliums go in from September onwards; tulips are best planted in November to reduce the risk of tulip fire disease. Lawn scarification and overseeding should be completed by mid-October — germination requires soil temperatures above 8°C, which are reliably present until late October in Salisbury. Leaf clearance is critical: leaves left on lawns for more than two weeks cause yellowing and fungal disease. Wet leaves on paths and patios create a serious slip hazard. Fallen leaves in gutters lead to overflow and wall damp — clear gutters in October and again in November once the majority of leaves have fallen. Cut back overgrown trees and shrubs before strong autumn winds cause branches to fail. On clay vale soils, apply a lime dressing in November if your pH is below 6.0 — this improves drainage and structure over winter. Mulch perennial borders with a 7–10cm layer of organic matter (composted bark or garden compost) after cutting back — this protects roots from frost and suppresses spring weeds.',
+      },
+      {
+        heading: 'Winter Garden Maintenance in Wiltshire (December–February)',
+        body: 'Winter garden maintenance in Wiltshire is primarily protective and structural. Inspect fences and gates after each significant storm — strong south-westerly winds are common across Wiltshire from November through February and post storm fence repairs are FixWell\'s most frequent winter call-out. Protect tender plants (fuchsias, agapanthus, tree ferns) with horticultural fleece or straw mulch. Keep paths, steps, and patios clear of moss and algae — algae growth accelerates in wet winters and creates significant slip risk; treat with a proprietary patio cleaner and re-apply annually. Clean and oil all garden tools before storing. On chalk soils, heavy rainfall can leach nutrients quickly — a slow-release fertiliser application in late February ahead of spring growth is worthwhile. Sash window greenhouse owners should check glazing putty and replace any loose panes before the coldest weather. February is the right time to plan the growing year, place seed orders, and assess any structural garden features — walls, raised beds, pergolas, path edgings — that need repair before the season begins.',
+      },
+    ],
+
+    faqs: [
+      {
+        q: 'When is the last frost date in Salisbury and Wiltshire?',
+        a: 'The average last frost date in Salisbury is late March to early April. On exposed chalk downland sites at higher elevation, late frosts can occur into May. Always wait until after the last frost before planting out tender plants or summer bulbs such as dahlias.',
+      },
+      {
+        q: 'What grass seed is best for chalk downland gardens in Wiltshire?',
+        a: 'For chalk or alkaline soils, choose a drought-tolerant fine fescue mix — ideally one containing Festuca rubra (creeping red fescue) and Festuca ovina (sheep\'s fescue). These perform better on thin, dry chalk soils than ryegrass-dominated mixes, which need more consistent moisture.',
+      },
+      {
+        q: 'Can I trim my hedge during nesting season?',
+        a: 'You should not trim hedges between March and August inclusive when birds may be nesting. This is a legal protection under the Wildlife and Countryside Act 1981 — disturbing an active nest is an offence. Formal hedges (box, yew) are best trimmed in late August or September; informal hedges in late winter before March.',
+      },
+      {
+        q: 'Why do my patio slabs keep lifting in Wiltshire?',
+        a: 'Frost heave is the most common cause. Water in the sub-base expands when it freezes, lifting slabs. On chalk soils, minor ground movement with each freeze/thaw cycle over winter is common. The solution is to re-lay affected slabs on a properly compacted, well-draining sub-base (MOT Type 1 hardcore) with a correctly mixed mortar bed. A professional will also check that drainage away from the paved area is adequate.',
+      },
+      {
+        q: 'How often should fences be treated with wood preservative in Wiltshire?',
+        a: 'Softwood fence panels and posts should be treated every two to three years in the UK climate. In Wiltshire, where winter rainfall and wind exposure accelerate weathering, an annual inspection and treatment of any bleached or grey timber is advisable. Use a product containing an effective biocide (e.g. Ronseal Total Wood Protector or Cuprinol Garden Shades) applied during dry weather in summer.',
+      },
+      {
+        q: 'Does FixWell Services carry out seasonal garden maintenance in Salisbury?',
+        a: 'Yes. FixWell Services provides seasonal garden maintenance across Salisbury and Wiltshire — including lawn care, hedge trimming, fence and gate repair, paving re-laying, gutter clearing, and general outdoor property maintenance. We can arrange regular seasonal visits or one-off tidy-ups. Call 07391 599 078 to discuss your garden.',
+      },
+    ],
+  },
+
+  'how-to-paint-skirting-boards': {
+    metaDescription:
+      'Complete guide to painting skirting boards — oil-based gloss vs water-based satin, preparation steps, protecting carpets, coats required, drying times, and common mistakes to avoid.',
+    intro:
+      'Freshly painted skirting boards transform a room more than almost any other single decoration task — and the difference between a professional result and a patchy, peeling one comes down almost entirely to preparation and paint selection, not technique. The two core decisions are paint type (oil-based gloss versus water-based satin) and preparation quality. Get both right and the application itself is straightforward. This guide covers every step: surface preparation, filling and priming, floor and carpet protection, application technique, drying times, and the finishing details that separate a durable result from one that chips within a year.',
+
+    sections: [
+      {
+        heading: 'Oil-Based Gloss vs Water-Based Satin — Which Paint Is Right for Skirting Boards?',
+        body: 'Traditional skirting board paint is oil-based gloss, and it remains the more durable option. Oil-based gloss is solvent-thinned (white spirit or mineral spirits), produces a high-sheen finish (60–80° gloss units on a standard gloss meter), and creates a very hard, wipe-clean surface that resists knocks and scuffs. Drying time is 8–16 hours between coats at 18°C, brushes must be cleaned with white spirit, and adequate ventilation is essential. One drawback: oil-based white gloss will yellow slightly over time as the Titanium Dioxide in the formulation reacts with reduced UV exposure (common in north-facing rooms). Water-based satin (also marketed as water-based eggshell or satinwood) has closed the quality gap significantly. Modern formulations — Dulux Quick Dry Satinwood, Zinsser AllCoat Satin, Farrow & Ball Estate Eggshell — offer drying times of 2–4 hours between coats, easy brush cleanup with water, significantly less odour, and much less yellowing. Sheen level is lower (20–40° gloss units), which many homeowners now prefer as it looks more contemporary. For most rooms with normal traffic, water-based satin is the practical choice. For heavily used areas (hallways, children\'s rooms, rental properties), oil-based gloss provides the best long-term durability.',
+      },
+      {
+        heading: 'Preparation — Why This Step Determines the Final Result',
+        body: 'Poor preparation is the single cause of most failed skirting board paint jobs. The sequence is: sand, fill, re-sand, clean, prime (if bare wood), then paint. Sand the existing painted surface with 120–180 grit sandpaper to key it — this removes the shine and gives the new coat something to grip. You are not trying to strip the paint, just scratch the surface. Fill any cracks, holes, or gaps (particularly at the junction between skirting and wall) with a flexible wood filler such as Ronseal High Performance Wood Filler or Polycell Fine Surface Filler. Flexible fillers are important: skirting boards move slightly with changes in temperature and humidity, and rigid filler will crack at the joints. Sand the filled sections smooth when dry, starting at 80 grit if there is significant build-up, finishing at 180 grit. Clean the entire skirting with a solution of sugar soap (available from any hardware shop) — this removes grease, wax, silicone contamination, and dust. Silicone contamination from previous applications of WD-40 or furniture polish will cause paint to crawl and bead; sugar soap cuts through it. Wipe the skirting dry and allow to fully dry before proceeding. If any sections of bare wood are exposed, apply one coat of a shellac-based primer such as Zinsser Bulls Eye 1-2-3 or a conventional wood primer — allow to fully cure before topcoating. Do not skip the primer on bare wood: unprepared timber will absorb topcoat unevenly, producing a patchy finish that requires many more coats to resolve.',
+      },
+      {
+        heading: 'Protecting Carpets and Hard Floors Before You Paint',
+        body: 'Carpet protection is the step most DIY painters do inadequately. The correct approach: use a low-tack decorator\'s masking tape designed for delicate surfaces — 3M ScotchBlue 2080 or Frogtape Delicate Surface are both designed to release cleanly from carpet fibres without pulling them. Press the tape firmly along the top edge of the skirting board where it meets the wall, working in 400–500mm sections. At the base of the skirting where it meets carpet, do not rely on tape alone: slide a thin piece of card, a plastic paint shield, or a purpose-made skirting painting guide between the bottom of the skirting and the carpet pile as you paint each section, moving it along progressively. This lifts the carpet away from the skirting face and prevents paint contaminating the fibres. Lay dust sheets on the remaining floor area — paint drips travel further than expected during brush loading. For hard floors (wood, tile, laminate), standard masking tape works well but must be removed the same day to prevent adhesive residue. Remove all masking tape while the final coat is still slightly tacky — typically 1–2 hours after application for water-based paint, 3–4 hours for oil-based. Pull the tape back at a 45° angle to the surface rather than straight upwards to get a clean edge without lifting paint.',
+      },
+      {
+        heading: 'Application Technique — Coats, Drying Times, and Brush Method',
+        body: 'Use a good quality angled sash brush — 1.5 inch or 2 inch depending on the skirting profile. Cheap brushes leave brush marks that show through even multiple coats. Load the brush to about half the bristle depth and remove excess on the tin edge. Apply paint in long, smooth strokes in the direction of the wood grain. On the first coat (particularly over primer or bare wood), you can dilute water-based paint by up to 10% with clean water to create a mist coat — this soaks into the surface more readily and improves adhesion for subsequent coats. Always apply two full topcoats as a minimum: one coat of any paint, however good, will not provide adequate coverage or durability on skirting boards. Between coats, allow the paint to dry fully — not just surface-dry. For water-based satin at 18°C: minimum 4 hours. For oil-based gloss: minimum 16 hours. Lightly sand the dried first coat with 180–220 grit before applying the second — this removes any dust nibs and brush marks, and the second coat goes on significantly more smoothly. Wipe off sanding dust with a damp cloth and allow to fully dry before applying the final coat. Two thin, well-prepared coats will always outperform one thick coat in durability and final appearance.',
+      },
+      {
+        heading: 'Common Mistakes and Professional Finishing Touches',
+        body: 'The most common skirting board painting mistakes are: skipping preparation (results in peeling within months); painting over silicone or grease (causes crawling and fish-eye defects); applying paint too thickly (results in runs and slow-drying that traps dust); not allowing adequate drying time between coats (causes lifting of the first coat); and removing masking tape too late on hard floors (adhesive transfers to the floor surface). For a truly professional finish: feather the paint out beyond the skirting slightly onto the wall at the top edge to eliminate a hard line; use a torch at a low angle across the finished surface to spot any brush marks or runs before the paint fully hardens — these can be sanded out while still soft; and seal the junction between skirting and wall with a flexible decorator\'s caulk (Polyfilla Flexible Gap Filler or similar) after painting, not before — this gives a crisp, clean line and prevents future cracking as the building moves. Furniture should not be pushed back against freshly painted skirting for at least 24 hours (water-based) or 48 hours (oil-based). Full paint hardness, which determines final wipe-clean durability, takes 7–14 days for both paint types. FixWell Services provides professional skirting board painting across Salisbury for homeowners and landlords who want a high-quality result without the risk of carpet damage.',
+      },
+    ],
+
+    faqs: [
+      {
+        q: 'What is the difference between satin and eggshell for skirting boards?',
+        a: 'Both are water-based alternatives to gloss with a lower sheen. Satin typically has a slightly higher sheen level (30–40° gloss) and is more hardwearing. Eggshell has a lower sheen (10–20°) and is most often used on walls and furniture. For skirting boards that take regular contact, satin is the better choice. Farrow & Ball call their water-based skirting paint "Estate Eggshell" but it performs more like a satin in practice.',
+      },
+      {
+        q: 'How long should I leave skirting board paint to dry before putting furniture back?',
+        a: 'Allow a minimum of 24 hours before placing furniture against water-based satin, and 48 hours for oil-based gloss. Note that surface-dry and fully hard are different — paint may feel dry to touch after 2–4 hours but will not have achieved its full hardness for 7–14 days. Furniture pushed hard against fresh paint before full cure can leave impressions.',
+      },
+      {
+        q: 'Do I need to use primer before painting skirting boards?',
+        a: 'Primer is required on bare wood sections and strongly recommended when switching from oil-based to water-based paint. If you are re-coating previously painted skirting with the same type of paint and the existing coat is sound (no flaking or peeling), thorough sanding and cleaning is sufficient — primer is not required. If the existing paint is in poor condition, it is better to prime after sanding back.',
+      },
+      {
+        q: 'Why is my skirting board paint coming off in chips?',
+        a: 'Chipping paint on skirting boards is almost always caused by inadequate preparation. The most common causes are: painting over a grease or silicone-contaminated surface; applying topcoat without priming bare wood; insufficient sanding between coats; or applying paint over a surface that was not fully dry. The only fix is to sand back to a sound surface, clean thoroughly, and re-paint correctly.',
+      },
+      {
+        q: 'Can I paint skirting boards without removing them?',
+        a: 'Yes — in most cases this is the preferred approach. Removing skirting boards risks splitting them, particularly on older properties where they may be nailed in or have been painted in place many times. Careful masking and a good angled brush gives a professional result without removal. Only remove skirting boards if they are badly damaged and need replacement.',
+      },
+      {
+        q: 'How many litres of paint do I need for skirting boards in a typical room?',
+        a: 'A standard bedroom with 10–12 linear metres of skirting at 100mm height requires approximately 150–200ml per coat — less than half a litre for two full coats. Most 750ml tins of satin or gloss are sufficient for an entire small house. Always use the same batch number for a room to avoid slight colour variation between tins.',
+      },
+    ],
+  },
+
+  'home-renovation-planning-guide-salisbury': {
+    metaDescription:
+      'Planning a home renovation in Salisbury — permitted development rights, Conservation Area rules, listed building consent, Building Regulations approval, budgeting, trade sequencing, and contractor vetting in Wiltshire.',
+    intro:
+      'Planning a home renovation in Salisbury requires navigating a layer of regulatory complexity that simply does not apply in most other UK towns. A significant proportion of Salisbury\'s housing stock sits within a Conservation Area or carries a Listed Building designation — conditions that restrict what you can do without consent, and which can make otherwise simple external improvements a planning matter. Even where no planning consent is needed, Building Regulations approval is a separate requirement for structural work, new electrical circuits, and loft conversions. Getting clarity on which permissions apply before work starts is not a bureaucratic nicety: proceeding without the correct consent on a listed building is a criminal offence, and enforcement can require costly reinstatement of original features.',
+
+    sections: [
+      {
+        heading: 'Permitted Development Rights — What You Can Do Without Planning Permission in Salisbury',
+        body: 'Permitted Development (PD) rights allow homeowners to carry out certain improvements without applying for planning permission. The most important PD classes for residential properties are: Class A (rear extensions — single-storey up to 4m deep for detached houses, 3m for semi-detached and terraced, subject to prior approval for the larger end of the range); Class B (roof extensions — up to 40m³ additional volume for detached houses, 20m³ for semi-detached and terraced); Class C (like-for-like roof covering replacement); Class D (porches up to 3m² at ground level); and Class E (outbuildings — up to 50% of garden area, no more than 2.5m high within 2m of the property boundary). However, PD rights do not apply universally in Salisbury. Properties in Conservation Areas lose PD rights for side extensions, roof additions visible from a highway, and cladding in non-traditional materials. Article 4 Directions in several Salisbury Conservation Areas remove additional PD rights — check with Wiltshire Council planning before assuming your project is PD-compliant. Flats and maisonettes have no PD rights at all. Where a project falls at the larger end of the PD Class A rear extension range (more than 3m for semi-detached or 4m for detached), a Prior Approval Notification must be submitted to Wiltshire Council before work starts.',
+      },
+      {
+        heading: 'Conservation Areas and Listed Buildings in Salisbury',
+        body: 'Salisbury has several designated Conservation Areas, including the Salisbury City Centre Conservation Area (which encompasses the Cathedral Close, the historic street grid, and Milford Street), Fisherton Conservation Area, and the Old Sarum and New Sarum Conservation Areas. Within any Conservation Area, additional consent requirements apply: planning permission is required for external cladding in non-traditional materials, for demolition of any unlisted building over a certain size, and for any tree work (six weeks\' prior notification to the local authority is required). For listed buildings — of which there are over 400 in the Salisbury district, the majority Grade II but including a number of Grade I and II* structures — listed building consent is required for any works that affect the character of the building, both externally and internally. This includes: altering or removing internal walls; changing window or door types; replacing original materials with non-matching alternatives; and even repairs carried out using modern materials where original methods would be appropriate. Unauthorised works to a listed building are a criminal offence under Section 9 of the Planning (Listed Buildings and Conservation Areas) Act 1990. The local planning authority is Wiltshire Council; Historic England provides guidance on appropriate materials and methods.',
+      },
+      {
+        heading: 'Building Regulations vs Planning Permission — Understanding Both Requirements',
+        body: 'Planning permission and Building Regulations approval are separate systems, and most homeowners confuse them. Planning permission controls whether a development is acceptable in land-use terms — its appearance, impact on neighbours, and effect on the character of the area. Building Regulations approval controls whether the construction is technically sound, safe, and energy-efficient. A project can require one, both, or neither. Building Regulations approval is required for: extensions and loft conversions (structural elements, fire safety, energy efficiency); new electrical circuits (a registered electrician under a Competent Person Scheme such as NICEIC or NAPIT can self-certify instead); new heating system installation (boiler replacement by a Gas Safe engineer can self-certify); structural alterations including removal of load-bearing walls (structural engineer\'s calculations required); and replacement windows and doors (FENSA or CERTASS registered installers can self-certify). Building Regulations approval is generally NOT required for: internal cosmetic work (painting, new flooring, wallpaper); kitchen unit replacement on a like-for-like basis where no structural, electrical, or plumbing changes are made; or garden structures within PD limits. Applications go to Wiltshire Council Building Control, or to an approved inspector.',
+      },
+      {
+        heading: 'Budgeting and Sequencing Trades for a Renovation in Salisbury',
+        body: 'The two most reliable budget rules for renovation in Salisbury are: add a 15–20% contingency on top of your agreed quoted costs, and commission a pre-work survey for any property built before 1985. Older properties in Salisbury — and there are many, given the city\'s historic housing stock — regularly reveal concealed problems when walls, floors, or ceilings are opened: outdated aluminium or knob-and-tube wiring, rising damp affecting structural timbers, asbestos-containing materials (most common in properties from the 1960s–1970s in artex ceilings, floor tiles, and pipe lagging), and structural cracking requiring remediation. Any of these discoveries can add thousands to project costs if not budgeted for. Trade sequencing is equally important. Correct order: (1) strip out and surveys (structural survey, damp survey, asbestos survey if pre-1985); (2) structural and groundwork; (3) first fix — electrical, plumbing, and heating routes; (4) plastering and dry-lining; (5) second fix carpentry — skirting boards, door linings, architrave, kitchen and bathroom units; (6) decoration — painting and tiling; (7) floor coverings. Getting the sequence wrong means later trades work over finished surfaces, adding rework costs.',
+      },
+      {
+        heading: 'Vetting and Managing Contractors in Wiltshire',
+        body: 'For any renovation requiring multiple trades, a project manager or main contractor provides a single point of accountability — particularly important if you are not local to Salisbury or are managing the project remotely. If self-managing, vet every contractor before committing. Minimum checks: verify insurance (public liability of at least £1m, employer\'s liability if they employ staff); confirm professional membership where it matters (FMB for general builders, NICEIC or NAPIT for electricians, Gas Safe for gas work, CIPHE for plumbers); search for the business on Companies House if they claim to be a limited company; obtain at minimum three written quotes on an identical, detailed scope — do not compare quotes based on verbal descriptions; ask for references from at least two previous clients in Wiltshire and follow them up; and never pay more than 10–20% upfront, with staged payments tied to defined completion milestones. Watch for: cash-only requests before work starts; reluctance to provide a written quote or contract; inability to provide insurance documentation; no verifiable local address or business registration; and pressure to start immediately without agreeing full scope. FixWell Services carries out the handyman and carpentry elements of renovation projects across Salisbury — skirting boards, painting, tiling, door hanging, and finishing work — and can coordinate alongside your chosen specialists.',
+      },
+    ],
+
+    faqs: [
+      {
+        q: 'Do I need planning permission to replace my windows in a Salisbury Conservation Area?',
+        a: 'If your property is in a Conservation Area, replacing windows with units of a different design, material, or appearance requires planning permission. Like-for-like replacement (same design, same material) is generally permitted. In a Conservation Area, replacing original timber sash windows with uPVC requires full planning permission and is unlikely to be approved. Consult Wiltshire Council\'s planning department before ordering replacement windows.',
+      },
+      {
+        q: 'What is an Article 4 Direction and does it affect my Salisbury property?',
+        a: 'An Article 4 Direction is a local authority measure that withdraws specified Permitted Development rights for an area. Several Salisbury Conservation Areas have Article 4 Directions in place that remove PD rights for front elevation changes, window replacements, and roof alterations. Check the Wiltshire Council planning portal or contact the planning department to confirm whether an Article 4 Direction affects your street.',
+      },
+      {
+        q: 'Do I need listed building consent to replaster internal walls?',
+        a: 'It depends on the method and materials. In a listed building, replacing original lime plaster with modern gypsum plaster requires listed building consent, as it alters the historic character of the building and can cause moisture-related damage to the underlying structure. Repair of existing plaster using matching lime materials is generally acceptable. Always consult Wiltshire Council\'s heritage team before any plastering work in a listed property.',
+      },
+      {
+        q: 'How much contingency budget should I set aside for a renovation in Salisbury?',
+        a: 'A minimum contingency of 15% is recommended for newer properties and 20% for pre-1960 properties. Older Salisbury properties frequently reveal concealed damp, asbestos-containing materials, outdated wiring, and structural issues when opened up. Without a contingency, a single discovery can halt the entire project. For a listed building, 25% contingency is not excessive.',
+      },
+      {
+        q: 'Can I remove a chimney breast in a Salisbury property?',
+        a: 'Chimney breast removal requires Building Regulations approval as it is a structural alteration — chimney breasts are typically load-bearing. In a listed building, it also requires listed building consent. A structural engineer must calculate the new beam or support required, and a Wiltshire Council building inspector must sign off the work. Never remove a chimney breast without full Building Regulations compliance.',
+      },
+      {
+        q: 'How do I find a reliable builder for a renovation project in Salisbury?',
+        a: 'Use the Federation of Master Builders (FMB) Salisbury and Wiltshire directory to find FMB-registered builders — membership requires vetting and insurance checks. Get three written quotes on an identical written scope. Ask for Wiltshire references and follow them up. Never pay cash upfront or sign a contract without a clear payment schedule tied to milestones. For finishing trades and handyman work, FixWell Services provides fully insured services across Salisbury at competitive rates.',
+      },
+    ],
+  },
+
+  'common-home-repair-problems-older-uk-properties': {
+    metaDescription:
+      'Most common repair problems in older UK properties — rising damp, penetrating damp, condensation, failed pointing, timber decay, sash window faults, and single-glazing heat loss, with Salisbury period property context.',
+    intro:
+      'Salisbury has one of the highest concentrations of pre-1900 residential properties in Wiltshire — Victorian terraces, Georgian townhouses, Edwardian semis, and older stone cottages built from Chilmark limestone and Tisbury greensand. These buildings have genuine structural longevity: many have stood for 150 years and will stand for 150 more. But they were built without cavity walls, without damp-proof courses in the modern sense, without central heating, and without the insulation standards we now consider normal. The problems that arise in these buildings are specific, often misdiagnosed, and sometimes made worse by well-intentioned modern interventions. Understanding the actual cause of a problem — not just its visible symptom — is the prerequisite for any effective repair.',
+
+    sections: [
+      {
+        heading: 'Damp in Older Salisbury Properties — Rising, Penetrating, and Condensation Correctly Diagnosed',
+        body: 'Damp is the single most common complaint in older Salisbury properties, and it is also the most frequently misdiagnosed. There are three distinct types, each with a different cause, a different appearance, and a different treatment — and treating the wrong type wastes money and fails to solve the problem. Rising damp occurs when ground moisture travels upward through masonry by capillary action. The defining characteristic is a horizontal tide mark on internal walls, typically between 300mm and 1000mm from floor level, often with white salt deposits (efflorescence) and plaster failure at low level. Critically, true rising damp requires a pathway — a missing or bridged damp-proof course. In Salisbury\'s older stone buildings, original slate or bitumen DPCs often remain intact but can be bridged by raised external ground levels, render taken below the DPC, or raised internal floor screeds. The appropriate treatment is to identify and address the bridge first. Chemical DPC injection (drilling a series of holes at DPC level and injecting a silicone-based product) is the correct treatment where the DPC is genuinely absent or failed — not where it is simply bridged. Many damp-proofing companies offer chemical DPC injection as a first response when bridging is the real issue; always get a survey from an independent surveyor (RICS or PCA qualified) before committing to expensive chemical treatment. Penetrating damp enters from outside through a defective external fabric: failed pointing, cracked render, defective window or door seals, blocked gutters overflowing against walls, or failed flashings at chimney stacks, parapet walls, or bay roofs. Unlike rising damp, penetrating damp appears at any height, tracks across walls in patterns that correlate with rainfall, and often has no tide mark. Treatment must always begin with identifying and repairing the external entry point — drying out and re-plastering the internal surface without fixing the entry point will fail within one winter. Condensation damp is the most common type in occupied properties and the most frequently confused with the other two. It appears as mould growth — typically black Cladosporium or green mould — on cold surfaces: north-facing walls, corners behind furniture, window reveals, and external wall surfaces in poorly ventilated rooms. It is caused by warm, moist air (from cooking, bathing, breathing, and drying clothes) meeting cold surfaces and releasing moisture. The key diagnostic difference from rising and penetrating damp: condensation appears in cold spots, not at floor level or in patterns tracking rainfall. It is exacerbated by solid walls, which are colder than cavity walls, and by inadequate ventilation. Treatment is not a product — it is improved air exchange (trickle vents, extract fans, Positive Input Ventilation units) combined with surface insulation at cold-bridge points. Simply increasing heating without improving ventilation makes the problem worse by increasing the moisture load in the air.',
+      },
+      {
+        heading: 'Failed Pointing, Cracked Render, and Mortar Decay in Period Properties',
+        body: 'The mortars used in Salisbury\'s Victorian and Edwardian brick and stone buildings were lime-based — typically a mix of hydraulic lime and sand, sometimes with a pozzolanic additive. These mortars are deliberately softer and more flexible than modern Ordinary Portland Cement (OPC) mortars. This is structurally intentional: in old masonry, the mortar acts as the sacrificial element, absorbing movement and moisture — it is designed to erode, be replaced, and protect the bricks or stone behind it. When Victorian pointing is repointed with modern OPC mortar — which is significantly harder and less permeable than the original lime — the result is predictable: moisture that previously evaporated through the mortar is now forced through the bricks or stone, causing spalling, cracking, and accelerated decay of the masonry units themselves. In Chilmark limestone buildings (common in Salisbury and the villages to the west), hard OPC pointing is particularly damaging. The correct repointing material for pre-1920 buildings is a Natural Hydraulic Lime mortar — NHL 2 (the weakest, for soft stone) or NHL 3.5 (for most brick and harder stone). The technique matters as much as the mix: raking out existing mortar to a depth of 15–20mm (never using an angle grinder, which damages the arris of bricks and stones), brushing out dust and loose material, dampening the joint slightly before pointing, and finishing to a flush or slightly recessed (not excessively weathered) profile. This is not a job to give to a general builder who uses OPC as default — specify the mortar type explicitly in any brief to a contractor. Cracked render on older properties is a separate but related issue. Many Salisbury Victorian houses have sand-and-cement render that was applied to a substrate originally designed for lime render. This forms hairline cracks and eventually fails in sections. The correct approach is to rake out any defective sections, ensure the substrate is sound and free from salt contamination, and apply a matching lime render. In conservation areas, Wiltshire Council may require lime render on the visible elevations; check before using modern sand-cement products.',
+      },
+      {
+        heading: 'Timber Decay in Older Properties — Wet Rot, Dry Rot, and When to Repair vs Replace',
+        body: 'Timber decay in older properties takes two principal forms, with very different implications for treatment. Wet rot (most commonly caused by the fungus Coniophora puteana, or brown cellar fungus) is by far the more common. It requires persistently high moisture content (above 20%) to develop and remains localised to the wet zone — it does not spread through dry masonry. Characteristic signs are soft, spongy or crumbly timber, darkening or blackening of the wood surface, and paint lifting in bubbles where the timber beneath has swollen. Wet rot in window frames, door frames, fascias, and soffits is extremely common in Salisbury\'s older housing stock, where decades of paint build-up over original putty glazing has sealed moisture into end-grain timber. Treatment requires removing the moisture source first — fixing the leak, improving drainage, or replacing failed window putty. Once dry, early to mid-stage wet rot in structural sections can be treated with a boron-based fungicide (Boracol or similar), consolidated with a two-part epoxy consolidant (Repair Care Dry Flex or Ronseal High Performance Wood Hardener), and filled with a matching epoxy filler. Advanced wet rot in structural timbers requires full replacement. Dry rot (Serpula lacrymans) is significantly more serious. Unlike wet rot, dry rot can spread through masonry and mortar — its rhizomorphs (root-like structures) can travel through walls to find new timber, even through apparently dry material. Signs include white or grey mycelium growth, brown cuboid cracking of timber surfaces (the wood breaks into small rectangular blocks), a strong musty smell, and distinctive rust-orange fruiting bodies (sporophores). Dry rot requires professional assessment and a much more aggressive treatment regime: all affected timber must be removed and burned (not skipped), the masonry in the affected zone must be treated with a boron-based fungicide, and all replacement timber must be pre-treated before installation. The extent of an outbreak is almost always larger than visually apparent — a structural engineer and specialist timber treatment company should be involved.',
+      },
+      {
+        heading: 'Sash Windows in Older Salisbury Properties — Repair, Draught-Proofing, and Conservation',
+        body: 'Sash windows are a defining feature of Georgian, Victorian, and Edwardian properties in Salisbury, and original examples in good structural condition are worth retaining. A well-maintained original sash window is a property asset: it contributes to the character of a listed building or Conservation Area property, and modern draught-proofing and secondary glazing can bring its thermal performance to within acceptable range of modern double-glazing at a fraction of the cost of full replacement. The most common sash window problems are: broken sash cords (the window will either fall shut or fail to stay open — the weight on one side is detached); windows painted shut over multiple decades of redecoration; rattling in wind caused by a worn or missing staff bead; and failing putty glazing. Broken sash cords are the most frequent repair call. The repair requires opening the lower sash pocket (a small removable panel in the lower sash channel), retrieving the weight, threading new waxed cotton or polyester cord through the pulley, reattaching to the weight and the sash horn, and refitting the pocket. A competent joiner or handyman can re-cord both sashes of a window in 1–2 hours. Cost is typically £80–£150 per window. Painting-shut windows can be freed by scoring the paint line with a sharp Stanley knife and using a sash saw or window zipper tool to break the paint seal — never force a painted sash with a hammer or chisel, which splits the sash or frame. Draught-proofing sash windows using a woven pile strip (compressible brush strip installed into a routed groove in the meeting rails and staff beads) reduces heat loss and eliminates rattle, and costs approximately £100–£200 per window installed. Secondary glazing — a thin internal panel of clear acrylic or glass fitted within the window reveal — can reduce the U-value of a single-glazed sash window from approximately 5.0 W/m²K to around 1.8–2.5 W/m²K, which approaches the performance of standard double glazing (1.2–1.4 W/m²K). In a listed building, secondary glazing is almost always preferred over replacement by conservation officers. Planning permission or listed building consent is not required for secondary glazing on the inside of a window.',
+      },
+      {
+        heading: 'Electrical and Structural Concerns in Pre-1960 Salisbury Housing',
+        body: 'Two further areas demand attention in Salisbury\'s older housing stock. Electrical installations in properties built before 1965 may contain unsheathed aluminium wiring, rubber-insulated cable that has become brittle over time, or two-wire systems without an earth conductor — all of which present safety hazards under modern standards. The visible signs of outdated wiring include round-pin sockets, Bakelite switches, rewirable fuse boards with ceramic fuse carriers, and white or black rubber-coated cable visible in roof spaces or under floors. An Electrical Installation Condition Report (EICR) will identify these issues and categorise them by severity. Any C1-rated issue (immediate danger) must be addressed without delay. Full rewiring of a Victorian or Edwardian terraced house in Salisbury typically costs £3,000–£6,000, depending on the extent of remediation required. For structural concerns specific to older Salisbury properties, diagonal cracking at the corners of window and door openings is worth monitoring carefully. In properties with solid wall construction, differential settlement — particularly where bay window foundations are shallower than the main structure — can cause progressive cracking that, while often stable, should be assessed by a structural engineer if it is widening. Chimney stacks are another area of concern: in Salisbury\'s Victorian terraces, shared chimney stacks are frequently in poor condition (failed pointing, spalled bricks, deteriorated lead flashings at the chimney/roof junction), and falling masonry from a chimney stack is a safety hazard. Annual visual inspection of the chimney stack from ground level or during a roof inspection is advisable for any pre-1940 property with an active or inactive chimney.',
+      },
+    ],
+
+    faqs: [
+      {
+        q: 'How do I tell the difference between rising damp and condensation in an older Salisbury property?',
+        a: 'Rising damp produces a horizontal tide mark up to about 1m from floor level, often with white salt deposits (efflorescence) and plaster failure at low level — and it tends to be worse in winter when the ground is wetter. Condensation appears as mould growth in cold spots: corners, north-facing walls, behind furniture, and in window reveals. It is worst in winter when the property is heated and ventilation is reduced. If the mould is above 1m and in corners rather than at floor level, condensation is the likely cause. An independent RICS surveyor can distinguish them accurately.',
+      },
+      {
+        q: 'Why is my Victorian brick pointing crumbling and what mortar should be used to repoint it?',
+        a: 'Crumbling pointing in Victorian brickwork is usually either end-of-life original lime mortar or failed OPC mortar that was applied too hard for the brick. Victorian brick should be repointed with Natural Hydraulic Lime mortar — NHL 3.5 for most brick, NHL 2 for soft or friable brick. Never use standard OPC sand-cement mortar: it is too rigid, traps moisture, and causes spalling of the bricks over time.',
+      },
+      {
+        q: 'Can wet rot in a window frame be repaired without full replacement?',
+        a: 'Yes, for early to mid-stage wet rot. The affected timber must be dried out (the moisture source repaired first), treated with a fungicidal consolidant, consolidated with a two-part epoxy hardener, and filled with a matching epoxy filler, then primed and painted. This produces a structurally sound and weather-tight repair at lower cost than full replacement. Advanced wet rot where more than 50% of the section is compromised generally requires replacement.',
+      },
+      {
+        q: 'How do I know if my older Salisbury property has dry rot?',
+        a: 'The key signs of dry rot are: rust-orange fruiting bodies (pancake or bracket-shaped sporophores), white or grey cottony mycelium on surfaces, a strong mushroom-like musty smell, and brown cuboid cracking of affected timber (the wood splits into small rectangular blocks). Unlike wet rot, dry rot does not need constant moisture — it can bridge through masonry. If you suspect dry rot, stop all decorating work and get a specialist timber treatment company to assess the extent before disturbing it, as breaking up mycelium can spread spores.',
+      },
+      {
+        q: 'Are the original sash windows in my Salisbury Victorian house worth keeping?',
+        a: 'Almost certainly yes, if they are structurally sound. Original sash windows in conservation areas and listed buildings have character value, planning protection, and can be brought to good thermal performance with draught-proofing and secondary glazing. The total cost of repairing, draught-proofing, and adding secondary glazing to a sash window is typically £250–£500 per window — significantly less than replacement with purpose-made timber sashes (£800–£2,000 per window), which would also require planning permission in a Conservation Area.',
+      },
+      {
+        q: 'Does FixWell Services have experience working on period properties in Salisbury?',
+        a: 'Yes. The majority of our customers in Salisbury have Victorian, Edwardian, or Georgian properties. We are experienced with solid wall construction, lime plaster, sash window repairs, period timber features, and the specific challenges of older property maintenance. Where a job requires a specialist — a structural engineer, a timber treatment company, or a lime mortar specialist — we will tell you clearly and recommend the right person rather than attempting work outside our scope.',
+      },
+    ],
+  },
+};

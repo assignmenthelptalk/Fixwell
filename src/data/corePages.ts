@@ -5,6 +5,11 @@ export interface FAQ {
   a: string;
 }
 
+export interface PageSection {
+  heading: string;
+  body: string;
+}
+
 export interface CorePage {
   id: string;
   slug: string;
@@ -16,6 +21,7 @@ export interface CorePage {
   priority: string;
   linksTo: string[];
   faqs: FAQ[];
+  sections?: PageSection[];
   parentSlug?: string;
   icon?: string;
   shortLabel?: string;

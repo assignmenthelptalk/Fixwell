@@ -8,6 +8,11 @@ import FAQAccordion from '../components/FAQAccordion.astro';
 import QuoteForm from '../components/QuoteForm.astro';
 import { allCorePages, coreHubPages, type CorePage } from '../data/corePages';
 import { allOuterPages, type OuterPage } from '../data/outerPages';
+import { coreHubContent } from '../data/content/core-hub-content';
+import { serviceDetailContent } from '../data/content/service-detail-content';
+import { locationContent } from '../data/content/location-content';
+import { outerHubContent } from '../data/content/outer-hub-content';
+import { outerSubContent } from '../data/content/outer-sub-content';
 
 export async function getStaticPaths() {
   return [
@@ -52,6 +57,16 @@ const heroVariant =
     ? 'location'
     : 'service';
 
+const allCoreContent = { ...coreHubContent, ...serviceDetailContent, ...locationContent };
+const allOuterContent = { ...outerHubContent, ...outerSubContent };
+const coreContent = corePage ? (allCoreContent[corePage.slug] ?? null) : null;
+const outerContent = outerPage ? (allOuterContent[outerPage.slug] ?? null) : null;
+
+const activeSections = coreContent?.sections ?? corePage?.sections ?? [];
+const activeFaqs = coreContent?.faqs ?? corePage?.faqs ?? [];
+const outerActiveSections = outerContent?.sections ?? outerPage?.sections ?? [];
+const outerActiveFaqs = outerContent?.faqs ?? outerPage?.faqs ?? [];
+
 const pageImages: Record<string, { src: string; alt: string }> = {
   'plumbing-repairs-salisbury':              { src: '/blog_image_1.webp', alt: 'Plumber repairing pipework under a sink' },
   'plumbing-leak-repairs-salisbury':         { src: '/blog_image_1.webp', alt: 'Plumber fixing a leaking pipe' },
@@ -73,7 +88,7 @@ const pageImage = page ? pageImages[page.slug] : undefined;
 {corePage && (
   <ServiceLayout
     title={corePage.title}
-    description={corePage.metaDescription}
+    description={coreContent?.metaDescription ?? corePage.metaDescription}
     h1={corePage.h1}
     slug={corePage.slug}
     pageType={corePage.pageType}
@@ -103,14 +118,21 @@ const pageImage = page ? pageImages[page.slug] : undefined;
               decoding="async"
             />
           )}
-          <h2>About This Service</h2>
-          <p>{corePage.macroContext}</p>
-          {corePage.pageType === 'location' && (
-            <p>
-              Whether you need emergency repairs, routine maintenance, or a full renovation,
-              FixWell Services covers {corePage.shortLabel ?? 'this area'} and the surrounding villages.
-              We aim for same-day response on urgent jobs and next-day availability for planned work.
-            </p>
+          {coreContent?.intro && (
+            <p class="page-intro">{coreContent.intro}</p>
+          )}
+          {activeSections.length > 0 ? (
+            activeSections.map((s) => (
+              <div class="content-section">
+                <h2>{s.heading}</h2>
+                <p>{s.body}</p>
+              </div>
+            ))
+          ) : (
+            <div class="content-section">
+              <h2>About This Service</h2>
+              <p>{corePage.macroContext}</p>
+            </div>
           )}
         </div>
         {linkedPages.length > 0 && (
@@ -159,8 +181,8 @@ const pageImage = page ? pageImages[page.slug] : undefined;
 
     <CTABanner />
 
-    {corePage.faqs && corePage.faqs.length > 0 && (
-      <FAQAccordion faqs={corePage.faqs} />
+    {activeFaqs.length > 0 && (
+      <FAQAccordion faqs={activeFaqs} />
     )}
 
     <QuoteForm />
@@ -170,7 +192,7 @@ const pageImage = page ? pageImages[page.slug] : undefined;
 {outerPage && (
   <InfoLayout
     title={outerPage.title}
-    description={outerPage.metaDescription}
+    description={outerContent?.metaDescription ?? outerPage.metaDescription}
     h1={outerPage.h1}
     slug={outerPage.slug}
     faqs={outerPage.faqs}
@@ -185,7 +207,10 @@ const pageImage = page ? pageImages[page.slug] : undefined;
     <article class="article-body section">
       <div class="container article-body__inner">
         <div class="article-content">
-          {outerPage.sections.map((s) => (
+          {outerContent?.intro && (
+            <p class="article-intro">{outerContent.intro}</p>
+          )}
+          {outerActiveSections.map((s) => (
             <div class="article-section">
               <h2>{s.heading}</h2>
               <p>{s.body}</p>
@@ -214,14 +239,16 @@ const pageImage = page ? pageImages[page.slug] : undefined;
 
     <CTABanner heading="Professional Handyman in Salisbury" variant="navy" />
 
-    {outerPage.faqs && outerPage.faqs.length > 0 && (
-      <FAQAccordion faqs={outerPage.faqs} />
+    {outerActiveFaqs.length > 0 && (
+      <FAQAccordion faqs={outerActiveFaqs} />
     )}
   </InfoLayout>
 )}
 
 <style>
   /* Core page body */
+  .page-intro { font-size: 1.05rem; color: var(--text-muted); line-height: 1.75; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--orange); }
+  .article-intro { font-size: 1.05rem; color: var(--text-muted); line-height: 1.75; margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
   .page-body__img { width: 100%; border-radius: var(--radius-lg); margin-bottom: 1.5rem; aspect-ratio: 16/9; object-fit: cover; }
   .page-body__inner { display: grid; grid-template-columns: 1fr 280px; gap: 2.5rem; align-items: start; }
   .page-body__content h2 { color: var(--navy); margin-bottom: .75rem; }
