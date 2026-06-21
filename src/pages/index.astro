@@ -1,7 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
+import TrustBadges from '../components/TrustBadges.astro';
 import TrustBar from '../components/TrustBar.astro';
+import GoogleReviews from '../components/GoogleReviews.astro';
 import ServiceGrid from '../components/ServiceGrid.astro';
 import CTABanner from '../components/CTABanner.astro';
 import ReviewsSection from '../components/ReviewsSection.astro';
@@ -33,7 +35,9 @@ const faqs = [
     ctaPrimary={{ text: 'Get a Free Quote', href: '#quote' }}
     ctaSecondary={{ text: 'Call Now', href: `tel:${site.phone}` }}
   />
+  <TrustBadges />
   <TrustBar />
+  <GoogleReviews />
   <ServiceGrid heading="Our Services" />
   <CTABanner
     heading="Emergency? We Can Help Today."

@@ -1,0 +1,269 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+
+const lastUpdated = '21 June 2026';
+---
+
+<BaseLayout
+  title="Cookie Policy | FixWell Services"
+  description="FixWell Services cookie policy. What cookies we use, why, and how to control them."
+  canonical={`${site.url}/cookie-policy`}
+  noindex={false}
+>
+  <div class="policy-page">
+    <div class="container">
+      <header class="policy-header">
+        <span class="tag">Legal</span>
+        <h1>Cookie Policy</h1>
+        <p class="policy-meta">Last updated: {lastUpdated}</p>
+      </header>
+
+      <div class="policy-body">
+
+        <section aria-labelledby="cp-what">
+          <h2 id="cp-what">What are cookies?</h2>
+          <p>
+            Cookies are small text files placed on your device when you visit a website. They are widely
+            used to make sites work properly, remember your preferences, and provide information to
+            website owners.
+          </p>
+          <p>
+            Under the UK Privacy and Electronic Communications Regulations (PECR), we must get your
+            consent before placing any cookies that are not strictly necessary.
+          </p>
+        </section>
+
+        <section aria-labelledby="cp-types">
+          <h2 id="cp-types">Cookies we use</h2>
+
+          <h3>Strictly necessary cookies</h3>
+          <p>
+            These cookies are essential for the website to function. They do not track you or collect
+            marketing information. They are set automatically and do not require your consent.
+          </p>
+          <div class="cookie-table-wrap">
+            <table class="cookie-table">
+              <thead>
+                <tr>
+                  <th scope="col">Cookie name</th>
+                  <th scope="col">Purpose</th>
+                  <th scope="col">Duration</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>fixwell_cookie_consent</code></td>
+                  <td>Stores your cookie preference (accepted or declined) so the banner is not shown on every visit.</td>
+                  <td>Persistent (until cleared)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Analytics cookies (optional — consent required)</h3>
+          <p>
+            If you accept analytics cookies, we use Google Analytics to understand how visitors
+            use our site. This helps us improve content and user experience. No personally identifiable
+            information is collected by Google Analytics.
+          </p>
+          <div class="cookie-table-wrap">
+            <table class="cookie-table">
+              <thead>
+                <tr>
+                  <th scope="col">Cookie name</th>
+                  <th scope="col">Purpose</th>
+                  <th scope="col">Duration</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>_ga</code></td>
+                  <td>Distinguishes unique users by assigning a randomly generated number as a client identifier.</td>
+                  <td>2 years</td>
+                </tr>
+                <tr>
+                  <td><code>_ga_*</code></td>
+                  <td>Maintains session state for Google Analytics 4.</td>
+                  <td>2 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Google Analytics data is processed by Google LLC. For more information, see
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>
+            and <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google's Analytics opt-out browser add-on</a>.
+          </p>
+        </section>
+
+        <section aria-labelledby="cp-manage">
+          <h2 id="cp-manage">How to manage your cookie preferences</h2>
+
+          <h3>Change your choice on this site</h3>
+          <p>
+            You can update your cookie preference at any time. Clicking the button below will clear
+            your saved choice and show the cookie consent banner again on the next page load.
+          </p>
+          <button id="reset-consent" class="btn btn--outline" type="button">
+            Review cookie settings
+          </button>
+
+          <h3>Browser settings</h3>
+          <p>
+            You can also control cookies through your browser settings. Most browsers allow you to
+            block, delete, or receive alerts when cookies are set. Note that blocking all cookies
+            may affect how some sites work.
+          </p>
+          <ul>
+            <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer">Google Chrome</a></li>
+            <li><a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer" target="_blank" rel="noopener noreferrer">Mozilla Firefox</a></li>
+            <li><a href="https://support.apple.com/en-gb/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer">Apple Safari</a></li>
+            <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer">Microsoft Edge</a></li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="cp-privacy">
+          <h2 id="cp-privacy">More information</h2>
+          <p>
+            For full details of how we handle your personal data, please read our
+            <a href="/privacy-policy">Privacy Policy</a>.
+          </p>
+          <p>
+            If you have questions about our use of cookies, contact us at
+            <a href={`mailto:${site.email}`}>{site.email}</a>.
+          </p>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  // "Review cookie settings" button — clears the stored consent and reloads to show the banner
+  const resetBtn = document.getElementById('reset-consent');
+  resetBtn && resetBtn.addEventListener('click', function () {
+    localStorage.removeItem('fixwell_cookie_consent');
+    window.location.reload();
+  });
+</script>
+
+<style>
+  .policy-page {
+    padding-block: 3rem 4rem;
+  }
+
+  .policy-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .policy-header h1 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+
+  .policy-meta {
+    font-size: .875rem;
+    color: var(--text-light);
+  }
+
+  .policy-body {
+    max-width: 720px;
+  }
+
+  .policy-body section {
+    margin-bottom: 2.5rem;
+  }
+
+  .policy-body h2 {
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+    padding-bottom: .375rem;
+    border-bottom: 2px solid var(--bg-dark);
+  }
+
+  .policy-body h3 {
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: .5rem;
+    color: var(--navy);
+  }
+
+  .policy-body p {
+    color: var(--text-muted);
+    font-size: .95rem;
+    line-height: 1.75;
+    margin-bottom: .75rem;
+  }
+
+  .policy-body ul {
+    padding-left: 1.25rem;
+    margin-bottom: .75rem;
+  }
+
+  .policy-body ul li {
+    color: var(--text-muted);
+    font-size: .95rem;
+    line-height: 1.75;
+    margin-bottom: .25rem;
+  }
+
+  .policy-body a {
+    color: var(--navy-light);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .policy-body a:hover { color: var(--navy); }
+
+  .policy-body code {
+    font-family: monospace;
+    background: var(--bg-light);
+    border: 1px solid var(--border);
+    padding: .1em .35em;
+    border-radius: 4px;
+    font-size: .875em;
+    color: var(--navy);
+  }
+
+  .cookie-table-wrap {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+  }
+
+  .cookie-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .875rem;
+  }
+
+  .cookie-table th {
+    background: var(--bg-light);
+    color: var(--navy);
+    font-weight: 700;
+    text-align: left;
+    padding: .625rem 1rem;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  .cookie-table td {
+    padding: .625rem 1rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.6;
+  }
+
+  .cookie-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  #reset-consent {
+    margin-bottom: 1.25rem;
+  }
+</style>

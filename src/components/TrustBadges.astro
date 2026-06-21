@@ -1,0 +1,118 @@
+---
+// ⚠️  NOT FOR PRODUCTION until Daniel provides real certificate numbers/images.
+// Replace the [PLACEHOLDER] values in the HTML comments below with:
+//   - Public Liability: the actual policy number from the insurance certificate
+//   - DBS: the actual DBS certificate reference number
+---
+
+<section class="trust-badges" aria-label="Credentials and certifications">
+  <div class="container">
+    <div class="trust-badges__grid">
+
+      <!-- Badge: Public Liability Insurance -->
+      <div class="trust-badge">
+        <div class="trust-badge__icon" aria-hidden="true">
+          <svg viewBox="0 0 52 52" width="52" height="52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26 4L7 13v13c0 11.05 8.36 21.38 19 24 10.64-2.62 19-12.95 19-24V13L26 4z" fill="var(--navy)" opacity=".1"/>
+            <path d="M26 4L7 13v13c0 11.05 8.36 21.38 19 24 10.64-2.62 19-12.95 19-24V13L26 4z" stroke="var(--navy)" stroke-width="2.5" stroke-linejoin="round"/>
+            <polyline points="17,26 23,33 36,19" stroke="var(--orange)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="trust-badge__body">
+          <strong class="trust-badge__title">Public Liability Insured</strong>
+          <p class="trust-badge__desc">All work covered up to £2 million — your property is protected.</p>
+          <!--
+            NOT FOR PRODUCTION: Uncomment and fill in the real policy number below once Daniel provides it.
+            <span class="trust-badge__cert">Policy No. [PLACEHOLDER]</span>
+          -->
+        </div>
+      </div>
+
+      <!-- Badge: DBS Checked -->
+      <div class="trust-badge">
+        <div class="trust-badge__icon" aria-hidden="true">
+          <svg viewBox="0 0 52 52" width="52" height="52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="11" y="7" width="30" height="38" rx="5" fill="var(--navy)" opacity=".1"/>
+            <rect x="11" y="7" width="30" height="38" rx="5" stroke="var(--navy)" stroke-width="2.5"/>
+            <circle cx="26" cy="22" r="6" stroke="var(--navy)" stroke-width="2.2" fill="none"/>
+            <path d="M15 38c0-6.08 4.92-11 11-11s11 4.92 11 11" stroke="var(--navy)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+            <circle cx="36" cy="38" r="7" fill="var(--orange)"/>
+            <polyline points="33,38 35.5,40.5 39.5,36" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="trust-badge__body">
+          <strong class="trust-badge__title">DBS Checked</strong>
+          <p class="trust-badge__desc">Enhanced background checks carried out — safe to invite into your home.</p>
+          <!--
+            NOT FOR PRODUCTION: Uncomment and fill in the real certificate number below once Daniel provides it.
+            <span class="trust-badge__cert">DBS Certificate [PLACEHOLDER]</span>
+          -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .trust-badges {
+    background: var(--bg);
+    padding-block: 1.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .trust-badges__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+
+  .trust-badge {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--bg-light);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+  }
+
+  .trust-badge__icon {
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+  }
+
+  .trust-badge__body {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+  }
+
+  .trust-badge__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.3;
+  }
+
+  .trust-badge__desc {
+    font-size: .875rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .trust-badge__cert {
+    display: inline-block;
+    font-size: .75rem;
+    color: var(--text-light);
+    margin-top: .15rem;
+  }
+
+  @media (max-width: 600px) {
+    .trust-badges__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

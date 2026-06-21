@@ -1,0 +1,249 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+
+// Last updated: 2026-06-21
+const lastUpdated = '21 June 2026';
+---
+
+<BaseLayout
+  title="Privacy Policy | FixWell Services"
+  description="FixWell Services privacy policy. How we collect, use, and protect your personal data under UK GDPR."
+  canonical={`${site.url}/privacy-policy`}
+  noindex={false}
+>
+  <div class="policy-page">
+    <div class="container">
+      <header class="policy-header">
+        <span class="tag">Legal</span>
+        <h1>Privacy Policy</h1>
+        <p class="policy-meta">Last updated: {lastUpdated}</p>
+      </header>
+
+      <div class="policy-body">
+
+        <section aria-labelledby="pp-controller">
+          <h2 id="pp-controller">1. Who we are</h2>
+          <p>
+            FixWell Services is the data controller for any personal information collected through
+            this website or in connection with our services.
+          </p>
+          {/* ⚠️ NOT FOR PRODUCTION: Fill in business details below before launch */}
+          {/* Daniel to provide: registered business name (if different), full address, and a dedicated contact email for data requests */}
+          <ul>
+            <li><strong>Business name:</strong> FixWell Services <!-- [BUSINESS NAME if different] --></li>
+            <li><strong>Address:</strong> {site.address} <!-- [FULL BUSINESS ADDRESS — PO Box not sufficient for ICO registration if needed] --></li>
+            <li><strong>Email:</strong> <a href={`mailto:${site.email}`}>{site.email}</a> <!-- [DATA PROTECTION CONTACT EMAIL — can be same as above] --></li>
+            <li><strong>Phone:</strong> <a href={`tel:${site.phone}`}>{site.phoneDisplay}</a></li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="pp-data">
+          <h2 id="pp-data">2. What data we collect and why</h2>
+
+          <h3>Contact form submissions</h3>
+          <p>
+            When you use the enquiry or quote request form on our website, we collect your
+            <strong>name, email address, phone number,</strong> and the <strong>message or description of work</strong>
+            you provide. We use this information solely to respond to your enquiry and, if you go ahead,
+            to carry out the work you have requested.
+          </p>
+          <p>
+            <strong>Lawful basis:</strong> Legitimate interests (responding to a pre-contractual enquiry)
+            and, once work is agreed, performance of a contract.
+          </p>
+
+          <h3>Google Analytics (analytics cookies — consent required)</h3>
+          <p>
+            If you accept analytics cookies, we use Google Analytics to collect information about
+            how visitors use our website — for example, which pages are visited, how long visitors
+            stay, and where they came from. This data is aggregated and does not directly identify you.
+            Google Analytics sets cookies including <code>_ga</code> and <code>_ga_*</code> on your device.
+          </p>
+          <p>
+            <strong>Lawful basis:</strong> Consent. You can withdraw consent at any time via the
+            cookie banner (reload the page after clearing the consent cookie) or through your browser
+            cookie settings.
+          </p>
+
+          <h3>Google Reviews widget</h3>
+          <p>
+            Our website displays sample customer review content. We do not transmit your personal data
+            to Google as a result of viewing this section. If you follow the "Read reviews on Google"
+            link, you will be taken to Google's platform and Google's own privacy policy will apply.
+          </p>
+        </section>
+
+        <section aria-labelledby="pp-sharing">
+          <h2 id="pp-sharing">3. Who we share your data with</h2>
+          <p>
+            We do not sell, rent, or trade your personal information. We may share data with the
+            following categories of third party, only to the extent necessary:
+          </p>
+          <ul>
+            <li>
+              <strong>FormSubmit.co</strong> — our contact form is processed through FormSubmit, which
+              forwards your submission to our email address. FormSubmit does not store your data beyond
+              what is needed to deliver the email.
+            </li>
+            <li>
+              <strong>Google LLC</strong> — if you have consented to analytics cookies, usage data is
+              sent to Google Analytics (operated by Google LLC, USA). Google is certified under
+              the EU-US Data Privacy Framework. See
+              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's privacy policy</a>.
+            </li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="pp-retention">
+          <h2 id="pp-retention">4. How long we keep your data</h2>
+          <p>
+            Enquiry and contact form data is kept for up to
+            <!-- ⚠️ [PLACEHOLDER: adjust retention period to suit your business practice, e.g. "12 months" or "2 years"] -->
+            <strong>12 months</strong>
+            from the date of your last contact, after which it is securely deleted. If you become a
+            customer, we may retain records of work carried out for up to 6 years for legal and
+            warranty purposes.
+          </p>
+          <p>
+            Google Analytics data is retained in accordance with our Google Analytics retention settings,
+            currently set to 14 months.
+          </p>
+        </section>
+
+        <section aria-labelledby="pp-rights">
+          <h2 id="pp-rights">5. Your rights</h2>
+          <p>Under UK GDPR you have the right to:</p>
+          <ul>
+            <li><strong>Access</strong> — request a copy of the personal data we hold about you.</li>
+            <li><strong>Rectification</strong> — ask us to correct inaccurate data.</li>
+            <li><strong>Erasure</strong> — ask us to delete your data (subject to legal retention obligations).</li>
+            <li><strong>Restriction</strong> — ask us to limit processing in certain circumstances.</li>
+            <li><strong>Objection</strong> — object to processing based on legitimate interests.</li>
+            <li><strong>Portability</strong> — receive your data in a portable format where processing is automated.</li>
+            <li>
+              <strong>Withdraw consent</strong> — where we rely on your consent (analytics cookies),
+              you can withdraw it at any time without affecting the lawfulness of prior processing.
+            </li>
+          </ul>
+          <p>
+            To exercise any of these rights, email us at
+            <a href={`mailto:${site.email}`}>{site.email}</a>.
+            We will respond within 30 days.
+          </p>
+        </section>
+
+        <section aria-labelledby="pp-ico">
+          <h2 id="pp-ico">6. Complaints</h2>
+          <p>
+            If you are unhappy with how we handle your data, you have the right to lodge a complaint
+            with the UK's data protection regulator:
+          </p>
+          <p>
+            <strong>Information Commissioner's Office (ICO)</strong><br />
+            Website: <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a><br />
+            Helpline: 0303 123 1113
+          </p>
+        </section>
+
+        <section aria-labelledby="pp-cookies">
+          <h2 id="pp-cookies">7. Cookies</h2>
+          <p>
+            For full details of the cookies we use and how to manage them, see our
+            <a href="/cookie-policy">Cookie Policy</a>.
+          </p>
+        </section>
+
+        <section aria-labelledby="pp-changes">
+          <h2 id="pp-changes">8. Changes to this policy</h2>
+          <p>
+            We may update this privacy policy from time to time. The "last updated" date at the top
+            of this page will always reflect the most recent version. Continued use of the site after
+            changes are posted constitutes acceptance of the updated policy.
+          </p>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .policy-page {
+    padding-block: 3rem 4rem;
+  }
+
+  .policy-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .policy-header h1 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+
+  .policy-meta {
+    font-size: .875rem;
+    color: var(--text-light);
+  }
+
+  .policy-body {
+    max-width: 720px;
+  }
+
+  .policy-body section {
+    margin-bottom: 2.5rem;
+  }
+
+  .policy-body h2 {
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+    padding-bottom: .375rem;
+    border-bottom: 2px solid var(--bg-dark);
+  }
+
+  .policy-body h3 {
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: .375rem;
+    color: var(--navy);
+  }
+
+  .policy-body p {
+    color: var(--text-muted);
+    font-size: .95rem;
+    line-height: 1.75;
+    margin-bottom: .75rem;
+  }
+
+  .policy-body ul {
+    padding-left: 1.25rem;
+    margin-bottom: .75rem;
+  }
+
+  .policy-body ul li {
+    color: var(--text-muted);
+    font-size: .95rem;
+    line-height: 1.75;
+    margin-bottom: .25rem;
+  }
+
+  .policy-body a {
+    color: var(--navy-light);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .policy-body a:hover { color: var(--navy); }
+
+  .policy-body code {
+    font-family: monospace;
+    background: var(--bg-light);
+    border: 1px solid var(--border);
+    padding: .1em .35em;
+    border-radius: 4px;
+    font-size: .875em;
+    color: var(--navy);
+  }
+</style>

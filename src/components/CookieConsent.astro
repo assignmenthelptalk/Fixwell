@@ -1,0 +1,182 @@
+---
+// TODO before launch: Replace G-PLACEHOLDER with the real GA4 Measurement ID.
+// Find it in Google Analytics → Admin → Data Streams → your stream → Measurement ID.
+// The ID looks like: G-XXXXXXXXXX
+const GA_MEASUREMENT_ID = 'G-PLACEHOLDER';
+---
+
+<!--
+  Cookie consent banner — PECR / UK GDPR compliant.
+  - Shows on first visit (no consent choice stored).
+  - On "Accept": sets localStorage flag and dynamically loads Google Analytics.
+  - On "Necessary only": sets localStorage flag and does NOT load GA.
+  - Does not re-show once a choice has been made.
+  - GA script is NEVER loaded unconditionally — only after explicit acceptance.
+-->
+<div
+  id="cookie-banner"
+  class="cookie-banner"
+  role="dialog"
+  aria-modal="false"
+  aria-label="Cookie consent"
+  aria-live="polite"
+  hidden
+>
+  <div class="cookie-banner__inner">
+    <div class="cookie-banner__text">
+      <strong>We use cookies</strong>
+      <p>
+        We use strictly necessary cookies to remember your preferences, and optional analytics
+        cookies (Google Analytics) to understand how visitors use our site.
+        You can accept all cookies or use necessary cookies only.
+        See our <a href="/cookie-policy" class="cookie-banner__link">Cookie Policy</a> and
+        <a href="/privacy-policy" class="cookie-banner__link">Privacy Policy</a>.
+      </p>
+    </div>
+    <div class="cookie-banner__actions">
+      <button id="cookie-accept" class="btn btn--primary" type="button">
+        Accept all
+      </button>
+      <button id="cookie-decline" class="btn btn--outline" type="button">
+        Necessary only
+      </button>
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ GA_MEASUREMENT_ID }}>
+  (function () {
+    const CONSENT_KEY = 'fixwell_cookie_consent';
+    const banner = document.getElementById('cookie-banner');
+    const acceptBtn = document.getElementById('cookie-accept');
+    const declineBtn = document.getElementById('cookie-decline');
+
+    function loadGA() {
+      // Guard: don't inject twice
+      if (document.getElementById('ga-script')) return;
+      // Guard: don't load placeholder ID in production
+      if (GA_MEASUREMENT_ID === 'G-PLACEHOLDER') return;
+
+      const script = document.createElement('script');
+      script.id = 'ga-script';
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+      script.async = true;
+      document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', GA_MEASUREMENT_ID, { anonymize_ip: true });
+    }
+
+    function hideBanner() {
+      if (banner) banner.hidden = true;
+    }
+
+    function showBanner() {
+      if (banner) banner.hidden = false;
+    }
+
+    // Check stored preference on every page load
+    var stored = localStorage.getItem(CONSENT_KEY);
+
+    if (stored === 'accepted') {
+      loadGA();
+    } else if (stored === null) {
+      // No choice yet — show the banner
+      showBanner();
+    }
+    // stored === 'declined': do nothing, banner stays hidden
+
+    acceptBtn && acceptBtn.addEventListener('click', function () {
+      localStorage.setItem(CONSENT_KEY, 'accepted');
+      hideBanner();
+      loadGA();
+    });
+
+    declineBtn && declineBtn.addEventListener('click', function () {
+      localStorage.setItem(CONSENT_KEY, 'declined');
+      hideBanner();
+    });
+  })();
+</script>
+
+<style>
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: var(--navy-dark);
+    color: white;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, .25);
+  }
+
+  .cookie-banner__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1rem 1.25rem;
+    width: min(1200px, 100%);
+    margin-inline: auto;
+  }
+
+  .cookie-banner__text {
+    flex: 1;
+  }
+
+  .cookie-banner__text strong {
+    display: block;
+    color: white;
+    font-size: .95rem;
+    margin-bottom: .25rem;
+  }
+
+  .cookie-banner__text p {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, .75);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .cookie-banner__link {
+    color: rgba(255, 255, 255, .9);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .cookie-banner__link:hover { color: white; }
+
+  .cookie-banner__actions {
+    display: flex;
+    gap: .75rem;
+    flex-shrink: 0;
+  }
+
+  /* Override btn--outline colours for dark background */
+  .cookie-banner .btn--outline {
+    color: white;
+    border-color: rgba(255, 255, 255, .5);
+  }
+  .cookie-banner .btn--outline:hover {
+    background: rgba(255, 255, 255, .1);
+    border-color: white;
+  }
+
+  @media (max-width: 700px) {
+    .cookie-banner__inner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .cookie-banner__actions {
+      width: 100%;
+    }
+    .cookie-banner__actions .btn {
+      flex: 1;
+      justify-content: center;
+    }
+  }
+</style>
