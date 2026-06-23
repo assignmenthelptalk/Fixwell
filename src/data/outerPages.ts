@@ -52,7 +52,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         q: 'Does a handyman need to be qualified?',
-        a: 'There is no single mandatory licence for handyman work in the UK, though professional handymen hold relevant qualifications and insurance. Specific tasks have legal requirements — gas work requires Gas Safe registration, major electrical work requires Part P competence. Always check that your handyman is fully insured.',
+        a: 'There is no single mandatory licence for handyman work in the UK, though professional handymen hold relevant qualifications and insurance. Specific tasks have legal requirements: gas work requires Gas Safe registration, major electrical work requires Part P competence. Always check that your handyman is fully insured.',
       },
       {
         q: 'How much does a handyman charge per hour in the UK?',
@@ -93,7 +93,7 @@ export const outerHubPages: OuterPage[] = [
     faqs: [
       {
         q: 'Do handymen in Salisbury charge a call-out fee?',
-        a: 'Some handymen charge a minimum call-out fee for small jobs. FixWell Services will discuss this when you book — we aim to be transparent about all costs upfront.',
+        a: 'Some handymen charge a minimum call-out fee for small jobs. FixWell Services will discuss this when you book. We aim to be transparent about all costs upfront.',
       },
       {
         q: 'Are materials included in the handyman price?',
@@ -305,11 +305,11 @@ export const outerHubPages: OuterPage[] = [
     sections: [
       {
         heading: 'What Counts as a Home Emergency?',
-        body: 'A home emergency is any situation that poses an immediate risk to safety, security, or the structural integrity of your property — or that will cause significantly more damage if not addressed within hours rather than days. Knowing the difference between an emergency and a routine repair helps you get the right help at the right speed.',
+        body: 'A home emergency is any situation that poses an immediate risk to safety, security, or the structural integrity of your property, or that will cause significantly more damage if not addressed within hours rather than days. Knowing the difference between an emergency and a routine repair helps you get the right help at the right speed.',
       },
       {
         heading: 'Plumbing Emergencies',
-        body: "Burst or rapidly leaking pipes require immediate attention — turn off the water at the stopcock and call for emergency help straight away. A slow drip from a tap is not an emergency, but a joint failure under the floor or in the wall cavity is. Signs of water damage (staining, bubbling paint, wet carpets) also warrant urgent inspection, as the source may not be visible.",
+        body: "Burst or rapidly leaking pipes require immediate attention. Turn off the water at the stopcock and call for emergency help straight away. A slow drip from a tap is not an emergency, but a joint failure under the floor or in the wall cavity is. Signs of water damage (staining, bubbling paint, wet carpets) also warrant urgent inspection, as the source may not be visible.",
       },
       {
         heading: 'Electrical Emergencies',
@@ -317,7 +317,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'Security Emergencies',
-        body: 'A broken or jammed front or back door lock is a same-day emergency — your home is not secure. Storm damage that leaves a door, window, or roof section open to the weather requires immediate temporary boarding or repair. Do not wait until the next working day for security issues.',
+        body: 'A broken or jammed front or back door lock is a same-day emergency. Your home is not secure. Storm damage that leaves a door, window, or roof section open to the weather requires immediate temporary boarding or repair. Do not wait until the next working day for security issues.',
       },
       {
         heading: 'Heating and Hot Water Failure',
@@ -354,7 +354,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'Where DIY Becomes Risky',
-        body: 'The risks of DIY increase significantly when the job involves: working at height (roofs, ladders, second-floor windows); live electrical work; gas fittings; structural changes; waterproofing and damp prevention; and any repair where doing it wrong could void your home insurance or affect resale value. Getting these wrong can be costly — and in some cases dangerous.',
+        body: 'The risks of DIY increase significantly when the job involves: working at height (roofs, ladders, second-floor windows); live electrical work; gas fittings; structural changes; waterproofing and damp prevention; and any repair where doing it wrong could void your home insurance or affect resale value. Getting these wrong can be costly, and in some cases dangerous.',
       },
       {
         heading: 'UK Legal Restrictions on DIY Work',
@@ -395,15 +395,15 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'Gutters and Drainage',
-        body: 'Autumn leaves block gutters quickly. Blocked gutters overflow, directing water against your fascias, soffits, and walls — leading to damp, rot, and in severe cases, structural damage. Get gutters cleared in October or November. Check that all downpipes are free-flowing and draining away from the building.',
+        body: 'Autumn leaves block gutters quickly. Blocked gutters overflow, directing water against your fascias, soffits, and walls, leading to damp, rot, and in severe cases, structural damage. Get gutters cleared in October or November. Check that all downpipes are free-flowing and draining away from the building.',
       },
       {
         heading: 'Pipes and Boiler',
-        body: 'Insulate any water pipes in unheated spaces — loft, garage, or under a suspended floor. Know where your stopcock is so you can turn off the water quickly in case of a burst pipe. Service your boiler before winter — boiler engineers are busiest in November and December when breakdowns are most common. Bleed radiators to remove trapped air.',
+        body: 'Insulate any water pipes in unheated spaces: loft, garage, or under a suspended floor. Know where your stopcock is so you can turn off the water quickly in case of a burst pipe. Service your boiler before winter, as boiler engineers are busiest in November and December when breakdowns are most common. Bleed radiators to remove trapped air.',
       },
       {
         heading: 'Roof and Structure',
-        body: 'Have your roof inspected in autumn — missing or slipped tiles, cracked ridge tiles, and deteriorating flashings will admit water and worsen under frost. Check chimney pointing if you have an active chimney. Look for signs of damage to flat roofs or felt valleys.',
+        body: 'Have your roof inspected in autumn: missing or slipped tiles, cracked ridge tiles, and deteriorating flashings will admit water and worsen under frost. Check chimney pointing if you have an active chimney. Look for signs of damage to flat roofs or felt valleys.',
       },
       {
         heading: 'Doors, Windows, and Draught-Proofing',
@@ -443,7 +443,7 @@ export const outerSubPages: OuterPage[] = [
       },
       {
         heading: "Landlord Maintenance Obligations Under an AST",
-        body: "Under Section 11 of the Landlord and Tenant Act 1985, landlords with AST agreements must maintain: the structure and exterior of the property; heating and hot water installations; gas and electrical installations; sanitation (baths, sinks, toilets, drains). These obligations cannot be removed by the tenancy agreement — they apply regardless of what the contract says.",
+        body: "Under Section 11 of the Landlord and Tenant Act 1985, landlords with AST agreements must maintain: the structure and exterior of the property; heating and hot water installations; gas and electrical installations; sanitation (baths, sinks, toilets, drains). These obligations cannot be removed by the tenancy agreement. They apply regardless of what the contract says.",
       },
       {
         heading: "Tenant Responsibilities Under an AST",
@@ -472,7 +472,7 @@ export const outerSubPages: OuterPage[] = [
     sections: [
       {
         heading: 'The Challenges of Managing a Property from a Distance',
-        body: "Many landlords in Salisbury and Wiltshire live elsewhere in the UK or abroad. Managing a rental property remotely brings specific challenges: responding quickly to tenant maintenance requests, arranging inspections, handling emergencies, and staying on top of compliance requirements — all without being physically present.",
+        body: "Many landlords in Salisbury and Wiltshire live elsewhere in the UK or abroad. Managing a rental property remotely brings specific challenges: responding quickly to tenant maintenance requests, arranging inspections, handling emergencies, and staying on top of compliance requirements, all without being physically present.",
       },
       {
         heading: 'Building a Reliable Local Contractor Relationship',
@@ -505,7 +505,7 @@ export const outerSubPages: OuterPage[] = [
     sections: [
       {
         heading: "Wiltshire's Garden Calendar",
-        body: "Wiltshire has a temperate oceanic climate — mild and wet in winter, warm and moderately dry in summer. Gardens in Salisbury and the surrounding chalk downland can be exposed to strong winds, and clay soils in the vale areas can become waterlogged in winter. Understanding your soil type and microclimate helps you plan seasonal maintenance effectively.",
+        body: "Wiltshire has a temperate oceanic climate, mild and wet in winter, warm and moderately dry in summer. Gardens in Salisbury and the surrounding chalk downland can be exposed to strong winds, and clay soils in the vale areas can become waterlogged in winter. Understanding your soil type and microclimate helps you plan seasonal maintenance effectively.",
       },
       {
         heading: 'Spring (March–May)',
@@ -513,11 +513,11 @@ export const outerSubPages: OuterPage[] = [
       },
       {
         heading: 'Summer (June–August)',
-        body: "Regular lawn mowing, hedge trimming, and watering in dry spells. Check timber fences and treat with preservative if they haven't been done recently. Repair any fence panels or post damage before autumn storms. Check drainage around the property — address any pooling water while conditions are dry.",
+        body: "Regular lawn mowing, hedge trimming, and watering in dry spells. Check timber fences and treat with preservative if they haven't been done recently. Repair any fence panels or post damage before autumn storms. Check drainage around the property. Address any pooling water while conditions are dry.",
       },
       {
         heading: 'Autumn (September–November)',
-        body: 'Leaf clearance is essential — blocked drains, slippery paths, and gutter overflow are the main autumn risks. Apply lawn treatments. Cut back overgrown shrubs and trees before strong winds cause damage. Plant spring bulbs.',
+        body: 'Leaf clearance is essential: blocked drains, slippery paths, and gutter overflow are the main autumn risks. Apply lawn treatments. Cut back overgrown shrubs and trees before strong winds cause damage. Plant spring bulbs.',
       },
       {
         heading: 'Winter (December–February)',
@@ -527,7 +527,7 @@ export const outerSubPages: OuterPage[] = [
     faqs: [
       {
         q: 'Do you offer regular garden maintenance in Salisbury?',
-        a: 'Yes. FixWell Services provides seasonal garden maintenance in Salisbury and Wiltshire — including lawn care, hedge trimming, fence repair, gutter clearing, and paving maintenance.',
+        a: 'Yes. FixWell Services provides seasonal garden maintenance in Salisbury and Wiltshire, including lawn care, hedge trimming, fence repair, gutter clearing, and paving maintenance.',
       },
     ],
   },
@@ -558,17 +558,17 @@ export const outerSubPages: OuterPage[] = [
       },
       {
         heading: 'Step 3: Apply Paint',
-        body: "Apply the first coat of gloss or satin with an angled brush, working in the direction of the grain. Keep strokes long and smooth. Allow to dry fully — typically 4–6 hours for gloss. Lightly sand with fine grit and apply a second coat. Two thin coats always outperform one thick coat for durability and finish quality.",
+        body: "Apply the first coat of gloss or satin with an angled brush, working in the direction of the grain. Keep strokes long and smooth. Allow to dry fully, typically 4–6 hours for gloss. Lightly sand with fine grit and apply a second coat. Two thin coats always outperform one thick coat for durability and finish quality.",
       },
       {
         heading: 'Step 4: Remove Masking and Finish',
-        body: "Remove masking tape while the final coat is still slightly tacky — this gives a clean edge. Pull the tape back at a 45-degree angle rather than straight up. Clean any accidental paint from walls with a damp cloth while still wet.",
+        body: "Remove masking tape while the final coat is still slightly tacky: this gives a clean edge. Pull the tape back at a 45-degree angle rather than straight up. Clean any accidental paint from walls with a damp cloth while still wet.",
       },
     ],
     faqs: [
       {
         q: 'Gloss or satin — which paint is best for skirting boards?',
-        a: "Traditional skirting boards are painted in gloss, which is durable and easy to wipe clean. Satin is increasingly popular as it offers a lower sheen that looks more modern and is easier to apply without brush marks. Both are suitable — it's a matter of preference.",
+        a: "Traditional skirting boards are painted in gloss, which is durable and easy to wipe clean. Satin is increasingly popular as it offers a lower sheen that looks more modern and is easier to apply without brush marks. Both are suitable. It is a matter of preference.",
       },
       {
         q: 'How long does it take to paint skirting boards in a room?',
@@ -595,7 +595,7 @@ export const outerSubPages: OuterPage[] = [
     sections: [
       {
         heading: 'Start with a Clear Scope',
-        body: 'The most common cause of renovation projects going over budget is scope creep — starting with one room and gradually expanding. Before any work begins, define clearly what you want to achieve, which rooms are in scope, and what your non-negotiable priorities are. A clear written scope gives contractors a consistent brief and helps you compare quotes fairly.',
+        body: 'The most common cause of renovation projects going over budget is scope creep, starting with one room and gradually expanding. Before any work begins, define clearly what you want to achieve, which rooms are in scope, and what your non-negotiable priorities are. A clear written scope gives contractors a consistent brief and helps you compare quotes fairly.',
       },
       {
         heading: 'Do You Need Planning Permission?',
@@ -603,7 +603,7 @@ export const outerSubPages: OuterPage[] = [
       },
       {
         heading: 'Budgeting for a Renovation',
-        body: "Add a 15–20% contingency to your budget for unexpected findings. Older properties in Salisbury regularly reveal hidden issues when opened up — outdated wiring, damp, structural cracks, or asbestos in materials from the 1960s–1980s. Without a contingency, a single discovery can derail the entire project.",
+        body: "Add a 15–20% contingency to your budget for unexpected findings. Older properties in Salisbury regularly reveal hidden issues when opened up: outdated wiring, damp, structural cracks, or asbestos in materials from the 1960s–1980s. Without a contingency, a single discovery can derail the entire project.",
       },
       {
         heading: 'Sequencing the Work',
@@ -613,7 +613,7 @@ export const outerSubPages: OuterPage[] = [
     faqs: [
       {
         q: 'Can FixWell Services manage a full kitchen or bathroom renovation in Salisbury?',
-        a: 'Yes. We manage renovation projects across Salisbury — coordinating trades, sourcing materials, and carrying out the handyman elements of the work including tiling, painting, carpentry, and fitting. Call us to discuss your project.',
+        a: 'Yes. We manage renovation projects across Salisbury, coordinating trades, sourcing materials, and carrying out the handyman elements of the work including tiling, painting, carpentry, and fitting. Call us to discuss your project.',
       },
       {
         q: 'Do I need building regulations approval for a renovation in Salisbury?',
@@ -636,11 +636,11 @@ export const outerSubPages: OuterPage[] = [
     sections: [
       {
         heading: "Why Older Properties Need Specialist Attention",
-        body: "Salisbury and the surrounding Wiltshire villages have a high proportion of pre-1950 housing — Victorian terraces, Georgian townhouses, Edwardian semis, and older stone cottages. These properties have enormous character and structural solidity, but they also come with a specific set of maintenance and repair challenges that differ from modern builds.",
+        body: "Salisbury and the surrounding Wiltshire villages have a high proportion of pre-1950 housing: Victorian terraces, Georgian townhouses, Edwardian semis, and older stone cottages. These properties have enormous character and structural solidity, but they also come with a specific set of maintenance and repair challenges that differ from modern builds.",
       },
       {
         heading: 'Damp and Moisture Problems',
-        body: "Rising damp, penetrating damp through solid walls, and condensation are common in older properties without cavity walls or modern vapour barriers. Signs include tide marks on walls, peeling plaster, musty smells, and efflorescence (white salt deposits). Identifying the source correctly is critical — treating the symptom without understanding the cause leads to recurring problems.",
+        body: "Rising damp, penetrating damp through solid walls, and condensation are common in older properties without cavity walls or modern vapour barriers. Signs include tide marks on walls, peeling plaster, musty smells, and efflorescence (white salt deposits). Identifying the source correctly is critical. Treating the symptom without understanding the cause leads to recurring problems.",
       },
       {
         heading: 'Cracked and Blown Plaster',
@@ -648,11 +648,11 @@ export const outerSubPages: OuterPage[] = [
       },
       {
         heading: 'Rotting Timber',
-        body: "Window frames, external door frames, soffits, fascias, and structural timbers in older properties are vulnerable to wet rot and dry rot. Wet rot is more common and localised — caused by persistent moisture contact. Dry rot is more serious and can spread through a building if not treated. Early-stage rot in window frames is often repairable; advanced rot requires full replacement.",
+        body: "Window frames, external door frames, soffits, fascias, and structural timbers in older properties are vulnerable to wet rot and dry rot. Wet rot is more common and localised, caused by persistent moisture contact. Dry rot is more serious and can spread through a building if not treated. Early-stage rot in window frames is often repairable; advanced rot requires full replacement.",
       },
       {
         heading: 'Sash Windows',
-        body: "Many older Salisbury properties have original sash windows, which are draughty, rattle in the wind, and often painted shut over decades of redecoration. Common repairs include re-cording the sashes, installing draught-proofing strips, freeing painted-shut windows, and replacing broken glass or putty. Well-maintained original sash windows are a property asset — they are worth repairing rather than replacing.",
+        body: "Many older Salisbury properties have original sash windows, which are draughty, rattle in the wind, and often painted shut over decades of redecoration. Common repairs include re-cording the sashes, installing draught-proofing strips, freeing painted-shut windows, and replacing broken glass or putty. Well-maintained original sash windows are a property asset. They are worth repairing rather than replacing.",
       },
     ],
     faqs: [

@@ -13,20 +13,20 @@
       'Professional handyman in Amesbury, SP4 — home repairs, property maintenance, landlord services and same-day emergency callouts. FixWell Services, 10 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services provides fully insured handyman cover across Amesbury, SP4, and the surrounding area. Our Salisbury base is just 10 miles south via the A303, putting us within 20 minutes of most SP4 addresses — fast enough for genuine same-day emergency response. Whether you need a quick repair in a rented garrison property, a full between-tenancy refresh, or a one-off odd job at home, call us on +44 7391 599 078.',
+      'FixWell Services provides fully insured handyman cover across Amesbury, SP4, and the surrounding area. Our Salisbury base is just 10 miles south via the A303, putting us within 20 minutes of most SP4 addresses, fast enough for genuine same-day emergency response. Whether you need a quick repair in a rented garrison property, a full between-tenancy refresh, or a one-off odd job at home, call us on +44 7391 599 078.',
 
     sections: [
       {
         heading: 'Handyman Services Available in Amesbury, SP4',
-        body: 'FixWell Services covers the full range of handyman and property maintenance work in Amesbury. Our SP4 customers regularly book us for home repairs including leaking taps, faulty sockets, broken locks, sticking doors, and fence damage. We also handle painting and decorating, carpentry and shelving, furniture assembly, gutter clearing, and paving repairs. For landlords and letting agents managing properties in Amesbury, we offer between-tenancy preparation, routine maintenance schedules, and emergency response. There is no job too small — from a single shelf fitting to a full property refresh before a new tenant moves in, FixWell delivers the same professional, insured service you would expect in Salisbury itself.',
+        body: 'FixWell Services covers the full range of handyman and property maintenance work in Amesbury. Our SP4 customers regularly book us for home repairs including leaking taps, faulty sockets, broken locks, sticking doors, and fence damage. We also handle painting and decorating, carpentry and shelving, furniture assembly, gutter clearing, and paving repairs. For landlords and letting agents managing properties in Amesbury, we offer between-tenancy preparation, routine maintenance schedules, and emergency response. There is no job too small: from a single shelf fitting to a full property refresh before a new tenant moves in, FixWell delivers the same professional, insured service you would expect in Salisbury itself.',
       },
       {
         heading: 'Amesbury Properties and the Local Handyman Market',
-        body: 'Amesbury is an army garrison town, and that shapes its property market significantly. Amesbury Garrison and the surrounding Boscombe Down area generate a high density of privately rented properties let to military personnel and their families. High occupant turnover means frequent between-tenancy maintenance: repainting, lock changes, carpentry repairs, and general property refreshes are in constant demand. Beyond the garrison-linked rental stock, Amesbury has a broad mix of housing — post-war semi-detached streets in the town centre, newer developer estates on the outskirts, and older terraced rows near the high street. Stonehenge visitors aside, Amesbury is a working town where practical, reliable tradespeople are needed regularly. FixWell understands this market and works efficiently with landlords, letting agents, and homeowners alike.',
+        body: 'Amesbury is an army garrison town, and that shapes its property market significantly. Amesbury Garrison and the surrounding Boscombe Down area generate a high density of privately rented properties let to military personnel and their families. High occupant turnover means frequent between-tenancy maintenance: repainting, lock changes, carpentry repairs, and general property refreshes are in constant demand. Beyond the garrison-linked rental stock, Amesbury has a broad mix of housing: post-war semi-detached streets in the town centre, newer developer estates on the outskirts, and older terraced rows near the high street. Stonehenge visitors aside, Amesbury is a working town where practical, reliable tradespeople are needed regularly. FixWell understands this market and works efficiently with landlords, letting agents, and homeowners alike.',
       },
       {
         heading: 'How FixWell Services Operates in Amesbury',
-        body: 'Our base in Salisbury puts Amesbury comfortably within our regular service area. The A303 route makes the journey straightforward — typically 20 to 25 minutes in normal traffic, meaning we can respond to emergency callouts the same day across most of SP4. We are available Monday to Sunday, 7am to 8pm, including weekends and bank holidays for urgent repairs. Booking is simple: call +44 7391 599 078 to discuss your job and arrange a time that suits you, or use our online contact form. We provide a clear quote before starting any work — no hidden charges and no surprises on the invoice.',
+        body: 'Our base in Salisbury puts Amesbury comfortably within our regular service area. The A303 route makes the journey straightforward, typically 20 to 25 minutes in normal traffic, meaning we can respond to emergency callouts the same day across most of SP4. We are available Monday to Sunday, 7am to 8pm, including weekends and bank holidays for urgent repairs. Booking is simple: call +44 7391 599 078 to discuss your job and arrange a time that suits you, or use our online contact form. We provide a clear quote before starting any work — no hidden charges and no surprises on the invoice.',
       },
       {
         heading: 'Cost of Handyman Services in Amesbury',
@@ -79,7 +79,7 @@
     sections: [
       {
         heading: 'Handyman Services Available in Wilton, SP2',
-        body: 'FixWell Services provides the full range of handyman and home repair work across Wilton and the SP2 postcode. Wilton residents and landlords regularly call us for carpentry repairs, internal and external painting and decorating, minor plumbing fixes, door and window adjustments, shelf installation, furniture assembly, fence repair, and gutter cleaning. We also offer emergency callouts for urgent repairs — broken locks, burst pipes, and storm damage. Because Wilton is so close to Salisbury, we can often offer same-day or next-morning appointments for both emergency and non-emergency jobs. All work is carried out by fully insured tradespeople, and we always provide a clear quote before starting.',
+        body: 'FixWell Services provides the full range of handyman and home repair work across Wilton and the SP2 postcode. Wilton residents and landlords regularly call us for carpentry repairs, internal and external painting and decorating, minor plumbing fixes, door and window adjustments, shelf installation, furniture assembly, fence repair, and gutter cleaning. We also offer emergency callouts for urgent repairs: broken locks, burst pipes, and storm damage. Because Wilton is so close to Salisbury, we can often offer same-day or next-morning appointments for both emergency and non-emergency jobs. All work is carried out by fully insured tradespeople, and we always provide a clear quote before starting.',
       },
       {
         heading: 'Wilton\'s Period Properties and What They Need',
@@ -106,7 +106,7 @@
       },
       {
         q: 'Can you fix original sash windows in Wilton period properties?',
-        a: 'Yes. Sash window repairs are a regular job for us in Wilton and the wider Salisbury area. We replace broken cords, re-hang sashes, adjust weights, and repair frames — restoring the window to smooth, draught-free operation without replacing the original joinery.',
+        a: 'Yes. Sash window repairs are a regular job for us in Wilton and the wider Salisbury area. We replace broken cords, re-hang sashes, adjust weights, and repair frames, restoring the window to smooth, draught-free operation without replacing the original joinery.',
       },
       {
         q: 'Do you know how to fix shelves in solid stone and brick walls?',
@@ -167,7 +167,7 @@
       },
       {
         q: 'Can you handle between-tenancy preparation for garrison rental properties?',
-        a: 'Yes — this is one of the most common jobs we carry out in Tidworth. A typical between-tenancy job includes repainting rooms, minor carpentry repairs, lock changes, fixture replacements, and a general condition check. We can complete most single-let properties in one to three days.',
+        a: 'Yes, this is one of the most common jobs we carry out in Tidworth. A typical between-tenancy job includes repainting rooms, minor carpentry repairs, lock changes, fixture replacements, and a general condition check. We can complete most single-let properties in one to three days.',
       },
       {
         q: 'Do you work with letting agents managing Tidworth properties?',
@@ -175,7 +175,7 @@
       },
       {
         q: 'Is emergency handyman cover available in Tidworth?',
-        a: 'Yes. We offer same-day emergency response in Tidworth for urgent repairs — broken locks, burst pipes, storm damage, and electrical faults. Call +44 7391 599 078 and we will prioritise your callout.',
+        a: 'Yes. We offer same-day emergency response in Tidworth for urgent repairs: broken locks, burst pipes, storm damage, and electrical faults. Call +44 7391 599 078 and we will prioritise your callout.',
       },
       {
         q: 'Do you charge a travel supplement for Tidworth callouts?',
@@ -183,7 +183,7 @@
       },
       {
         q: 'Can you carry out regular scheduled maintenance for multiple Tidworth properties?',
-        a: 'Yes. For landlords with several properties in the Tidworth area, we can arrange scheduled maintenance visits — combining jobs across multiple addresses in a single trip to reduce both cost and admin. Call us to discuss a maintenance programme.',
+        a: 'Yes. For landlords with several properties in the Tidworth area, we can arrange scheduled maintenance visits, combining jobs across multiple addresses in a single trip to reduce both cost and admin. Call us to discuss a maintenance programme.',
       },
     ],
   },
@@ -209,7 +209,7 @@
       },
       {
         heading: 'How FixWell Operates in Fordingbridge',
-        body: 'Fordingbridge is 11 miles from our Salisbury base — a straightforward drive south on the A338, passing through the Avon valley. We typically reach Fordingbridge in under 20 minutes, which makes same-day emergency response reliable for SP6. We cover Fordingbridge Monday to Sunday, 7am to 8pm. For non-emergency jobs, we usually offer appointments within 2 to 3 days. Call +44 7391 599 078 to describe your job and receive a clear quote. We confirm the scope, agree a time, and arrive when expected — no chasing required.',
+        body: 'Fordingbridge is 11 miles from our Salisbury base, a straightforward drive south on the A338 through the Avon valley. We typically reach Fordingbridge in under 20 minutes, which makes same-day emergency response reliable for SP6. We cover Fordingbridge Monday to Sunday, 7am to 8pm. For non-emergency jobs, we usually offer appointments within 2 to 3 days. Call +44 7391 599 078 to describe your job and receive a clear quote. We confirm the scope, agree a time, and arrive when expected — no chasing required.',
       },
       {
         heading: 'Cost of Handyman Services in Fordingbridge',
@@ -228,7 +228,7 @@
       },
       {
         q: 'Can you repair fences and gates for rural properties outside Fordingbridge town?',
-        a: 'Yes. We regularly carry out fence and gate repairs for properties on the rural fringe around Fordingbridge — including post replacement, panel repairs, post concreting, and gate rehinging. Call us to arrange a site visit for an accurate quote.',
+        a: 'Yes. We regularly carry out fence and gate repairs for properties on the rural fringe around Fordingbridge, including post replacement, panel repairs, post concreting, and gate rehinging. Call us to arrange a site visit for an accurate quote.',
       },
       {
         q: 'Do you work on period cottages and older properties in Fordingbridge?',
@@ -270,7 +270,7 @@
       },
       {
         heading: 'How FixWell Operates in Downton',
-        body: 'Downton is 7 miles south of our Salisbury base — a 12 to 15 minute journey along the A338 through the Avon valley. This proximity makes same-day emergency response highly reliable for SP5: if you have a burst pipe, a broken lock, or storm damage to a fence, we can respond quickly. For non-emergency planned work, we typically offer appointments within 1 to 2 days for Downton. We are available Monday to Sunday, 7am to 8pm. To book or get a quote, call +44 7391 599 078. We discuss the job, confirm the approach (particularly important for period properties where the right technique matters), and agree a time that suits you.',
+        body: 'Downton is 7 miles south of our Salisbury base, a 12 to 15 minute journey along the A338 through the Avon valley. This proximity makes same-day emergency response highly reliable for SP5: if you have a burst pipe, a broken lock, or storm damage to a fence, we can respond quickly. For non-emergency planned work, we typically offer appointments within 1 to 2 days for Downton. We are available Monday to Sunday, 7am to 8pm. To book or get a quote, call +44 7391 599 078. We discuss the job, confirm the approach (particularly important for period properties where the right technique matters), and agree a time that suits you.',
       },
       {
         heading: 'Handyman Costs in Downton',
@@ -289,7 +289,7 @@
       },
       {
         q: 'Can you repair and repaint original timber features in Downton cottages?',
-        a: 'Yes. We regularly work on period timber features in Downton — skirting boards, panel doors, window frames, dado rails, and staircase joinery. We use appropriate primers and paints for original timber and prepare surfaces properly before finishing.',
+        a: 'Yes. We regularly work on period timber features in Downton: skirting boards, panel doors, window frames, dado rails, and staircase joinery. We use appropriate primers and paints for original timber and prepare surfaces properly before finishing.',
       },
       {
         q: 'Do you know how to fix things to solid flint or stone walls in Downton?',
@@ -354,7 +354,7 @@
       },
       {
         q: 'Can you batch multiple Andover properties into a single maintenance visit?',
-        a: 'Yes. For landlords with several properties in Andover, we can plan a single trip covering multiple addresses — carrying out between-tenancy work, repairs, or condition checks across your portfolio in one visit. This reduces per-property cost and travel time.',
+        a: 'Yes. For landlords with several properties in Andover, we can plan a single trip covering multiple addresses, carrying out between-tenancy work, repairs, or condition checks across your portfolio in one visit. This reduces per-property cost and travel time.',
       },
       {
         q: 'Is same-day emergency handyman cover available in Andover?',
@@ -366,7 +366,7 @@
       },
       {
         q: 'Can you carry out between-tenancy preparation for Andover rental properties?',
-        a: 'Yes. Between-tenancy preparation is one of the most common jobs we carry out for Andover landlords. A typical package includes minor carpentry repairs, repainting rooms and woodwork, lock changes, fixture replacements, and a general condition check — completed between the outgoing and incoming tenancy to minimise void time.',
+        a: 'Yes. Between-tenancy preparation is one of the most common jobs we carry out for Andover landlords. A typical package includes minor carpentry repairs, repainting rooms and woodwork, lock changes, fixture replacements, and a general condition check, completed between the outgoing and incoming tenancy to minimise void time.',
       },
     ],
   },

@@ -53,7 +53,7 @@ export const outerHubContent: Record<
     faqs: [
       {
         q: 'Is a handyman the same as a builder?',
-        a: "No. A builder typically handles structural, groundwork, and large-scale construction projects — extensions, new walls, drainage connections, loft conversions. A handyman specialises in smaller-scale repair, maintenance, and improvement work that doesn\'t require structural alteration or planning permission. There is some overlap in carpentry and general repairs, but a handyman will not carry out load-bearing structural work.",
+        a: "No. A builder typically handles structural, groundwork, and large-scale construction projects, including extensions, new walls, drainage connections, and loft conversions. A handyman specialises in smaller-scale repair, maintenance, and improvement work that doesn\'t require structural alteration or planning permission. There is some overlap in carpentry and general repairs, but a handyman will not carry out load-bearing structural work.",
       },
       {
         q: 'Does a handyman need to be qualified in the UK?',
@@ -65,7 +65,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'Can a handyman do plumbing in the UK?',
-        a: 'Yes, for minor repairs. UK regulations allow non-Gas Safe individuals to repair or replace like-for-like plumbing fittings — taps, washers, valves, toilet mechanisms, and visible pipes. Gas work is strictly restricted to Gas Safe registered engineers. A competent handyman will be transparent about which plumbing tasks fall within their scope.',
+        a: 'Yes, for minor repairs. UK regulations allow non-Gas Safe individuals to repair or replace like-for-like plumbing fittings, including taps, washers, valves, toilet mechanisms, and visible pipes. Gas work is strictly restricted to Gas Safe registered engineers. A competent handyman will be transparent about which plumbing tasks fall within their scope.',
       },
       {
         q: 'Can a handyman do electrical work in the UK?',
@@ -123,11 +123,11 @@ export const outerHubContent: Record<
       },
       {
         q: 'How much does a full day of handyman work cost in Salisbury?',
-        a: "A full working day (7–8 hours) of professional handyman work in Salisbury typically costs £160–£280 for labour, depending on the rate and the nature of the work. A day\'s handyman visit is an efficient way to work through a list of accumulated jobs that have been building up — combining small repairs, maintenance, and improvement tasks that individually wouldn\'t justify a separate call-out.",
+        a: "A full working day (7–8 hours) of professional handyman work in Salisbury typically costs £160–£280 for labour, depending on the rate and the nature of the work. A day\'s handyman visit is an efficient way to work through a list of accumulated jobs that have been building up, combining small repairs, maintenance, and improvement tasks that individually wouldn\'t justify a separate call-out.",
       },
       {
         q: 'How do handyman costs in Salisbury compare to national averages?',
-        a: "Salisbury handyman rates (£20–£40/hr) are broadly in line with the South England average outside London, and significantly cheaper than London rates (£40–£80/hr). You are unlikely to find professional, fully insured handyman work for less than £20/hr anywhere in the South of England — rates significantly below market often indicate lack of insurance, undeclared work, or inexperience.",
+        a: "Salisbury handyman rates (£20–£40/hr) are broadly in line with the South England average outside London, and significantly cheaper than London rates (£40–£80/hr). You are unlikely to find professional, fully insured handyman work for less than £20/hr anywhere in the South of England. Rates significantly below market often indicate lack of insurance, undeclared work, or inexperience.",
       },
       {
         q: 'Can I get a fixed-price quote for handyman work in Salisbury?',
@@ -169,7 +169,7 @@ export const outerHubContent: Record<
     faqs: [
       {
         q: 'Can a handyman do plumbing in the UK?',
-        a: 'Yes, for minor repairs and like-for-like replacements. Replacing tap washers, cartridges, and valves, repairing visible pipe joints, replacing toilet cistern mechanisms, and fitting new taps (tap-to-existing-fitting connections) are all within handyman scope. Gas work is strictly prohibited for anyone without Gas Safe registration. If you are unsure whether your plumbing job is within handyman scope, describe it to a professional handyman — they will tell you honestly.',
+        a: 'Yes, for minor repairs and like-for-like replacements. Replacing tap washers, cartridges, and valves, repairing visible pipe joints, replacing toilet cistern mechanisms, and fitting new taps (tap-to-existing-fitting connections) are all within handyman scope. Gas work is strictly prohibited for anyone without Gas Safe registration. If you are unsure whether your plumbing job is within handyman scope, describe it to a professional handyman. They will tell you honestly.',
       },
       {
         q: 'Can a handyman do electrical work in the UK?',
@@ -227,7 +227,7 @@ export const outerHubContent: Record<
     faqs: [
       {
         q: "Are landlords responsible for garden maintenance under the Landlord and Tenant Act 1985?",
-        a: "Section 11 of the LTA 1985 does not extend to garden maintenance — this is typically the tenant\'s responsibility under the tenancy agreement. However, landlords remain responsible for boundary fences and structural garden features (retaining walls, external steps) that form part of the property structure. Tenancy agreements should be specific about garden maintenance obligations to avoid disputes at the end of the tenancy.",
+        a: "Section 11 of the LTA 1985 does not extend to garden maintenance. This is typically the tenant\'s responsibility under the tenancy agreement. However, landlords remain responsible for boundary fences and structural garden features (retaining walls, external steps) that form part of the property structure. Tenancy agreements should be specific about garden maintenance obligations to avoid disputes at the end of the tenancy.",
       },
       {
         q: "What happens if a landlord ignores a tenant\'s repair request in Salisbury?",
@@ -235,7 +235,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'How often must a landlord carry out a gas safety check?',
-        a: "Every year. The Gas Safety (Installation and Use) Regulations 1998 require an annual check by a Gas Safe registered engineer. The Gas Safety Record must be provided to the tenant within 28 days of the check. There is no exemption for 'new' appliances or recently purchased properties — the obligation runs from the start of every tenancy and continues annually throughout.",
+        a: "Every year. The Gas Safety (Installation and Use) Regulations 1998 require an annual check by a Gas Safe registered engineer. The Gas Safety Record must be provided to the tenant within 28 days of the check. There is no exemption for 'new' appliances or recently purchased properties. The obligation runs from the start of every tenancy and continues annually throughout.",
       },
       {
         q: 'What is an EICR and how often do landlords need one in England?',
@@ -343,7 +343,7 @@ export const outerHubContent: Record<
     faqs: [
       {
         q: 'Should a handyman be insured in Wiltshire?',
-        a: "Yes. Any professional handyman working in your property should carry public liability insurance with a minimum of £1 million cover. This protects you if the handyman causes damage to your property or injury to a third party during the work. Always ask for proof of insurance before work starts. A professional will provide this without hesitation — reluctance to do so is a clear red flag.",
+        a: "Yes. Any professional handyman working in your property should carry public liability insurance with a minimum of £1 million cover. This protects you if the handyman causes damage to your property or injury to a third party during the work. Always ask for proof of insurance before work starts. A professional will provide this without hesitation. Reluctance to do so is a clear red flag.",
       },
       {
         q: 'What is TrustMark and should I look for a TrustMark handyman?',
@@ -363,7 +363,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'Is there a difference in reliability between sole-trader and larger handyman companies?',
-        a: "Not inherently — sole traders and small companies can be equally reliable or unreliable. What matters is insurance, verifiable reviews, local presence, and professional conduct — not business size. Some of the most reliable handymen operating in Wiltshire are experienced sole traders who have built a strong local reputation over many years. Use the questions and verification steps above regardless of business size.",
+        a: "Not inherently — sole traders and small companies can be equally reliable or unreliable. What matters is insurance, verifiable reviews, local presence, and professional conduct, not business size. Some of the most reliable handymen operating in Wiltshire are experienced sole traders who have built a strong local reputation over many years. Use the questions and verification steps above regardless of business size.",
       },
     ],
   },
@@ -405,15 +405,15 @@ export const outerHubContent: Record<
       },
       {
         q: 'What is the national gas emergency number?',
-        a: "The National Gas Emergency Service number is 0800 111 999. This is free, available 24 hours a day, seven days a week, and covers any gas emergency — smell of gas, suspected gas leak, or concerns about gas appliances. If you smell gas, open windows, leave the building, do not use switches or appliances, and call this number immediately before calling any other service.",
+        a: "The National Gas Emergency Service number is 0800 111 999. This is free, available 24 hours a day, seven days a week, and covers any gas emergency, including a smell of gas, suspected gas leak, or concerns about gas appliances. If you smell gas, open windows, leave the building, do not use switches or appliances, and call this number immediately before calling any other service.",
       },
       {
         q: 'Is a broken door lock an emergency?',
-        a: "Yes — any situation where your home cannot be secured is a same-day emergency. A broken or jammed door lock leaves your property unsecured against access and may also affect the validity of your home insurance policy, which typically requires you to take reasonable steps to prevent loss. FixWell Services carries out emergency lock repair and temporary boarding across Salisbury on the same day.",
+        a: "Yes. Any situation where your home cannot be secured is a same-day emergency. A broken or jammed door lock leaves your property unsecured against access and may also affect the validity of your home insurance policy, which typically requires you to take reasonable steps to prevent loss. FixWell Services carries out emergency lock repair and temporary boarding across Salisbury on the same day.",
       },
       {
         q: 'What should I do if my pipe bursts while I am away?',
-        a: "If you are away and discover via a neighbour or alert system that a pipe has burst: ask a trusted neighbour to turn off the stopcock if they have access and know where it is. Call FixWell Services on +44 7391 599 078 — we work with remote landlords and homeowners who need emergency response without being physically present. Notify your home insurer as promptly as possible — delayed notification can affect your claim.",
+        a: "If you are away and discover via a neighbour or alert system that a pipe has burst: ask a trusted neighbour to turn off the stopcock if they have access and know where it is. Call FixWell Services on +44 7391 599 078. We work with remote landlords and homeowners who need emergency response without being physically present. Notify your home insurer as promptly as possible, as delayed notification can affect your claim.",
       },
       {
         q: 'Does a handyman cover emergency repairs or only planned work?',
@@ -421,7 +421,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'How quickly can FixWell Services respond to an emergency in Salisbury?',
-        a: "For genuine emergencies — broken locks, storm damage, burst pipes — FixWell Services aims for same-day response across Salisbury. Call +44 7391 599 078 as early as possible in the day. For out-of-hours emergencies, leave a message and we will call back at the earliest opportunity. Salisbury city and close surroundings are typically reachable within 30–60 minutes during working hours.",
+        a: "For genuine emergencies such as broken locks, storm damage, and burst pipes, FixWell Services aims for same-day response across Salisbury. Call +44 7391 599 078 as early as possible in the day. For out-of-hours emergencies, leave a message and we will call back at the earliest opportunity. Salisbury city and close surroundings are typically reachable within 30–60 minutes during working hours.",
       },
     ],
   },

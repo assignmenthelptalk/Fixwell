@@ -45,7 +45,7 @@
       },
       {
         q: 'What does an EICR check and how often is it required for rented properties?',
-        a: 'An Electrical Installation Condition Report (EICR) assesses the condition of all fixed electrical wiring, consumer units, sockets, switches, and earthing in the property. It must be carried out every five years by a qualified electrician. New tenants must receive a copy before moving in. The report codes faults as C1 (immediate danger — requires action within 28 days), C2 (potentially dangerous — 28 days), or C3 (recommendation only).',
+        a: 'An Electrical Installation Condition Report (EICR) assesses the condition of all fixed electrical wiring, consumer units, sockets, switches, and earthing in the property. It must be carried out every five years by a qualified electrician. New tenants must receive a copy before moving in. The report codes faults as C1 (immediate danger: requires action within 28 days), C2 (potentially dangerous: 28 days), or C3 (recommendation only).',
       },
       {
         q: 'Does the Homes (Fitness for Human Habitation) Act 2018 apply to existing tenancies?',
@@ -87,14 +87,14 @@
       },
       {
         heading: 'Emergency Maintenance Protocol — What to Have Ready Before a Crisis',
-        body: 'Define your emergency protocol before a tenant calls at 11pm on a Friday. The categories that constitute a genuine maintenance emergency are: loss of heating or hot water between October and April; water ingress causing active flooding or ceiling damage; a security breach (broken lock, storm-damaged door or window); total loss of electrical power; and any gas smell (National Gas Emergency Service: 0800 111 999 — this is always the first call for gas). For each emergency category, your tenant should have a pre-written contact card that tells them who to call, in what order. Your local handyman or maintenance provider should be contactable out of hours and authorised to respond immediately up to your pre-agreed spend threshold. For remote landlords in Salisbury, FixWell Services works with several landlords based outside Wiltshire — holding a spare key, responding to tenant calls, and keeping landlords informed by phone or email throughout.',
+        body: 'Define your emergency protocol before a tenant calls at 11pm on a Friday. The categories that constitute a genuine maintenance emergency are: loss of heating or hot water between October and April; water ingress causing active flooding or ceiling damage; a security breach (broken lock, storm-damaged door or window); total loss of electrical power; and any gas smell (National Gas Emergency Service: 0800 111 999. This is always the first call for gas). For each emergency category, your tenant should have a pre-written contact card that tells them who to call, in what order. Your local handyman or maintenance provider should be contactable out of hours and authorised to respond immediately up to your pre-agreed spend threshold. For remote landlords in Salisbury, FixWell Services works with several landlords based outside Wiltshire — holding a spare key, responding to tenant calls, and keeping landlords informed by phone or email throughout.',
       },
     ],
 
     faqs: [
       {
         q: 'Do I need a letting agent if I live outside the UK and rent a property in Salisbury?',
-        a: 'Not legally, but practically you need a local contact. The Non-Resident Landlord Scheme requires your letting agent (if you use one) to deduct tax at source — or you can apply to HMRC via form NRL1 to receive rents gross. There is no legal requirement to use a formal letting agent for property management, but having a trusted local maintenance contact is essential for meeting your repair obligations.',
+        a: 'Not legally, but practically you need a local contact. The Non-Resident Landlord Scheme requires your letting agent (if you use one) to deduct tax at source, or you can apply to HMRC via form NRL1 to receive rents gross. There is no legal requirement to use a formal letting agent for property management, but having a trusted local maintenance contact is essential for meeting your repair obligations.',
       },
       {
         q: 'How often must a landlord inspect a rental property in England?',
@@ -123,7 +123,7 @@
     metaDescription:
       'Seasonal garden maintenance guide for Wiltshire — chalk downland and clay vale soil conditions, frost dates, spring through winter task lists, and common Wiltshire garden issues explained.',
     intro:
-      'Wiltshire\'s gardens sit across two distinct soil types that demand different approaches: the free-draining, alkaline chalk downlands that ring Salisbury to the north, east, and south, and the heavier, moisture-retentive clay vale soils of the river valleys — the Avon, Wylye, and Nadder. Average last frost in the Salisbury area falls in late March to early April, with occasional late frosts into May on exposed downland sites. Annual rainfall is moderate at around 750mm — enough to support most garden plants but insufficient to prevent drought stress on chalk soils in dry summers. Understanding which soil type and microclimate you are working with is the foundation of effective seasonal maintenance.',
+      'Wiltshire\'s gardens sit across two distinct soil types that demand different approaches: the free-draining, alkaline chalk downlands that ring Salisbury to the north, east, and south, and the heavier, moisture-retentive clay vale soils of the river valleys: the Avon, Wylye, and Nadder. Average last frost in the Salisbury area falls in late March to early April, with occasional late frosts into May on exposed downland sites. Annual rainfall is moderate at around 750mm — enough to support most garden plants but insufficient to prevent drought stress on chalk soils in dry summers. Understanding which soil type and microclimate you are working with is the foundation of effective seasonal maintenance.',
 
     sections: [
       {
@@ -155,11 +155,11 @@
       },
       {
         q: 'What grass seed is best for chalk downland gardens in Wiltshire?',
-        a: 'For chalk or alkaline soils, choose a drought-tolerant fine fescue mix — ideally one containing Festuca rubra (creeping red fescue) and Festuca ovina (sheep\'s fescue). These perform better on thin, dry chalk soils than ryegrass-dominated mixes, which need more consistent moisture.',
+        a: 'For chalk or alkaline soils, choose a drought-tolerant fine fescue mix, ideally one containing Festuca rubra (creeping red fescue) and Festuca ovina (sheep\'s fescue). These perform better on thin, dry chalk soils than ryegrass-dominated mixes, which need more consistent moisture.',
       },
       {
         q: 'Can I trim my hedge during nesting season?',
-        a: 'You should not trim hedges between March and August inclusive when birds may be nesting. This is a legal protection under the Wildlife and Countryside Act 1981 — disturbing an active nest is an offence. Formal hedges (box, yew) are best trimmed in late August or September; informal hedges in late winter before March.',
+        a: 'You should not trim hedges between March and August inclusive when birds may be nesting. This is a legal protection under the Wildlife and Countryside Act 1981. Disturbing an active nest is an offence. Formal hedges (box, yew) are best trimmed in late August or September; informal hedges in late winter before March.',
       },
       {
         q: 'Why do my patio slabs keep lifting in Wiltshire?',
@@ -171,7 +171,7 @@
       },
       {
         q: 'Does FixWell Services carry out seasonal garden maintenance in Salisbury?',
-        a: 'Yes. FixWell Services provides seasonal garden maintenance across Salisbury and Wiltshire — including lawn care, hedge trimming, fence and gate repair, paving re-laying, gutter clearing, and general outdoor property maintenance. We can arrange regular seasonal visits or one-off tidy-ups. Call +44 7391 599 078 to discuss your garden.',
+        a: 'Yes. FixWell Services provides seasonal garden maintenance across Salisbury and Wiltshire, including lawn care, hedge trimming, fence and gate repair, paving re-laying, gutter clearing, and general outdoor property maintenance. We can arrange regular seasonal visits or one-off tidy-ups. Call +44 7391 599 078 to discuss your garden.',
       },
     ],
   },
@@ -180,7 +180,7 @@
     metaDescription:
       'Complete guide to painting skirting boards — oil-based gloss vs water-based satin, preparation steps, protecting carpets, coats required, drying times, and common mistakes to avoid.',
     intro:
-      'Freshly painted skirting boards transform a room more than almost any other single decoration task — and the difference between a professional result and a patchy, peeling one comes down almost entirely to preparation and paint selection, not technique. The two core decisions are paint type (oil-based gloss versus water-based satin) and preparation quality. Get both right and the application itself is straightforward. This guide covers every step: surface preparation, filling and priming, floor and carpet protection, application technique, drying times, and the finishing details that separate a durable result from one that chips within a year.',
+      'Freshly painted skirting boards transform a room more than almost any other single decoration task. The difference between a professional result and a patchy, peeling one comes down almost entirely to preparation and paint selection, not technique. The two core decisions are paint type (oil-based gloss versus water-based satin) and preparation quality. Get both right and the application itself is straightforward. This guide covers every step: surface preparation, filling and priming, floor and carpet protection, application technique, drying times, and the finishing details that separate a durable result from one that chips within a year.',
 
     sections: [
       {
@@ -212,11 +212,11 @@
       },
       {
         q: 'How long should I leave skirting board paint to dry before putting furniture back?',
-        a: 'Allow a minimum of 24 hours before placing furniture against water-based satin, and 48 hours for oil-based gloss. Note that surface-dry and fully hard are different — paint may feel dry to touch after 2–4 hours but will not have achieved its full hardness for 7–14 days. Furniture pushed hard against fresh paint before full cure can leave impressions.',
+        a: 'Allow a minimum of 24 hours before placing furniture against water-based satin, and 48 hours for oil-based gloss. Note that surface-dry and fully hard are different: paint may feel dry to touch after 2–4 hours but will not have achieved its full hardness for 7–14 days. Furniture pushed hard against fresh paint before full cure can leave impressions.',
       },
       {
         q: 'Do I need to use primer before painting skirting boards?',
-        a: 'Primer is required on bare wood sections and strongly recommended when switching from oil-based to water-based paint. If you are re-coating previously painted skirting with the same type of paint and the existing coat is sound (no flaking or peeling), thorough sanding and cleaning is sufficient — primer is not required. If the existing paint is in poor condition, it is better to prime after sanding back.',
+        a: 'Primer is required on bare wood sections and strongly recommended when switching from oil-based to water-based paint. If you are re-coating previously painted skirting with the same type of paint and the existing coat is sound (no flaking or peeling), thorough sanding and cleaning is sufficient. Primer is not required. If the existing paint is in poor condition, it is better to prime after sanding back.',
       },
       {
         q: 'Why is my skirting board paint coming off in chips?',
@@ -224,11 +224,11 @@
       },
       {
         q: 'Can I paint skirting boards without removing them?',
-        a: 'Yes — in most cases this is the preferred approach. Removing skirting boards risks splitting them, particularly on older properties where they may be nailed in or have been painted in place many times. Careful masking and a good angled brush gives a professional result without removal. Only remove skirting boards if they are badly damaged and need replacement.',
+        a: 'Yes, in most cases this is the preferred approach. Removing skirting boards risks splitting them, particularly on older properties where they may be nailed in or have been painted in place many times. Careful masking and a good angled brush gives a professional result without removal. Only remove skirting boards if they are badly damaged and need replacement.',
       },
       {
         q: 'How many litres of paint do I need for skirting boards in a typical room?',
-        a: 'A standard bedroom with 10–12 linear metres of skirting at 100mm height requires approximately 150–200ml per coat — less than half a litre for two full coats. Most 750ml tins of satin or gloss are sufficient for an entire small house. Always use the same batch number for a room to avoid slight colour variation between tins.',
+        a: 'A standard bedroom with 10–12 linear metres of skirting at 100mm height requires approximately 150–200ml per coat, less than half a litre for two full coats. Most 750ml tins of satin or gloss are sufficient for an entire small house. Always use the same batch number for a room to avoid slight colour variation between tins.',
       },
     ],
   },
@@ -281,7 +281,7 @@
       },
       {
         q: 'Can I remove a chimney breast in a Salisbury property?',
-        a: 'Chimney breast removal requires Building Regulations approval as it is a structural alteration — chimney breasts are typically load-bearing. In a listed building, it also requires listed building consent. A structural engineer must calculate the new beam or support required, and a Wiltshire Council building inspector must sign off the work. Never remove a chimney breast without full Building Regulations compliance.',
+        a: 'Chimney breast removal requires Building Regulations approval as it is a structural alteration, as chimney breasts are typically load-bearing. In a listed building, it also requires listed building consent. A structural engineer must calculate the new beam or support required, and a Wiltshire Council building inspector must sign off the work. Never remove a chimney breast without full Building Regulations compliance.',
       },
       {
         q: 'How do I find a reliable builder for a renovation project in Salisbury?',
@@ -322,11 +322,11 @@
     faqs: [
       {
         q: 'How do I tell the difference between rising damp and condensation in an older Salisbury property?',
-        a: 'Rising damp produces a horizontal tide mark up to about 1m from floor level, often with white salt deposits (efflorescence) and plaster failure at low level — and it tends to be worse in winter when the ground is wetter. Condensation appears as mould growth in cold spots: corners, north-facing walls, behind furniture, and in window reveals. It is worst in winter when the property is heated and ventilation is reduced. If the mould is above 1m and in corners rather than at floor level, condensation is the likely cause. An independent RICS surveyor can distinguish them accurately.',
+        a: 'Rising damp produces a horizontal tide mark up to about 1m from floor level, often with white salt deposits (efflorescence) and plaster failure at low level, and it tends to be worse in winter when the ground is wetter. Condensation appears as mould growth in cold spots: corners, north-facing walls, behind furniture, and in window reveals. It is worst in winter when the property is heated and ventilation is reduced. If the mould is above 1m and in corners rather than at floor level, condensation is the likely cause. An independent RICS surveyor can distinguish them accurately.',
       },
       {
         q: 'Why is my Victorian brick pointing crumbling and what mortar should be used to repoint it?',
-        a: 'Crumbling pointing in Victorian brickwork is usually either end-of-life original lime mortar or failed OPC mortar that was applied too hard for the brick. Victorian brick should be repointed with Natural Hydraulic Lime mortar — NHL 3.5 for most brick, NHL 2 for soft or friable brick. Never use standard OPC sand-cement mortar: it is too rigid, traps moisture, and causes spalling of the bricks over time.',
+        a: 'Crumbling pointing in Victorian brickwork is usually either end-of-life original lime mortar or failed OPC mortar that was applied too hard for the brick. Victorian brick should be repointed with Natural Hydraulic Lime mortar: NHL 3.5 for most brick, NHL 2 for soft or friable brick. Never use standard OPC sand-cement mortar: it is too rigid, traps moisture, and causes spalling of the bricks over time.',
       },
       {
         q: 'Can wet rot in a window frame be repaired without full replacement?',

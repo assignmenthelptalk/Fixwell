@@ -56,7 +56,7 @@ export const coreHubPages: CorePage[] = [
     faqs: [
       {
         q: 'What handyman services do you offer in Salisbury?',
-        a: 'FixWell Services covers the full range of home repair and maintenance work in Salisbury and Wiltshire — including plumbing repairs, electrical fixes, carpentry, painting, fence repair, garden maintenance, and emergency callouts. No job is too small.',
+        a: 'FixWell Services covers the full range of home repair and maintenance work in Salisbury and Wiltshire, including plumbing repairs, electrical fixes, carpentry, painting, fence repair, garden maintenance, and emergency callouts. No job is too small.',
       },
       {
         q: 'Are you fully insured?',
@@ -139,7 +139,7 @@ export const coreHubPages: CorePage[] = [
     faqs: [
       {
         q: 'What does property maintenance include?',
-        a: 'Our property maintenance service in Salisbury covers routine inspection and repair of plumbing, electrical fittings, doors and windows, gutters, fencing, and garden areas — as well as seasonal upkeep and compliance checks for rental properties.',
+        a: 'Our property maintenance service in Salisbury covers routine inspection and repair of plumbing, electrical fittings, doors and windows, gutters, fencing, and garden areas, as well as seasonal upkeep and compliance checks for rental properties.',
       },
       {
         q: 'Can you set up a regular maintenance schedule?',
@@ -216,7 +216,7 @@ export const coreHubPages: CorePage[] = [
       },
       {
         q: 'Do you work on older properties in Salisbury?',
-        a: 'Yes. Salisbury has many period and older properties, and we have experience working on Victorian and Edwardian homes — including sash windows, solid walls, and older plumbing and electrical systems.',
+        a: 'Yes. Salisbury has many period and older properties, and we have experience working on Victorian and Edwardian homes, including sash windows, solid walls, and older plumbing and electrical systems.',
       },
       {
         q: 'Can you do repairs the same week?',
@@ -279,7 +279,7 @@ export const coreHubPages: CorePage[] = [
       },
       {
         q: 'Can you repair or replace garden fences in Salisbury?',
-        a: 'Yes. We repair and replace garden fences across Salisbury and Wiltshire — including leaning posts, broken panels, post concreting, and storm damage repairs.',
+        a: 'Yes. We repair and replace garden fences across Salisbury and Wiltshire, including leaning posts, broken panels, post concreting, and storm damage repairs.',
       },
     ],
   },
@@ -300,11 +300,11 @@ export const coreHubPages: CorePage[] = [
     faqs: [
       {
         q: 'Do you do interior and exterior painting in Salisbury?',
-        a: 'Yes. We handle both interior and exterior painting and decorating across Salisbury — from full room redecoration to exterior fencing, gates, and masonry painting.',
+        a: 'Yes. We handle both interior and exterior painting and decorating across Salisbury, from full room redecoration to exterior fencing, gates, and masonry painting.',
       },
       {
         q: 'Can you paint skirting boards without damaging the carpet?',
-        a: 'Absolutely. We use professional masking techniques to protect carpets and flooring during skirting board painting — a detail that makes a big difference to the finished result.',
+        a: 'Absolutely. We use professional masking techniques to protect carpets and flooring during skirting board painting, a detail that makes a big difference to the finished result.',
       },
     ],
   },
@@ -383,7 +383,7 @@ export const coreHubPages: CorePage[] = [
       },
       {
         q: 'Do you need to be a qualified plumber to do plumbing repairs?',
-        a: 'For minor repairs such as fixing taps, replacing washers, and unblocking drains, a qualified handyman can legally carry out the work. For gas work or major plumbing installations, a Gas Safe registered engineer is required — we will advise if that applies to your job.',
+        a: 'For minor repairs such as fixing taps, replacing washers, and unblocking drains, a qualified handyman can legally carry out the work. For gas work or major plumbing installations, a Gas Safe registered engineer is required. We will advise if that applies to your job.',
       },
     ],
   },
@@ -494,7 +494,7 @@ export const tier2ServicePages: CorePage[] = [
     faqs: [
       {
         q: 'How often should gutters be cleaned in Salisbury?',
-        a: 'We recommend cleaning gutters at least once a year — ideally in late autumn after leaves have fallen. Properties with overhanging trees may need cleaning twice a year.',
+        a: 'We recommend cleaning gutters at least once a year, ideally in late autumn after leaves have fallen. Properties with overhanging trees may need cleaning twice a year.',
       },
     ],
   },
@@ -614,7 +614,7 @@ export const tier2ServicePages: CorePage[] = [
     faqs: [
       {
         q: 'My door is dragging on the floor — can you fix it?',
-        a: 'Yes. A dragging door is usually caused by loose or bent hinges, a swollen door, or a settled door frame. We diagnose the cause and carry out the right repair — hinge tightening, re-hanging, or planing the door edge.',
+        a: 'Yes. A dragging door is usually caused by loose or bent hinges, a swollen door, or a settled door frame. We diagnose the cause and carry out the right repair: hinge tightening, re-hanging, or planing the door edge.',
       },
     ],
   },
@@ -654,7 +654,7 @@ export const tier2ServicePages: CorePage[] = [
     faqs: [
       {
         q: 'Can you re-tile a bathroom in Salisbury?',
-        a: 'Yes. We carry out bathroom tiling in Salisbury — either re-tiling full walls or replacing damaged tiles. We prepare surfaces properly and use the right adhesive and grout for wet areas.',
+        a: 'Yes. We carry out bathroom tiling in Salisbury, either re-tiling full walls or replacing damaged tiles. We prepare surfaces properly and use the right adhesive and grout for wet areas.',
       },
     ],
   },
@@ -680,7 +680,7 @@ export const locationPages: CorePage[] = [
     faqs: [
       {
         q: 'Do you provide handyman services in Amesbury?',
-        a: 'Yes. FixWell Services regularly covers Amesbury and the surrounding Wiltshire area. We offer the same fully insured, professional handyman service as our Salisbury customers — including emergency callouts.',
+        a: 'Yes. FixWell Services regularly covers Amesbury and the surrounding Wiltshire area. We offer the same fully insured, professional handyman service as our Salisbury customers, including emergency callouts.',
       },
       {
         q: 'How far is Amesbury from Salisbury?',

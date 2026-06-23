@@ -12,13 +12,13 @@
   // ─────────────────────────────────────────────────────────────────────────────
   'handyman-services-salisbury': {
     metaDescription:
-      'Professional, fully insured handyman services in Salisbury and Wiltshire. Home repairs, property maintenance, emergency callouts, carpentry, plumbing, decorating and renovation. Call FixWell Services on 07391 599 078.',
+      'Professional, fully insured handyman services in Salisbury and Wiltshire. Home repairs, property maintenance, emergency callouts, carpentry, plumbing, decorating and renovation. Call FixWell Services on +44 7391 599 078.',
     intro:
-      'FixWell Services provides professional, fully insured handyman services across Salisbury and the surrounding Wiltshire area — covering everything from emergency callouts and minor plumbing to carpentry, decorating, and full property maintenance. Rates start from £20 per hour with fixed-price quotes available for defined-scope jobs. Call 07391 599 078 or use the contact form to arrange a free quote.',
+      'FixWell Services provides professional, fully insured handyman services across Salisbury and the surrounding Wiltshire area, covering everything from emergency callouts and minor plumbing to carpentry, decorating, and full property maintenance. Rates start from £20 per hour with fixed-price quotes available for defined-scope jobs. Call +44 7391 599 078 or use the contact form to arrange a free quote.',
     sections: [
       {
         heading: 'What a Professional Handyman Service in Salisbury Includes',
-        body: 'A professional handyman carries out a broad range of property maintenance and repair work that sits within defined trade boundaries. In Salisbury and across Wiltshire, FixWell Services operates within the legal scope established by UK Building Regulations Part P (minor electrical work), the Water Regulations 1999 (minor plumbing), and standard carpentry and decorating practice — referring work to Gas Safe registered engineers or qualified electricians when the task falls outside that scope. This means customers in SP1, SP2, SP4, and the wider Wiltshire postcode districts receive a single point of contact for the vast majority of household repairs, without the cost and delay of booking multiple separate trades. FixWell Services is fully covered by public liability insurance on every job, providing reassurance for homeowners, landlords, and tenants across Salisbury.',
+        body: 'A professional handyman carries out a broad range of property maintenance and repair work that sits within defined trade boundaries. In Salisbury and across Wiltshire, FixWell Services operates within the legal scope established by UK Building Regulations Part P (minor electrical work), the Water Regulations 1999 (minor plumbing), and standard carpentry and decorating practice, referring work to Gas Safe registered engineers or qualified electricians when the task falls outside that scope. This means customers in SP1, SP2, SP4, and the wider Wiltshire postcode districts receive a single point of contact for the vast majority of household repairs, without the cost and delay of booking multiple separate trades. FixWell Services is fully covered by public liability insurance on every job, providing reassurance for homeowners, landlords, and tenants across Salisbury.',
       },
       {
         heading: 'Types of Handyman Work FixWell Services Carries Out in Salisbury',
@@ -40,7 +40,7 @@
     faqs: [
       {
         q: 'What handyman services do you offer in Salisbury?',
-        a: 'FixWell Services covers the full range of home repair and maintenance work in Salisbury and Wiltshire — including minor plumbing repairs, carpentry and joinery, painting and decorating, property maintenance, emergency callouts, odd jobs, garden maintenance, and renovation project management. No job is too small.',
+        a: 'FixWell Services covers the full range of home repair and maintenance work in Salisbury and Wiltshire, including minor plumbing repairs, carpentry and joinery, painting and decorating, property maintenance, emergency callouts, odd jobs, garden maintenance, and renovation project management. No job is too small.',
       },
       {
         q: 'Are you fully insured for handyman work in Salisbury?',
@@ -48,7 +48,7 @@
       },
       {
         q: 'What areas do you cover around Salisbury?',
-        a: 'We cover Salisbury (SP1, SP2) as our primary area, and extend to Amesbury (SP4), Wilton and Downton (SP5), Tidworth (SP9), Fordingbridge (SP6), and Andover in north Hampshire. Call us on 07391 599 078 to confirm coverage for your postcode.',
+        a: 'We cover Salisbury (SP1, SP2) as our primary area, and extend to Amesbury (SP4), Wilton and Downton (SP5), Tidworth (SP9), Fordingbridge (SP6), and Andover in north Hampshire. Call us on +44 7391 599 078 to confirm coverage for your postcode.',
       },
       {
         q: 'How much do handyman services cost in Salisbury?',
@@ -56,11 +56,11 @@
       },
       {
         q: 'Can you carry out same-day emergency repairs in Salisbury?',
-        a: 'Yes. FixWell Services offers same-day emergency callouts in Salisbury for urgent repairs including burst pipes, broken door locks, electrical faults, and storm damage. Call 07391 599 078 directly for emergency situations — we aim to respond on the same day across the SP1 and SP2 postcode areas.',
+        a: 'Yes. FixWell Services offers same-day emergency callouts in Salisbury for urgent repairs including burst pipes, broken door locks, electrical faults, and storm damage. Call +44 7391 599 078 directly for emergency situations. We aim to respond on the same day across the SP1 and SP2 postcode areas.',
       },
       {
         q: 'Do you work on older or period properties in Salisbury?',
-        a: 'Yes. FixWell Services has direct experience with Salisbury\'s Victorian and Edwardian housing stock — including solid masonry walls, lime plaster, sash windows, and older plumbing systems. We use the correct materials and techniques for period properties rather than applying modern-build methods that can cause damage.',
+        a: 'Yes. FixWell Services has direct experience with Salisbury\'s Victorian and Edwardian housing stock, including solid masonry walls, lime plaster, sash windows, and older plumbing systems. We use the correct materials and techniques for period properties rather than applying modern-build methods that can cause damage.',
       },
     ],
   },
@@ -70,9 +70,9 @@
   // ─────────────────────────────────────────────────────────────────────────────
   'emergency-handyman-salisbury': {
     metaDescription:
-      'Emergency handyman in Salisbury — same-day callouts for burst pipes, broken locks, storm damage, electrical faults and heating failures. Fully insured, 7am–8pm Mon–Sun. Call FixWell Services now: 07391 599 078.',
+      'Emergency handyman in Salisbury — same-day callouts for burst pipes, broken locks, storm damage, electrical faults and heating failures. Fully insured, 7am–8pm Mon–Sun. Call FixWell Services now: +44 7391 599 078.',
     intro:
-      'FixWell Services provides same-day emergency handyman callouts across Salisbury and Wiltshire, available 7am to 8pm Monday to Sunday. Emergency situations — including burst pipes, broken door locks, storm damage, and electrical faults — are attended on the same day across the SP1 and SP2 postcode areas. Call 07391 599 078 immediately for emergency repairs; do not wait for a callback form.',
+      'FixWell Services provides same-day emergency handyman callouts across Salisbury and Wiltshire, available 7am to 8pm Monday to Sunday. Emergency situations — including burst pipes, broken door locks, storm damage, and electrical faults — are attended on the same day across the SP1 and SP2 postcode areas. Call +44 7391 599 078 immediately for emergency repairs; do not wait for a callback form.',
     sections: [
       {
         heading: 'What Counts as a Handyman Emergency in Salisbury',
@@ -80,7 +80,7 @@
       },
       {
         heading: 'How FixWell Services Responds to Emergency Callouts in Salisbury',
-        body: 'When you call 07391 599 078 for an emergency in Salisbury, FixWell Services assesses the situation on the call to confirm it falls within handyman scope and to establish whether any immediate protective action is needed — such as turning off the water stopcock before the engineer arrives. The attendance window for emergency callouts is 7am to 8pm, Monday to Sunday. Priority response is fastest within the SP1 and SP2 Salisbury postcode districts; customers in Amesbury, Wilton, Downton, and Tidworth are covered on the same-day basis subject to workload. The service van carries essential emergency materials including compression fittings, isolation valves, temporary pipe repair fittings, standard lock furniture, and board-up materials. If the emergency reveals a requirement for a Gas Safe engineer (gas leak or boiler fault) or a certified Part P electrician (notifiable electrical work), FixWell Services will advise immediately and, where possible, help coordinate the appropriate trade.',
+        body: 'When you call +44 7391 599 078 for an emergency in Salisbury, FixWell Services assesses the situation on the call to confirm it falls within handyman scope and to establish whether any immediate protective action is needed — such as turning off the water stopcock before the engineer arrives. The attendance window for emergency callouts is 7am to 8pm, Monday to Sunday. Priority response is fastest within the SP1 and SP2 Salisbury postcode districts; customers in Amesbury, Wilton, Downton, and Tidworth are covered on the same-day basis subject to workload. The service van carries essential emergency materials including compression fittings, isolation valves, temporary pipe repair fittings, standard lock furniture, and board-up materials. If the emergency reveals a requirement for a Gas Safe engineer (gas leak or boiler fault) or a certified Part P electrician (notifiable electrical work), FixWell Services will advise immediately and, where possible, help coordinate the appropriate trade.',
       },
       {
         heading: 'Emergency Repair Rates and What to Expect in Salisbury',
@@ -98,7 +98,7 @@
     faqs: [
       {
         q: 'How quickly can you respond to an emergency in Salisbury?',
-        a: 'FixWell Services aims to attend same-day emergency callouts within Salisbury SP1 and SP2. We operate 7am to 8pm Monday to Sunday. For the fastest response, call 07391 599 078 directly — do not use the contact form for emergencies.',
+        a: 'FixWell Services aims to attend same-day emergency callouts within Salisbury SP1 and SP2. We operate 7am to 8pm Monday to Sunday. For the fastest response, call +44 7391 599 078 directly. Do not use the contact form for emergencies.',
       },
       {
         q: 'What counts as a handyman emergency?',
@@ -130,7 +130,7 @@
     metaDescription:
       'Comprehensive property maintenance in Salisbury and Wiltshire — routine inspections, seasonal upkeep, preventive repairs, and landlord compliance work. Fully insured. FixWell Services.',
     intro:
-      'FixWell Services provides comprehensive property maintenance across Salisbury and Wiltshire, covering routine inspections, seasonal upkeep, and planned repair programmes for homeowners and landlords. Maintenance schedules are tailored to the property type — from Victorian terraces in SP1 and SP2 to larger detached homes in the SP4 and SP5 postcode areas. Call 07391 599 078 to discuss a maintenance plan or arrange a one-off property inspection.',
+      'FixWell Services provides comprehensive property maintenance across Salisbury and Wiltshire, covering routine inspections, seasonal upkeep, and planned repair programmes for homeowners and landlords. Maintenance schedules are tailored to the property type, from Victorian terraces in SP1 and SP2 to larger detached homes in the SP4 and SP5 postcode areas. Call +44 7391 599 078 to discuss a maintenance plan or arrange a one-off property inspection.',
     sections: [
       {
         heading: 'What Property Maintenance in Salisbury Covers',
@@ -156,7 +156,7 @@
     faqs: [
       {
         q: 'What does property maintenance include in Salisbury?',
-        a: 'Our property maintenance service covers routine inspection and repair of gutters, downpipes, plumbing fittings, electrical fittings, doors and windows, fencing and garden boundaries, and internal decoration condition. We tailor the scope to the property type — Victorian terraces in SP1/SP2 require different checks to modern builds in SP4 and SP5.',
+        a: 'Our property maintenance service covers routine inspection and repair of gutters, downpipes, plumbing fittings, electrical fittings, doors and windows, fencing and garden boundaries, and internal decoration condition. We tailor the scope to the property type. Victorian terraces in SP1/SP2 require different checks to modern builds in SP4 and SP5.',
       },
       {
         q: 'Can you set up a regular maintenance schedule for my Salisbury property?',
@@ -168,7 +168,7 @@
       },
       {
         q: 'How much does property maintenance cost in Salisbury?',
-        a: 'Routine maintenance visits are priced at £20–£40/hr depending on the work required. Annual inspection packages are quoted at a fixed price based on property size and type. Call 07391 599 078 for a tailored quote — most single-property annual inspection packages for Salisbury homes are completed within 2–4 hours.',
+        a: 'Routine maintenance visits are priced at £20–£40/hr depending on the work required. Annual inspection packages are quoted at a fixed price based on property size and type. Call +44 7391 599 078 for a tailored quote. Most single-property annual inspection packages for Salisbury homes are completed within 2–4 hours.',
       },
       {
         q: 'Can you maintain a property while it is tenanted in Salisbury?',
@@ -176,7 +176,7 @@
       },
       {
         q: 'What is the most important property maintenance task for Salisbury homes?',
-        a: 'Gutter and downpipe clearing in late autumn is the single highest-impact maintenance task for most Salisbury properties. Blocked gutters overflow onto fascias, soffits, and masonry — causing damp penetration that is expensive to remediate. For Victorian properties in SP1 and SP2, annual gutter clearing typically prevents the most common source of damp complaints.',
+        a: 'Gutter and downpipe clearing in late autumn is the single highest-impact maintenance task for most Salisbury properties. Blocked gutters overflow onto fascias, soffits, and masonry, causing damp penetration that is expensive to remediate. For Victorian properties in SP1 and SP2, annual gutter clearing typically prevents the most common source of damp complaints.',
       },
     ],
   },
@@ -188,7 +188,7 @@
     metaDescription:
       'Landlord property maintenance in Salisbury — between-tenancy preparation, routine inspections, compliance work, and emergency repairs for rental properties. Fully insured. FixWell Services.',
     intro:
-      'FixWell Services provides dedicated landlord property maintenance across Salisbury and Wiltshire — handling between-tenancy preparation, routine inspections, compliance-related repairs, and emergency tenant callouts for rental properties across the SP postcode range. Services are structured to minimise void periods and ensure compliance with the Landlord and Tenant Act 1985 and the Homes (Fitness for Human Habitation) Act 2018. Call 07391 599 078 to discuss your rental portfolio or add FixWell Services to your approved contractor list.',
+      'FixWell Services provides dedicated landlord property maintenance across Salisbury and Wiltshire, handling between-tenancy preparation, routine inspections, compliance-related repairs, and emergency tenant callouts for rental properties across the SP postcode range. Services are structured to minimise void periods and ensure compliance with the Landlord and Tenant Act 1985 and the Homes (Fitness for Human Habitation) Act 2018. Call +44 7391 599 078 to discuss your rental portfolio or add FixWell Services to your approved contractor list.',
     sections: [
       {
         heading: 'Landlord Property Maintenance Obligations in Salisbury',
@@ -230,7 +230,7 @@
       },
       {
         q: 'Can you handle emergency repairs at my rental property in Salisbury?',
-        a: 'Yes. FixWell Services provides same-day emergency attendance for rental properties across Salisbury and Wiltshire, 7am to 8pm, Monday to Sunday. We cover burst pipes, broken locks, storm damage, and electrical faults — the four most common tenant emergency scenarios in Salisbury.',
+        a: 'Yes. FixWell Services provides same-day emergency attendance for rental properties across Salisbury and Wiltshire, 7am to 8pm, Monday to Sunday. We cover burst pipes, broken locks, storm damage, and electrical faults, the four most common tenant emergency scenarios in Salisbury.',
       },
       {
         q: 'How do you document the maintenance work you carry out for landlords?',
@@ -246,7 +246,7 @@
     metaDescription:
       'Professional home repairs in Salisbury — leaking taps, sticking doors, broken sockets, carpentry repairs, and structural patching. Fully insured handyman service. FixWell Services.',
     intro:
-      'FixWell Services carries out professional home repairs across Salisbury and Wiltshire, covering plumbing faults, electrical repairs within Part P scope, carpentry issues, and decorative damage — all under full public liability insurance. Appointments are available within one to three days for non-emergency repairs, with same-day attendance for urgent situations. Call 07391 599 078 or submit the contact form to describe your repair and receive a quote.',
+      'FixWell Services carries out professional home repairs across Salisbury and Wiltshire, covering plumbing faults, electrical repairs within Part P scope, carpentry issues, and decorative damage, all under full public liability insurance. Appointments are available within one to three days for non-emergency repairs, with same-day attendance for urgent situations. Call +44 7391 599 078 or submit the contact form to describe your repair and receive a quote.',
     sections: [
       {
         heading: 'Types of Home Repairs FixWell Services Carries Out in Salisbury',
@@ -276,11 +276,11 @@
       },
       {
         q: 'How quickly can you carry out home repairs in Salisbury?',
-        a: 'For non-emergency repairs we aim to attend within one to three working days across Salisbury SP1 and SP2. Same-day emergency attendance is available for urgent faults. Call 07391 599 078 for the fastest booking.',
+        a: 'For non-emergency repairs we aim to attend within one to three working days across Salisbury SP1 and SP2. Same-day emergency attendance is available for urgent faults. Call +44 7391 599 078 for the fastest booking.',
       },
       {
         q: 'Do you work on Victorian and period properties in Salisbury?',
-        a: 'Yes. FixWell Services has specific experience with Salisbury\'s Victorian and Edwardian housing stock — including solid masonry walls, lime plaster, sash window mechanisms, 15mm copper compression pipework, and older electrical systems. We use the correct materials and techniques for period properties.',
+        a: 'Yes. FixWell Services has specific experience with Salisbury\'s Victorian and Edwardian housing stock, including solid masonry walls, lime plaster, sash window mechanisms, 15mm copper compression pipework, and older electrical systems. We use the correct materials and techniques for period properties.',
       },
       {
         q: 'What does a typical home repair cost in Salisbury?',
@@ -304,7 +304,7 @@
     metaDescription:
       'Handyman for odd jobs in Salisbury — shelf fitting, furniture assembly, curtain rails, picture hanging, draught-proofing and minor repairs. Fully insured. FixWell Services.',
     intro:
-      'FixWell Services handles odd jobs and small handyman tasks across Salisbury and Wiltshire — from shelf installation and furniture assembly to curtain rail fitting, picture hanging, and minor plumbing fixes. Batching multiple tasks into one visit is efficient and cost-effective at our rate of £20–£40/hr. Call 07391 599 078 to book a visit or discuss your task list.',
+      'FixWell Services handles odd jobs and small handyman tasks across Salisbury and Wiltshire, from shelf installation and furniture assembly to curtain rail fitting, picture hanging, and minor plumbing fixes. Batching multiple tasks into one visit is efficient and cost-effective at our rate of £20–£40/hr. Call +44 7391 599 078 to book a visit or discuss your task list.',
     sections: [
       {
         heading: 'What Odd Jobs a Handyman in Salisbury Can Do for You',
@@ -334,11 +334,11 @@
       },
       {
         q: 'Is there a minimum booking charge for odd jobs in Salisbury?',
-        a: 'Yes, a minimum callout charge applies. We recommend batching several small tasks into a single visit to make the most efficient use of the booking — typically three to five tasks can be completed in one two-hour visit, reducing the effective cost per task significantly.',
+        a: 'Yes, a minimum callout charge applies. We recommend batching several small tasks into a single visit to make the most efficient use of the booking. Typically three to five tasks can be completed in one two-hour visit, reducing the effective cost per task significantly.',
       },
       {
         q: 'Do you bring your own tools for odd jobs in Salisbury?',
-        a: 'Yes. FixWell Services brings all necessary tools including drills, levels, stud finders, wall scanners, and fixing kits. For materials such as shelves, curtain rails, or blinds, we can either supply them at cost or you can provide them — please have self-supplied materials on site before the appointment.',
+        a: 'Yes. FixWell Services brings all necessary tools including drills, levels, stud finders, wall scanners, and fixing kits. For materials such as shelves, curtain rails, or blinds, we can either supply them at cost or you can provide them. Please have self-supplied materials on site before the appointment.',
       },
       {
         q: 'Can you fix shelves to the walls in a Salisbury Victorian terrace?',
@@ -350,7 +350,7 @@
       },
       {
         q: 'Can you hang heavy mirrors safely in Salisbury homes?',
-        a: 'Yes. Heavy mirrors over 10kg require either a direct stud fixing in plasterboard walls or a masonry plug and screw in solid walls — not a standard picture hook. FixWell Services identifies the wall type and uses load-rated fixings appropriate for the mirror weight, preventing the drop risk associated with incorrect hanging.',
+        a: 'Yes. Heavy mirrors over 10kg require either a direct stud fixing in plasterboard walls or a masonry plug and screw in solid walls, not a standard picture hook. FixWell Services identifies the wall type and uses load-rated fixings appropriate for the mirror weight, preventing the drop risk associated with incorrect hanging.',
       },
     ],
   },
@@ -362,7 +362,7 @@
     metaDescription:
       'Garden maintenance in Salisbury and Wiltshire — lawn care, hedge trimming, fence repair, paving repair, and seasonal outdoor upkeep. Fully insured. FixWell Services.',
     intro:
-      'FixWell Services provides garden maintenance and outdoor property upkeep across Salisbury and Wiltshire, covering lawn care, hedge trimming, fence and gate repair, paving maintenance, and seasonal garden tidy-ups for homeowners and landlords. The service is available year-round and tailored to Wiltshire\'s seasonal maintenance cycle. Call 07391 599 078 to arrange a garden maintenance visit or discuss a seasonal maintenance plan.',
+      'FixWell Services provides garden maintenance and outdoor property upkeep across Salisbury and Wiltshire, covering lawn care, hedge trimming, fence and gate repair, paving maintenance, and seasonal garden tidy-ups for homeowners and landlords. The service is available year-round and tailored to Wiltshire\'s seasonal maintenance cycle. Call +44 7391 599 078 to arrange a garden maintenance visit or discuss a seasonal maintenance plan.',
     sections: [
       {
         heading: 'Garden Maintenance Services FixWell Services Provides in Salisbury',
@@ -400,7 +400,7 @@
       },
       {
         q: 'How much does garden maintenance cost in Salisbury?',
-        a: 'Garden maintenance is priced at £20–£40/hr. A typical garden tidy-up for a standard Salisbury semi-detached takes two to four hours. Fence panel replacement is quoted on a fixed-price basis per panel and post. Call 07391 599 078 for a specific quote based on your garden size and requirements.',
+        a: 'Garden maintenance is priced at £20–£40/hr. A typical garden tidy-up for a standard Salisbury semi-detached takes two to four hours. Fence panel replacement is quoted on a fixed-price basis per panel and post. Call +44 7391 599 078 for a specific quote based on your garden size and requirements.',
       },
       {
         q: 'Can you trim hedges in Salisbury?',
@@ -420,7 +420,7 @@
     metaDescription:
       'Professional painting and decorating in Salisbury — interior and exterior painting, skirting boards, feature walls, full room decoration. Period property experience. Fully insured. FixWell Services.',
     intro:
-      'FixWell Services provides professional painting and decorating across Salisbury and Wiltshire — covering interior walls and woodwork, exterior masonry and timber, feature wall decoration, and full room refurbishment. Every job begins with correct surface preparation, which determines the quality and longevity of the finished result. Rates start from £20/hr with fixed-price quotes for full rooms. Call 07391 599 078 to arrange a free quote.',
+      'FixWell Services provides professional painting and decorating across Salisbury and Wiltshire, covering interior walls and woodwork, exterior masonry and timber, feature wall decoration, and full room refurbishment. Every job begins with correct surface preparation, which determines the quality and longevity of the finished result. Rates start from £20/hr with fixed-price quotes for full rooms. Call +44 7391 599 078 to arrange a free quote.',
     sections: [
       {
         heading: 'Painting and Decorating Services FixWell Services Provides in Salisbury',
@@ -446,15 +446,15 @@
     faqs: [
       {
         q: 'Do you do interior and exterior painting in Salisbury?',
-        a: 'Yes. FixWell Services handles both interior and exterior painting and decorating across Salisbury and Wiltshire — from full room redecoration and feature walls to exterior masonry painting, timber window frames, fascia boards, and fence panels.',
+        a: 'Yes. FixWell Services handles both interior and exterior painting and decorating across Salisbury and Wiltshire, from full room redecoration and feature walls to exterior masonry painting, timber window frames, fascia boards, and fence panels.',
       },
       {
         q: 'Can you paint a room in a Victorian Salisbury terrace?',
-        a: 'Yes. We have specific experience with Victorian properties in SP1 and SP2 — including lime-plastered walls that require breathable paint, high ceilings requiring appropriate access equipment, and original architectural features such as cornicing and ceiling roses that require careful paint application.',
+        a: 'Yes. We have specific experience with Victorian properties in SP1 and SP2, including lime-plastered walls that require breathable paint, high ceilings requiring appropriate access equipment, and original architectural features such as cornicing and ceiling roses that require careful paint application.',
       },
       {
         q: 'Can you paint skirting boards without damaging the carpet in Salisbury?',
-        a: 'Yes. We use professional masking tape along the carpet edge and dust sheets on the floor surface. We apply a thin undercoat first, sand back when dry, and apply the topcoat — producing a clean, hard finish without carpet damage. This two-coat process also produces a more durable result than a single heavy coat.',
+        a: 'Yes. We use professional masking tape along the carpet edge and dust sheets on the floor surface. We apply a thin undercoat first, sand back when dry, and apply the topcoat, producing a clean, hard finish without carpet damage. This two-coat process also produces a more durable result than a single heavy coat.',
       },
       {
         q: 'What paint do you use on exterior masonry in Salisbury?',
@@ -478,7 +478,7 @@
     metaDescription:
       'Carpentry and joinery in Salisbury — door repairs, shelving installation, skirting boards, furniture assembly, timber fixing and sash window repairs. Fully insured. FixWell Services.',
     intro:
-      'FixWell Services carries out carpentry and joinery work across Salisbury and Wiltshire — including door hanging and re-hanging, hinge repair, shelving installation, skirting board and architrave fitting, sash window cord replacement, and timber fixing to all wall types. All work is fully insured with public liability cover. Call 07391 599 078 for a carpentry quote or to book a visit.',
+      'FixWell Services carries out carpentry and joinery work across Salisbury and Wiltshire, including door hanging and re-hanging, hinge repair, shelving installation, skirting board and architrave fitting, sash window cord replacement, and timber fixing to all wall types. All work is fully insured with public liability cover. Call +44 7391 599 078 for a carpentry quote or to book a visit.',
     sections: [
       {
         heading: 'Carpentry and Joinery Services FixWell Services Provides in Salisbury',
@@ -516,7 +516,7 @@
       },
       {
         q: 'How do you fix shelves to walls in Salisbury Victorian terraces?',
-        a: 'Victorian terraces in SP1 and SP2 have solid brick or stone walls that take masonry fixings — a masonry drill bit, plastic wall plug, and wood screw provides a strong, load-bearing fixing point. We use a wall scanner before drilling to avoid any hidden services, and select the correct plug diameter and screw length for the load the shelf will carry.',
+        a: 'Victorian terraces in SP1 and SP2 have solid brick or stone walls that take masonry fixings: a masonry drill bit, plastic wall plug, and wood screw provides a strong, load-bearing fixing point. We use a wall scanner before drilling to avoid any hidden services, and select the correct plug diameter and screw length for the load the shelf will carry.',
       },
       {
         q: 'Do you carry out joinery work for landlords in Salisbury?',
@@ -536,7 +536,7 @@
     metaDescription:
       'Home renovation in Salisbury — kitchen renovation, bathroom renovation, room refurbishment, and property improvement projects. Fully insured, trade-sequenced, fixed-price. FixWell Services.',
     intro:
-      'FixWell Services manages home renovation projects across Salisbury and Wiltshire — from kitchen and bathroom renovations to full room refurbishment and property improvement programmes. Renovation projects are scoped, sequenced, and priced as fixed-price contracts before work begins, with specialist trades coordinated where Gas Safe or Part P certified work is required. Call 07391 599 078 to arrange a renovation assessment and quote.',
+      'FixWell Services manages home renovation projects across Salisbury and Wiltshire, from kitchen and bathroom renovations to full room refurbishment and property improvement programmes. Renovation projects are scoped, sequenced, and priced as fixed-price contracts before work begins, with specialist trades coordinated where Gas Safe or Part P certified work is required. Call +44 7391 599 078 to arrange a renovation assessment and quote.',
     sections: [
       {
         heading: 'Home Renovation Services FixWell Services Manages in Salisbury',
@@ -594,7 +594,7 @@
     metaDescription:
       'Minor plumbing repairs in Salisbury — leaking taps, running toilets, blocked drains, burst pipes, and emergency plumbing callouts. Within Water Regulations 1999 scope. Fully insured. FixWell Services.',
     intro:
-      'FixWell Services carries out minor plumbing repairs across Salisbury and Wiltshire — fixing leaking taps, running toilets, blocked wastes, and dripping joints, and responding to burst pipe emergencies on the same day across the SP postcode area. All plumbing work is carried out within the scope defined by the Water Regulations 1999 and Building Regulations Part G; work requiring a Gas Safe engineer or a fully qualified plumber is identified and referred accurately. Call 07391 599 078 for a plumbing repair or emergency callout.',
+      'FixWell Services carries out minor plumbing repairs across Salisbury and Wiltshire — fixing leaking taps, running toilets, blocked wastes, and dripping joints, and responding to burst pipe emergencies on the same day across the SP postcode area. All plumbing work is carried out within the scope defined by the Water Regulations 1999 and Building Regulations Part G; work requiring a Gas Safe engineer or a fully qualified plumber is identified and referred accurately. Call +44 7391 599 078 for a plumbing repair or emergency callout.',
     sections: [
       {
         heading: 'Minor Plumbing Repairs a Handyman Can Carry Out in Salisbury',
@@ -620,19 +620,19 @@
     faqs: [
       {
         q: 'What plumbing repairs do you handle in Salisbury?',
-        a: 'FixWell Services repairs leaking taps (washer, ceramic disc, and O-ring replacement), running toilets (fill valve and siphon replacement), blocked waste traps and drains, dripping pipe joints, showerhead and hose replacement, and cistern ball valve adjustment — all within Water Regulations 1999 scope across Salisbury and Wiltshire.',
+        a: 'FixWell Services repairs leaking taps (washer, ceramic disc, and O-ring replacement), running toilets (fill valve and siphon replacement), blocked waste traps and drains, dripping pipe joints, showerhead and hose replacement, and cistern ball valve adjustment, all within Water Regulations 1999 scope across Salisbury and Wiltshire.',
       },
       {
         q: 'Do you need to be a qualified plumber to fix a leaking tap in Salisbury?',
-        a: 'For minor repairs such as replacing tap washers, ceramic disc cartridges, O-rings, and toilet fill valves, a qualified handyman can legally carry out the work under the Water Regulations 1999. For new mains connections, soil pipe alterations, unvented cylinder work, or any gas plumbing, a fully qualified plumber or Gas Safe engineer is required — we will tell you clearly if your job requires one.',
+        a: 'For minor repairs such as replacing tap washers, ceramic disc cartridges, O-rings, and toilet fill valves, a qualified handyman can legally carry out the work under the Water Regulations 1999. For new mains connections, soil pipe alterations, unvented cylinder work, or any gas plumbing, a fully qualified plumber or Gas Safe engineer is required. We will tell you clearly if your job requires one.',
       },
       {
         q: 'Can you respond to a burst pipe emergency in Salisbury on the same day?',
-        a: 'Yes. Burst pipe response is one of our most common emergency callouts in Salisbury. We operate same-day attendance across SP1 and SP2, and carry compression fittings, isolation valves, and temporary pipe repair materials on the service van. Call 07391 599 078 immediately — turn off the stopcock under your kitchen sink first.',
+        a: 'Yes. Burst pipe response is one of our most common emergency callouts in Salisbury. We operate same-day attendance across SP1 and SP2, and carry compression fittings, isolation valves, and temporary pipe repair materials on the service van. Call +44 7391 599 078 immediately. Turn off the stopcock under your kitchen sink first.',
       },
       {
         q: 'Why does my tap keep dripping even after I tighten it?',
-        a: 'If tightening the tap does not stop the drip, the washer has worn beyond the point where compression can seal it, or the ceramic disc has cracked and requires replacement rather than adjustment. Forcing a tap tighter than its design torque damages the seat and makes subsequent repair more complex — call FixWell Services for a correct replacement.',
+        a: 'If tightening the tap does not stop the drip, the washer has worn beyond the point where compression can seal it, or the ceramic disc has cracked and requires replacement rather than adjustment. Forcing a tap tighter than its design torque damages the seat and makes subsequent repair more complex. Call FixWell Services for a correct replacement.',
       },
       {
         q: 'Does Wiltshire\'s hard water affect plumbing repairs in Salisbury?',

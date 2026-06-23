@@ -13,7 +13,7 @@
       'Expert plumbing leak repairs in Salisbury — burst pipes, dripping compression joints, radiator valve leaks and under-sink repairs. Same-day emergency response. FixWell Services, fully insured.',
 
     intro:
-      'A plumbing leak left unattended can cause water damage to floorboards, plasterboard ceilings, and electrical circuits within hours. FixWell Services carries out plumbing leak repairs across Salisbury and Wiltshire — isolating the source, making the correct repair to copper or plastic pipework, and preventing secondary water damage. Call us on +44 7391 599 078 for same-day emergency attendance or use the quote form to book a routine repair.',
+      'A plumbing leak left unattended can cause water damage to floorboards, plasterboard ceilings, and electrical circuits within hours. FixWell Services carries out plumbing leak repairs across Salisbury and Wiltshire, isolating the source, making the correct repair to copper or plastic pipework, and preventing secondary water damage. Call us on +44 7391 599 078 for same-day emergency attendance or use the quote form to book a routine repair.',
 
     sections: [
       {
@@ -61,7 +61,7 @@
       },
       {
         q: 'Are you insured for plumbing work in Salisbury?',
-        a: 'Yes. FixWell Services holds full public liability insurance covering all plumbing repair work we carry out. We operate within the legal handyman scope for minor plumbing — if your job requires a Gas Safe or specialist registered plumber, we will tell you clearly and can recommend a trusted local contractor.',
+        a: 'Yes. FixWell Services holds full public liability insurance covering all plumbing repair work we carry out. We operate within the legal handyman scope for minor plumbing. If your job requires a Gas Safe or specialist registered plumber, we will tell you clearly and can recommend a trusted local contractor.',
       },
     ],
   },
@@ -110,7 +110,7 @@
       },
       {
         q: 'Can you find out why a circuit breaker keeps tripping?',
-        a: 'We can carry out basic fault-finding — checking for overloaded circuits, identifying a faulty appliance causing nuisance trips, and confirming whether the MCB itself is failing. If the fault requires an Insulation Resistance Test or a full circuit trace, we will refer you to a registered electrician.',
+        a: 'We can carry out basic fault-finding: checking for overloaded circuits, identifying a faulty appliance causing nuisance trips, and confirming whether the MCB itself is failing. If the fault requires an Insulation Resistance Test or a full circuit trace, we will refer you to a registered electrician.',
       },
       {
         q: 'How much does a socket or light fitting replacement cost in Salisbury?',
@@ -135,7 +135,7 @@
       'Broken lock and door repairs in Salisbury — cylinder replacement, strike plate adjustment, multipoint lock repair, door realignment. Same-day security response. Fully insured. FixWell Services.',
 
     intro:
-      'A door that will not lock, close, or latch properly is a security risk as well as a daily inconvenience. FixWell Services repairs and replaces locks and doors across Salisbury and Wiltshire — from a stiff Yale nightlatch to a failed multipoint mechanism on a UPVC door. We are fully insured, available for same-day emergency callouts, and familiar with the lock types found in Salisbury\'s varied housing stock. Call +44 7391 599 078 for urgent security repairs or use the quote form.',
+      'A door that will not lock, close, or latch properly is a security risk as well as a daily inconvenience. FixWell Services repairs and replaces locks and doors across Salisbury and Wiltshire, from a stiff Yale nightlatch to a failed multipoint mechanism on a UPVC door. We are fully insured, available for same-day emergency callouts, and familiar with the lock types found in Salisbury\'s varied housing stock. Call +44 7391 599 078 for urgent security repairs or use the quote form.',
 
     sections: [
       {
@@ -167,7 +167,7 @@
       },
       {
         q: 'My UPVC door handle turns but the door does not lock — what is wrong?',
-        a: 'This is almost always a failed multipoint gearbox — the central mechanism that drives the locking rods when you lift the handle. The gearbox wears out over time and is a straightforward replacement. We source a matching gearbox and fit it in one visit.',
+        a: 'This is almost always a failed multipoint gearbox, the central mechanism that drives the locking rods when you lift the handle. The gearbox wears out over time and is a straightforward replacement. We source a matching gearbox and fit it in one visit.',
       },
       {
         q: 'What does BS3621 mean and do I need it?',
@@ -179,7 +179,7 @@
       },
       {
         q: 'My front door is hard to close and the latch keeps missing the keep — can you fix it?',
-        a: 'Yes. This is usually caused by a dropped hinge moving the door down, or by the door frame settling over time. We identify whether the issue is the hinge, the door, or the keep alignment and carry out the correct adjustment — often a combination of hinge tightening and strike plate repositioning.',
+        a: 'Yes. This is usually caused by a dropped hinge moving the door down, or by the door frame settling over time. We identify whether the issue is the hinge, the door, or the keep alignment and carry out the correct adjustment, often a combination of hinge tightening and strike plate repositioning.',
       },
       {
         q: 'Are you insured for lock and door repairs in Salisbury?',
@@ -285,7 +285,7 @@
     faqs: [
       {
         q: 'How often should gutters be cleaned in Salisbury?',
-        a: 'Once a year is the minimum for most properties — ideally late autumn after leaf fall. Properties with overhanging trees or significant moss on the roof should be cleaned twice a year, in late autumn and late spring.',
+        a: 'Once a year is the minimum for most properties, ideally late autumn after leaf fall. Properties with overhanging trees or significant moss on the roof should be cleaned twice a year, in late autumn and late spring.',
       },
       {
         q: 'How do I know if my gutters are blocked?',
@@ -301,7 +301,7 @@
       },
       {
         q: 'Will you tell me if there are any other gutter defects?',
-        a: 'Yes. We provide a written report on completion noting any joint gaps, cracked sections, sagging runs, or fascia damage that we observe during the clean. Repair quotes are provided separately — there is no obligation.',
+        a: 'Yes. We provide a written report on completion noting any joint gaps, cracked sections, sagging runs, or fascia damage that we observe during the clean. Repair quotes are provided separately. There is no obligation.',
       },
       {
         q: 'Do you cover properties outside Salisbury for gutter cleaning?',
@@ -379,7 +379,7 @@
       'Furniture assembly in Salisbury — IKEA, B&Q, Argos, Dunelm and all flat-pack brands. Fast, professional assembly with correct hinge adjustment and wall anchoring. FixWell Services.',
 
     intro:
-      'Flat-pack furniture assembly that looks simple on the box often becomes a multi-hour task involving ambiguous diagrams, missing hardware, and furniture that rocks on an uneven floor. FixWell Services assembles furniture from all major brands across Salisbury and Wiltshire — correctly, quickly, and with the anti-tip wall straps and hinge adjustments that the instructions rarely make clear. Call +44 7391 599 078 or use the quote form to arrange a convenient appointment.',
+      'Flat-pack furniture assembly that looks simple on the box often becomes a multi-hour task involving ambiguous diagrams, missing hardware, and furniture that rocks on an uneven floor. FixWell Services assembles furniture from all major brands across Salisbury and Wiltshire, correctly, quickly, and with the anti-tip wall straps and hinge adjustments that the instructions rarely make clear. Call +44 7391 599 078 or use the quote form to arrange a convenient appointment.',
 
     sections: [
       {
@@ -407,7 +407,7 @@
     faqs: [
       {
         q: 'Do you assemble IKEA furniture in Salisbury?',
-        a: 'Yes. IKEA flatpack is the most common assembly job we carry out — including PAX wardrobes, KALLAX units, BESTA media cabinets, BILLY bookcases, and HEMNES furniture. We bring our own tools and work from the official IKEA assembly instructions.',
+        a: 'Yes. IKEA flatpack is the most common assembly job we carry out, including PAX wardrobes, KALLAX units, BESTA media cabinets, BILLY bookcases, and HEMNES furniture. We bring our own tools and work from the official IKEA assembly instructions.',
       },
       {
         q: 'Do you fix wardrobes and tall units to the wall?',
@@ -415,7 +415,7 @@
       },
       {
         q: 'What if parts are missing from the box?',
-        a: 'We check the parts manifest at the start of the job. If components are missing we advise you — IKEA provides replacement parts free of charge, and most other brands have a spare parts line. We are happy to return once parts arrive rather than attempting assembly with missing components.',
+        a: 'We check the parts manifest at the start of the job. If components are missing we advise you. IKEA provides replacement parts free of charge, and most other brands have a spare parts line. We are happy to return once parts arrive rather than attempting assembly with missing components.',
       },
       {
         q: 'Can you assemble furniture from brands other than IKEA?',
@@ -440,7 +440,7 @@
       'Skirting board painting in Salisbury — filling, sanding, priming, and gloss or satinwood finish. Carpets and floors fully protected. Fully insured. FixWell Services.',
 
     intro:
-      'Freshly painted skirting boards make a significant difference to the finished look of a room, but achieving a clean result requires proper preparation and the right masking technique to protect carpets and hard floors. FixWell Services paints skirting boards to a professional standard across Salisbury and Wiltshire — filling cracks, sanding back, priming bare timber or MDF, and applying a durable topcoat. Call +44 7391 599 078 or use the quote form.',
+      'Freshly painted skirting boards make a significant difference to the finished look of a room, but achieving a clean result requires proper preparation and the right masking technique to protect carpets and hard floors. FixWell Services paints skirting boards to a professional standard across Salisbury and Wiltshire, filling cracks, sanding back, priming bare timber or MDF, and applying a durable topcoat. Call +44 7391 599 078 or use the quote form.',
 
     sections: [
       {
@@ -476,7 +476,7 @@
       },
       {
         q: 'Do you fill the gap between the skirting and the wall before painting?',
-        a: 'Yes. The joint between the skirting top edge and the wall plaster is always filled with flexible filler before painting — a rigid filler will crack again quickly as the building moves. We allow the filler to cure fully before sanding and painting.',
+        a: 'Yes. The joint between the skirting top edge and the wall plaster is always filled with flexible filler before painting. A rigid filler will crack again quickly as the building moves. We allow the filler to cure fully before sanding and painting.',
       },
       {
         q: 'My skirting boards have many layers of old paint — do you need to strip them?',
@@ -545,11 +545,11 @@
       },
       {
         q: 'How do I know if a fence post belongs to me or my neighbour?',
-        a: 'Boundary ownership is defined by the title deeds registered at the Land Registry, not by a general rule. A "T" mark on the title plan indicates the boundary is that owner\'s responsibility. We recommend checking your Land Registry title plan if the ownership is unclear — this avoids disputes over repair costs.',
+        a: 'Boundary ownership is defined by the title deeds registered at the Land Registry, not by a general rule. A "T" mark on the title plan indicates the boundary is that owner\'s responsibility. We recommend checking your Land Registry title plan if the ownership is unclear. This avoids disputes over repair costs.',
       },
       {
         q: 'Do you repair close-board featheredge fencing as well as panel fencing?',
-        a: 'Yes. Closeboard (featheredge) fencing is a more robust system common in Salisbury properties where extra durability is required. We repair individual arris rails using T-brackets, replace damaged featheredge pales, and replace rotten posts — the same repair principles apply.',
+        a: 'Yes. Closeboard (featheredge) fencing is a more durable system common in Salisbury properties. We repair individual arris rails using T-brackets, replace damaged featheredge pales, and replace rotten posts. The same repair principles apply.',
       },
     ],
   },
@@ -562,7 +562,7 @@
       'Paving slab repair and replacement in Salisbury — sunken, cracked, or rocking slabs re-laid with correct sub-base, sand bed, and kiln-dried jointing. FixWell Services.',
 
     intro:
-      'A cracked, sunken, or rocking paving slab is a trip hazard and an eyesore that tends to worsen with each winter frost cycle. FixWell Services carries out paving slab repair and replacement across Salisbury and Wiltshire — lifting failed slabs, assessing and repairing the sub-base, and re-laying with the correct bedding and jointing to produce a flat, stable surface. Call +44 7391 599 078 or use the quote form.',
+      'A cracked, sunken, or rocking paving slab is a trip hazard and an eyesore that tends to worsen with each winter frost cycle. FixWell Services carries out paving slab repair and replacement across Salisbury and Wiltshire, lifting failed slabs, assessing and repairing the sub-base, and re-laying with the correct bedding and jointing to produce a flat, stable surface. Call +44 7391 599 078 or use the quote form.',
 
     sections: [
       {
@@ -594,7 +594,7 @@
       },
       {
         q: 'My patio has several slabs that rock when walked on — what causes this?',
-        a: 'Rocking slabs are almost always caused by spot-bedding rather than full-bed support — the slab bridges the adhesive spots and flexes. We re-lay on a full mortar bed to eliminate all movement.',
+        a: 'Rocking slabs are almost always caused by spot-bedding rather than full-bed support, where the slab bridges the adhesive spots and flexes. We re-lay on a full mortar bed to eliminate all movement.',
       },
       {
         q: 'Can you re-level a section of paving that has sunk?',
@@ -606,7 +606,7 @@
       },
       {
         q: 'Can you match my existing paving slabs if I need new ones?',
-        a: 'For standard concrete flags we carry grey and buff stock that matches most 1970s–2000s Salisbury patios closely. For natural stone or specialist slabs we advise on sourcing — you may need to source matching material yourself for a precise colour match.',
+        a: 'For standard concrete flags we carry grey and buff stock that matches most 1970s–2000s Salisbury patios closely. For natural stone or specialist slabs we advise on sourcing. You may need to source matching material yourself for a precise colour match.',
       },
       {
         q: 'Is a sunken paving slab a safety issue for a rental property?',
@@ -623,7 +623,7 @@
       'Door hinge repair and replacement in Salisbury — sagging doors, stiff hinges, stripped screw holes, and hinge replacement for internal and external doors. FixWell Services, fully insured.',
 
     intro:
-      'A door that drags on the floor, swings open on its own, or refuses to latch properly is almost always a hinge problem. FixWell Services repairs and replaces door hinges across Salisbury and Wiltshire — diagnosing whether the fault is in the hinge itself, the frame fixings, or the door, and carrying out the correct repair. Call +44 7391 599 078 or use the quote form to book.',
+      'A door that drags on the floor, swings open on its own, or refuses to latch properly is almost always a hinge problem. FixWell Services repairs and replaces door hinges across Salisbury and Wiltshire, diagnosing whether the fault is in the hinge itself, the frame fixings, or the door, and carrying out the correct repair. Call +44 7391 599 078 or use the quote form to book.',
 
     sections: [
       {
@@ -728,7 +728,7 @@
       },
       {
         q: 'Will you need to move the plumbing or electrics for my new kitchen?',
-        a: 'For a like-for-like replacement (same layout, same appliance positions) plumbing and electrical moves are rarely needed. For a replanned layout, supply and waste relocation may be required. Gas connections and new electrical circuits must be carried out by registered contractors — we coordinate these as part of the project.',
+        a: 'For a like-for-like replacement (same layout, same appliance positions) plumbing and electrical moves are rarely needed. For a replanned layout, supply and waste relocation may be required. Gas connections and new electrical circuits must be carried out by registered contractors. We coordinate these as part of the project.',
       },
       {
         q: 'How much does a kitchen renovation cost in Salisbury?',
@@ -745,7 +745,7 @@
       'Bathroom renovation in Salisbury — tiling, sanitaryware fitting, tanking, resealing and full bathroom refurbishment. FixWell Services manages your project end to end. Fully insured.',
 
     intro:
-      'A bathroom renovation requires more technical precision than almost any other room in the house — waterproofing must be correct before tiling, tiling sequence affects both aesthetics and drainage, and every sanitaryware connection must be leak-free. FixWell Services manages bathroom renovations across Salisbury and Wiltshire, from a practical re-grout and reseal to a complete strip-out and refurbishment. Call +44 7391 599 078 or use the quote form to arrange an assessment.',
+      'A bathroom renovation requires more technical precision than almost any other room in the house. Waterproofing must be correct before tiling, tiling sequence affects both aesthetics and drainage, and every sanitaryware connection must be leak-free. FixWell Services manages bathroom renovations across Salisbury and Wiltshire, from a practical re-grout and reseal to a complete strip-out and refurbishment. Call +44 7391 599 078 or use the quote form to arrange an assessment.',
 
     sections: [
       {
@@ -773,7 +773,7 @@
     faqs: [
       {
         q: 'Can you re-tile a bathroom in Salisbury?',
-        a: 'Yes. We carry out bathroom tiling across Salisbury — either full re-tiles (removing existing tiles and replacing on correctly prepared and waterproofed substrate) or partial re-tiles replacing damaged sections. We use the correct adhesive and grout specification for each tile material and location.',
+        a: 'Yes. We carry out bathroom tiling across Salisbury, either full re-tiles (removing existing tiles and replacing on correctly prepared and waterproofed substrate) or partial re-tiles replacing damaged sections. We use the correct adhesive and grout specification for each tile material and location.',
       },
       {
         q: 'How do you waterproof a shower before tiling?',
