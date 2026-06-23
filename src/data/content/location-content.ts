@@ -10,10 +10,10 @@
   // ─────────────────────────────────────────────
   'handyman-amesbury': {
     metaDescription:
-      'Professional handyman in Amesbury, SP4 — home repairs, property maintenance, landlord services and same-day emergency callouts. FixWell Services, 10 miles from Salisbury. Call 07391 599 078.',
+      'Professional handyman in Amesbury, SP4 — home repairs, property maintenance, landlord services and same-day emergency callouts. FixWell Services, 10 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services provides fully insured handyman cover across Amesbury, SP4, and the surrounding area. Our Salisbury base is just 10 miles south via the A303, putting us within 20 minutes of most SP4 addresses — fast enough for genuine same-day emergency response. Whether you need a quick repair in a rented garrison property, a full between-tenancy refresh, or a one-off odd job at home, call us on 07391 599 078.',
+      'FixWell Services provides fully insured handyman cover across Amesbury, SP4, and the surrounding area. Our Salisbury base is just 10 miles south via the A303, putting us within 20 minutes of most SP4 addresses — fast enough for genuine same-day emergency response. Whether you need a quick repair in a rented garrison property, a full between-tenancy refresh, or a one-off odd job at home, call us on +44 7391 599 078.',
 
     sections: [
       {
@@ -26,7 +26,7 @@
       },
       {
         heading: 'How FixWell Services Operates in Amesbury',
-        body: 'Our base in Salisbury puts Amesbury comfortably within our regular service area. The A303 route makes the journey straightforward — typically 20 to 25 minutes in normal traffic, meaning we can respond to emergency callouts the same day across most of SP4. We are available Monday to Sunday, 7am to 8pm, including weekends and bank holidays for urgent repairs. Booking is simple: call 07391 599 078 to discuss your job and arrange a time that suits you, or use our online contact form. We provide a clear quote before starting any work — no hidden charges and no surprises on the invoice.',
+        body: 'Our base in Salisbury puts Amesbury comfortably within our regular service area. The A303 route makes the journey straightforward — typically 20 to 25 minutes in normal traffic, meaning we can respond to emergency callouts the same day across most of SP4. We are available Monday to Sunday, 7am to 8pm, including weekends and bank holidays for urgent repairs. Booking is simple: call +44 7391 599 078 to discuss your job and arrange a time that suits you, or use our online contact form. We provide a clear quote before starting any work — no hidden charges and no surprises on the invoice.',
       },
       {
         heading: 'Cost of Handyman Services in Amesbury',
@@ -34,7 +34,7 @@
       },
       {
         heading: 'Amesbury Handyman Services — Part of the FixWell Salisbury Network',
-        body: 'Amesbury is covered as part of FixWell\'s wider Salisbury and Wiltshire service network. Every service available to Salisbury customers — emergency callouts, landlord maintenance, home repairs, carpentry, decorating — is available in Amesbury on the same terms. If you are a landlord or homeowner in the SP4 area looking for a reliable, insured handyman you can call again and again, FixWell Services is the right choice. For the full list of services we provide across Wiltshire and Hampshire, visit our Salisbury handyman services page, or call 07391 599 078 to discuss your specific needs today.',
+        body: 'Amesbury is covered as part of FixWell\'s wider Salisbury and Wiltshire service network. Every service available to Salisbury customers — emergency callouts, landlord maintenance, home repairs, carpentry, decorating — is available in Amesbury on the same terms. If you are a landlord or homeowner in the SP4 area looking for a reliable, insured handyman you can call again and again, FixWell Services is the right choice. For the full list of services we provide across Wiltshire and Hampshire, visit our Salisbury handyman services page, or call +44 7391 599 078 to discuss your specific needs today.',
       },
     ],
 
@@ -49,7 +49,7 @@
       },
       {
         q: 'Is same-day emergency handyman cover available in Amesbury?',
-        a: 'Yes. For emergency repairs — burst pipes, broken locks, storm damage, electrical faults — we offer same-day response to Amesbury. Call 07391 599 078 as early as possible and we will prioritise your callout.',
+        a: 'Yes. For emergency repairs — burst pipes, broken locks, storm damage, electrical faults — we offer same-day response to Amesbury. Call +44 7391 599 078 as early as possible and we will prioritise your callout.',
       },
       {
         q: 'What does a between-tenancy property refresh involve in Amesbury?',
@@ -71,10 +71,10 @@
   // ─────────────────────────────────────────────
   'handyman-wilton': {
     metaDescription:
-      'Professional handyman in Wilton, SP2 — period property repairs, home maintenance, carpentry and same-day emergency callouts. FixWell Services, just 3 miles from Salisbury. Call 07391 599 078.',
+      'Professional handyman in Wilton, SP2 — period property repairs, home maintenance, carpentry and same-day emergency callouts. FixWell Services, just 3 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Wilton, SP2, as part of our core Salisbury service area. At just 3 miles west of our Salisbury base — roughly 8 to 10 minutes by road — Wilton is one of the closest towns we serve, and we treat it as an extension of our home patch. From period property repairs in the conservation area to emergency callouts and routine home maintenance, call FixWell on 07391 599 078.',
+      'FixWell Services covers Wilton, SP2, as part of our core Salisbury service area. At just 3 miles west of our Salisbury base — roughly 8 to 10 minutes by road — Wilton is one of the closest towns we serve, and we treat it as an extension of our home patch. From period property repairs in the conservation area to emergency callouts and routine home maintenance, call FixWell on +44 7391 599 078.',
 
     sections: [
       {
@@ -87,7 +87,7 @@
       },
       {
         heading: 'How FixWell Services Operates in Wilton',
-        body: 'Wilton is our closest out-of-Salisbury location — just 3 miles west via the A36 and A30. This proximity means standard bookings are usually available within a day or two, and same-day emergency response is highly reliable for Wilton addresses. We are available Monday to Sunday, 7am to 8pm, for both planned work and urgent callouts. Call 07391 599 078 to discuss your job. We will confirm whether your work needs a fixed quote or an hourly rate, agree a time, and turn up when we say we will — without the unpredictability that can come with busier contractors working across a wider geographic area.',
+        body: 'Wilton is our closest out-of-Salisbury location — just 3 miles west via the A36 and A30. This proximity means standard bookings are usually available within a day or two, and same-day emergency response is highly reliable for Wilton addresses. We are available Monday to Sunday, 7am to 8pm, for both planned work and urgent callouts. Call +44 7391 599 078 to discuss your job. We will confirm whether your work needs a fixed quote or an hourly rate, agree a time, and turn up when we say we will — without the unpredictability that can come with busier contractors working across a wider geographic area.',
       },
       {
         heading: 'Handyman Costs in Wilton — Rates and Quotes',
@@ -95,7 +95,7 @@
       },
       {
         heading: 'Wilton as Part of the Wider FixWell Service Area',
-        body: 'Wilton sits immediately adjacent to Salisbury in our service network and benefits from the same response speed, service breadth, and quality assurance as our Salisbury customers. Homeowners with Victorian or Edwardian properties in Wilton will find FixWell particularly well-suited to their needs — we carry the fixings, tools, and experience to work on solid walls, original timber, and older plumbing without guesswork. For the complete list of services available in Wilton and across Wiltshire, visit our Salisbury handyman services page. Or call us directly on 07391 599 078 to book.',
+        body: 'Wilton sits immediately adjacent to Salisbury in our service network and benefits from the same response speed, service breadth, and quality assurance as our Salisbury customers. Homeowners with Victorian or Edwardian properties in Wilton will find FixWell particularly well-suited to their needs — we carry the fixings, tools, and experience to work on solid walls, original timber, and older plumbing without guesswork. For the complete list of services available in Wilton and across Wiltshire, visit our Salisbury handyman services page. Or call us directly on +44 7391 599 078 to book.',
       },
     ],
 
@@ -114,7 +114,7 @@
       },
       {
         q: 'Is same-day emergency handyman cover available in Wilton?',
-        a: 'Yes. At 3 miles from Salisbury, Wilton is one of the easiest locations for us to reach quickly. We offer same-day emergency response for broken locks, burst pipes, electrical faults, and storm damage. Call 07391 599 078.',
+        a: 'Yes. At 3 miles from Salisbury, Wilton is one of the easiest locations for us to reach quickly. We offer same-day emergency response for broken locks, burst pipes, electrical faults, and storm damage. Call +44 7391 599 078.',
       },
       {
         q: 'Can you work on listed or conservation area properties in Wilton?',
@@ -122,7 +122,7 @@
       },
       {
         q: 'What are your rates for handyman work in Wilton?',
-        a: 'Our standard rate of £20 to £40 per hour applies in Wilton with no travel surcharge. Fixed-price quotes are available for defined project scopes. Call 07391 599 078 to get a quote.',
+        a: 'Our standard rate of £20 to £40 per hour applies in Wilton with no travel surcharge. Fixed-price quotes are available for defined project scopes. Call +44 7391 599 078 to get a quote.',
       },
     ],
   },
@@ -132,10 +132,10 @@
   // ─────────────────────────────────────────────
   'handyman-tidworth': {
     metaDescription:
-      'Professional handyman in Tidworth, SP9 — landlord maintenance, between-tenancy preparation, home repairs and emergency callouts for garrison-area properties. FixWell Services. Call 07391 599 078.',
+      'Professional handyman in Tidworth, SP9 — landlord maintenance, between-tenancy preparation, home repairs and emergency callouts for garrison-area properties. FixWell Services. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Tidworth, SP9, and the surrounding garrison area as part of our extended Wiltshire service zone. Tidworth is 16 miles north of our Salisbury base — typically 25 to 30 minutes via the A338 and A3026 — putting same-day emergency response firmly within reach. With a high concentration of rental properties serving military families at Tidworth Garrison, we are well-placed to support landlords and letting agents with the intensive maintenance demands this market creates. Call 07391 599 078.',
+      'FixWell Services covers Tidworth, SP9, and the surrounding garrison area as part of our extended Wiltshire service zone. Tidworth is 16 miles north of our Salisbury base — typically 25 to 30 minutes via the A338 and A3026 — putting same-day emergency response firmly within reach. With a high concentration of rental properties serving military families at Tidworth Garrison, we are well-placed to support landlords and letting agents with the intensive maintenance demands this market creates. Call +44 7391 599 078.',
 
     sections: [
       {
@@ -148,7 +148,7 @@
       },
       {
         heading: 'How FixWell Operates in Tidworth — Travel and Scheduling',
-        body: 'Tidworth is the furthest north in our Wiltshire coverage area at 16 miles from Salisbury. The A338 route north from Salisbury through Shipton Bellinger to Tidworth is straightforward, and we can typically reach SP9 in 25 to 30 minutes. For emergency callouts — burst pipes, security-critical broken locks, storm damage — we offer same-day response across Tidworth. For planned maintenance and non-urgent repairs, standard booking is within 2 to 3 days. For landlords with multiple properties in Tidworth, we can consolidate several jobs into a single trip to reduce cost and disruption. Call 07391 599 078 to discuss a maintenance schedule or book an individual job.',
+        body: 'Tidworth is the furthest north in our Wiltshire coverage area at 16 miles from Salisbury. The A338 route north from Salisbury through Shipton Bellinger to Tidworth is straightforward, and we can typically reach SP9 in 25 to 30 minutes. For emergency callouts — burst pipes, security-critical broken locks, storm damage — we offer same-day response across Tidworth. For planned maintenance and non-urgent repairs, standard booking is within 2 to 3 days. For landlords with multiple properties in Tidworth, we can consolidate several jobs into a single trip to reduce cost and disruption. Call +44 7391 599 078 to discuss a maintenance schedule or book an individual job.',
       },
       {
         heading: 'Handyman Costs in Tidworth',
@@ -156,7 +156,7 @@
       },
       {
         heading: 'Tidworth Within the FixWell Salisbury Service Network',
-        body: 'Tidworth is connected to the wider FixWell service network centred on Salisbury. Every service offered in Salisbury — emergency callouts, landlord maintenance, between-tenancy preparation, carpentry, painting, plumbing repairs — is available in Tidworth at the same rates and quality standards. For landlords and managing agents running properties in both Tidworth and Salisbury, FixWell can serve both locations under a single contractor relationship. See our Salisbury handyman services page for the full list of what we offer, or call 07391 599 078 to arrange a visit.',
+        body: 'Tidworth is connected to the wider FixWell service network centred on Salisbury. Every service offered in Salisbury — emergency callouts, landlord maintenance, between-tenancy preparation, carpentry, painting, plumbing repairs — is available in Tidworth at the same rates and quality standards. For landlords and managing agents running properties in both Tidworth and Salisbury, FixWell can serve both locations under a single contractor relationship. See our Salisbury handyman services page for the full list of what we offer, or call +44 7391 599 078 to arrange a visit.',
       },
     ],
 
@@ -175,7 +175,7 @@
       },
       {
         q: 'Is emergency handyman cover available in Tidworth?',
-        a: 'Yes. We offer same-day emergency response in Tidworth for urgent repairs — broken locks, burst pipes, storm damage, and electrical faults. Call 07391 599 078 and we will prioritise your callout.',
+        a: 'Yes. We offer same-day emergency response in Tidworth for urgent repairs — broken locks, burst pipes, storm damage, and electrical faults. Call +44 7391 599 078 and we will prioritise your callout.',
       },
       {
         q: 'Do you charge a travel supplement for Tidworth callouts?',
@@ -193,10 +193,10 @@
   // ─────────────────────────────────────────────
   'handyman-fordingbridge': {
     metaDescription:
-      'Professional handyman in Fordingbridge, SP6 — home repairs, garden and fence work, period property maintenance and emergency callouts. FixWell Services, 11 miles from Salisbury. Call 07391 599 078.',
+      'Professional handyman in Fordingbridge, SP6 — home repairs, garden and fence work, period property maintenance and emergency callouts. FixWell Services, 11 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Fordingbridge, SP6, and the surrounding Hampshire–Wiltshire border area as part of our southern service corridor. Fordingbridge is 11 miles south of Salisbury via the A338 — approximately 20 minutes by road — making same-day callouts straightforward for most SP6 addresses. Whether you own a period cottage near the medieval bridge, a 1980s semi on the outskirts, or a rural property beyond the town edge, FixWell provides the same fully insured, professional handyman service. Call 07391 599 078.',
+      'FixWell Services covers Fordingbridge, SP6, and the surrounding Hampshire–Wiltshire border area as part of our southern service corridor. Fordingbridge is 11 miles south of Salisbury via the A338 — approximately 20 minutes by road — making same-day callouts straightforward for most SP6 addresses. Whether you own a period cottage near the medieval bridge, a 1980s semi on the outskirts, or a rural property beyond the town edge, FixWell provides the same fully insured, professional handyman service. Call +44 7391 599 078.',
 
     sections: [
       {
@@ -209,7 +209,7 @@
       },
       {
         heading: 'How FixWell Operates in Fordingbridge',
-        body: 'Fordingbridge is 11 miles from our Salisbury base — a straightforward drive south on the A338, passing through the Avon valley. We typically reach Fordingbridge in under 20 minutes, which makes same-day emergency response reliable for SP6. We cover Fordingbridge Monday to Sunday, 7am to 8pm. For non-emergency jobs, we usually offer appointments within 2 to 3 days. Call 07391 599 078 to describe your job and receive a clear quote. We confirm the scope, agree a time, and arrive when expected — no chasing required.',
+        body: 'Fordingbridge is 11 miles from our Salisbury base — a straightforward drive south on the A338, passing through the Avon valley. We typically reach Fordingbridge in under 20 minutes, which makes same-day emergency response reliable for SP6. We cover Fordingbridge Monday to Sunday, 7am to 8pm. For non-emergency jobs, we usually offer appointments within 2 to 3 days. Call +44 7391 599 078 to describe your job and receive a clear quote. We confirm the scope, agree a time, and arrive when expected — no chasing required.',
       },
       {
         heading: 'Cost of Handyman Services in Fordingbridge',
@@ -217,7 +217,7 @@
       },
       {
         heading: 'Fordingbridge and the FixWell Southern Service Corridor',
-        body: 'Fordingbridge sits in FixWell\'s southern service corridor, connected directly to Salisbury via the A338. The same handyman expertise available to Salisbury homeowners — period property repairs, landlord maintenance, emergency callouts, garden and outdoor work — is fully available in Fordingbridge. Downton, 4 miles north, is also covered, so if you have properties in both areas we can serve them in a single visit. For the complete list of services FixWell provides across Wiltshire and Hampshire, visit our Salisbury handyman services page. For a quote or to book, call 07391 599 078.',
+        body: 'Fordingbridge sits in FixWell\'s southern service corridor, connected directly to Salisbury via the A338. The same handyman expertise available to Salisbury homeowners — period property repairs, landlord maintenance, emergency callouts, garden and outdoor work — is fully available in Fordingbridge. Downton, 4 miles north, is also covered, so if you have properties in both areas we can serve them in a single visit. For the complete list of services FixWell provides across Wiltshire and Hampshire, visit our Salisbury handyman services page. For a quote or to book, call +44 7391 599 078.',
       },
     ],
 
@@ -240,11 +240,11 @@
       },
       {
         q: 'Is same-day emergency handyman cover available in Fordingbridge?',
-        a: 'Yes. For urgent repairs — broken locks, burst pipes, storm damage — we offer same-day emergency response to Fordingbridge. Call 07391 599 078 as early in the day as possible.',
+        a: 'Yes. For urgent repairs — broken locks, burst pipes, storm damage — we offer same-day emergency response to Fordingbridge. Call +44 7391 599 078 as early in the day as possible.',
       },
       {
         q: 'What are your rates for work in Fordingbridge?',
-        a: 'Our standard rate of £20 to £40 per hour applies in Fordingbridge with no travel surcharge. Fixed-price quotes are available for defined jobs. Call 07391 599 078.',
+        a: 'Our standard rate of £20 to £40 per hour applies in Fordingbridge with no travel surcharge. Fixed-price quotes are available for defined jobs. Call +44 7391 599 078.',
       },
     ],
   },
@@ -254,10 +254,10 @@
   // ─────────────────────────────────────────────
   'handyman-downton': {
     metaDescription:
-      'Professional handyman in Downton, SP5 — period cottage repairs, carpentry, painting, home maintenance and same-day emergency callouts. FixWell Services, 7 miles from Salisbury. Call 07391 599 078.',
+      'Professional handyman in Downton, SP5 — period cottage repairs, carpentry, painting, home maintenance and same-day emergency callouts. FixWell Services, 7 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Downton, SP5, as part of our southern service area. Downton is 7 miles south of Salisbury via the A338 and B3080 — around 12 to 15 minutes by road — which makes us quick to reach for both planned maintenance and same-day emergency callouts. With a village character defined by conservation-area cottages, period properties on The Borough, and a historic connection to the River Avon, Downton homeowners benefit from a handyman service that understands older building fabric. Call FixWell on 07391 599 078.',
+      'FixWell Services covers Downton, SP5, as part of our southern service area. Downton is 7 miles south of Salisbury via the A338 and B3080 — around 12 to 15 minutes by road — which makes us quick to reach for both planned maintenance and same-day emergency callouts. With a village character defined by conservation-area cottages, period properties on The Borough, and a historic connection to the River Avon, Downton homeowners benefit from a handyman service that understands older building fabric. Call FixWell on +44 7391 599 078.',
 
     sections: [
       {
@@ -270,7 +270,7 @@
       },
       {
         heading: 'How FixWell Operates in Downton',
-        body: 'Downton is 7 miles south of our Salisbury base — a 12 to 15 minute journey along the A338 through the Avon valley. This proximity makes same-day emergency response highly reliable for SP5: if you have a burst pipe, a broken lock, or storm damage to a fence, we can respond quickly. For non-emergency planned work, we typically offer appointments within 1 to 2 days for Downton. We are available Monday to Sunday, 7am to 8pm. To book or get a quote, call 07391 599 078. We discuss the job, confirm the approach (particularly important for period properties where the right technique matters), and agree a time that suits you.',
+        body: 'Downton is 7 miles south of our Salisbury base — a 12 to 15 minute journey along the A338 through the Avon valley. This proximity makes same-day emergency response highly reliable for SP5: if you have a burst pipe, a broken lock, or storm damage to a fence, we can respond quickly. For non-emergency planned work, we typically offer appointments within 1 to 2 days for Downton. We are available Monday to Sunday, 7am to 8pm. To book or get a quote, call +44 7391 599 078. We discuss the job, confirm the approach (particularly important for period properties where the right technique matters), and agree a time that suits you.',
       },
       {
         heading: 'Handyman Costs in Downton',
@@ -278,7 +278,7 @@
       },
       {
         heading: 'Downton Within the FixWell Southern Service Network',
-        body: 'Downton sits in the same Avon valley corridor as Fordingbridge to the south and Salisbury to the north, and FixWell serves all three. If you have a property in Downton and need tradespeople who understand the specific demands of historic village housing — solid walls, original joinery, conservation-sensitive repairs — FixWell is the right choice. For the full list of services available to Downton homeowners and landlords, visit our Salisbury handyman services page. Or call 07391 599 078 to speak directly about your job.',
+        body: 'Downton sits in the same Avon valley corridor as Fordingbridge to the south and Salisbury to the north, and FixWell serves all three. If you have a property in Downton and need tradespeople who understand the specific demands of historic village housing — solid walls, original joinery, conservation-sensitive repairs — FixWell is the right choice. For the full list of services available to Downton homeowners and landlords, visit our Salisbury handyman services page. Or call +44 7391 599 078 to speak directly about your job.',
       },
     ],
 
@@ -297,7 +297,7 @@
       },
       {
         q: 'Is same-day emergency handyman service available in Downton?',
-        a: 'Yes. At 7 miles from Salisbury, Downton is quick to reach. We offer same-day emergency response for broken locks, burst pipes, storm damage, and other urgent repairs. Call 07391 599 078.',
+        a: 'Yes. At 7 miles from Salisbury, Downton is quick to reach. We offer same-day emergency response for broken locks, burst pipes, storm damage, and other urgent repairs. Call +44 7391 599 078.',
       },
       {
         q: 'Can you work on properties in Downton\'s conservation area?',
@@ -315,10 +315,10 @@
   // ─────────────────────────────────────────────
   'handyman-andover': {
     metaDescription:
-      'Professional handyman in Andover, SP10 and SP11 — home repairs, HMO and landlord maintenance, property preparation and emergency callouts. FixWell Services, 18 miles from Salisbury. Call 07391 599 078.',
+      'Professional handyman in Andover, SP10 and SP11 — home repairs, HMO and landlord maintenance, property preparation and emergency callouts. FixWell Services, 18 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Andover, SP10 and SP11, as the eastern extent of our cross-border Wiltshire and Hampshire service area. Andover is 18 miles from our Salisbury base — approximately 30 to 35 minutes via the A30 or A343 — and we provide the same fully insured, professional handyman service here as across our entire coverage zone. With a substantial landlord and HMO market near Andover town centre and a large volume of post-war estate housing requiring ongoing maintenance, FixWell is well placed to serve homeowners and property managers alike. Call 07391 599 078.',
+      'FixWell Services covers Andover, SP10 and SP11, as the eastern extent of our cross-border Wiltshire and Hampshire service area. Andover is 18 miles from our Salisbury base — approximately 30 to 35 minutes via the A30 or A343 — and we provide the same fully insured, professional handyman service here as across our entire coverage zone. With a substantial landlord and HMO market near Andover town centre and a large volume of post-war estate housing requiring ongoing maintenance, FixWell is well placed to serve homeowners and property managers alike. Call +44 7391 599 078.',
 
     sections: [
       {
@@ -331,7 +331,7 @@
       },
       {
         heading: 'How FixWell Operates in Andover — Distance and Response',
-        body: 'Andover is 18 miles from Salisbury — our furthest regular destination. The A30 route east through Wallop and Grateley, or the A343 through Tidworth, are both direct and usually clear outside commuter hours, putting most Andover addresses within 30 to 35 minutes. We offer same-day emergency response for Andover: for genuine urgencies — broken locks on an HMO, burst pipes, storm-damaged fences — call 07391 599 078 early in the day and we will prioritise. For standard bookings, we typically schedule Andover visits within 2 to 4 days. For landlords managing several properties in Andover, we can batch jobs into single visits to reduce cost and travel time.',
+        body: 'Andover is 18 miles from Salisbury — our furthest regular destination. The A30 route east through Wallop and Grateley, or the A343 through Tidworth, are both direct and usually clear outside commuter hours, putting most Andover addresses within 30 to 35 minutes. We offer same-day emergency response for Andover: for genuine urgencies — broken locks on an HMO, burst pipes, storm-damaged fences — call +44 7391 599 078 early in the day and we will prioritise. For standard bookings, we typically schedule Andover visits within 2 to 4 days. For landlords managing several properties in Andover, we can batch jobs into single visits to reduce cost and travel time.',
       },
       {
         heading: 'Handyman Costs in Andover — Rates and Landlord Packages',
@@ -339,7 +339,7 @@
       },
       {
         heading: 'Andover as Part of the FixWell Salisbury Service Network',
-        body: 'Andover represents FixWell\'s reach into north Hampshire, extending the Salisbury-centred service network across the county boundary. Every service available to Salisbury customers — emergency callouts, landlord and HMO maintenance, carpentry, painting and decorating, plumbing repairs, fence and garden work — is available to Andover customers on the same terms. For landlords and managing agents with properties in both Andover and Salisbury (or other towns in our network), FixWell offers a single contractor relationship across the full area. For the complete list of services, visit our Salisbury handyman services page. To book or request a quote, call 07391 599 078.',
+        body: 'Andover represents FixWell\'s reach into north Hampshire, extending the Salisbury-centred service network across the county boundary. Every service available to Salisbury customers — emergency callouts, landlord and HMO maintenance, carpentry, painting and decorating, plumbing repairs, fence and garden work — is available to Andover customers on the same terms. For landlords and managing agents with properties in both Andover and Salisbury (or other towns in our network), FixWell offers a single contractor relationship across the full area. For the complete list of services, visit our Salisbury handyman services page. To book or request a quote, call +44 7391 599 078.',
       },
     ],
 
@@ -358,7 +358,7 @@
       },
       {
         q: 'Is same-day emergency handyman cover available in Andover?',
-        a: 'Yes. We offer same-day emergency response in Andover for broken locks, burst pipes, storm damage, and electrical faults. Call 07391 599 078 as early in the day as possible to maximise the chance of a same-day visit.',
+        a: 'Yes. We offer same-day emergency response in Andover for broken locks, burst pipes, storm damage, and electrical faults. Call +44 7391 599 078 as early in the day as possible to maximise the chance of a same-day visit.',
       },
       {
         q: 'Do you charge a travel fee for Andover callouts from Salisbury?',

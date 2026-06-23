@@ -68,7 +68,7 @@ export const coreHubPages: CorePage[] = [
       },
       {
         q: 'How do I get a quote?',
-        a: 'Call us on 07391 599 078 or use the contact form on this page. We will discuss your job, provide a fixed-price quote or hourly rate (£20–£40/hr), and arrange a convenient time.',
+        a: 'Call us on +44 7391 599 078 or use the contact form on this page. We will discuss your job, provide a fixed-price quote or hourly rate (£20–£40/hr), and arrange a convenient time.',
       },
       {
         q: 'Can you do same-day emergency repairs?',
@@ -102,7 +102,7 @@ export const coreHubPages: CorePage[] = [
     faqs: [
       {
         q: 'How quickly can you respond to an emergency in Salisbury?',
-        a: 'We aim to respond to emergency callouts in Salisbury on the same day. For urgent situations like burst pipes or broken locks, call us directly on 07391 599 078.',
+        a: 'We aim to respond to emergency callouts in Salisbury on the same day. For urgent situations like burst pipes or broken locks, call us directly on +44 7391 599 078.',
       },
       {
         q: 'What counts as a handyman emergency?',

@@ -327,7 +327,7 @@ export const outerHubPages: OuterPage[] = [
     faqs: [
       {
         q: 'Who do I call for a home emergency in Salisbury?',
-        a: 'For gas leaks, call the National Gas Emergency Service (0800 111 999) immediately. For plumbing, electrical, lock, and structural emergencies in Salisbury, call FixWell Services on 07391 599 078 for same-day response.',
+        a: 'For gas leaks, call the National Gas Emergency Service (0800 111 999) immediately. For plumbing, electrical, lock, and structural emergencies in Salisbury, call FixWell Services on +44 7391 599 078 for same-day response.',
       },
       {
         q: 'What should I do if I have a burst pipe?',

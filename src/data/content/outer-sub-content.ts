@@ -171,7 +171,7 @@
       },
       {
         q: 'Does FixWell Services carry out seasonal garden maintenance in Salisbury?',
-        a: 'Yes. FixWell Services provides seasonal garden maintenance across Salisbury and Wiltshire — including lawn care, hedge trimming, fence and gate repair, paving re-laying, gutter clearing, and general outdoor property maintenance. We can arrange regular seasonal visits or one-off tidy-ups. Call 07391 599 078 to discuss your garden.',
+        a: 'Yes. FixWell Services provides seasonal garden maintenance across Salisbury and Wiltshire — including lawn care, hedge trimming, fence and gate repair, paving re-laying, gutter clearing, and general outdoor property maintenance. We can arrange regular seasonal visits or one-off tidy-ups. Call +44 7391 599 078 to discuss your garden.',
       },
     ],
   },

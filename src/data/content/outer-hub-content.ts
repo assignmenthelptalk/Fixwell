@@ -131,7 +131,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'Can I get a fixed-price quote for handyman work in Salisbury?',
-        a: 'Yes. For jobs where the scope is well defined — shelf installation, furniture assembly, gutter clearing, fence panel replacement, TV mounting — a fixed-price quote gives you cost certainty upfront. FixWell Services offers fixed-price quotes for defined-scope work and hourly rates for open-ended maintenance visits. Call 07391 599 078 or email sales@fixwellservices.co.uk to request a quote.',
+        a: 'Yes. For jobs where the scope is well defined — shelf installation, furniture assembly, gutter clearing, fence panel replacement, TV mounting — a fixed-price quote gives you cost certainty upfront. FixWell Services offers fixed-price quotes for defined-scope work and hourly rates for open-ended maintenance visits. Call +44 7391 599 078 or email sales@fixwellservices.co.uk to request a quote.',
       },
     ],
   },
@@ -305,7 +305,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'Which home maintenance tasks can a professional handyman in Salisbury help with?',
-        a: 'FixWell Services carries out a range of annual maintenance tasks across Salisbury and Wiltshire: gutter clearing (including working at height safely), fence repair and post concreting, draught-proofing doors and windows, painting and external woodwork treatment, path and patio anti-slip cleaning, minor roof tile inspections from ground level, and general pre-winter property condition checks. Call 07391 599 078 to discuss a seasonal maintenance visit.',
+        a: 'FixWell Services carries out a range of annual maintenance tasks across Salisbury and Wiltshire: gutter clearing (including working at height safely), fence repair and post concreting, draught-proofing doors and windows, painting and external woodwork treatment, path and patio anti-slip cleaning, minor roof tile inspections from ground level, and general pre-winter property condition checks. Call +44 7391 599 078 to discuss a seasonal maintenance visit.',
       },
     ],
   },
@@ -336,7 +336,7 @@ export const outerHubContent: Record<
       },
       {
         heading: 'What a Professional Handyman Service in Wiltshire Looks Like',
-        body: "A professional handyman service in Wiltshire or Salisbury will have: a physical local presence with a verifiable address; full public liability insurance they can evidence on request; a process for providing written quotes (fixed price or hourly estimate with a cap); contactable by phone during working hours and responsive to email or message; verifiable Google reviews from recent customers; transparency about what falls within and outside their scope; and a clear approach to invoicing that does not require cash-only upfront payment. FixWell Services meets all of these criteria: fully insured, locally based in Salisbury, transparent pricing, with a contact number (07391 599 078) and email (sales@fixwellservices.co.uk) for quotes and bookings across Salisbury and Wiltshire.",
+        body: "A professional handyman service in Wiltshire or Salisbury will have: a physical local presence with a verifiable address; full public liability insurance they can evidence on request; a process for providing written quotes (fixed price or hourly estimate with a cap); contactable by phone during working hours and responsive to email or message; verifiable Google reviews from recent customers; transparency about what falls within and outside their scope; and a clear approach to invoicing that does not require cash-only upfront payment. FixWell Services meets all of these criteria: fully insured, locally based in Salisbury, transparent pricing, with a contact number (+44 7391 599 078) and email (sales@fixwellservices.co.uk) for quotes and bookings across Salisbury and Wiltshire.",
       },
     ],
 
@@ -370,7 +370,7 @@ export const outerHubContent: Record<
 
   'when-do-you-need-emergency-handyman': {
     metaDescription:
-      'When to call an emergency handyman — what counts as a home emergency, burst pipes, broken locks, electrical faults, storm damage, heating failure, and how to get same-day help in Salisbury (07391 599 078).',
+      'When to call an emergency handyman — what counts as a home emergency, burst pipes, broken locks, electrical faults, storm damage, heating failure, and how to get same-day help in Salisbury (+44 7391 599 078).',
 
     intro:
       "Not every home repair is urgent, but some are — and misidentifying an emergency as a routine job can turn a manageable problem into a serious one. A slowly weeping pipe joint that drips inside a wall cavity over several days causes far more damage than one that causes an obvious emergency and gets fixed immediately. Understanding which repairs genuinely cannot wait — and knowing what to do in the time before a professional arrives — is practical knowledge that every homeowner should have before they need it.",
@@ -394,14 +394,14 @@ export const outerHubContent: Record<
       },
       {
         heading: 'Getting Same-Day Emergency Help in Salisbury',
-        body: "When you need emergency handyman help in Salisbury or Wiltshire, immediate response matters. FixWell Services provides same-day emergency response for the following: emergency lock repair and door boarding; plumbing leak investigation and temporary repair (pending specialist plumber attendance if required); storm damage inspection and temporary boarding; and general emergency property repair. Call FixWell Services on 07391 599 078 for same-day emergency response across Salisbury and the surrounding Wiltshire area. For gas emergencies (smell of gas, suspected gas leak) always call the National Gas Emergency Service first on 0800 111 999, which is free, 24 hours, and handles immediate gas safety situations.",
+        body: "When you need emergency handyman help in Salisbury or Wiltshire, immediate response matters. FixWell Services provides same-day emergency response for the following: emergency lock repair and door boarding; plumbing leak investigation and temporary repair (pending specialist plumber attendance if required); storm damage inspection and temporary boarding; and general emergency property repair. Call FixWell Services on +44 7391 599 078 for same-day emergency response across Salisbury and the surrounding Wiltshire area. For gas emergencies (smell of gas, suspected gas leak) always call the National Gas Emergency Service first on 0800 111 999, which is free, 24 hours, and handles immediate gas safety situations.",
       },
     ],
 
     faqs: [
       {
         q: 'What should I do first in a home emergency in Salisbury?',
-        a: "Prioritise safety first: if there is any risk to personal safety, get people out and call emergency services. For plumbing emergencies, turn off the stopcock. For electrical issues, isolate the circuit at the consumer unit. For gas emergencies, leave the building and call 0800 111 999. Then call FixWell Services on 07391 599 078 for same-day emergency handyman response.",
+        a: "Prioritise safety first: if there is any risk to personal safety, get people out and call emergency services. For plumbing emergencies, turn off the stopcock. For electrical issues, isolate the circuit at the consumer unit. For gas emergencies, leave the building and call 0800 111 999. Then call FixWell Services on +44 7391 599 078 for same-day emergency handyman response.",
       },
       {
         q: 'What is the national gas emergency number?',
@@ -413,7 +413,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'What should I do if my pipe bursts while I am away?',
-        a: "If you are away and discover via a neighbour or alert system that a pipe has burst: ask a trusted neighbour to turn off the stopcock if they have access and know where it is. Call FixWell Services on 07391 599 078 — we work with remote landlords and homeowners who need emergency response without being physically present. Notify your home insurer as promptly as possible — delayed notification can affect your claim.",
+        a: "If you are away and discover via a neighbour or alert system that a pipe has burst: ask a trusted neighbour to turn off the stopcock if they have access and know where it is. Call FixWell Services on +44 7391 599 078 — we work with remote landlords and homeowners who need emergency response without being physically present. Notify your home insurer as promptly as possible — delayed notification can affect your claim.",
       },
       {
         q: 'Does a handyman cover emergency repairs or only planned work?',
@@ -421,7 +421,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'How quickly can FixWell Services respond to an emergency in Salisbury?',
-        a: "For genuine emergencies — broken locks, storm damage, burst pipes — FixWell Services aims for same-day response across Salisbury. Call 07391 599 078 as early as possible in the day. For out-of-hours emergencies, leave a message and we will call back at the earliest opportunity. Salisbury city and close surroundings are typically reachable within 30–60 minutes during working hours.",
+        a: "For genuine emergencies — broken locks, storm damage, burst pipes — FixWell Services aims for same-day response across Salisbury. Call +44 7391 599 078 as early as possible in the day. For out-of-hours emergencies, leave a message and we will call back at the earliest opportunity. Salisbury city and close surroundings are typically reachable within 30–60 minutes during working hours.",
       },
     ],
   },
@@ -529,7 +529,7 @@ export const outerHubContent: Record<
       },
       {
         q: 'Can a handyman help prepare my Salisbury home for winter?',
-        a: "Yes. FixWell Services provides autumn property preparation visits covering: gutter clearing, pipe insulation checking, draught-proofing doors and windows, fence inspection and repair, minor tile inspection from ground level, path anti-slip cleaning, and general pre-winter condition assessment. A single visit in October can work through the most important items on the schedule. Call 07391 599 078 to arrange.",
+        a: "Yes. FixWell Services provides autumn property preparation visits covering: gutter clearing, pipe insulation checking, draught-proofing doors and windows, fence inspection and repair, minor tile inspection from ground level, path anti-slip cleaning, and general pre-winter condition assessment. A single visit in October can work through the most important items on the schedule. Call +44 7391 599 078 to arrange.",
       },
       {
         q: 'How do I check my roof before winter without going up on it?',

@@ -1,8 +1,8 @@
 export const site = {
   name: 'FixWell Services',
   url: 'https://www.fixwellservices.co.uk',
-  phone: '07391599078',
-  phoneDisplay: '07391 599 078',
+  phone: '+447391599078',
+  phoneDisplay: '+44 7391 599 078',
   email: 'sales@fixwellservices.co.uk',
   address: 'PO Box 2519, Salisbury, SP2 2GB',
   city: 'Salisbury',
