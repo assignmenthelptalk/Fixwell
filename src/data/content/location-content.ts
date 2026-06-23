@@ -13,7 +13,7 @@
       'Professional handyman in Amesbury, SP4 — home repairs, property maintenance, landlord services and same-day emergency callouts. FixWell Services, 10 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services provides fully insured handyman cover across Amesbury, SP4, and the surrounding area. Our Salisbury base is just 10 miles south via the A303, putting us within 20 minutes of most SP4 addresses, fast enough for genuine same-day emergency response. Whether you need a quick repair in a rented garrison property, a full between-tenancy refresh, or a one-off odd job at home, call us on +44 7391 599 078.',
+      'FixWell Services provides fully insured handyman cover across Amesbury, SP4, and the surrounding area. Our Salisbury base is just 10 miles south via the A303, putting us within 20 minutes of most SP4 addresses, fast enough for genuine same-day emergency response. Whether you need a quick repair in a rented garrison property, a full <a href="/between-tenancy-property-preparation-salisbury">between-tenancy refresh</a>, or a one-off odd job at home — all covered as part of our <a href="/handyman-services-salisbury">handyman services</a> — call us on +44 7391 599 078.',
 
     sections: [
       {
@@ -74,7 +74,7 @@
       'Professional handyman in Wilton, SP2 — period property repairs, home maintenance, carpentry and same-day emergency callouts. FixWell Services, just 3 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Wilton, SP2, as part of our core Salisbury service area. At just 3 miles west of our Salisbury base — roughly 8 to 10 minutes by road — Wilton is one of the closest towns we serve, and we treat it as an extension of our home patch. From period property repairs in the conservation area to emergency callouts and routine home maintenance, call FixWell on +44 7391 599 078.',
+      'FixWell Services covers Wilton, SP2, as part of our core Salisbury service area. At just 3 miles west of our Salisbury base — roughly 8 to 10 minutes by road — Wilton is one of the closest towns we serve, and we treat it as an extension of our home patch. From period property repairs and <a href="/carpentry-services-salisbury">carpentry work</a> in the conservation area to emergency callouts and <a href="/handyman-services-salisbury">routine home maintenance</a>, call FixWell on +44 7391 599 078.',
 
     sections: [
       {
@@ -135,7 +135,7 @@
       'Professional handyman in Tidworth, SP9 — landlord maintenance, between-tenancy preparation, home repairs and emergency callouts for garrison-area properties. FixWell Services. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Tidworth, SP9, and the surrounding garrison area as part of our extended Wiltshire service zone. Tidworth is 16 miles north of our Salisbury base — typically 25 to 30 minutes via the A338 and A3026 — putting same-day emergency response firmly within reach. With a high concentration of rental properties serving military families at Tidworth Garrison, we are well-placed to support landlords and letting agents with the intensive maintenance demands this market creates. Call +44 7391 599 078.',
+      'FixWell Services covers Tidworth, SP9, and the surrounding garrison area as part of our extended Wiltshire service zone. Tidworth is 16 miles north of our Salisbury base — typically 25 to 30 minutes via the A338 and A3026 — putting same-day emergency response firmly within reach. With a high concentration of rental properties serving military families at Tidworth Garrison, we are well-placed to support landlords and letting agents with intensive <a href="/between-tenancy-property-preparation-salisbury">between-tenancy preparation</a> and the wider range of <a href="/handyman-services-salisbury">handyman services</a> this market demands. Call +44 7391 599 078.',
 
     sections: [
       {
@@ -196,7 +196,7 @@
       'Professional handyman in Fordingbridge, SP6 — home repairs, garden and fence work, period property maintenance and emergency callouts. FixWell Services, 11 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Fordingbridge, SP6, and the surrounding Hampshire–Wiltshire border area as part of our southern service corridor. Fordingbridge is 11 miles south of Salisbury via the A338 — approximately 20 minutes by road — making same-day callouts straightforward for most SP6 addresses. Whether you own a period cottage near the medieval bridge, a 1980s semi on the outskirts, or a rural property beyond the town edge, FixWell provides the same fully insured, professional handyman service. Call +44 7391 599 078.',
+      'FixWell Services covers Fordingbridge, SP6, and the surrounding Hampshire–Wiltshire border area as part of our southern service corridor. Fordingbridge is 11 miles south of Salisbury via the A338 — approximately 20 minutes by road — making same-day callouts straightforward for most SP6 addresses. Whether you own a period cottage near the medieval bridge, a 1980s semi on the outskirts, or a rural property with larger plots needing <a href="/fence-repair-salisbury">fence repair</a> and outdoor work, FixWell provides the same fully insured <a href="/handyman-services-salisbury">handyman service</a>. Call +44 7391 599 078.',
 
     sections: [
       {
@@ -257,7 +257,7 @@
       'Professional handyman in Downton, SP5 — period cottage repairs, carpentry, painting, home maintenance and same-day emergency callouts. FixWell Services, 7 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Downton, SP5, as part of our southern service area. Downton is 7 miles south of Salisbury via the A338 and B3080 — around 12 to 15 minutes by road — which makes us quick to reach for both planned maintenance and same-day emergency callouts. With a village character defined by conservation-area cottages, period properties on The Borough, and a historic connection to the River Avon, Downton homeowners benefit from a handyman service that understands older building fabric. Call FixWell on +44 7391 599 078.',
+      'FixWell Services covers Downton, SP5, as part of our southern service area. Downton is 7 miles south of Salisbury via the A338 and B3080 — around 12 to 15 minutes by road — which makes us quick to reach for both planned maintenance and same-day emergency callouts. With a village character defined by conservation-area cottages, period properties on The Borough, and a historic connection to the River Avon, Downton homeowners benefit from a <a href="/handyman-services-salisbury">handyman service</a> that understands older building fabric — from <a href="/carpentry-services-salisbury">carpentry repairs</a> to period door and window maintenance. Call FixWell on +44 7391 599 078.',
 
     sections: [
       {
@@ -318,7 +318,7 @@
       'Professional handyman in Andover, SP10 and SP11 — home repairs, HMO and landlord maintenance, property preparation and emergency callouts. FixWell Services, 18 miles from Salisbury. Call +44 7391 599 078.',
 
     intro:
-      'FixWell Services covers Andover, SP10 and SP11, as the eastern extent of our cross-border Wiltshire and Hampshire service area. Andover is 18 miles from our Salisbury base — approximately 30 to 35 minutes via the A30 or A343 — and we provide the same fully insured, professional handyman service here as across our entire coverage zone. With a substantial landlord and HMO market near Andover town centre and a large volume of post-war estate housing requiring ongoing maintenance, FixWell is well placed to serve homeowners and property managers alike. Call +44 7391 599 078.',
+      'FixWell Services covers Andover, SP10 and SP11, as the eastern extent of our cross-border Wiltshire and Hampshire service area. Andover is 18 miles from our Salisbury base — approximately 30 to 35 minutes via the A30 or A343 — and we provide the same fully insured, professional <a href="/handyman-services-salisbury">handyman service</a> here as across our entire coverage zone. With a substantial landlord and HMO market near Andover town centre, demand for <a href="/between-tenancy-property-preparation-salisbury">between-tenancy preparation</a> and ongoing maintenance is high. Call +44 7391 599 078.',
 
     sections: [
       {

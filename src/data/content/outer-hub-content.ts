@@ -25,7 +25,7 @@ export const outerHubContent: Record<
       'What does a handyman do? A precise guide to handyman scope in the UK — services covered, legal limits, what requires a specialist tradesman, and how to use a handyman effectively in Salisbury and Wiltshire.',
 
     intro:
-      'The word handyman is used loosely, which is part of the problem when homeowners try to decide whether their job is the right fit. A handyman is a skilled generalist — someone who can carry out a wide range of repair, maintenance, and improvement work across multiple trade areas, but who operates at a different level of depth and legal scope than a specialist tradesperson. Understanding exactly what a handyman can and cannot do helps you match the right professional to the right job, avoid paying specialist rates for general work, and stay on the right side of UK building regulations when repairs touch licensed activities.',
+      'The word handyman is used loosely, which is part of the problem when homeowners try to decide whether their job is the right fit. A handyman is a skilled generalist — someone who can carry out a wide range of repair, maintenance, and improvement work across multiple trade areas, but who operates at a different level of depth and legal scope than a specialist tradesperson. Understanding exactly what a handyman can and cannot do helps you match the right professional to the right job. FixWell\'s <a href="/handyman-services-salisbury">handyman services in Salisbury</a> cover everything from <a href="/odd-jobs-salisbury">odd jobs</a> to full <a href="/property-maintenance-salisbury">property maintenance programmes</a>.',
 
     sections: [
       {
@@ -83,7 +83,7 @@ export const outerHubContent: Record<
       'Handyman pricing guide for Salisbury and Wiltshire 2026 — hourly rates (£20–£40/hr), fixed-price jobs, callout fees, VAT status of small traders, and typical costs for common handyman jobs.',
 
     intro:
-      'Cost is the first question most people ask before calling a handyman, and it is a reasonable one. Knowing the going rate for handyman work in Salisbury helps you assess whether a quote is fair, decide between hourly and fixed-price billing, and budget accurately for a list of jobs. This guide gives real figures for Salisbury and Wiltshire — not vague national ranges — including hourly rates, fixed-price job costs, callout fee practices, VAT status of small traders, and what affects where in the price range your job will land.',
+      'Cost is the first question most people ask before calling a handyman, and it is a reasonable one. Knowing the going rate for handyman work in Salisbury helps you assess whether a quote is fair, decide between hourly and fixed-price billing, and budget accurately for a list of jobs. This guide gives real figures for Salisbury and Wiltshire — not vague national ranges. For the full list of what is covered, see our <a href="/handyman-services-salisbury">handyman services in Salisbury</a>. For urgent work, <a href="/emergency-handyman-salisbury">emergency callout rates</a> are explained separately.',
 
     sections: [
       {
@@ -141,7 +141,7 @@ export const outerHubContent: Record<
       'Handyman vs tradesman in the UK — when to use each, legal scope of handyman work, what requires Gas Safe or Part P certification, and cost comparison. Decision guide for Salisbury homeowners.',
 
     intro:
-      'One of the most common questions homeowners face when they have a repair or maintenance need is whether to call a handyman or a specialist tradesperson. Getting this wrong in either direction costs money: calling a specialist plumber or electrician for a job well within handyman scope means paying premium rates for no added benefit, while using a handyman for work that legally requires a certified specialist creates legal risk, insurance exposure, and potential safety hazards. This guide explains the functional difference between a handyman and a tradesman, maps out which jobs belong to which category under UK law, and gives you a cost comparison to make the right choice.',
+      'One of the most common questions homeowners face when they have a repair or maintenance need is whether to call a handyman or a specialist tradesperson. Getting this wrong in either direction costs money: calling a specialist plumber or electrician for a job well within handyman scope means paying premium rates for no added benefit, while using a handyman for work that legally requires a certified specialist creates legal risk, insurance exposure, and potential safety hazards. FixWell\'s <a href="/plumbing-repairs-salisbury">plumbing repairs</a> and <a href="/electrical-repairs-salisbury">electrical repairs</a> services clearly define what falls within handyman scope and when a specialist is needed.',
 
     sections: [
       {
@@ -199,7 +199,7 @@ export const outerHubContent: Record<
       'Landlord property maintenance legal obligations in England — Landlord and Tenant Act 1985 s.11, Homes (Fitness for Human Habitation) Act 2018, annual gas safety certificate, 5-year EICR, repair response times, and penalties for non-compliance.',
 
     intro:
-      "Landlords in England operate within a detailed framework of statutory obligations for property maintenance and repair. These obligations are not optional clauses in a tenancy agreement — they are implied legal duties that cannot be contracted away, regardless of what your tenancy agreement says. Understanding the specific legislation that applies, the timescales you are required to meet, and the consequences of non-compliance is essential for any landlord managing property in Salisbury or Wiltshire. This guide covers the key statutes and their practical requirements, from the foundational repairing obligations under the Landlord and Tenant Act 1985 to the more recent Homes (Fitness for Human Habitation) Act 2018 and mandatory certificate requirements.",
+      'Landlords in England operate within a detailed framework of statutory obligations for property maintenance and repair. These obligations are not optional clauses in a tenancy agreement — they are implied legal duties that cannot be contracted away, regardless of what your tenancy agreement says. Understanding the specific legislation that applies, the timescales you are required to meet, and the consequences of non-compliance is essential for any landlord managing property in Salisbury or Wiltshire. FixWell\'s <a href="/landlord-property-maintenance-salisbury">landlord property maintenance service</a> and <a href="/between-tenancy-property-preparation-salisbury">between-tenancy preparation</a> are structured to help landlords meet these obligations.',
 
     sections: [
       {
@@ -257,7 +257,7 @@ export const outerHubContent: Record<
       'Annual home maintenance schedule for UK homeowners — seasonal checklist across spring, summer, autumn, and winter, which tasks require a professional, and how to protect older properties in Salisbury and Wiltshire.',
 
     intro:
-      'A home maintenance schedule is the single most cost-effective habit a homeowner can develop. The alternative — reacting to problems as they arise — is consistently more expensive and more stressful. A blocked gutter caught in October costs £60–£90 to clear; the same blockage left until spring can cause fascia rot, wall saturation, and internal damp that costs thousands to repair. This annual schedule is calibrated for UK homes, with particular attention to the seasonal patterns of Wiltshire and the specific vulnerabilities of older properties that make up a significant proportion of housing stock in Salisbury and surrounding villages.',
+      'A home maintenance schedule is the single most cost-effective habit a homeowner can develop. The alternative — reacting to problems as they arise — is consistently more expensive and more stressful. A blocked gutter caught in October costs £60–£90 to clear via our <a href="/gutter-cleaning-salisbury">gutter cleaning service</a>; the same blockage left until spring can cause fascia rot, wall saturation, and internal damp that costs thousands to repair. This annual schedule is calibrated for UK homes, with particular attention to the seasonal patterns of Wiltshire. For a managed programme, see our <a href="/property-maintenance-salisbury">property maintenance service</a>.',
 
     sections: [
       {
@@ -315,7 +315,7 @@ export const outerHubContent: Record<
       'How to find a reliable handyman in Wiltshire — what questions to ask before booking, insurance requirements, red flags to avoid, how to verify legitimacy, and what a professional handyman service looks like.',
 
     intro:
-      'Finding a reliable handyman in Wiltshire should be straightforward, but the combination of an unregulated trade, a fragmented local market, and the consequences of getting it wrong means it deserves careful attention. A poor-quality or uninsured handyman can leave you with substandard work, property damage, and no recourse. A good one becomes an invaluable long-term resource. This guide explains exactly what to look for, what questions to ask, and how to spot the warning signs — so that finding a trustworthy professional in Salisbury or the surrounding Wiltshire area is a process with a reliable outcome rather than a gamble.',
+      'Finding a reliable handyman in Wiltshire should be straightforward, but the combination of an unregulated trade, a fragmented local market, and the consequences of getting it wrong means it deserves careful attention. A poor-quality or uninsured handyman can leave you with substandard work, property damage, and no recourse. A good one becomes an invaluable long-term resource. FixWell provides fully insured <a href="/handyman-services-salisbury">handyman services across Salisbury</a>, including same-day <a href="/emergency-handyman-salisbury">emergency callouts</a> — here is what to look for when choosing any handyman in Wiltshire.',
 
     sections: [
       {
@@ -373,7 +373,7 @@ export const outerHubContent: Record<
       'When to call an emergency handyman — what counts as a home emergency, burst pipes, broken locks, electrical faults, storm damage, heating failure, and how to get same-day help in Salisbury (+44 7391 599 078).',
 
     intro:
-      "Not every home repair is urgent, but some are — and misidentifying an emergency as a routine job can turn a manageable problem into a serious one. A slowly weeping pipe joint that drips inside a wall cavity over several days causes far more damage than one that causes an obvious emergency and gets fixed immediately. Understanding which repairs genuinely cannot wait — and knowing what to do in the time before a professional arrives — is practical knowledge that every homeowner should have before they need it.",
+      'Not every home repair is urgent, but some are — and misidentifying an emergency as a routine job can turn a manageable problem into a serious one. A slowly weeping pipe joint — the kind our <a href="/plumbing-leak-repairs-salisbury">plumbing leak repair service</a> handles daily — can drip inside a wall cavity for days before the damage becomes visible. Understanding which repairs genuinely cannot wait is practical knowledge every homeowner needs. FixWell\'s <a href="/emergency-handyman-salisbury">emergency handyman service</a> provides same-day attendance across Salisbury and Wiltshire.',
 
     sections: [
       {
@@ -431,7 +431,7 @@ export const outerHubContent: Record<
       "DIY vs professional home repairs in the UK — what the law allows, where DIY becomes risky, the true cost of failed DIY, UK legal restrictions on gas and electrical work, and how to make the right call for your Salisbury home.",
 
     intro:
-      "The DIY versus professional handyman decision is not a binary choice between incompetence and expertise — it is a practical calculation about competence, legal scope, tools, risk, and cost of failure. Many home repairs are well within reach of a capable, safety-conscious homeowner. Others carry legal restrictions, insurance implications, or failure costs that make professional involvement the sensible choice regardless of skill level. This guide maps out the terrain clearly so UK homeowners can make the right call for each job rather than applying a blanket rule in either direction.",
+      'The DIY versus professional handyman decision is not a binary choice between incompetence and expertise — it is a practical calculation about competence, legal scope, tools, risk, and cost of failure. Many home repairs are well within reach of a capable, safety-conscious homeowner. Others carry legal restrictions, insurance implications, or failure costs that make professional involvement the sensible choice. For the jobs that need a professional, FixWell\'s <a href="/home-repairs-salisbury">home repairs service</a> provides fully insured cover across all common categories — part of our wider <a href="/handyman-services-salisbury">handyman services in Salisbury</a>.',
 
     sections: [
       {
@@ -489,7 +489,7 @@ export const outerHubContent: Record<
       'Preparing your home for winter in the UK — gutter clearing, pipe insulation, boiler servicing, roof inspection, draught-proofing, and which tasks need a professional handyman in Salisbury and Wiltshire.',
 
     intro:
-      "Winter arrives gradually in Wiltshire — a sequence of wetter months, the first hard frosts, and eventually a period of sustained cold and damp that tests every element of a property\'s envelope. The window to prepare is September through November, and the cost of missing it is measured in burst pipes, saturated walls, and boiler breakdowns at the worst possible time. This guide takes a systematic approach to winter preparation for UK homes, with particular attention to older properties in Salisbury and the wider Wiltshire area where specific vulnerabilities — solid walls, older roof materials, and limited insulation — make proactive preparation especially worthwhile.",
+      'Winter arrives gradually in Wiltshire — a sequence of wetter months, the first hard frosts, and eventually a period of sustained cold and damp that tests every element of a property\'s envelope. The window to prepare is September through November, and the cost of missing it is measured in burst pipes, saturated walls, and boiler breakdowns at the worst possible time. Key tasks include <a href="/gutter-cleaning-salisbury">gutter clearing</a> before consistent winter rainfall begins and scheduling a pre-winter <a href="/property-maintenance-salisbury">property maintenance</a> visit to catch potential failures early.',
 
     sections: [
       {

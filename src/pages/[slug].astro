@@ -119,13 +119,13 @@ const pageImage = page ? pageImages[page.slug] : undefined;
             />
           )}
           {coreContent?.intro && (
-            <p class="page-intro">{coreContent.intro}</p>
+            <p class="page-intro" set:html={coreContent.intro}></p>
           )}
           {activeSections.length > 0 ? (
             activeSections.map((s) => (
               <div class="content-section">
                 <h2>{s.heading}</h2>
-                <p>{s.body}</p>
+                <p set:html={s.body}></p>
               </div>
             ))
           ) : (
@@ -208,12 +208,12 @@ const pageImage = page ? pageImages[page.slug] : undefined;
       <div class="container article-body__inner">
         <div class="article-content">
           {outerContent?.intro && (
-            <p class="article-intro">{outerContent.intro}</p>
+            <p class="article-intro" set:html={outerContent.intro}></p>
           )}
           {outerActiveSections.map((s) => (
             <div class="article-section">
               <h2>{s.heading}</h2>
-              <p>{s.body}</p>
+              <p set:html={s.body}></p>
             </div>
           ))}
         </div>

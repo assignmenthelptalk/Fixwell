@@ -13,7 +13,7 @@
       'Expert plumbing leak repairs in Salisbury — burst pipes, dripping compression joints, radiator valve leaks and under-sink repairs. Same-day emergency response. FixWell Services, fully insured.',
 
     intro:
-      'A plumbing leak left unattended can cause water damage to floorboards, plasterboard ceilings, and electrical circuits within hours. FixWell Services carries out plumbing leak repairs across Salisbury and Wiltshire, isolating the source, making the correct repair to copper or plastic pipework, and preventing secondary water damage. Call us on +44 7391 599 078 for same-day emergency attendance or use the quote form to book a routine repair.',
+      'A plumbing leak left unattended can cause water damage to floorboards, plasterboard ceilings, and electrical circuits within hours. FixWell Services carries out <a href="/plumbing-repairs-salisbury">plumbing repairs</a> across Salisbury and Wiltshire, isolating the leak source, making the correct repair to copper or plastic pipework, and preventing secondary water damage. For active bursts, our <a href="/emergency-handyman-salisbury">emergency handyman service</a> provides same-day attendance. Call us on +44 7391 599 078 for same-day emergency attendance or use the quote form to book a routine repair.',
 
     sections: [
       {
@@ -74,7 +74,7 @@
       'Minor electrical repairs in Salisbury — faulty sockets, light fitting replacement, switch repairs and circuit fault-finding within UK Part P legal limits. Fully insured. FixWell Services.',
 
     intro:
-      'A faulty socket, a dead light fitting, or a tripped circuit breaker can disrupt daily life quickly. FixWell Services carries out minor electrical repairs across Salisbury and Wiltshire, working strictly within the UK Part P Building Regulations framework — replacing like-for-like fittings, tightening loose terminals, and identifying when a fully qualified electrician is needed. All work is carried out by a fully insured handyman with practical electrical knowledge. Call +44 7391 599 078 or use the quote form to book.',
+      'A faulty socket, a dead light fitting, or a tripped circuit breaker can disrupt daily life quickly. FixWell Services carries out minor electrical repairs across Salisbury and Wiltshire as part of our wider <a href="/home-repairs-salisbury">home repairs service</a>, working strictly within the UK Part P Building Regulations framework. For urgent electrical faults, our <a href="/emergency-handyman-salisbury">emergency handyman service</a> is available same-day. All work is carried out by a fully insured handyman with practical electrical knowledge. Call +44 7391 599 078 or use the quote form to book.',
 
     sections: [
       {
@@ -135,7 +135,7 @@
       'Broken lock and door repairs in Salisbury — cylinder replacement, strike plate adjustment, multipoint lock repair, door realignment. Same-day security response. Fully insured. FixWell Services.',
 
     intro:
-      'A door that will not lock, close, or latch properly is a security risk as well as a daily inconvenience. FixWell Services repairs and replaces locks and doors across Salisbury and Wiltshire, from a stiff Yale nightlatch to a failed multipoint mechanism on a UPVC door. We are fully insured, available for same-day emergency callouts, and familiar with the lock types found in Salisbury\'s varied housing stock. Call +44 7391 599 078 for urgent security repairs or use the quote form.',
+      'A door that will not lock, close, or latch properly is a security risk as well as a daily inconvenience. FixWell Services repairs and replaces locks and doors across Salisbury and Wiltshire, from a stiff Yale nightlatch to a failed multipoint mechanism on a UPVC door. We are fully insured, available for <a href="/emergency-handyman-salisbury">same-day emergency callouts</a>, and familiar with the lock types found in Salisbury\'s varied housing stock. Lock and door repair sits within our broader <a href="/carpentry-services-salisbury">carpentry services</a> for door, hinge, and frame work. Call +44 7391 599 078 for urgent security repairs or use the quote form.',
 
     sections: [
       {
@@ -196,7 +196,7 @@
       'Between-tenancy property preparation in Salisbury — snag repairs, repainting, compliance checks, silicone resealing and full void-period preparation for landlords. FixWell Services, fully insured.',
 
     intro:
-      'The void period between tenancies is the best and most cost-effective time to restore a rental property to a lettable standard. FixWell Services provides complete between-tenancy preparation for landlords and letting agents across Salisbury and Wiltshire — carrying out all repairs, touch-up decoration, compliance checks, and cosmetic improvements in the window between one tenancy ending and the next beginning. Call +44 7391 599 078 or use the quote form to arrange a walk-through assessment.',
+      'The void period between tenancies is the best and most cost-effective time to restore a rental property to a lettable standard. FixWell Services provides complete between-tenancy preparation for <a href="/landlord-property-maintenance-salisbury">landlords</a> and letting agents across Salisbury and Wiltshire — carrying out all repairs, <a href="/painting-decorating-salisbury">touch-up decoration</a>, compliance checks, and cosmetic improvements in the window between one tenancy ending and the next beginning. Call +44 7391 599 078 or use the quote form to arrange a walk-through assessment.',
 
     sections: [
       {
@@ -257,7 +257,7 @@
       'Gutter cleaning and maintenance in Salisbury — clearing leaf blockages, flushing downpipes, joint inspection, fascia checks. Fully insured. FixWell Services.',
 
     intro:
-      'Blocked gutters are one of the most overlooked causes of damp in Salisbury homes. When gutters overflow, water runs down the face of the building rather than into the downpipe, saturating the fascia board, soaking into the masonry, and eventually appearing as a damp patch on an internal wall. FixWell Services carries out thorough gutter cleaning and maintenance across Salisbury and Wiltshire — clearing debris, flushing downpipes, and identifying any joint or bracket defects while on the ladder. Call +44 7391 599 078 or use the quote form.',
+      'Blocked gutters are one of the most overlooked causes of damp in Salisbury homes. When gutters overflow, water runs down the face of the building rather than into the downpipe, saturating the fascia board, soaking into the masonry, and eventually appearing as a damp patch on an internal wall. Gutter cleaning is a key part of our <a href="/property-maintenance-salisbury">property maintenance</a> and <a href="/garden-maintenance-salisbury">garden maintenance</a> services. FixWell Services carries out thorough gutter cleaning and maintenance across Salisbury and Wiltshire — clearing debris, flushing downpipes, and identifying any joint or bracket defects while on the ladder. Call +44 7391 599 078 or use the quote form.',
 
     sections: [
       {
@@ -318,7 +318,7 @@
       'Shelf installation in Salisbury — floating shelves, alcove shelving, garage racking, secure fixing to solid stone, brick, and plasterboard walls. Fully insured. FixWell Services.',
 
     intro:
-      'Getting shelves to hang level, secure, and in exactly the right position requires the right fixing for the specific wall type — and Salisbury homes present an unusually wide range, from Victorian solid limestone walls in the Cathedral Close to modern dot-and-dab plasterboard partitions in 2010s new-builds. FixWell Services installs shelves and shelving systems across Salisbury and Wiltshire, using the correct fixing specification for each wall type. Call +44 7391 599 078 or use the quote form.',
+      'Getting shelves to hang level, secure, and in exactly the right position requires the right fixing for the specific wall type — and Salisbury homes present an unusually wide range, from Victorian solid limestone walls in the Cathedral Close to modern dot-and-dab plasterboard partitions in 2010s new-builds. Shelf installation sits within our <a href="/carpentry-services-salisbury">carpentry services</a> and is often combined with other small tasks as part of an <a href="/odd-jobs-salisbury">odd-jobs visit</a>. FixWell Services installs shelves and shelving systems across Salisbury and Wiltshire, using the correct fixing specification for each wall type. Call +44 7391 599 078 or use the quote form.',
 
     sections: [
       {
@@ -379,7 +379,7 @@
       'Furniture assembly in Salisbury — IKEA, B&Q, Argos, Dunelm and all flat-pack brands. Fast, professional assembly with correct hinge adjustment and wall anchoring. FixWell Services.',
 
     intro:
-      'Flat-pack furniture assembly that looks simple on the box often becomes a multi-hour task involving ambiguous diagrams, missing hardware, and furniture that rocks on an uneven floor. FixWell Services assembles furniture from all major brands across Salisbury and Wiltshire, correctly, quickly, and with the anti-tip wall straps and hinge adjustments that the instructions rarely make clear. Call +44 7391 599 078 or use the quote form to arrange a convenient appointment.',
+      'Flat-pack furniture assembly that looks simple on the box often becomes a multi-hour task involving ambiguous diagrams, missing hardware, and furniture that rocks on an uneven floor. Furniture assembly is part of our <a href="/odd-jobs-salisbury">odd-jobs service</a> and can be combined with other small tasks in a single visit — all covered under our <a href="/home-repairs-salisbury">home repairs</a> umbrella. FixWell Services assembles furniture from all major brands across Salisbury and Wiltshire, correctly, quickly, and with the anti-tip wall straps and hinge adjustments that the instructions rarely make clear. Call +44 7391 599 078 or use the quote form to arrange a convenient appointment.',
 
     sections: [
       {
@@ -440,7 +440,7 @@
       'Skirting board painting in Salisbury — filling, sanding, priming, and gloss or satinwood finish. Carpets and floors fully protected. Fully insured. FixWell Services.',
 
     intro:
-      'Freshly painted skirting boards make a significant difference to the finished look of a room, but achieving a clean result requires proper preparation and the right masking technique to protect carpets and hard floors. FixWell Services paints skirting boards to a professional standard across Salisbury and Wiltshire, filling cracks, sanding back, priming bare timber or MDF, and applying a durable topcoat. Call +44 7391 599 078 or use the quote form.',
+      'Freshly painted skirting boards make a significant difference to the finished look of a room, but achieving a clean result requires proper preparation and the right masking technique to protect carpets and hard floors. Skirting board painting is part of our wider <a href="/painting-decorating-salisbury">painting and decorating service</a> in Salisbury, and is often combined with <a href="/carpentry-services-salisbury">carpentry work</a> such as skirting board replacement or door frame repairs. FixWell Services paints skirting boards to a professional standard across Salisbury and Wiltshire. Call +44 7391 599 078 or use the quote form.',
 
     sections: [
       {
@@ -501,7 +501,7 @@
       'Fence repair and replacement in Salisbury — rotted post replacement, panel repair, post concreting, storm damage. Fully insured handyman service. FixWell Services.',
 
     intro:
-      'A leaning or broken fence creates a security, privacy, and boundary problem simultaneously. Fence failure in Salisbury is most commonly caused by post rot at ground level — the point where pressure-treated timber transitions from air to soil and where moisture, soil bacteria, and Salisbury\'s varied clay-chalk geology accelerates decay. FixWell Services repairs and replaces fences across Salisbury and Wiltshire, from a single rotten post to storm-damaged panel runs. Call +44 7391 599 078 or use the quote form.',
+      'A leaning or broken fence creates a security, privacy, and boundary problem simultaneously. Fence failure in Salisbury is most commonly caused by post rot at ground level — the point where pressure-treated timber transitions from air to soil and where moisture, soil bacteria, and Salisbury\'s varied clay-chalk geology accelerates decay. Fence repair is a core part of our <a href="/garden-maintenance-salisbury">garden maintenance</a> and <a href="/property-maintenance-salisbury">property maintenance</a> services. FixWell Services repairs and replaces fences across Salisbury and Wiltshire, from a single rotten post to storm-damaged panel runs. Call +44 7391 599 078 or use the quote form.',
 
     sections: [
       {
@@ -562,7 +562,7 @@
       'Paving slab repair and replacement in Salisbury — sunken, cracked, or rocking slabs re-laid with correct sub-base, sand bed, and kiln-dried jointing. FixWell Services.',
 
     intro:
-      'A cracked, sunken, or rocking paving slab is a trip hazard and an eyesore that tends to worsen with each winter frost cycle. FixWell Services carries out paving slab repair and replacement across Salisbury and Wiltshire, lifting failed slabs, assessing and repairing the sub-base, and re-laying with the correct bedding and jointing to produce a flat, stable surface. Call +44 7391 599 078 or use the quote form.',
+      'A cracked, sunken, or rocking paving slab is a trip hazard and an eyesore that tends to worsen with each winter frost cycle. Paving slab repair is part of our <a href="/garden-maintenance-salisbury">garden maintenance</a> and <a href="/property-maintenance-salisbury">property maintenance</a> services in Salisbury. FixWell Services carries out paving slab repair and replacement across Salisbury and Wiltshire, lifting failed slabs, assessing and repairing the sub-base, and re-laying with the correct bedding and jointing to produce a flat, stable surface. Call +44 7391 599 078 or use the quote form.',
 
     sections: [
       {
@@ -623,7 +623,7 @@
       'Door hinge repair and replacement in Salisbury — sagging doors, stiff hinges, stripped screw holes, and hinge replacement for internal and external doors. FixWell Services, fully insured.',
 
     intro:
-      'A door that drags on the floor, swings open on its own, or refuses to latch properly is almost always a hinge problem. FixWell Services repairs and replaces door hinges across Salisbury and Wiltshire, diagnosing whether the fault is in the hinge itself, the frame fixings, or the door, and carrying out the correct repair. Call +44 7391 599 078 or use the quote form to book.',
+      'A door that drags on the floor, swings open on its own, or refuses to latch properly is almost always a hinge problem. Door hinge repair is part of our <a href="/carpentry-services-salisbury">carpentry services</a> and broader <a href="/home-repairs-salisbury">home repairs</a> in Salisbury. FixWell Services repairs and replaces door hinges across Salisbury and Wiltshire, diagnosing whether the fault is in the hinge itself, the frame fixings, or the door, and carrying out the correct repair. Call +44 7391 599 078 or use the quote form to book.',
 
     sections: [
       {
@@ -684,7 +684,7 @@
       'Kitchen renovation in Salisbury — cabinet replacement, worktop fitting, tiling, full refurbishment. FixWell Services manages the project from strip-out to snagging. Fully insured.',
 
     intro:
-      'A kitchen renovation is the single most impactful home improvement a Salisbury homeowner can undertake, and it is a project that requires careful sequencing, reliable trades, and a single point of contact to prevent the inevitable complications from becoming delays. FixWell Services manages kitchen renovations across Salisbury and Wiltshire — from a cosmetic refresh of doors and worktops to a full strip-out and new kitchen installation. Call +44 7391 599 078 or use the quote form to arrange a no-obligation assessment.',
+      'A kitchen renovation is the single most impactful home improvement a Salisbury homeowner can undertake, and it is a project that requires careful sequencing, reliable trades, and a single point of contact to prevent the inevitable complications from becoming delays. Kitchen renovation is part of our <a href="/renovation-services-salisbury">renovation services</a> in Salisbury, with <a href="/painting-decorating-salisbury">painting and decorating</a> completing the final finish. FixWell Services manages kitchen renovations across Salisbury and Wiltshire — from a cosmetic refresh of doors and worktops to a full strip-out and new kitchen installation. Call +44 7391 599 078 or use the quote form to arrange a no-obligation assessment.',
 
     sections: [
       {
@@ -745,7 +745,7 @@
       'Bathroom renovation in Salisbury — tiling, sanitaryware fitting, tanking, resealing and full bathroom refurbishment. FixWell Services manages your project end to end. Fully insured.',
 
     intro:
-      'A bathroom renovation requires more technical precision than almost any other room in the house. Waterproofing must be correct before tiling, tiling sequence affects both aesthetics and drainage, and every sanitaryware connection must be leak-free. FixWell Services manages bathroom renovations across Salisbury and Wiltshire, from a practical re-grout and reseal to a complete strip-out and refurbishment. Call +44 7391 599 078 or use the quote form to arrange an assessment.',
+      'A bathroom renovation requires more technical precision than almost any other room in the house. Waterproofing must be correct before tiling, tiling sequence affects both aesthetics and drainage, and every sanitaryware connection must be leak-free. Bathroom renovation is part of our <a href="/renovation-services-salisbury">renovation services</a> in Salisbury, coordinated alongside our <a href="/plumbing-repairs-salisbury">plumbing repairs</a> capability for all water supply and waste work. FixWell Services manages bathroom renovations across Salisbury and Wiltshire, from a practical re-grout and reseal to a complete strip-out and refurbishment. Call +44 7391 599 078 or use the quote form to arrange an assessment.',
 
     sections: [
       {
