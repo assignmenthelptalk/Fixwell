@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FixWell Services — Content Manager</title>
     <link rel="icon" href="/favicon.svg" />
+    <script>
+      // Decap CMS's hash router rewrites Netlify Identity's auth links
+      // (e.g. "#invite_token=XXXX") to "#/invite_token=XXXX". Netlify
+      // Identity only recognizes the un-rewritten form, so invite/
+      // recovery/confirmation/email-change links silently fail once
+      // Decap gets to the hash first. Normalize it back before any other
+      // script (including Decap's own bundle) has a chance to run.
+      (function () {
+        var match = window.location.hash.match(
+          /^#\/?(invite_token|confirmation_token|recovery_token|email_change_token)=(.+)$/
+        );
+        if (match) {
+          window.location.hash = '#' + match[1] + '=' + match[2];
+        }
+      })();
+    </script>
   </head>
   <body>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -20,6 +36,13 @@
         });
         window.netlifyIdentity.on('init', (user) => {
           if (!user) {
+            if (
+              /(invite_token|confirmation_token|recovery_token|email_change_token)=/.test(
+                window.location.hash
+              )
+            ) {
+              window.netlifyIdentity.open();
+            }
             window.netlifyIdentity.on('login', () => {
               document.location.href = '/admin/';
             });
