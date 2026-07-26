@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FixWell Services — Content Manager</title>
+    <link rel="icon" href="/favicon.svg" />
+  </head>
+  <body>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      // This site is hosted on Vercel, not Netlify — Netlify Identity is used
+      // here purely as an auth layer, so it must be pointed at the separate
+      // Netlify site created for Identity + Git Gateway.
+      // Replace YOUR-NETLIFY-SITE-NAME below with that site's real subdomain
+      // once it exists (see the setup docs for the exact steps).
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.init({
+          APIUrl: 'https://YOUR-NETLIFY-SITE-NAME.netlify.app/.netlify/identity',
+        });
+        window.netlifyIdentity.on('init', (user) => {
+          if (!user) {
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/';
+            });
+          }
+        });
+      }
+    </script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  </body>
+</html>
