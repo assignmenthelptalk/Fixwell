@@ -4,8 +4,8 @@ backend:
   # This site is hosted on Vercel, not Netlify. Identity + Git Gateway run on
   # a separate Netlify site created only for auth — replace YOUR-NETLIFY-SITE-NAME
   # below with that site's real subdomain once it exists.
-  identity_url: https://cheerful-cascaron-e37456.netlify.app/.netlify/identity
-  gateway_url: https://cheerful-cascaron-e37456.netlify.app/.netlify/git
+  identity_url: https://fixwellservices.netlify.app/.netlify/identity
+  gateway_url: https://fixwellservices.netlify.app/.netlify/git
 
 local_backend: true
 
