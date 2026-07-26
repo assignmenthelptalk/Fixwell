@@ -1,0 +1,51 @@
+{
+  "intro": "A faulty socket, a dead light fitting, or a tripped circuit breaker can disrupt daily life quickly. FixWell Services carries out minor electrical repairs across Salisbury and Wiltshire as part of our wider <a href=\"/home-repairs-salisbury\">home repairs service</a>, working strictly within the UK Part P Building Regulations framework. For urgent electrical faults, our <a href=\"/emergency-handyman-salisbury\">emergency handyman service</a> is available same-day. All work is carried out by a fully insured handyman with practical electrical knowledge. Call +44 7391 599 078 or use the quote form to book.",
+  "sections": [
+    {
+      "heading": "What Minor Electrical Repair Work Involves",
+      "body": "Under UK Building Regulations Part P, a competent handyman may replace like-for-like electrical fittings, such as a damaged socket faceplate, a broken light switch, or a failed pendant light fitting, in ordinary rooms (not kitchens or bathrooms) without formal notification. This is distinct from notifiable work, which includes installing new circuits, adding sockets in kitchens or bathrooms, or any work in the areas defined as \"special locations\" under BS 7671. FixWell Services works precisely within this boundary. We replace single and double sockets (BS 1363), one-way and two-way light switches, ceiling roses, pendant lamp holders, batten holders, and GU10 and GU5.3 recessed downlighters in ordinary living spaces. We also identify whether a broader electrical fault, such as a repeated MCB trip or a dead zone on a ring main, has a simple cause or requires a registered NICEIC or NAPIT electrician for investigation."
+    },
+    {
+      "heading": "Common Electrical Faults in Salisbury Homes",
+      "body": "The most frequent electrical faults we attend in Salisbury properties are loose terminal connections causing intermittent failures or visible arcing marks inside socket faceplates; cracked or broken socket and switch faceplates (particularly in older 1970s–80s properties where cream and white plastic has become brittle); failed lamp holders in pendant fittings where the heat of older incandescent bulbs has melted the thermoplastic body; and GU10 LED driver failures in recessed downlighters. Many Salisbury homes built in the 1960s–70s, particularly on estates in Bemerton Heath and Harnham, still have older wiring infrastructure with single-circuit ring mains that are loaded to modern demand; here we check for overloaded circuits before attributing a trip to a faulty fitting. Fluorescent strip light failures in garages and utility rooms are also common and usually caused by a failed starter or ballast rather than the tube itself."
+    },
+    {
+      "heading": "How FixWell Carries Out Electrical Repairs",
+      "body": "Every electrical job begins with safe isolation at the consumer unit: we switch off the relevant MCB, apply our test meter to confirm the circuit is dead, and only then remove the fitting. For a socket or switch replacement, we photograph the existing wiring connections before disconnecting, match the new fitting precisely, and torque terminals to the manufacturer specification to prevent loose connections recurring. For a failed light fitting, we confirm whether the issue is the fitting itself, the lamp (including LED driver failure in integrated fittings), or the supply. Before restoring power we carry out a visual check of all conductor insulation within the back box. For GU10 downlighter replacements we ensure the new fitting has the same IP rating as the original where it is in proximity to a bathroom. After restoring supply we test the circuit under load before leaving. Where we identify a fault that falls outside handyman scope, such as a discoloured back box indicating arcing, or a circuit that trips repeatedly under normal load, we advise the customer and recommend a registered electrician."
+    },
+    {
+      "heading": "Cost, Timeframe, and Older Wiring in Salisbury",
+      "body": "Salisbury has a substantial stock of pre-1980 properties where the electrical installation dates from an era of rubber-insulated wiring, visually identifiable by its brown and black insulation (single-phase) rather than modern red/black (old harmonisation) or brown/blue (new harmonisation). While our scope remains like-for-like replacement, we note the presence of older wiring for the customer and recommend an EICR (Electrical Installation Condition Report) if the installation appears aged. Most socket and light fitting replacements are completed within 30–90 minutes at our standard rate of £20–£40/hr. Attending to multiple fittings in a single visit keeps costs lower and allows us to check the whole circuit while on site. Emergency same-day electrical fault attendance is available across Salisbury, Amesbury, and Wilton. Call +44 7391 599 078."
+    },
+    {
+      "heading": "Minor Electrical Work and the Wider Home Repairs Service",
+      "body": "Electrical repairs are one part of FixWell's home repairs service in Salisbury, which covers plumbing, joinery, locks, and general structural repairs under one call-out. For urgent situations, such as a complete loss of power to a circuit, a burning smell from a socket, or a security light that has failed, our emergency handyman service is available seven days a week for same-day attendance. We will always be transparent about the boundary of handyman-legal electrical work and will never carry out notifiable electrical work without proper registration. For landlords in Salisbury, we can also support pre-tenancy electrical inspections by identifying visible faults that require remediation before an EICR is commissioned. Book via +44 7391 599 078 or the quote form on this page."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What electrical work can a handyman legally carry out in the UK?",
+      "a": "Under Part P of the Building Regulations, a handyman can replace like-for-like electrical fittings (sockets, switches, light fittings) in ordinary rooms (not kitchens, bathrooms, or outdoors) without notification. Installing new circuits, adding sockets in kitchens or bathrooms, or any work in special locations requires a Part P registered electrician."
+    },
+    {
+      "q": "My socket has burn marks around it. Is that an emergency?",
+      "a": "Yes. Discolouration or burn marks around a socket indicate arcing, which is a fire risk. Switch off the circuit at the consumer unit and do not use the socket. This is beyond like-for-like replacement and requires a registered electrician to investigate. Call us on +44 7391 599 078 and we will advise the quickest course of action."
+    },
+    {
+      "q": "Can you find out why a circuit breaker keeps tripping?",
+      "a": "We can carry out basic fault-finding: checking for overloaded circuits, identifying a faulty appliance causing nuisance trips, and confirming whether the MCB itself is failing. If the fault requires an Insulation Resistance Test or a full circuit trace, we will refer you to a registered electrician."
+    },
+    {
+      "q": "How much does a socket or light fitting replacement cost in Salisbury?",
+      "a": "Our standard rate is £20–£40/hr. A single socket or light fitting replacement usually takes 30–60 minutes. If you have several fittings to replace, batching them into one visit is the most cost-effective approach."
+    },
+    {
+      "q": "Can you replace bathroom or kitchen light fittings?",
+      "a": "Replacing a like-for-like fitting in a bathroom or kitchen that is not in the splash zone and does not require any wiring alteration may fall within permitted work, but it is a nuanced area of Part P. We assess each job on its merits and will tell you clearly if the work requires a registered electrician."
+    },
+    {
+      "q": "Are you insured to carry out electrical repairs in Salisbury?",
+      "a": "Yes. FixWell Services is fully insured for all handyman electrical repair work carried out within the legal Part P scope. We will never attempt notifiable electrical work without the appropriate registration and will always advise when a qualified electrician is the right person for the job."
+    }
+  ]
+}
