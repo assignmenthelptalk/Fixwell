@@ -1,8 +1,7 @@
 ---
-// ⚠️  NOT FOR PRODUCTION until Daniel provides real certificate numbers/images.
-// Replace the [PLACEHOLDER] values in the HTML comments below with:
-//   - Public Liability: the actual policy number from the insurance certificate
-//   - DBS: the actual DBS certificate reference number
+import { getEntry } from 'astro:content';
+
+const certs = (await getEntry('trustBadges', 'main'))?.data;
 ---
 
 <section class="trust-badges" aria-label="Credentials and certifications">
@@ -21,10 +20,9 @@
         <div class="trust-badge__body">
           <strong class="trust-badge__title">Public Liability Insured</strong>
           <p class="trust-badge__desc">All work covered up to £2 million — your property is protected.</p>
-          <!--
-            NOT FOR PRODUCTION: Uncomment and fill in the real policy number below once Daniel provides it.
-            <span class="trust-badge__cert">Policy No. [PLACEHOLDER]</span>
-          -->
+          {certs?.publicLiabilityPolicyNumber && (
+            <span class="trust-badge__cert">Policy No. {certs.publicLiabilityPolicyNumber}</span>
+          )}
         </div>
       </div>
 
@@ -43,10 +41,9 @@
         <div class="trust-badge__body">
           <strong class="trust-badge__title">DBS Checked</strong>
           <p class="trust-badge__desc">Enhanced background checks carried out — safe to invite into your home.</p>
-          <!--
-            NOT FOR PRODUCTION: Uncomment and fill in the real certificate number below once Daniel provides it.
-            <span class="trust-badge__cert">DBS Certificate [PLACEHOLDER]</span>
-          -->
+          {certs?.dbsCertificateNumber && (
+            <span class="trust-badge__cert">DBS Certificate {certs.dbsCertificateNumber}</span>
+          )}
         </div>
       </div>
 

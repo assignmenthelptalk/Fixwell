@@ -1,12 +1,8 @@
 ---
-const photos = [
-  { src: '/image_1.jpg',       alt: 'FixWell tradesman repairing a shed roof in Salisbury',         caption: 'Shed roof repair, Salisbury' },
-  { src: '/blog_image_1.webp', alt: 'Plumber fixing under-sink pipework',                            caption: 'Under-sink plumbing repair' },
-  { src: '/image_5.jpg',       alt: 'Wallpaper being hung during a decorating job in Wiltshire',     caption: 'Painting & decorating, Wiltshire' },
-  { src: '/blog_image_2.webp', alt: 'Fence post replacement in a Salisbury garden',                  caption: 'Fence post repair' },
-  { src: '/image_4.jpg',       alt: 'Window seal being repaired on a residential property',          caption: 'Window seal repair' },
-  { src: '/image_6.png',       alt: 'Raised garden bed built from timber in a Wiltshire garden',     caption: 'Raised garden bed installation' },
-];
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('gallery');
+const photos = entries.map((e) => ({ src: e.data.image, alt: e.data.alt, caption: e.data.caption }));
 ---
 <section class="gallery section section--light" aria-labelledby="gallery-heading">
   <div class="container">

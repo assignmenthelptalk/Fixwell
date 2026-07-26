@@ -6,13 +6,9 @@ import TrustBar from '../components/TrustBar.astro';
 import CTABanner from '../components/CTABanner.astro';
 import FAQAccordion from '../components/FAQAccordion.astro';
 import QuoteForm from '../components/QuoteForm.astro';
+import { getEntry } from 'astro:content';
 import { allCorePages, coreHubPages, type CorePage } from '../data/corePages';
 import { allOuterPages, type OuterPage } from '../data/outerPages';
-import { coreHubContent } from '../data/content/core-hub-content';
-import { serviceDetailContent } from '../data/content/service-detail-content';
-import { locationContent } from '../data/content/location-content';
-import { outerHubContent } from '../data/content/outer-hub-content';
-import { outerSubContent } from '../data/content/outer-sub-content';
 
 export async function getStaticPaths() {
   return [
@@ -57,10 +53,11 @@ const heroVariant =
     ? 'location'
     : 'service';
 
-const allCoreContent = { ...coreHubContent, ...serviceDetailContent, ...locationContent };
-const allOuterContent = { ...outerHubContent, ...outerSubContent };
-const coreContent = corePage ? (allCoreContent[corePage.slug] ?? null) : null;
-const outerContent = outerPage ? (allOuterContent[outerPage.slug] ?? null) : null;
+const pageContentEntry = page ? await getEntry('pageContent', page.slug) : undefined;
+const pageContent = pageContentEntry?.data;
+
+const coreContent = corePage ? pageContent : null;
+const outerContent = outerPage ? pageContent : null;
 
 const activeSections = coreContent?.sections ?? corePage?.sections ?? [];
 const activeFaqs = coreContent?.faqs ?? corePage?.faqs ?? [];
@@ -88,7 +85,7 @@ const pageImage = page ? pageImages[page.slug] : undefined;
 {corePage && (
   <ServiceLayout
     title={corePage.title}
-    description={coreContent?.metaDescription ?? corePage.metaDescription}
+    description={corePage.metaDescription}
     h1={corePage.h1}
     slug={corePage.slug}
     pageType={corePage.pageType}
@@ -192,7 +189,7 @@ const pageImage = page ? pageImages[page.slug] : undefined;
 {outerPage && (
   <InfoLayout
     title={outerPage.title}
-    description={outerContent?.metaDescription ?? outerPage.metaDescription}
+    description={outerPage.metaDescription}
     h1={outerPage.h1}
     slug={outerPage.slug}
     faqs={outerPage.faqs}

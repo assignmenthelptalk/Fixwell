@@ -1,29 +1,21 @@
 ---
-const GOOGLE_REVIEW_URL = 'https://maps.app.goo.gl/3N1zMwDTx9e3s8VZ9?g_st=ic';
+import { getCollection, getEntry } from 'astro:content';
 
-const overallRating = '5.0';
-const reviewCount = 3;
+const settings = (await getEntry('reviewsSettings', 'main'))?.data;
+const GOOGLE_REVIEW_URL = settings?.googleReviewUrl ?? '#';
+const overallRating = settings?.overallRating ?? '5.0';
+const reviewCount = settings?.reviewCount ?? 0;
 
-const reviews = [
-  {
-    name: 'Frances Ryan',
-    rating: 5,
-    text: 'After trying for months to get a handyman, we are very happy to have found FixWell. We had a long list of small jobs that had built up over the months and they have all been completed within two weeks at times that were convenient to us. FixWell were professional and reliable with a focus on customer satisfaction.',
-    date: 'October 2025',
-  },
-  {
-    name: 'Harvey Mills',
-    rating: 5,
-    text: 'As a landlord with a property in Salisbury, it\'s always stress-free working with FixWell Services. They recently handled a turn-over maintenance checklist for me between tenants, fixing fixtures, repairing some minor damage, and checking appliances. Always punctual, tidy, and highly professional. Five stars.',
-    date: 'June 2026',
-  },
-  {
-    name: 'Andrew Griffin',
-    rating: 5,
-    text: 'It\'s hard to find a dependable handyman who covers the villages outside Salisbury, so I\'m glad I found FixWell. They handled a list of small property repairs for me, were fully insured, and charged a very reasonable rate. Professional and friendly throughout.',
-    date: 'June 2026',
-  },
-];
+const dateFormatter = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric' });
+const entries = await getCollection('testimonials');
+const reviews = entries
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .map((e) => ({
+    name: e.data.name,
+    rating: e.data.rating,
+    text: e.data.text,
+    date: dateFormatter.format(e.data.date),
+  }));
 ---
 
 <section class="google-reviews section section--light" aria-labelledby="google-reviews-heading">
