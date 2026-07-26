@@ -22,15 +22,15 @@ export const outerHubPages: OuterPage[] = [
     title: 'What Does a Handyman Do? Services, Skills & Scope | FixWell',
     h1: 'What Does a Handyman Do? A Complete Guide',
     metaDescription:
-      'What does a handyman do? A comprehensive guide to handyman services, skills, and scope — what falls within handyman work and when you need a specialist tradesman.',
+      'What does a handyman do? A precise guide to handyman scope in the UK: services covered, legal limits, what requires a specialist tradesman, and how to use a handyman effectively in Salisbury and Wiltshire.',
     macroContext:
-      'Comprehensive definition of the handyman trade — what services fall within handyman scope, what requires a specialist tradesman, and how to use a handyman effectively',
-    intent: 'Informational — top-of-funnel definition page',
+      'Comprehensive definition of the handyman trade: what services fall within handyman scope, what requires a specialist tradesman, and how to use a handyman effectively',
+    intent: 'Informational: top-of-funnel definition page',
     linksToCoreIds: ['handyman-services-salisbury', 'odd-jobs-salisbury'],
     sections: [
       {
         heading: 'What Is a Handyman?',
-        body: 'A handyman is a skilled generalist who can carry out a wide range of home repair, maintenance, and improvement tasks. Unlike specialist tradespeople — plumbers, electricians, or builders — a handyman handles the everyday jobs that keep a home or rental property in good condition. The term covers a broad spectrum of work, from fitting a shelf to repairing a fence, assembling furniture to repainting skirting boards.',
+        body: 'A handyman is a skilled generalist who can carry out a wide range of home repair, maintenance, and improvement tasks. Unlike specialist tradespeople (plumbers, electricians, or builders), a handyman handles the everyday jobs that keep a home or rental property in good condition. The term covers a broad spectrum of work, from fitting a shelf to repairing a fence, assembling furniture to repainting skirting boards.',
       },
       {
         heading: 'What Can a Handyman Do?',
@@ -38,7 +38,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'What a Handyman Cannot Do',
-        body: 'Certain work requires a licensed specialist. In the UK, gas work must be carried out by a Gas Safe registered engineer. Major electrical installation work — new circuits, consumer unit replacement, or any electrical work in kitchens and bathrooms — requires a Part P competent electrician. Structural work that involves load-bearing elements typically requires a builder and may need planning permission. A professional handyman will always tell you clearly when your job falls outside their scope and refer you to the right specialist.',
+        body: 'Certain work requires a licensed specialist. In the UK, gas work must be carried out by a Gas Safe registered engineer. Major electrical installation work (new circuits, consumer unit replacement, or any electrical work in kitchens and bathrooms) requires a Part P competent electrician. Structural work that involves load-bearing elements typically requires a builder and may need planning permission. A professional handyman will always tell you clearly when your job falls outside their scope and refer you to the right specialist.',
       },
       {
         heading: 'When Should You Use a Handyman?',
@@ -67,10 +67,10 @@ export const outerHubPages: OuterPage[] = [
     title: 'How Much Does a Handyman Cost in Salisbury? | 2026 Rates | FixWell',
     h1: 'How Much Does a Handyman Cost in Salisbury? 2026 Pricing Guide',
     metaDescription:
-      'Handyman pricing guide for Salisbury and Wiltshire — hourly rates, fixed-price jobs, what affects cost, and how to get a fair quote. FixWell Services 2026 rates.',
+      'Handyman pricing guide for Salisbury and Wiltshire 2026: hourly rates (£20–£40/hr), fixed-price jobs, callout fees, VAT status of small traders, and typical costs for common handyman jobs.',
     macroContext:
-      'Handyman pricing in Salisbury and Wiltshire — hourly rates, fixed-price jobs, what affects cost, how to get a fair quote, and what is included',
-    intent: 'Informational/commercial — pricing research with high conversion proximity',
+      'Handyman pricing in Salisbury and Wiltshire: hourly rates, fixed-price jobs, what affects cost, how to get a fair quote, and what is included',
+    intent: 'Informational/commercial: pricing research with high conversion proximity',
     linksToCoreIds: ['handyman-services-salisbury', 'emergency-handyman-salisbury', 'odd-jobs-salisbury'],
     sections: [
       {
@@ -79,7 +79,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'Fixed-Price vs Hourly Rates',
-        body: 'For well-defined jobs — such as shelf installation, furniture assembly, or fence panel replacement — a fixed-price quote gives you cost certainty before work begins. For open-ended jobs or general maintenance visits where the scope is uncertain, an hourly rate is more appropriate. FixWell Services offers both, and will advise which is right for your situation.',
+        body: 'For well-defined jobs (such as shelf installation, furniture assembly, or fence panel replacement), a fixed-price quote gives you cost certainty before work begins. For open-ended jobs or general maintenance visits where the scope is uncertain, an hourly rate is more appropriate. FixWell Services offers both, and will advise which is right for your situation.',
       },
       {
         heading: 'What Affects the Cost of a Handyman Job?',
@@ -97,7 +97,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         q: 'Are materials included in the handyman price?',
-        a: 'Materials are usually billed separately at cost, though for small jobs (fixings, screws, basic materials) these may be included in the hourly rate. For jobs requiring significant materials — paint, timber, replacement fittings — these will be quoted separately.',
+        a: 'Materials are usually billed separately at cost, though for small jobs (fixings, screws, basic materials) these may be included in the hourly rate. For jobs requiring significant materials such as paint, timber, or replacement fittings, these will be quoted separately.',
       },
       {
         q: 'Is VAT charged on handyman work in Salisbury?',
@@ -112,10 +112,10 @@ export const outerHubPages: OuterPage[] = [
     title: 'Handyman vs Tradesman: When to Use Each for Home Repairs | FixWell',
     h1: 'Handyman vs Tradesman: When to Use Each for Home Repairs',
     metaDescription:
-      'When to use a handyman versus a specialist tradesman — legal scope, cost comparison, job complexity guide for UK homeowners. FixWell Services Salisbury.',
+      'Handyman vs tradesman in the UK: when to use each, legal scope of handyman work, what requires Gas Safe or Part P certification, and cost comparison. Decision guide for Salisbury homeowners.',
     macroContext:
-      'When to use a handyman versus a specialist tradesman (plumber, electrician, builder) — legal scope, cost comparison, job complexity guide for UK homeowners',
-    intent: 'Informational — decision-support query',
+      'When to use a handyman versus a specialist tradesman (plumber, electrician, builder): legal scope, cost comparison, job complexity guide for UK homeowners',
+    intent: 'Informational: decision-support query',
     linksToCoreIds: [
       'handyman-services-salisbury',
       'home-repairs-salisbury',
@@ -125,7 +125,7 @@ export const outerHubPages: OuterPage[] = [
     sections: [
       {
         heading: 'What Is the Difference Between a Handyman and a Tradesman?',
-        body: "A tradesman is a specialist who has completed a formal apprenticeship or qualification in a specific trade — plumbing, electrical installation, bricklaying, gas engineering. A handyman is a generalist who can carry out a wide variety of repair, maintenance, and improvement tasks across multiple trades, but at a lighter or more routine level. The key distinction is depth versus breadth: a tradesman goes deep in their specialism; a handyman goes broad across many everyday tasks.",
+        body: "A tradesman is a specialist who has completed a formal apprenticeship or qualification in a specific trade: plumbing, electrical installation, bricklaying, gas engineering. A handyman is a generalist who can carry out a wide variety of repair, maintenance, and improvement tasks across multiple trades, but at a lighter or more routine level. The key distinction is depth versus breadth: a tradesman goes deep in their specialism; a handyman goes broad across many everyday tasks.",
       },
       {
         heading: 'When to Use a Handyman',
@@ -133,11 +133,11 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'When to Use a Specialist Tradesman',
-        body: 'UK law requires certain work to be carried out by certified specialists. Gas work must be done by a Gas Safe registered engineer. Major electrical work — new circuits, consumer unit replacement, or electrical work in kitchens and bathrooms — requires a Part P certified electrician. Structural work, large extensions, and drainage connections typically require a builder and may need planning permission. A qualified handyman will always refer you to the right specialist when required.',
+        body: 'UK law requires certain work to be carried out by certified specialists. Gas work must be done by a Gas Safe registered engineer. Major electrical work (new circuits, consumer unit replacement, or electrical work in kitchens and bathrooms) requires a Part P certified electrician. Structural work, large extensions, and drainage connections typically require a builder and may need planning permission. A qualified handyman will always refer you to the right specialist when required.',
       },
       {
         heading: 'Cost Comparison: Handyman vs Tradesman',
-        body: 'Specialist tradespeople typically charge higher rates than handymen — often £50–£120 per hour — and may have minimum call-out charges that make small jobs expensive. For routine repairs and maintenance that fall within handyman scope, using a handyman at £20–£40 per hour can save significantly without compromising quality or compliance.',
+        body: 'Specialist tradespeople typically charge higher rates than handymen, often £50–£120 per hour, and may have minimum call-out charges that make small jobs expensive. For routine repairs and maintenance that fall within handyman scope, using a handyman at £20–£40 per hour can save significantly without compromising quality or compliance.',
       },
     ],
     faqs: [
@@ -162,10 +162,10 @@ export const outerHubPages: OuterPage[] = [
     title: 'Landlord Property Maintenance Legal Obligations in England | FixWell',
     h1: 'Landlord Property Maintenance Legal Obligations in England',
     metaDescription:
-      'UK landlord legal duties for property maintenance — Homes (Fitness for Human Habitation) Act, gas safety, electrical inspections, routine repair obligations. FixWell Services.',
+      'Landlord property maintenance legal obligations in England: Landlord and Tenant Act 1985 s.11, Homes (Fitness for Human Habitation) Act 2018, annual gas safety certificate, 5-year EICR, repair response times, and penalties for non-compliance.',
     macroContext:
-      'UK landlord legal duties for property maintenance — Homes (Fitness for Human Habitation) Act, gas safety, electrical inspections, routine repair obligations, and consequences of non-compliance',
-    intent: 'Informational — high-value landlord research query',
+      'UK landlord legal duties for property maintenance: Homes (Fitness for Human Habitation) Act, gas safety, electrical inspections, routine repair obligations, and consequences of non-compliance',
+    intent: 'Informational: high-value landlord research query',
     linksToCoreIds: ['landlord-property-maintenance-salisbury', 'between-tenancy-property-preparation-salisbury'],
     sections: [
       {
@@ -211,15 +211,15 @@ export const outerHubPages: OuterPage[] = [
     title: 'Home Maintenance Schedule: Annual Checklist for UK Homeowners | FixWell',
     h1: 'Annual Home Maintenance Schedule for UK Homeowners',
     metaDescription:
-      'Annual home maintenance checklist for UK homeowners — seasonal tasks, systems to inspect, signs of wear, and which tasks need a professional handyman in Salisbury.',
+      'Annual home maintenance schedule for UK homeowners: seasonal checklist across spring, summer, autumn, and winter, which tasks require a professional, and how to protect older properties in Salisbury and Wiltshire.',
     macroContext:
-      'Annual home maintenance checklist for UK homeowners — seasonal tasks, systems to inspect, signs of wear, and which tasks need a professional handyman',
-    intent: 'Informational — planning and preventative maintenance query',
+      'Annual home maintenance checklist for UK homeowners: seasonal tasks, systems to inspect, signs of wear, and which tasks need a professional handyman',
+    intent: 'Informational: planning and preventative maintenance query',
     linksToCoreIds: ['property-maintenance-salisbury', 'garden-maintenance-salisbury', 'gutter-cleaning-salisbury'],
     sections: [
       {
         heading: 'Why a Home Maintenance Schedule Matters',
-        body: 'A consistent maintenance schedule prevents small problems from becoming expensive repairs. Catching a blocked gutter in October stops water damage to fascias and walls over winter. Checking seals around windows and doors before the cold weather prevents heat loss and damp. UK homes — particularly older properties in areas like Salisbury and Wiltshire — benefit enormously from a proactive maintenance approach.',
+        body: 'A consistent maintenance schedule prevents small problems from becoming expensive repairs. Catching a blocked gutter in October stops water damage to fascias and walls over winter. Checking seals around windows and doors before the cold weather prevents heat loss and damp. UK homes, particularly older properties in areas like Salisbury and Wiltshire, benefit enormously from a proactive maintenance approach.',
       },
       {
         heading: 'Spring Maintenance Tasks (March–May)',
@@ -256,10 +256,10 @@ export const outerHubPages: OuterPage[] = [
     title: 'How to Find a Reliable Handyman in Wiltshire | FixWell Services',
     h1: 'How to Find a Reliable Handyman in Wiltshire',
     metaDescription:
-      'How to vet and choose a handyman in Wiltshire — what questions to ask, insurance requirements, red flags to avoid, and what a professional service looks like.',
+      'How to find a reliable handyman in Wiltshire: what questions to ask before booking, insurance requirements, red flags to avoid, how to verify legitimacy, and what a professional handyman service looks like.',
     macroContext:
-      'How to vet and choose a handyman in Wiltshire — what questions to ask, insurance requirements, red flags to avoid, and what a professional service looks like',
-    intent: 'Informational — trust-building pre-purchase research',
+      'How to vet and choose a handyman in Wiltshire: what questions to ask, insurance requirements, red flags to avoid, and what a professional service looks like',
+    intent: 'Informational: trust-building pre-purchase research',
     linksToCoreIds: ['handyman-services-salisbury', 'emergency-handyman-salisbury'],
     sections: [
       {
@@ -297,10 +297,10 @@ export const outerHubPages: OuterPage[] = [
     title: 'When Do You Need an Emergency Handyman? Warning Signs | FixWell',
     h1: 'When Do You Need an Emergency Handyman? Key Warning Signs',
     metaDescription:
-      'Signs that a repair cannot wait — burst pipes, electrical faults, broken locks, storm damage, heating failure, and how to find emergency help in Salisbury.',
+      'When to call an emergency handyman: what counts as a home emergency, burst pipes, broken locks, electrical faults, storm damage, heating failure, and how to get same-day help in Salisbury (+44 7391 599 078).',
     macroContext:
-      'Signs that a repair cannot wait — burst pipes, electrical faults, broken locks, storm damage, heating failure, and how to find emergency help in Salisbury',
-    intent: 'Informational — urgency trigger education',
+      'Signs that a repair cannot wait: burst pipes, electrical faults, broken locks, storm damage, heating failure, and how to find emergency help in Salisbury',
+    intent: 'Informational: urgency trigger education',
     linksToCoreIds: ['emergency-handyman-salisbury'],
     sections: [
       {
@@ -342,15 +342,15 @@ export const outerHubPages: OuterPage[] = [
     title: 'DIY vs Professional Home Repairs: What UK Homeowners Need to Know | FixWell',
     h1: "DIY vs Professional Home Repairs: A UK Homeowner's Guide",
     metaDescription:
-      'When DIY is appropriate vs when to call a professional handyman — legal limits for electrical and plumbing work in the UK, safety risks, and cost of getting it wrong.',
+      'DIY vs professional home repairs in the UK: what the law allows, where DIY becomes risky, the true cost of failed DIY, UK legal restrictions on gas and electrical work, and how to make the right call for your Salisbury home.',
     macroContext:
-      'When DIY is appropriate versus when to call a professional handyman — legal limits for electrical and plumbing work in the UK, safety risks, and cost of getting it wrong',
-    intent: 'Informational — decision-support plus risk-awareness',
+      'When DIY is appropriate versus when to call a professional handyman: legal limits for electrical and plumbing work in the UK, safety risks, and cost of getting it wrong',
+    intent: 'Informational: decision-support plus risk-awareness',
     linksToCoreIds: ['handyman-services-salisbury', 'home-repairs-salisbury'],
     sections: [
       {
         heading: 'The Case for DIY',
-        body: "DIY home repairs can save money and give homeowners a genuine sense of accomplishment. For simple cosmetic tasks — painting a room, hanging a picture, assembling flat-pack furniture, or replacing a tap washer — a competent DIYer with the right tools can produce good results. The internet and YouTube have made basic home maintenance more accessible than ever.",
+        body: "DIY home repairs can save money and give homeowners a genuine sense of accomplishment. For simple cosmetic tasks such as painting a room, hanging a picture, assembling flat-pack furniture, or replacing a tap washer, a competent DIYer with the right tools can produce good results. The internet and YouTube have made basic home maintenance more accessible than ever.",
       },
       {
         heading: 'Where DIY Becomes Risky',
@@ -358,7 +358,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'UK Legal Restrictions on DIY Work',
-        body: 'Some home repair work is legally restricted in the UK. Gas work must be carried out by a Gas Safe registered engineer — this is a legal requirement, not a suggestion. Certain electrical work falls under Part P of the Building Regulations: new circuits, work in kitchens and bathrooms, and consumer unit replacement must be done by a Part P qualified electrician. Attempting this work without the right certification can invalidate your buildings insurance and cause legal problems when you sell the property.',
+        body: 'Some home repair work is legally restricted in the UK. Gas work must be carried out by a Gas Safe registered engineer; this is a legal requirement, not a suggestion. Certain electrical work falls under Part P of the Building Regulations: new circuits, work in kitchens and bathrooms, and consumer unit replacement must be done by a Part P qualified electrician. Attempting this work without the right certification can invalidate your buildings insurance and cause legal problems when you sell the property.',
       },
       {
         heading: 'The True Cost of a Failed DIY Repair',
@@ -383,15 +383,15 @@ export const outerHubPages: OuterPage[] = [
     title: 'Preparing Your Home for Winter: Property Maintenance Guide | FixWell',
     h1: 'Preparing Your Home for Winter: Complete UK Property Guide',
     metaDescription:
-      'Winter-proofing a home in the UK — pipe insulation, boiler servicing, gutter clearing, roof checks, draught-proofing doors and windows. FixWell Services Salisbury.',
+      'Preparing your home for winter in the UK: gutter clearing, pipe insulation, boiler servicing, roof inspection, draught-proofing, and which tasks need a professional handyman in Salisbury and Wiltshire.',
     macroContext:
-      'Winter-proofing a home in the UK — pipe insulation, boiler servicing, gutter clearing, roof checks, door and window draught-proofing, and what a handyman can help with',
-    intent: 'Informational — seasonal, shareable content',
+      'Winter-proofing a home in the UK: pipe insulation, boiler servicing, gutter clearing, roof checks, door and window draught-proofing, and what a handyman can help with',
+    intent: 'Informational: seasonal, shareable content',
     linksToCoreIds: ['property-maintenance-salisbury', 'plumbing-leak-repairs-salisbury', 'gutter-cleaning-salisbury'],
     sections: [
       {
         heading: 'Why Autumn Is the Right Time to Winter-Proof Your Home',
-        body: "Wiltshire winters can be cold and wet, with occasional hard frosts. Properties in Salisbury and the surrounding villages — many of them older stone and brick buildings — are particularly vulnerable to cold-weather damage if not properly maintained. The best time to carry out winter preparation is September and October, before the worst of the weather arrives.",
+        body: "Wiltshire winters can be cold and wet, with occasional hard frosts. Properties in Salisbury and the surrounding villages, many of them older stone and brick buildings, are particularly vulnerable to cold-weather damage if not properly maintained. The best time to carry out winter preparation is September and October, before the worst of the weather arrives.",
       },
       {
         heading: 'Gutters and Drainage',
@@ -431,10 +431,10 @@ export const outerSubPages: OuterPage[] = [
     title: 'Assured Shorthold Tenancy: Landlord Maintenance Obligations | FixWell',
     h1: 'Assured Shorthold Tenancy: Landlord Maintenance Obligations Explained',
     metaDescription:
-      'How AST contracts define repair and maintenance responsibilities for landlords and tenants in England — what landlords must maintain under an AST.',
+      'Landlord repair obligations under an Assured Shorthold Tenancy in England: Section 11 Landlord and Tenant Act 1985, Homes Act 2018, gas safety, EICR, EPC minimum ratings, and tenant rights explained.',
     macroContext:
-      'How AST contracts define repair and maintenance responsibilities for landlords and tenants in England — what landlords must maintain and what tenants are responsible for',
-    intent: 'Informational — landlord legal knowledge',
+      'How AST contracts define repair and maintenance responsibilities for landlords and tenants in England: what landlords must maintain and what tenants are responsible for',
+    intent: 'Informational: landlord legal knowledge',
     linksToCoreIds: ['landlord-property-maintenance-salisbury'],
     sections: [
       {
@@ -462,12 +462,12 @@ export const outerSubPages: OuterPage[] = [
     slug: 'managing-rental-property-remotely-maintenance',
     pageType: 'outer-info',
     title: 'How to Manage a Rental Property from a Distance | FixWell Services',
-    h1: "How to Manage a Rental Property Remotely — A Landlord's Guide",
+    h1: "How to Manage a Rental Property Remotely: A Landlord's Guide",
     metaDescription:
-      'Managing maintenance for remote landlords in Salisbury and Wiltshire — trusted local contractors, inspection schedules, emergency procedures. FixWell Services.',
+      'How to manage maintenance for a rental property in Salisbury or Wiltshire when you live elsewhere: legal obligations for overseas landlords, inspection frequency, emergency protocols, contractor networks, and property management apps.',
     macroContext:
-      'Managing property maintenance for remote landlords — trusted local contractors, inspection schedules, emergency procedures, and using property maintenance services in Salisbury',
-    intent: 'Informational — absentee landlord audience',
+      'Managing property maintenance for remote landlords: trusted local contractors, inspection schedules, emergency procedures, and using property maintenance services in Salisbury',
+    intent: 'Informational: absentee landlord audience',
     linksToCoreIds: ['landlord-property-maintenance-salisbury', 'property-maintenance-salisbury'],
     sections: [
       {
@@ -497,10 +497,10 @@ export const outerSubPages: OuterPage[] = [
     title: 'Garden Maintenance Through the Seasons in Wiltshire | FixWell',
     h1: 'Garden Maintenance Through the Seasons in Wiltshire',
     metaDescription:
-      'Seasonal garden maintenance guide for Wiltshire — spring planting, summer lawn care, autumn clearance, winter garden protection, and fence and paving upkeep.',
+      'Seasonal garden maintenance guide for Wiltshire: chalk downland and clay vale soil conditions, frost dates, spring through winter task lists, and common Wiltshire garden issues explained.',
     macroContext:
-      'Seasonal garden maintenance calendar for Wiltshire — spring planting, summer lawn care, autumn leaf clearance, winter garden protection, and fencing/paving upkeep',
-    intent: 'Informational — seasonal gardening guide for Wiltshire climate',
+      'Seasonal garden maintenance calendar for Wiltshire: spring planting, summer lawn care, autumn leaf clearance, winter garden protection, and fencing/paving upkeep',
+    intent: 'Informational: seasonal gardening guide for Wiltshire climate',
     linksToCoreIds: ['garden-maintenance-salisbury', 'fence-repair-salisbury'],
     sections: [
       {
@@ -538,10 +538,10 @@ export const outerSubPages: OuterPage[] = [
     title: 'How to Paint Skirting Boards Without Ruining Your Carpet | FixWell',
     h1: 'How to Paint Skirting Boards Without Ruining Your Carpet',
     metaDescription:
-      'Step-by-step guide to painting skirting boards — preparation, primer, gloss technique, masking, and protecting carpets and floors. FixWell Services Salisbury.',
+      'Complete guide to painting skirting boards: oil-based gloss vs water-based satin, preparation steps, protecting carpets, coats required, drying times, and common mistakes to avoid.',
     macroContext:
-      'Step-by-step guide to painting skirting boards professionally — preparation, primer, gloss technique, masking, and protecting carpets and floors',
-    intent: 'Informational — consolidates 3 duplicate blog posts on this topic',
+      'Step-by-step guide to painting skirting boards professionally: preparation, primer, gloss technique, masking, and protecting carpets and floors',
+    intent: 'Informational: consolidates 3 duplicate blog posts on this topic',
     linksToCoreIds: ['painting-decorating-salisbury', 'skirting-board-painting-salisbury'],
     sections: [
       {
@@ -567,7 +567,7 @@ export const outerSubPages: OuterPage[] = [
     ],
     faqs: [
       {
-        q: 'Gloss or satin — which paint is best for skirting boards?',
+        q: 'Gloss or satin: which paint is best for skirting boards?',
         a: "Traditional skirting boards are painted in gloss, which is durable and easy to wipe clean. Satin is increasingly popular as it offers a lower sheen that looks more modern and is easier to apply without brush marks. Both are suitable. It is a matter of preference.",
       },
       {
@@ -587,10 +587,10 @@ export const outerSubPages: OuterPage[] = [
     title: 'Home Renovation Planning Guide for Salisbury Homeowners | FixWell',
     h1: 'Home Renovation Planning Guide for Salisbury Homeowners',
     metaDescription:
-      'Planning a home renovation in Salisbury — budgeting, sequencing trades, planning permission, managing contractors, and choosing between full renovation and targeted improvements.',
+      'Planning a home renovation in Salisbury: permitted development rights, Conservation Area rules, listed building consent, Building Regulations approval, budgeting, trade sequencing, and contractor vetting in Wiltshire.',
     macroContext:
-      'Planning a home renovation in Salisbury — budgeting, sequencing trades, planning permission requirements, managing contractors, and choosing between full renovation and targeted improvements',
-    intent: 'Informational — pre-renovation research query',
+      'Planning a home renovation in Salisbury: budgeting, sequencing trades, planning permission requirements, managing contractors, and choosing between full renovation and targeted improvements',
+    intent: 'Informational: pre-renovation research query',
     linksToCoreIds: ['renovation-services-salisbury', 'kitchen-renovation-salisbury', 'bathroom-renovation-salisbury'],
     sections: [
       {
@@ -628,10 +628,10 @@ export const outerSubPages: OuterPage[] = [
     title: 'Common Home Repair Problems in Older UK Properties | FixWell Services',
     h1: 'Common Home Repair Problems in Older UK Properties',
     metaDescription:
-      'Most common maintenance and repair issues in older UK homes — damp, cracked plaster, rotting timber, outdated wiring, sash window failures and how to address each.',
+      'Most common repair problems in older UK properties: rising damp, penetrating damp, condensation, failed pointing, timber decay, sash window faults, and single-glazing heat loss, with Salisbury period property context.',
     macroContext:
-      'Most common maintenance and repair issues in older UK homes — damp, cracked plaster, rotting timber, outdated wiring, sash window failures, and how to address each',
-    intent: 'Informational — Salisbury has significant older property stock',
+      'Most common maintenance and repair issues in older UK homes: damp, cracked plaster, rotting timber, outdated wiring, sash window failures, and how to address each',
+    intent: 'Informational: Salisbury has significant older property stock',
     linksToCoreIds: ['home-repairs-salisbury', 'property-maintenance-salisbury'],
     sections: [
       {
@@ -644,7 +644,7 @@ export const outerSubPages: OuterPage[] = [
       },
       {
         heading: 'Cracked and Blown Plaster',
-        body: "Traditional lime plaster on older properties moves and breathes differently from modern gypsum plaster. Hairline cracks are often cosmetic, but larger cracks — particularly diagonal cracks around door and window openings — should be monitored for signs of structural movement. Blown plaster (plaster that has separated from the wall and sounds hollow when tapped) needs raking out and patching.",
+        body: "Traditional lime plaster on older properties moves and breathes differently from modern gypsum plaster. Hairline cracks are often cosmetic, but larger cracks, particularly diagonal cracks around door and window openings, should be monitored for signs of structural movement. Blown plaster (plaster that has separated from the wall and sounds hollow when tapped) needs raking out and patching.",
       },
       {
         heading: 'Rotting Timber',
@@ -658,11 +658,11 @@ export const outerSubPages: OuterPage[] = [
     faqs: [
       {
         q: 'Do you have experience working on older properties in Salisbury?',
-        a: 'Yes. Many of our customers in Salisbury have Victorian, Edwardian, or Georgian properties. We are familiar with the specific challenges of these buildings — solid walls, lime plaster, sash windows, original tiled floors — and take appropriate care with period features.',
+        a: 'Yes. Many of our customers in Salisbury have Victorian, Edwardian, or Georgian properties. We are familiar with the specific challenges of these buildings, including solid walls, lime plaster, sash windows, and original tiled floors, and take appropriate care with period features.',
       },
       {
         q: 'Can you repair (rather than replace) original features in older Salisbury homes?',
-        a: "Yes. Where possible we repair original features — sash windows, timber skirting boards, period doors — rather than replacing them. This is better for the character of the property and often more cost-effective than sourcing matching modern replacements.",
+        a: "Yes. Where possible we repair original features (sash windows, timber skirting boards, period doors) rather than replacing them. This is better for the character of the property and often more cost-effective than sourcing matching modern replacements.",
       },
     ],
   },

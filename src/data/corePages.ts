@@ -35,7 +35,7 @@ export const coreHubPages: CorePage[] = [
     title: 'Handyman Services Salisbury | FixWell Services',
     h1: 'Handyman Services in Salisbury & Wiltshire',
     metaDescription:
-      'Professional, fully insured handyman services in Salisbury. Home repairs, property maintenance, emergency callouts and renovation work. Call FixWell Services today.',
+      'Professional, fully insured handyman services in Salisbury and Wiltshire. Home repairs, property maintenance, emergency callouts, carpentry, plumbing, decorating and renovation. Call FixWell Services on +44 7391 599 078.',
     macroContext:
       'Professional, fully insured handyman services covering all home repair, maintenance, and improvement needs in Salisbury and Wiltshire',
     priority: 'P0',
@@ -85,9 +85,9 @@ export const coreHubPages: CorePage[] = [
     slug: 'emergency-handyman-salisbury',
     pageType: 'service-hub',
     title: 'Emergency Handyman Salisbury | Same-Day Repairs | FixWell Services',
-    h1: 'Emergency Handyman Salisbury — Same-Day Callouts',
+    h1: 'Emergency Handyman Salisbury: Same-Day Callouts',
     metaDescription:
-      'Emergency handyman in Salisbury — same-day callouts for burst pipes, broken locks, electrical faults, storm damage and heating failures. Fully insured. Call FixWell now.',
+      'Emergency handyman in Salisbury: same-day callouts for burst pipes, broken locks, storm damage, electrical faults and heating failures. Fully insured, 7am–8pm Mon–Sun. Call FixWell Services now: +44 7391 599 078.',
     macroContext:
       'Same-day emergency handyman callouts in Salisbury for burst pipes, broken locks, electrical faults, heating failures, storm damage',
     priority: 'P0',
@@ -123,9 +123,9 @@ export const coreHubPages: CorePage[] = [
     slug: 'property-maintenance-salisbury',
     pageType: 'service-hub',
     title: 'Property Maintenance Salisbury | Home & Landlord Services | FixWell',
-    h1: 'Property Maintenance Salisbury — Reliable, Insured Service',
+    h1: 'Property Maintenance Salisbury: Reliable, Insured Service',
     metaDescription:
-      'Comprehensive property maintenance in Salisbury. Routine checks, seasonal upkeep, landlord compliance work and one-off repairs. Fully insured. FixWell Services.',
+      'Comprehensive property maintenance in Salisbury and Wiltshire: routine inspections, seasonal upkeep, preventive repairs, and landlord compliance work. Fully insured. FixWell Services.',
     macroContext:
       'Comprehensive property maintenance in Salisbury covering routine checks, seasonal upkeep, and landlord compliance work',
     priority: 'P0',
@@ -156,11 +156,11 @@ export const coreHubPages: CorePage[] = [
     slug: 'landlord-property-maintenance-salisbury',
     pageType: 'service-hub',
     title: 'Landlord Property Maintenance Salisbury | Fully Insured | FixWell',
-    h1: 'Landlord Property Maintenance in Salisbury — Trusted & Insured',
+    h1: 'Landlord Property Maintenance in Salisbury: Trusted & Insured',
     metaDescription:
-      'Landlord property maintenance in Salisbury — between-tenancy preparation, routine inspections, compliance checks, emergency repairs. Fully insured. FixWell Services.',
+      'Landlord property maintenance in Salisbury: between-tenancy preparation, routine inspections, compliance work, and emergency repairs for rental properties. Fully insured. FixWell Services.',
     macroContext:
-      'Landlord property maintenance in Salisbury — between-tenancy preparation, routine inspections, compliance checks, emergency repairs for rental properties',
+      'Landlord property maintenance in Salisbury: between-tenancy preparation, routine inspections, compliance checks, emergency repairs for rental properties',
     priority: 'P0',
     linksTo: [
       'property-maintenance-salisbury',
@@ -194,9 +194,9 @@ export const coreHubPages: CorePage[] = [
     slug: 'home-repairs-salisbury',
     pageType: 'service-hub',
     title: 'Home Repairs Salisbury | FixWell Services',
-    h1: 'Home Repairs in Salisbury — Professional & Reliable',
+    h1: 'Home Repairs in Salisbury: Professional & Reliable',
     metaDescription:
-      'Professional home repairs in Salisbury covering plumbing, electrical, carpentry, doors, windows and structural repairs. Fully insured. Get a free quote from FixWell Services.',
+      'Professional home repairs in Salisbury: leaking taps, sticking doors, broken sockets, carpentry repairs, and structural patching. Fully insured handyman service. FixWell Services.',
     macroContext:
       'Professional home repairs in Salisbury covering plumbing, electrical, carpentry, doors, windows, and structural repairs',
     priority: 'P1',
@@ -229,11 +229,11 @@ export const coreHubPages: CorePage[] = [
     slug: 'odd-jobs-salisbury',
     pageType: 'service-hub',
     title: 'Odd Jobs Salisbury | Handyman for Small Tasks | FixWell Services',
-    h1: 'Odd Jobs in Salisbury — No Job Too Small',
+    h1: 'Odd Jobs in Salisbury: No Job Too Small',
     metaDescription:
-      'Handyman for odd jobs in Salisbury — shelf fitting, furniture assembly, minor repairs, picture hanging and more. Fully insured. FixWell Services.',
+      'Handyman for odd jobs in Salisbury: shelf fitting, furniture assembly, curtain rails, picture hanging, draught-proofing and minor repairs. Fully insured. FixWell Services.',
     macroContext:
-      'Professional handyman for odd jobs in Salisbury — shelf installation, furniture assembly, minor repairs, small plumbing and electrical tasks',
+      'Professional handyman for odd jobs in Salisbury: shelf installation, furniture assembly, minor repairs, small plumbing and electrical tasks',
     priority: 'P1',
     linksTo: [
       'handyman-services-salisbury',
@@ -263,11 +263,11 @@ export const coreHubPages: CorePage[] = [
     slug: 'garden-maintenance-salisbury',
     pageType: 'service-hub',
     title: 'Garden Maintenance Salisbury | Landscaping & Outdoor Repairs',
-    h1: 'Garden Maintenance in Salisbury — Outdoor Care All Year',
+    h1: 'Garden Maintenance in Salisbury: Outdoor Care All Year',
     metaDescription:
-      'Garden maintenance and landscaping in Salisbury — lawn care, fence repair, paving, gate repair and seasonal outdoor upkeep. FixWell Services.',
+      'Garden maintenance in Salisbury and Wiltshire: lawn care, hedge trimming, fence repair, paving repair, and seasonal outdoor upkeep. Fully insured. FixWell Services.',
     macroContext:
-      'Garden maintenance and landscaping in Salisbury — lawn care, fence repair, gate repair, paving, garden furniture, and seasonal outdoor upkeep',
+      'Garden maintenance and landscaping in Salisbury: lawn care, fence repair, gate repair, paving, garden furniture, and seasonal outdoor upkeep',
     priority: 'P1',
     linksTo: ['fence-repair-salisbury', 'paving-slab-replacement-salisbury', 'garden-maintenance-seasons-wiltshire'],
     icon: '🌿',
@@ -288,11 +288,11 @@ export const coreHubPages: CorePage[] = [
     slug: 'painting-decorating-salisbury',
     pageType: 'service-hub',
     title: 'Painting and Decorating Salisbury | Interior & Exterior | FixWell',
-    h1: 'Painting & Decorating in Salisbury — Professional Finish',
+    h1: 'Painting & Decorating in Salisbury: Professional Finish',
     metaDescription:
-      'Professional painting and decorating in Salisbury — interior and exterior painting, skirting boards, feature walls and full room decoration. FixWell Services.',
+      'Professional painting and decorating in Salisbury: interior and exterior painting, skirting boards, feature walls, full room decoration. Period property experience. Fully insured. FixWell Services.',
     macroContext:
-      'Professional painting and decorating in Salisbury — interior and exterior painting, skirting board finishing, feature walls, full room decoration',
+      'Professional painting and decorating in Salisbury: interior and exterior painting, skirting board finishing, feature walls, full room decoration',
     priority: 'P1',
     linksTo: ['skirting-board-painting-salisbury', 'how-to-paint-skirting-boards'],
     icon: '🎨',
@@ -313,11 +313,11 @@ export const coreHubPages: CorePage[] = [
     slug: 'carpentry-services-salisbury',
     pageType: 'service-hub',
     title: 'Carpentry Services Salisbury | Joinery & Woodwork | FixWell',
-    h1: 'Carpentry & Joinery in Salisbury — Skilled Woodwork',
+    h1: 'Carpentry & Joinery in Salisbury: Skilled Woodwork',
     metaDescription:
-      'Carpentry and joinery in Salisbury — shelving, furniture assembly, door repairs, timber fixing and bespoke woodwork. Fully insured. FixWell Services.',
+      'Carpentry and joinery in Salisbury: door repairs, shelving installation, skirting boards, furniture assembly, timber fixing and sash window repairs. Fully insured. FixWell Services.',
     macroContext:
-      'Carpentry and joinery in Salisbury — shelving installation, furniture assembly, door repairs, timber fixing, bespoke woodwork',
+      'Carpentry and joinery in Salisbury: shelving installation, furniture assembly, door repairs, timber fixing, bespoke woodwork',
     priority: 'P1',
     linksTo: ['shelf-installation-salisbury', 'furniture-assembly-salisbury', 'door-hinge-repair-salisbury'],
     icon: '🪚',
@@ -338,11 +338,11 @@ export const coreHubPages: CorePage[] = [
     slug: 'renovation-services-salisbury',
     pageType: 'service-hub',
     title: 'Renovation Services Salisbury | Kitchen & Bathroom | FixWell',
-    h1: 'Home Renovation in Salisbury — Kitchen, Bathroom & More',
+    h1: 'Home Renovation in Salisbury: Kitchen, Bathroom & More',
     metaDescription:
-      'Home renovation in Salisbury — kitchen renovation, bathroom renovation, interior refurbishment, and property improvement. FixWell Services.',
+      'Home renovation in Salisbury: kitchen renovation, bathroom renovation, room refurbishment, and property improvement projects. Fully insured, trade-sequenced, fixed-price. FixWell Services.',
     macroContext:
-      'Home renovation in Salisbury — kitchen renovation, bathroom renovation, interior refurbishment, and property improvement projects',
+      'Home renovation in Salisbury: kitchen renovation, bathroom renovation, interior refurbishment, and property improvement projects',
     priority: 'P1',
     linksTo: [
       'kitchen-renovation-salisbury',
@@ -367,11 +367,11 @@ export const coreHubPages: CorePage[] = [
     slug: 'plumbing-repairs-salisbury',
     pageType: 'service-hub',
     title: 'Plumbing Repairs Salisbury | Leaks, Taps & Drains | FixWell',
-    h1: 'Plumbing Repairs in Salisbury — Leaks, Taps & Drains Fixed Fast',
+    h1: 'Plumbing Repairs in Salisbury: Leaks, Taps & Drains Fixed Fast',
     metaDescription:
-      'Minor plumbing repairs in Salisbury — leaking taps, running toilets, blocked drains, burst pipes and emergency plumbing callouts. FixWell Services.',
+      'Minor plumbing repairs in Salisbury: leaking taps, running toilets, blocked drains, burst pipes, and emergency plumbing callouts. Within Water Regulations 1999 scope. Fully insured. FixWell Services.',
     macroContext:
-      'Minor plumbing repairs in Salisbury — leaking taps, running toilets, blocked drains, burst pipes, tap installation, and emergency plumbing callouts',
+      'Minor plumbing repairs in Salisbury: leaking taps, running toilets, blocked drains, burst pipes, tap installation, and emergency plumbing callouts',
     priority: 'P2',
     linksTo: ['emergency-handyman-salisbury', 'plumbing-leak-repairs-salisbury'],
     icon: '🚿',
@@ -397,9 +397,9 @@ export const tier2ServicePages: CorePage[] = [
     title: 'Plumbing Leak Repairs Salisbury | FixWell Services',
     h1: 'Plumbing Leak Repairs in Salisbury',
     metaDescription:
-      'Emergency and routine plumbing leak repairs in Salisbury — burst pipes, dripping taps, leaking joints, and water damage prevention. FixWell Services.',
+      'Expert plumbing leak repairs in Salisbury: burst pipes, dripping compression joints, radiator valve leaks and under-sink repairs. Same-day emergency response. FixWell Services, fully insured.',
     macroContext:
-      'Emergency and routine plumbing leak repairs in Salisbury — burst pipes, dripping taps, leaking joints, and water damage prevention',
+      'Emergency and routine plumbing leak repairs in Salisbury: burst pipes, dripping taps, leaking joints, and water damage prevention',
     priority: 'P1',
     parentSlug: 'plumbing-repairs-salisbury',
     linksTo: ['plumbing-repairs-salisbury', 'emergency-handyman-salisbury'],
@@ -419,11 +419,11 @@ export const tier2ServicePages: CorePage[] = [
     slug: 'electrical-repairs-salisbury',
     pageType: 'service-detail',
     title: 'Electrical Repairs Salisbury | Sockets, Lights & Faults | FixWell',
-    h1: 'Electrical Repairs in Salisbury — Sockets, Lights & Faults',
+    h1: 'Electrical Repairs in Salisbury: Sockets, Lights & Faults',
     metaDescription:
-      'Minor electrical repairs in Salisbury — faulty sockets, light fitting replacement, switch repairs, circuit fault finding within UK legal limits. FixWell Services.',
+      'Minor electrical repairs in Salisbury: faulty sockets, light fitting replacement, switch repairs and circuit fault-finding within UK Part P legal limits. Fully insured. FixWell Services.',
     macroContext:
-      'Minor electrical repairs in Salisbury — faulty sockets, light fitting replacement, switch repairs, circuit fault finding (within UK legal limits)',
+      'Minor electrical repairs in Salisbury: faulty sockets, light fitting replacement, switch repairs, circuit fault finding (within UK legal limits)',
     priority: 'P1',
     parentSlug: 'home-repairs-salisbury',
     linksTo: ['home-repairs-salisbury', 'emergency-handyman-salisbury'],
@@ -441,16 +441,16 @@ export const tier2ServicePages: CorePage[] = [
     title: 'Broken Lock & Door Repair Salisbury | FixWell Services',
     h1: 'Broken Lock & Door Repair in Salisbury',
     metaDescription:
-      'Broken lock and door repairs in Salisbury — lock replacement, door alignment, hinge repair, security restoration for homes and rental properties. FixWell Services.',
+      'Broken lock and door repairs in Salisbury: cylinder replacement, strike plate adjustment, multipoint lock repair, door realignment. Same-day security response. Fully insured. FixWell Services.',
     macroContext:
-      'Broken lock and door repairs in Salisbury — lock replacement, door alignment, hinge repair, security restoration for homes and rental properties',
+      'Broken lock and door repairs in Salisbury: lock replacement, door alignment, hinge repair, security restoration for homes and rental properties',
     priority: 'P1',
     parentSlug: 'home-repairs-salisbury',
     linksTo: ['home-repairs-salisbury', 'emergency-handyman-salisbury', 'door-hinge-repair-salisbury'],
     faqs: [
       {
         q: 'Can you replace a broken lock on the same day in Salisbury?',
-        a: 'For security emergencies — such as a lock that has been damaged or broken — we offer same-day callouts across Salisbury and Wiltshire to restore your home security.',
+        a: 'For security emergencies (such as a lock that has been damaged or broken), we offer same-day callouts across Salisbury and Wiltshire to restore your home security.',
       },
     ],
   },
@@ -461,9 +461,9 @@ export const tier2ServicePages: CorePage[] = [
     title: 'Between Tenancy Property Preparation Salisbury | FixWell Services',
     h1: 'Between Tenancy Property Preparation in Salisbury',
     metaDescription:
-      'Between-tenancy preparation in Salisbury — cleaning coordination, repairs, repainting, carpet checks, and compliance inspections before new tenant moves in.',
+      'Between-tenancy property preparation in Salisbury: snag repairs, repainting, compliance checks, silicone resealing and full void-period preparation for landlords. FixWell Services, fully insured.',
     macroContext:
-      'Between-tenancy property preparation in Salisbury — cleaning, repairs, repainting, carpet checks, compliance inspections before new tenant',
+      'Between-tenancy property preparation in Salisbury: cleaning, repairs, repainting, carpet checks, compliance inspections before new tenant',
     priority: 'P1',
     parentSlug: 'landlord-property-maintenance-salisbury',
     linksTo: [
@@ -483,11 +483,11 @@ export const tier2ServicePages: CorePage[] = [
     slug: 'gutter-cleaning-salisbury',
     pageType: 'service-detail',
     title: 'Gutter Cleaning Salisbury | FixWell Services',
-    h1: 'Gutter Cleaning in Salisbury — Blockage Removal & Maintenance',
+    h1: 'Gutter Cleaning in Salisbury: Blockage Removal & Maintenance',
     metaDescription:
-      'Gutter cleaning and maintenance in Salisbury — clearing blockages, downpipe checks, fascia board inspection, overflow prevention. FixWell Services.',
+      'Gutter cleaning and maintenance in Salisbury: clearing leaf blockages, flushing downpipes, joint inspection, fascia checks. Fully insured. FixWell Services.',
     macroContext:
-      'Gutter cleaning and maintenance in Salisbury — clearing blockages, downpipe checks, fascia board inspection, overflow prevention',
+      'Gutter cleaning and maintenance in Salisbury: clearing blockages, downpipe checks, fascia board inspection, overflow prevention',
     priority: 'P1',
     parentSlug: 'property-maintenance-salisbury',
     linksTo: ['property-maintenance-salisbury', 'home-maintenance-schedule-uk'],
@@ -503,18 +503,18 @@ export const tier2ServicePages: CorePage[] = [
     slug: 'shelf-installation-salisbury',
     pageType: 'service-detail',
     title: 'Shelf Installation Salisbury | FixWell Services',
-    h1: 'Shelf Installation in Salisbury — Secure Fitting to Any Wall',
+    h1: 'Shelf Installation in Salisbury: Secure Fitting to Any Wall',
     metaDescription:
-      'Professional shelf installation in Salisbury — floating shelves, alcove shelving, garage shelving, secure fixing to all wall types. FixWell Services.',
+      'Shelf installation in Salisbury: floating shelves, alcove shelving, garage racking, secure fixing to solid stone, brick, and plasterboard walls. Fully insured. FixWell Services.',
     macroContext:
-      'Professional shelf installation in Salisbury — floating shelves, alcove shelving, garage shelving, secure fixing to all wall types',
+      'Professional shelf installation in Salisbury: floating shelves, alcove shelving, garage shelving, secure fixing to all wall types',
     priority: 'P1',
     parentSlug: 'odd-jobs-salisbury',
     linksTo: ['odd-jobs-salisbury', 'carpentry-services-salisbury'],
     faqs: [
       {
         q: 'Can you fix shelves to solid stone or brick walls in Salisbury?',
-        a: 'Yes. Many Salisbury homes have solid stone or brick walls. We have the tools and fixings for all wall types — solid masonry, plasterboard, and timber stud — so your shelves will be safe and secure.',
+        a: 'Yes. Many Salisbury homes have solid stone or brick walls. We have the tools and fixings for all wall types: solid masonry, plasterboard, and timber stud, so your shelves will be safe and secure.',
       },
     ],
   },
@@ -523,11 +523,11 @@ export const tier2ServicePages: CorePage[] = [
     slug: 'furniture-assembly-salisbury',
     pageType: 'service-detail',
     title: 'Furniture Assembly Salisbury | Flat-Pack & Self-Assembly | FixWell',
-    h1: 'Furniture Assembly in Salisbury — IKEA, B&Q & All Brands',
+    h1: 'Furniture Assembly in Salisbury: IKEA, B&Q & All Brands',
     metaDescription:
-      'Professional flat-pack and self-assembly furniture assembly in Salisbury — IKEA, B&Q, Argos and all major brands. Quick, stress-free service. FixWell Services.',
+      'Furniture assembly in Salisbury: IKEA, B&Q, Argos, Dunelm and all flat-pack brands. Fast, professional assembly with correct hinge adjustment and wall anchoring. FixWell Services.',
     macroContext:
-      'Professional flat-pack and self-assembly furniture assembly in Salisbury — IKEA, B&Q, and all major brands',
+      'Professional flat-pack and self-assembly furniture assembly in Salisbury: IKEA, B&Q, and all major brands',
     priority: 'P1',
     parentSlug: 'odd-jobs-salisbury',
     linksTo: ['odd-jobs-salisbury', 'carpentry-services-salisbury'],
@@ -543,11 +543,11 @@ export const tier2ServicePages: CorePage[] = [
     slug: 'skirting-board-painting-salisbury',
     pageType: 'service-detail',
     title: 'Skirting Board Painting Salisbury | FixWell Services',
-    h1: 'Skirting Board Painting in Salisbury — Clean, Professional Finish',
+    h1: 'Skirting Board Painting in Salisbury: Clean, Professional Finish',
     metaDescription:
-      'Skirting board painting in Salisbury — preparation, priming, gloss finish, protecting carpets and flooring. Professional results. FixWell Services.',
+      'Skirting board painting in Salisbury: filling, sanding, priming, and gloss or satinwood finish. Carpets and floors fully protected. Fully insured. FixWell Services.',
     macroContext:
-      'Skirting board painting and finishing in Salisbury — preparation, priming, gloss finish, protecting carpets and flooring',
+      'Skirting board painting and finishing in Salisbury: preparation, priming, gloss finish, protecting carpets and flooring',
     priority: 'P1',
     parentSlug: 'painting-decorating-salisbury',
     linksTo: ['painting-decorating-salisbury', 'how-to-paint-skirting-boards'],
@@ -563,11 +563,11 @@ export const tier2ServicePages: CorePage[] = [
     slug: 'fence-repair-salisbury',
     pageType: 'service-detail',
     title: 'Fence Repair Salisbury | Posts & Panels | FixWell Services',
-    h1: 'Fence Repair in Salisbury — Posts, Panels & Storm Damage',
+    h1: 'Fence Repair in Salisbury: Posts, Panels & Storm Damage',
     metaDescription:
-      'Fence repair and replacement in Salisbury — leaning post straightening, panel replacement, post concreting, storm damage repairs. FixWell Services.',
+      'Fence repair and replacement in Salisbury: rotted post replacement, panel repair, post concreting, storm damage. Fully insured handyman service. FixWell Services.',
     macroContext:
-      'Fence repair and replacement in Salisbury — leaning post straightening, panel replacement, post concreting, storm damage repairs',
+      'Fence repair and replacement in Salisbury: leaning post straightening, panel replacement, post concreting, storm damage repairs',
     priority: 'P1',
     parentSlug: 'garden-maintenance-salisbury',
     linksTo: ['garden-maintenance-salisbury', 'garden-maintenance-seasons-wiltshire'],
@@ -585,9 +585,9 @@ export const tier2ServicePages: CorePage[] = [
     title: 'Paving Slab Replacement Salisbury | FixWell Services',
     h1: 'Paving Slab Repair & Replacement in Salisbury',
     metaDescription:
-      'Paving slab repair and replacement in Salisbury — cracked or sunken slabs, re-levelling, sand jointing, patio restoration. FixWell Services.',
+      'Paving slab repair and replacement in Salisbury: sunken, cracked, or rocking slabs re-laid with correct sub-base, sand bed, and kiln-dried jointing. FixWell Services.',
     macroContext:
-      'Paving slab repair and replacement in Salisbury — cracked or sunken slabs, re-levelling, sand jointing, patio restoration',
+      'Paving slab repair and replacement in Salisbury: cracked or sunken slabs, re-levelling, sand jointing, patio restoration',
     priority: 'P1',
     parentSlug: 'garden-maintenance-salisbury',
     linksTo: ['garden-maintenance-salisbury'],
@@ -605,15 +605,15 @@ export const tier2ServicePages: CorePage[] = [
     title: 'Door Hinge Installation & Repair Salisbury | FixWell Services',
     h1: 'Door Hinge Repair & Installation in Salisbury',
     metaDescription:
-      'Door hinge installation and repair in Salisbury — sagging doors, stiff hinges, loose fixings, hinge replacement for internal and external doors. FixWell Services.',
+      'Door hinge repair and replacement in Salisbury: sagging doors, stiff hinges, stripped screw holes, and hinge replacement for internal and external doors. FixWell Services, fully insured.',
     macroContext:
-      'Door hinge installation and repair in Salisbury — sagging doors, stiff hinges, loose fixings, hinge replacement for internal and external doors',
+      'Door hinge installation and repair in Salisbury: sagging doors, stiff hinges, loose fixings, hinge replacement for internal and external doors',
     priority: 'P1',
     parentSlug: 'carpentry-services-salisbury',
     linksTo: ['carpentry-services-salisbury', 'lock-door-repair-salisbury'],
     faqs: [
       {
-        q: 'My door is dragging on the floor — can you fix it?',
+        q: 'My door is dragging on the floor. Can you fix it?',
         a: 'Yes. A dragging door is usually caused by loose or bent hinges, a swollen door, or a settled door frame. We diagnose the cause and carry out the right repair: hinge tightening, re-hanging, or planing the door edge.',
       },
     ],
@@ -623,11 +623,11 @@ export const tier2ServicePages: CorePage[] = [
     slug: 'kitchen-renovation-salisbury',
     pageType: 'service-detail',
     title: 'Kitchen Renovation Salisbury | FixWell Services',
-    h1: 'Kitchen Renovation in Salisbury — Transform Your Kitchen',
+    h1: 'Kitchen Renovation in Salisbury: Transform Your Kitchen',
     metaDescription:
-      'Kitchen renovation in Salisbury — cabinet replacement, worktop installation, tiling, painting and full kitchen transformations. FixWell Services.',
+      'Kitchen renovation in Salisbury: cabinet replacement, worktop fitting, tiling, full refurbishment. FixWell Services manages the project from strip-out to snagging. Fully insured.',
     macroContext:
-      'Kitchen renovation and refurbishment in Salisbury — cabinet replacement, worktop installation, tiling, painting, and full kitchen transformations',
+      'Kitchen renovation and refurbishment in Salisbury: cabinet replacement, worktop installation, tiling, painting, and full kitchen transformations',
     priority: 'P1',
     parentSlug: 'renovation-services-salisbury',
     linksTo: ['renovation-services-salisbury', 'home-renovation-planning-guide-salisbury'],
@@ -643,11 +643,11 @@ export const tier2ServicePages: CorePage[] = [
     slug: 'bathroom-renovation-salisbury',
     pageType: 'service-detail',
     title: 'Bathroom Renovation Salisbury | FixWell Services',
-    h1: 'Bathroom Renovation in Salisbury — Fresh, Clean Bathrooms',
+    h1: 'Bathroom Renovation in Salisbury: Fresh, Clean Bathrooms',
     metaDescription:
-      'Bathroom renovation in Salisbury — tiling, fitting, resealing, painting and full bathroom refurbishment. FixWell Services.',
+      'Bathroom renovation in Salisbury: tiling, sanitaryware fitting, tanking, resealing and full bathroom refurbishment. FixWell Services manages your project end to end. Fully insured.',
     macroContext:
-      'Bathroom renovation in Salisbury — tiling, fitting, resealing, painting, and full bathroom refurbishment',
+      'Bathroom renovation in Salisbury: tiling, fitting, resealing, painting, and full bathroom refurbishment',
     priority: 'P1',
     parentSlug: 'renovation-services-salisbury',
     linksTo: ['renovation-services-salisbury', 'home-renovation-planning-guide-salisbury'],
@@ -666,10 +666,10 @@ export const locationPages: CorePage[] = [
     slug: 'handyman-amesbury',
     pageType: 'location',
     title: 'Handyman Amesbury | FixWell Services',
-    h1: 'Handyman in Amesbury — Local, Reliable & Fully Insured',
+    h1: 'Handyman in Amesbury: Local, Reliable & Fully Insured',
     metaDescription:
-      'Professional handyman services in Amesbury, Wiltshire — home repairs, maintenance, emergency callouts, and renovation work. FixWell Services covers Amesbury and surrounding areas.',
-    macroContext: 'Handyman services in Amesbury, Wiltshire — home repairs, maintenance and emergency callouts',
+      'Professional handyman in Amesbury, SP4: home repairs, property maintenance, landlord services and same-day emergency callouts. FixWell Services, 10 miles from Salisbury. Call +44 7391 599 078.',
+    macroContext: 'Handyman services in Amesbury, Wiltshire: home repairs, maintenance and emergency callouts',
     priority: 'P2',
     linksTo: [
       'handyman-services-salisbury',
@@ -693,10 +693,10 @@ export const locationPages: CorePage[] = [
     slug: 'handyman-wilton',
     pageType: 'location',
     title: 'Handyman Wilton | FixWell Services',
-    h1: 'Handyman in Wilton — Professional Home Repair Service',
+    h1: 'Handyman in Wilton: Professional Home Repair Service',
     metaDescription:
-      'Professional handyman services in Wilton, Wiltshire — home repairs, property maintenance and emergency callouts. FixWell Services covers Wilton and surrounding areas.',
-    macroContext: 'Handyman services in Wilton, Wiltshire — home repairs, property maintenance and emergency callouts',
+      'Professional handyman in Wilton, SP2: period property repairs, home maintenance, carpentry and same-day emergency callouts. FixWell Services, just 3 miles from Salisbury. Call +44 7391 599 078.',
+    macroContext: 'Handyman services in Wilton, Wiltshire: home repairs, property maintenance and emergency callouts',
     priority: 'P2',
     linksTo: [
       'handyman-services-salisbury',
@@ -715,10 +715,10 @@ export const locationPages: CorePage[] = [
     slug: 'handyman-tidworth',
     pageType: 'location',
     title: 'Handyman Tidworth | FixWell Services',
-    h1: 'Handyman in Tidworth — Reliable Local Service',
+    h1: 'Handyman in Tidworth: Reliable Local Service',
     metaDescription:
-      'Professional handyman services in Tidworth, Wiltshire — home repairs, property maintenance and emergency callouts. FixWell Services covers Tidworth.',
-    macroContext: 'Handyman services in Tidworth, Wiltshire — home repairs, property maintenance and emergency callouts',
+      'Professional handyman in Tidworth, SP9: landlord maintenance, between-tenancy preparation, home repairs and emergency callouts for garrison-area properties. FixWell Services. Call +44 7391 599 078.',
+    macroContext: 'Handyman services in Tidworth, Wiltshire: home repairs, property maintenance and emergency callouts',
     priority: 'P2',
     linksTo: [
       'handyman-services-salisbury',
@@ -737,10 +737,10 @@ export const locationPages: CorePage[] = [
     slug: 'handyman-fordingbridge',
     pageType: 'location',
     title: 'Handyman Fordingbridge | FixWell Services',
-    h1: 'Handyman in Fordingbridge — Trusted Local Repairs',
+    h1: 'Handyman in Fordingbridge: Trusted Local Repairs',
     metaDescription:
-      'Professional handyman services in Fordingbridge, Hampshire — home repairs, property maintenance and emergency callouts. FixWell Services covers Fordingbridge.',
-    macroContext: 'Handyman services in Fordingbridge, Hampshire — home repairs, maintenance and emergency callouts',
+      'Professional handyman in Fordingbridge, SP6: home repairs, garden and fence work, period property maintenance and emergency callouts. FixWell Services, 11 miles from Salisbury. Call +44 7391 599 078.',
+    macroContext: 'Handyman services in Fordingbridge, Hampshire: home repairs, maintenance and emergency callouts',
     priority: 'P2',
     linksTo: [
       'handyman-services-salisbury',
@@ -759,10 +759,10 @@ export const locationPages: CorePage[] = [
     slug: 'handyman-downton',
     pageType: 'location',
     title: 'Handyman Downton | FixWell Services',
-    h1: 'Handyman in Downton — Professional Local Service',
+    h1: 'Handyman in Downton: Professional Local Service',
     metaDescription:
-      'Professional handyman services in Downton, Wiltshire — home repairs, property maintenance and emergency callouts. FixWell Services covers Downton.',
-    macroContext: 'Handyman services in Downton, Wiltshire — home repairs, property maintenance and emergency callouts',
+      'Professional handyman in Downton, SP5: period cottage repairs, carpentry, painting, home maintenance and same-day emergency callouts. FixWell Services, 7 miles from Salisbury. Call +44 7391 599 078.',
+    macroContext: 'Handyman services in Downton, Wiltshire: home repairs, property maintenance and emergency callouts',
     priority: 'P2',
     linksTo: [
       'handyman-services-salisbury',
@@ -781,10 +781,10 @@ export const locationPages: CorePage[] = [
     slug: 'handyman-andover',
     pageType: 'location',
     title: 'Handyman Andover | FixWell Services',
-    h1: 'Handyman in Andover — Skilled, Insured & Local',
+    h1: 'Handyman in Andover: Skilled, Insured & Local',
     metaDescription:
-      'Professional handyman services in Andover, Hampshire — home repairs, property maintenance and emergency callouts. FixWell Services covers Andover.',
-    macroContext: 'Handyman services in Andover, Hampshire — home repairs, property maintenance and emergency callouts',
+      'Professional handyman in Andover, SP10 and SP11: home repairs, HMO and landlord maintenance, property preparation and emergency callouts. FixWell Services, 18 miles from Salisbury. Call +44 7391 599 078.',
+    macroContext: 'Handyman services in Andover, Hampshire: home repairs, property maintenance and emergency callouts',
     priority: 'P2',
     linksTo: [
       'handyman-services-salisbury',
