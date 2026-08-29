@@ -77,6 +77,13 @@ const pageImages: Record<string, { src: string; alt: string }> = {
   'property-maintenance-salisbury':          { src: '/image_4.jpg',       alt: 'Property maintenance — window repair in Salisbury' },
   'emergency-handyman-salisbury':            { src: '/image_1.jpg',       alt: 'FixWell tradesman carrying out an emergency repair on a shed roof' },
   'landlord-property-maintenance-salisbury': { src: '/image_4.jpg',       alt: 'Property maintenance work for a landlord in Salisbury' },
+  'roof-repair-salisbury':                   { src: '/roof-repair-salisbury.jpg', alt: 'Tradesman replacing a slipped slate roof tile on a Salisbury rooftop, cathedral spire visible in the background' },
+  'window-repair-salisbury':                 { src: '/window-repair-salisbury.jpg', alt: 'Handyman repairing a timber sash window removed from a period property in Salisbury' },
+  'tiling-services-salisbury':                { src: '/tiling-services-salisbury.jpg', alt: 'Tradesman fixing wall tiles with a notched trowel during a bathroom tiling job' },
+  'flooring-fitting-salisbury':               { src: '/flooring-fitting-salisbury.jpg', alt: 'Handyman fitting new timber flooring boards in a Salisbury period property' },
+  'tv-wall-mounting-salisbury':                { src: '/tv-wall-mounting-salisbury.jpg', alt: 'Handyman fixing a TV wall bracket to a living room wall in Salisbury' },
+  'curtain-blind-fitting-salisbury':          { src: '/curtain-blind-fitting-salisbury.jpg', alt: 'Handyman fitting a curtain pole across a bay window in a Salisbury bedroom' },
+  'damp-in-older-salisbury-homes':            { src: '/damp-in-older-salisbury-homes.jpg', alt: 'Tradesman using a moisture meter to diagnose damp on a wall in an older Salisbury property' },
 };
 
 const pageImage = page ? pageImages[page.slug] : undefined;
@@ -204,6 +211,15 @@ const pageImage = page ? pageImages[page.slug] : undefined;
     <article class="article-body section">
       <div class="container article-body__inner">
         <div class="article-content">
+          {pageImage && (
+            <img
+              src={pageImage.src}
+              alt={pageImage.alt}
+              class="page-body__img"
+              loading="lazy"
+              decoding="async"
+            />
+          )}
           {outerContent?.intro && (
             <p class="article-intro" set:html={outerContent.intro}></p>
           )}
