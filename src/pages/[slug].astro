@@ -43,7 +43,7 @@ if (corePage) {
       parentSlugStr = parent.slug;
     }
   }
-  linkedPages = allCorePages.filter((p) => corePage.linksTo.includes(p.id));
+  linkedPages = allCorePages.filter((p) => corePage.linksTo.includes(p.slug));
 }
 
 const heroVariant =

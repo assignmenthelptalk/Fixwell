@@ -668,4 +668,54 @@ export const outerSubPages: OuterPage[] = [
   },
 ];
 
+outerSubPages.push({
+  id: 'outer-sub-07',
+  slug: 'damp-in-older-salisbury-homes',
+  pageType: 'outer-info',
+  title: 'Damp in Older Salisbury Homes: Causes & Diagnosis | FixWell',
+  h1: 'Damp in Older Salisbury Homes: Causes, Diagnosis & Who to Call',
+  metaDescription:
+    'Rising damp, penetrating damp, and condensation in older Salisbury properties: how to tell them apart, causes, and when to call a specialist. FixWell Services.',
+  macroContext:
+    'Differentiating rising damp, penetrating damp, and condensation in older Salisbury and Wiltshire properties: causes, visible signs, diagnosis, and the boundary between handyman-scope repair and specialist damp-proofing work',
+  intent: 'Informational: high-intent diagnostic query with a referral-commercial edge',
+  linksToCoreIds: ['home-repairs-salisbury', 'property-maintenance-salisbury', 'gutter-cleaning-salisbury'],
+  sections: [
+    {
+      heading: "Why Damp Is Common in Salisbury's Older Properties",
+      body: "Salisbury's SP1 and SP2 postcode districts hold a large stock of pre-1920s solid-wall construction, built without the cavity gap that has separated inner and outer wall leaves in UK housing since the interwar period. A solid wall has no cavity to break moisture's path from outside to inside, and where these properties were finished in lime plaster and lime mortar, materials designed to let moisture pass through and evaporate unlike modern cement-based render, a later repair using the wrong modern material can trap moisture instead of letting it breathe. Many of these properties also predate the standardised use of a physical damp-proof course.",
+    },
+    {
+      heading: 'Rising Damp: Cause, Signs & How to Recognise It',
+      body: "Rising damp is moisture drawn upward through a solid wall by capillary action, occurring where a wall's damp-proof course is missing, bridged, or has failed. The telltale sign is a tide-mark stain that stops at a roughly consistent height, generally no higher than one metre above floor level, because capillary action loses force with height. White, powdery salt deposits (efflorescence) often appear at the same height, and skirting boards in the affected area typically show degradation before the wall above them does, since they sit closest to the moisture source.",
+    },
+    {
+      heading: 'Penetrating Damp: Cause, Signs & How to Recognise It',
+      body: "Penetrating damp is moisture entering a wall horizontally through a specific defect rather than rising from the ground: cracked render, failed pointing between bricks, a leaking or blocked gutter overflowing against the wall, or a bridged cavity. The sign that distinguishes it from rising damp is location — penetrating damp staining correlates directly with the position of the external defect, can appear at any height on the wall, and typically worsens after heavy rain and improves in a dry spell.",
+    },
+    {
+      heading: 'Condensation: Cause, Signs & How to Recognise It',
+      body: "Condensation forms when warm, moisture-laden indoor air meets a cold surface and releases that moisture as liquid water on contact. It accumulates most visibly at a room's coldest points — window reveals, external corners, behind furniture against an outside wall — as black mould spotting rather than a wet stain, along with droplets on glass and a musty smell with no obvious water-entry point. Improving ventilation makes an immediate difference to condensation but none to rising or penetrating damp, which is the clearest practical way to tell them apart.",
+    },
+    {
+      heading: 'Which Type of Damp Do You Have — and Does It Need a Handyman or a Damp Specialist?',
+      body: "Condensation and penetrating damp both sit within FixWell's handyman and property maintenance scope, since the remedy is either improving ventilation or fixing the specific external defect letting water in. Rising damp is different: remediating it properly means installing or renewing a damp-proof course, specialist damp-proofing contractor work, ideally preceded by an independent damp survey. FixWell will say clearly which category a property's damp falls into rather than attempting a fix outside that scope.",
+    },
+  ],
+  faqs: [
+    {
+      q: 'How do I tell the difference between condensation and rising damp?',
+      a: 'Location and response to ventilation are the two clearest tests. Condensation appears as mould at cold spots like window reveals and improves with better airflow. Rising damp appears as a tide-mark stain confined to roughly the bottom metre of a wall and does not change regardless of ventilation.',
+    },
+    {
+      q: 'Can a handyman fix rising damp?',
+      a: 'No. Rising damp remediation means installing or renewing a damp-proof course, which is specialist damp-proofing contractor work. FixWell will refer a property with suspected rising damp to the right specialist rather than attempt the fix directly.',
+    },
+    {
+      q: 'Can blocked gutters cause damp inside my house?',
+      a: 'Yes. A blocked or overflowing gutter directs water down the outside wall rather than away from the property, and over time that water penetrates through render, pointing, or brickwork defects, appearing as damp staining inside at the corresponding height and location.',
+    },
+  ],
+});
+
 export const allOuterPages: OuterPage[] = [...outerHubPages, ...outerSubPages];

@@ -133,6 +133,7 @@ export const coreHubPages: CorePage[] = [
       'landlord-property-maintenance-salisbury',
       'between-tenancy-property-preparation-salisbury',
       'gutter-cleaning-salisbury',
+      'roof-repair-salisbury',
     ],
     icon: '🏠',
     shortLabel: 'Maintenance',
@@ -240,6 +241,8 @@ export const coreHubPages: CorePage[] = [
       'shelf-installation-salisbury',
       'furniture-assembly-salisbury',
       'skirting-board-painting-salisbury',
+      'tv-wall-mounting-salisbury',
+      'curtain-blind-fitting-salisbury',
     ],
     icon: '🛠️',
     shortLabel: 'Odd Jobs',
@@ -319,7 +322,7 @@ export const coreHubPages: CorePage[] = [
     macroContext:
       'Carpentry and joinery in Salisbury: shelving installation, furniture assembly, door repairs, timber fixing, bespoke woodwork',
     priority: 'P1',
-    linksTo: ['shelf-installation-salisbury', 'furniture-assembly-salisbury', 'door-hinge-repair-salisbury'],
+    linksTo: ['shelf-installation-salisbury', 'furniture-assembly-salisbury', 'door-hinge-repair-salisbury', 'window-repair-salisbury'],
     icon: '🪚',
     shortLabel: 'Carpentry',
     faqs: [
@@ -348,6 +351,8 @@ export const coreHubPages: CorePage[] = [
       'kitchen-renovation-salisbury',
       'bathroom-renovation-salisbury',
       'home-renovation-planning-guide-salisbury',
+      'tiling-services-salisbury',
+      'flooring-fitting-salisbury',
     ],
     icon: '🏗️',
     shortLabel: 'Renovation',
@@ -655,6 +660,150 @@ export const tier2ServicePages: CorePage[] = [
       {
         q: 'Can you re-tile a bathroom in Salisbury?',
         a: 'Yes. We carry out bathroom tiling in Salisbury, either re-tiling full walls or replacing damaged tiles. We prepare surfaces properly and use the right adhesive and grout for wet areas.',
+      },
+    ],
+  },
+  {
+    id: 'core-sub-14',
+    slug: 'roof-repair-salisbury',
+    pageType: 'service-detail',
+    title: 'Roof Repair Salisbury | Tiles, Flashing & Leaks | FixWell',
+    h1: 'Roof Repair in Salisbury: Tiles, Flashing & Small Leaks Fixed',
+    metaDescription:
+      'Roof repair in Salisbury: slipped and cracked tile replacement, minor flashing and felt repairs, storm damage. Fully insured, safe working at height. FixWell Services.',
+    macroContext:
+      'Handyman-scope roof repair in Salisbury: slipped and cracked tile replacement, minor lead flashing repair, small flat roof felt patches, storm damage',
+    priority: 'P1',
+    parentSlug: 'property-maintenance-salisbury',
+    linksTo: ['property-maintenance-salisbury', 'gutter-cleaning-salisbury', 'emergency-handyman-salisbury'],
+    faqs: [
+      {
+        q: 'Can a handyman fix a leaking roof in Salisbury?',
+        a: 'Yes, for an identifiable, localised leak such as a slipped tile or a small felt puncture. We inspect first and advise clearly if the job needs a specialist roofer instead.',
+      },
+      {
+        q: 'How much does it cost to replace a few roof tiles in Salisbury?',
+        a: 'A single tile replacement typically costs £60–£150, usually completed in one visit. The exact figure depends on access and how closely the replacement tile needs to match the existing roof.',
+      },
+    ],
+  },
+  {
+    id: 'core-sub-15',
+    slug: 'window-repair-salisbury',
+    pageType: 'service-detail',
+    title: 'Window Repair Salisbury | Sash & Casement Windows | FixWell',
+    h1: 'Window Repair in Salisbury: Sash & Casement Windows Fixed',
+    metaDescription:
+      'Window repair in Salisbury: sash window re-cording, draught-proofing, freeing painted-shut sashes, and casement window adjustment. Period property experience. FixWell Services.',
+    macroContext:
+      'Sash and casement window repair in Salisbury: re-cording, freeing painted-shut sashes, draught-proofing, hinge adjustment',
+    priority: 'P1',
+    parentSlug: 'carpentry-services-salisbury',
+    linksTo: ['carpentry-services-salisbury', 'home-repairs-salisbury'],
+    faqs: [
+      {
+        q: 'Can you fix a sash window that won’t stay open in Salisbury?',
+        a: 'Yes. A sash that won’t stay open usually means the sash cord has snapped. Re-cording replaces the cord and re-hangs the sash, restoring normal operation in one visit.',
+      },
+      {
+        q: 'Is it worth repairing an old sash window instead of replacing it?',
+        a: 'In most cases, yes. Sound original timber outlasts many modern replacements once repaired, and much of central Salisbury sits within a Conservation Area that can restrict replacing original windows.',
+      },
+    ],
+  },
+  {
+    id: 'core-sub-16',
+    slug: 'tiling-services-salisbury',
+    pageType: 'service-detail',
+    title: 'Tiling Services Salisbury | Walls, Splashbacks & Re-grouting | FixWell',
+    h1: 'Tiling Services in Salisbury: Walls, Splashbacks & Re-grouting',
+    metaDescription:
+      'Tiling services in Salisbury: bathroom and kitchen wall tiling, splashbacks, re-grouting, and loose or cracked tile repair. Fully insured. FixWell Services.',
+    macroContext:
+      'Standalone tiling services in Salisbury: bathroom and kitchen wall tiling, splashbacks, re-grouting, individual tile repair',
+    priority: 'P1',
+    parentSlug: 'renovation-services-salisbury',
+    linksTo: ['renovation-services-salisbury', 'kitchen-renovation-salisbury', 'bathroom-renovation-salisbury'],
+    faqs: [
+      {
+        q: 'How much does tiling cost per m² in Salisbury?',
+        a: 'Standard wall tiling costs £35–£55 per square metre for labour. Tile size and pattern complexity affect the exact figure.',
+      },
+      {
+        q: 'Can you re-grout my bathroom without retiling it?',
+        a: 'Yes. If the tiles are sound and only the grout has discoloured or cracked, re-grouting refreshes the room for roughly a third of the cost of a full re-tile.',
+      },
+    ],
+  },
+  {
+    id: 'core-sub-17',
+    slug: 'flooring-fitting-salisbury',
+    pageType: 'service-detail',
+    title: 'Flooring Fitting Salisbury | Laminate, Vinyl & Floorboards | FixWell',
+    h1: 'Flooring Fitting in Salisbury: Laminate, Vinyl & Floorboards',
+    metaDescription:
+      'Flooring fitting in Salisbury: laminate and vinyl/LVT installation, plus squeaking or damaged floorboard repair for period properties. Fully insured. FixWell Services.',
+    macroContext:
+      'Flooring fitting and floorboard repair in Salisbury: laminate and vinyl/LVT installation, original timber floorboard repair',
+    priority: 'P1',
+    parentSlug: 'renovation-services-salisbury',
+    linksTo: ['renovation-services-salisbury', 'home-repairs-salisbury'],
+    faqs: [
+      {
+        q: 'How much does laminate flooring fitting cost in Salisbury?',
+        a: '£15–£25 per square metre for labour. Room shape affects the figure — an irregular room with more cuts costs more per square metre to fit.',
+      },
+      {
+        q: 'Can you fix a squeaky floorboard without lifting the whole floor?',
+        a: 'Yes. The board is lifted just enough to access the joist beneath it, re-fixed with a screw, and relaid — resolving the squeak without disturbing the rest of the floor.',
+      },
+    ],
+  },
+  {
+    id: 'core-sub-18',
+    slug: 'tv-wall-mounting-salisbury',
+    pageType: 'service-detail',
+    title: 'TV Wall Mounting Salisbury | Bracket Fitting | FixWell Services',
+    h1: 'TV Wall Mounting in Salisbury: Secure Bracket Fitting',
+    metaDescription:
+      'TV wall mounting in Salisbury: secure bracket fitting on brick, stone or plasterboard walls, with optional cable concealment. Fully insured. FixWell Services.',
+    macroContext:
+      'TV wall bracket fitting in Salisbury: fixed, tilting and full-motion brackets on masonry and plasterboard walls, cable concealment',
+    priority: 'P2',
+    parentSlug: 'odd-jobs-salisbury',
+    linksTo: ['odd-jobs-salisbury', 'shelf-installation-salisbury', 'electrical-repairs-salisbury'],
+    faqs: [
+      {
+        q: 'How much does it cost to mount a TV on the wall in Salisbury?',
+        a: '£60–£140 depending on the bracket type. A fixed bracket sits at the lower end; a tilting or full-motion bracket sits toward the higher end.',
+      },
+      {
+        q: 'Can you mount a TV on a brick or stone wall?',
+        a: 'Yes. We use masonry plugs and screws rated to the television’s weight, matched to the wall type common on Salisbury’s Victorian and Edwardian terraces.',
+      },
+    ],
+  },
+  {
+    id: 'core-sub-19',
+    slug: 'curtain-blind-fitting-salisbury',
+    pageType: 'service-detail',
+    title: 'Curtain Rail & Blind Fitting Salisbury | FixWell Services',
+    h1: 'Curtain Rail & Blind Fitting in Salisbury',
+    metaDescription:
+      'Curtain rail, pole and blind fitting in Salisbury: bay windows, recess and face-fix blinds, secure fixing to any wall type. Fully insured. FixWell Services.',
+    macroContext:
+      'Curtain rail and blind fitting in Salisbury: bay windows, recess and face-fix blinds, solid masonry and plasterboard reveals',
+    priority: 'P2',
+    parentSlug: 'odd-jobs-salisbury',
+    linksTo: ['odd-jobs-salisbury', 'shelf-installation-salisbury'],
+    faqs: [
+      {
+        q: 'How much does it cost to fit curtain rails in Salisbury?',
+        a: '£30–£60 for a standard single window, £60–£120 for a bay window, reflecting the extra brackets and curved pole system needed.',
+      },
+      {
+        q: 'Do you fit curtain poles in bay windows?',
+        a: 'Yes, using a curved or multi-piece pole matched to the specific angle of the bay, with bracket spacing calculated for the wider span.',
       },
     ],
   },
