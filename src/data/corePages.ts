@@ -751,11 +751,11 @@ export const tier2ServicePages: CorePage[] = [
     faqs: [
       {
         q: 'How much does laminate flooring fitting cost in Salisbury?',
-        a: '£15–£25 per square metre for labour. Room shape affects the figure — an irregular room with more cuts costs more per square metre to fit.',
+        a: '£15–£25 per square metre for labour. Room shape affects the figure: an irregular room with more cuts costs more per square metre to fit.',
       },
       {
         q: 'Can you fix a squeaky floorboard without lifting the whole floor?',
-        a: 'Yes. The board is lifted just enough to access the joist beneath it, re-fixed with a screw, and relaid — resolving the squeak without disturbing the rest of the floor.',
+        a: 'Yes. The board is lifted just enough to access the joist beneath it, re-fixed with a screw, and relaid, resolving the squeak without disturbing the rest of the floor.',
       },
     ],
   },

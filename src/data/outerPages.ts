@@ -691,14 +691,14 @@ outerSubPages.push({
     },
     {
       heading: 'Penetrating Damp: Cause, Signs & How to Recognise It',
-      body: "Penetrating damp is moisture entering a wall horizontally through a specific defect rather than rising from the ground: cracked render, failed pointing between bricks, a leaking or blocked gutter overflowing against the wall, or a bridged cavity. The sign that distinguishes it from rising damp is location — penetrating damp staining correlates directly with the position of the external defect, can appear at any height on the wall, and typically worsens after heavy rain and improves in a dry spell.",
+      body: "Penetrating damp is moisture entering a wall horizontally through a specific defect rather than rising from the ground: cracked render, failed pointing between bricks, a leaking or blocked gutter overflowing against the wall, or a bridged cavity. The sign that distinguishes it from rising damp is location: penetrating damp staining correlates directly with the position of the external defect, can appear at any height on the wall, and typically worsens after heavy rain and improves in a dry spell.",
     },
     {
       heading: 'Condensation: Cause, Signs & How to Recognise It',
-      body: "Condensation forms when warm, moisture-laden indoor air meets a cold surface and releases that moisture as liquid water on contact. It accumulates most visibly at a room's coldest points — window reveals, external corners, behind furniture against an outside wall — as black mould spotting rather than a wet stain, along with droplets on glass and a musty smell with no obvious water-entry point. Improving ventilation makes an immediate difference to condensation but none to rising or penetrating damp, which is the clearest practical way to tell them apart.",
+      body: "Condensation forms when warm, moisture-laden indoor air meets a cold surface and releases that moisture as liquid water on contact. It accumulates most visibly at a room's coldest points, such as window reveals, external corners, and behind furniture against an outside wall, as black mould spotting rather than a wet stain, along with droplets on glass and a musty smell with no obvious water-entry point. Improving ventilation makes an immediate difference to condensation but none to rising or penetrating damp, which is the clearest practical way to tell them apart.",
     },
     {
-      heading: 'Which Type of Damp Do You Have — and Does It Need a Handyman or a Damp Specialist?',
+      heading: 'Which Type of Damp Do You Have | Does It Need a Handyman or a Damp Specialist?',
       body: "Condensation and penetrating damp both sit within FixWell's handyman and property maintenance scope, since the remedy is either improving ventilation or fixing the specific external defect letting water in. Rising damp is different: remediating it properly means installing or renewing a damp-proof course, specialist damp-proofing contractor work, ideally preceded by an independent damp survey. FixWell will say clearly which category a property's damp falls into rather than attempting a fix outside that scope.",
     },
   ],
