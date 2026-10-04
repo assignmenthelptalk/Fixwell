@@ -38,7 +38,9 @@ import { mainNav } from '../data/navigation';
         ))}
       </ul>
 
-      <a href="/contact" class="btn btn--primary nav__cta">Get a Quote</a>
+      <a href={`tel:${site.phone}`} class="btn btn--primary nav__call" aria-label={`Call us on ${site.phoneDisplay}`}>
+        <span aria-hidden="true">📞</span> Call Now
+      </a>
 
       <button
         class="nav__toggle"
@@ -166,7 +168,7 @@ import { mainNav } from '../data/navigation';
   }
   .dropdown li a:hover { color: var(--navy); background: var(--bg-light); }
 
-  .nav__cta { flex-shrink: 0; white-space: nowrap; }
+  .nav__call { flex-shrink: 0; white-space: nowrap; margin-left: auto; }
 
   .nav__toggle {
     display: none;
@@ -190,7 +192,7 @@ import { mainNav } from '../data/navigation';
   .nav__toggle:hover { background: var(--bg-light); }
 
   @media (max-width: 900px) {
-    .nav__cta { display: none; }
+    .nav__call { display: none; } /* sticky call bar covers mobile */
     .nav__toggle { display: flex; }
 
     .nav__links {
