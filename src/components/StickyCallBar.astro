@@ -6,7 +6,6 @@ import { site } from '../data/site';
   <a href={`tel:${site.phone}`} class="call-bar__btn call-bar__btn--call">
     <span aria-hidden="true">📞</span> Call Now
   </a>
-  <a href="/contact" class="call-bar__btn call-bar__btn--quote">Get a Quote</a>
 </div>
 
 <style>
@@ -39,7 +38,6 @@ import { site } from '../data/site';
     }
     .call-bar__btn--call { background: var(--orange); color: white; }
     .call-bar__btn--call:active { background: var(--orange-dark); }
-    .call-bar__btn--quote { background: var(--navy); color: white; }
 
     /* keep footer content clear of the fixed bar */
     :global(body) { padding-bottom: 4.5rem; }
