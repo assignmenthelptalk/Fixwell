@@ -3,6 +3,7 @@ import { site } from '../data/site';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import StickyCallBar from '../components/StickyCallBar.astro';
 
 interface Props {
   title: string;
@@ -256,6 +257,7 @@ const allSchemas = [
       <slot />
     </main>
     <Footer />
+    <StickyCallBar />
     <CookieConsent />
 
     <script>
