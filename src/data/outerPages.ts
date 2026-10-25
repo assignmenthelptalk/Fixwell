@@ -38,7 +38,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'What a Handyman Cannot Do',
-        body: 'Certain work requires a licensed specialist. In the UK, gas work must be carried out by a Gas Safe registered engineer. Major electrical installation work (new circuits, consumer unit replacement, or any electrical work in kitchens and bathrooms) requires a Part P competent electrician. Structural work that involves load-bearing elements typically requires a builder and may need planning permission. A professional handyman will always tell you clearly when your job falls outside their scope and refer you to the right specialist.',
+        body: 'Certain work requires a licensed specialist. In the UK, gas work must be carried out by a Gas Safe registered engineer. Notifiable electrical work (new circuits, consumer unit replacement, or alterations to circuits in bathrooms and other special locations) requires a Part P registered competent person. Structural work that involves load-bearing elements typically requires a builder and may need planning permission. A professional handyman will always tell you clearly when your job falls outside their scope and refer you to the right specialist.',
       },
       {
         heading: 'When Should You Use a Handyman?',
@@ -133,7 +133,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'When to Use a Specialist Tradesman',
-        body: 'UK law requires certain work to be carried out by certified specialists. Gas work must be done by a Gas Safe registered engineer. Major electrical work (new circuits, consumer unit replacement, or electrical work in kitchens and bathrooms) requires a Part P certified electrician. Structural work, large extensions, and drainage connections typically require a builder and may need planning permission. A qualified handyman will always refer you to the right specialist when required.',
+        body: 'UK law requires certain work to be carried out by certified specialists. Gas work must be done by a Gas Safe registered engineer. Notifiable electrical work (new circuits, consumer unit replacement, or alterations to circuits in bathrooms and other special locations) requires a Part P registered electrician. Structural work, large extensions, and drainage connections typically require a builder and may need planning permission. A qualified handyman will always refer you to the right specialist when required.',
       },
       {
         heading: 'Cost Comparison: Handyman vs Tradesman',
@@ -147,7 +147,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         q: 'Can a handyman do electrical work in the UK?',
-        a: 'Yes, for minor like-for-like replacements. Under Part P of the Building Regulations, replacing existing sockets, switches, and light fittings outside kitchens and bathrooms is permitted without notification. New circuits, fuse board work, and kitchen or bathroom electrical work requires a qualified electrician.',
+        a: 'Yes, for minor like-for-like replacements. Under Part P of the Building Regulations, replacing existing sockets, switches, and light fittings like-for-like is permitted without notification, including in kitchens (no longer a notifiable location since 2013). New circuits, fuse board work, and alterations to bathroom circuits require a qualified electrician.',
       },
       {
         q: 'Is a handyman cheaper than a plumber or electrician?',
@@ -170,7 +170,7 @@ export const outerHubPages: OuterPage[] = [
     sections: [
       {
         heading: "Landlord's Legal Duty to Maintain Property in England",
-        body: "Under the Landlord and Tenant Act 1985, landlords are legally required to maintain the structure and exterior of the property (roof, walls, windows, doors), heating and hot water systems, gas and electrical installations, and sanitation systems (sinks, baths, toilets, drainage). Failure to meet these obligations can result in rent repayment orders, fines, and civil liability.",
+        body: "Under the Landlord and Tenant Act 1985, landlords are legally required to maintain the structure and exterior of the property (roof, walls, windows, doors), heating and hot water systems, gas and electrical installations, and sanitation systems (sinks, baths, toilets, drainage). Failure to meet these obligations can result in court orders, compensation claims, and local authority enforcement action.",
       },
       {
         heading: 'The Homes (Fitness for Human Habitation) Act 2018',
@@ -196,7 +196,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         q: "What happens if a landlord ignores a tenant's repair request?",
-        a: 'Tenants can report the landlord to the local authority, who can serve an Improvement Notice under the Housing Act 2004. Tenants can also apply to court for a rent repayment order or seek compensation for damages caused by the disrepair.',
+        a: 'Tenants can report the landlord to the local authority, who can serve an Improvement Notice under the Housing Act 2004. Tenants can also bring a county court claim for an order to carry out the works and compensation for damage caused by the disrepair.',
       },
       {
         q: 'Do I need a licensed contractor for landlord maintenance in Salisbury?',
@@ -358,7 +358,7 @@ export const outerHubPages: OuterPage[] = [
       },
       {
         heading: 'UK Legal Restrictions on DIY Work',
-        body: 'Some home repair work is legally restricted in the UK. Gas work must be carried out by a Gas Safe registered engineer; this is a legal requirement, not a suggestion. Certain electrical work falls under Part P of the Building Regulations: new circuits, work in kitchens and bathrooms, and consumer unit replacement must be done by a Part P qualified electrician. Attempting this work without the right certification can invalidate your buildings insurance and cause legal problems when you sell the property.',
+        body: 'Some home repair work is legally restricted in the UK. Gas work must be carried out by a Gas Safe registered engineer; this is a legal requirement, not a suggestion. Certain electrical work falls under Part P of the Building Regulations: new circuits, consumer unit replacement, and alterations to circuits in bathrooms and other special locations must be done by a Part P qualified electrician. Attempting this work without the right certification can invalidate your buildings insurance and cause legal problems when you sell the property.',
       },
       {
         heading: 'The True Cost of a Failed DIY Repair',
@@ -428,32 +428,32 @@ export const outerSubPages: OuterPage[] = [
     id: 'outer-sub-01',
     slug: 'assured-shorthold-tenancy-maintenance-obligations',
     pageType: 'outer-info',
-    title: 'Assured Shorthold Tenancy: Landlord Maintenance Obligations | FixWell',
-    h1: 'Assured Shorthold Tenancy: Landlord Maintenance Obligations Explained',
+    title: 'Assured Tenancy (Formerly AST): Landlord Repair Obligations | FixWell',
+    h1: 'Assured Tenancy Landlord Maintenance Obligations (Formerly Assured Shorthold Tenancy)',
     metaDescription:
-      'Landlord repair obligations under an Assured Shorthold Tenancy in England: Section 11 Landlord and Tenant Act 1985, Homes Act 2018, gas safety, EICR, EPC minimum ratings, and tenant rights explained.',
+      'Landlord repair obligations under an assured tenancy in England (formerly assured shorthold): Section 11 Landlord and Tenant Act 1985, Homes Act 2018, gas safety, EICR, EPC, and what changed on 1 May 2026.',
     macroContext:
-      'How AST contracts define repair and maintenance responsibilities for landlords and tenants in England: what landlords must maintain and what tenants are responsible for',
+      'How assured tenancies (formerly ASTs) define repair and maintenance responsibilities for landlords and tenants in England: what landlords must maintain and what tenants are responsible for',
     intent: 'Informational: landlord legal knowledge',
     linksToCoreIds: ['landlord-property-maintenance-salisbury'],
     sections: [
       {
-        heading: 'What Is an Assured Shorthold Tenancy (AST)?',
-        body: 'An Assured Shorthold Tenancy (AST) is the most common form of residential tenancy in England. It gives tenants the right to occupy a property for an agreed period and gives landlords the right to recover the property at the end of that period (with proper notice). Under an AST, both landlords and tenants have defined responsibilities for maintenance and repairs.',
+        heading: 'What Replaced the Assured Shorthold Tenancy (AST)?',
+        body: "Until 30 April 2026 the assured shorthold tenancy (AST) was the default private tenancy in England. The Renters' Rights Act 2025 abolished it on 1 May 2026: existing ASTs became assured periodic tenancies, and Section 21 no-fault possession ended, so landlords now recover possession only through Section 8 grounds. Under an assured tenancy, both landlords and tenants still have defined responsibilities for maintenance and repairs.",
       },
       {
-        heading: "Landlord Maintenance Obligations Under an AST",
-        body: "Under Section 11 of the Landlord and Tenant Act 1985, landlords with AST agreements must maintain: the structure and exterior of the property; heating and hot water installations; gas and electrical installations; sanitation (baths, sinks, toilets, drains). These obligations cannot be removed by the tenancy agreement. They apply regardless of what the contract says.",
+        heading: "Landlord Maintenance Obligations Under an Assured Tenancy",
+        body: "Under Section 11 of the Landlord and Tenant Act 1985, landlords of assured tenancies must maintain: the structure and exterior of the property; heating and hot water installations; gas and electrical installations; sanitation (baths, sinks, toilets, drains). These obligations cannot be removed by the tenancy agreement. They apply regardless of what the contract says.",
       },
       {
-        heading: "Tenant Responsibilities Under an AST",
+        heading: "Tenant Responsibilities Under an Assured Tenancy",
         body: "Tenants are generally responsible for: keeping the property clean and in good condition; minor maintenance (replacing light bulbs, unblocking sinks caused by their use); reporting repair needs to the landlord promptly; not causing damage beyond fair wear and tear; and carrying out any repairs they have specifically agreed to in the tenancy agreement.",
       },
     ],
     faqs: [
       {
-        q: 'Can a landlord make a tenant responsible for all repairs in an AST?',
-        a: "No. The statutory repairing obligations under Section 11 of the Landlord and Tenant Act 1985 cannot be contracted out of. Regardless of what an AST says, landlords remain responsible for structure, heating, plumbing, and electrics.",
+        q: 'Can a landlord make a tenant responsible for all repairs in an assured tenancy?',
+        a: "No. The statutory repairing obligations under Section 11 of the Landlord and Tenant Act 1985 cannot be contracted out of. Regardless of what the tenancy agreement says, landlords remain responsible for structure, heating, plumbing, and electrics.",
       },
     ],
   },

@@ -79,6 +79,13 @@ const trustBadges = defineCollection({
   schema: z.object({
     publicLiabilityPolicyNumber: z.string().optional(),
     dbsCertificateNumber: z.string().optional(),
+    insurerName: z.string().optional(),
+    companyNumber: z.string().optional(),
+    qualifications: z.string().optional(),
+    ownerName: z.string().optional(),
+    ownerRole: z.string().optional(),
+    ownerBio: z.string().optional(),
+    ownerPhoto: z.string().optional(),
   }),
 });
 

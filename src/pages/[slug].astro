@@ -88,6 +88,15 @@ const pageImages: Record<string, { src: string; alt: string }> = {
 };
 
 const pageImage = page ? pageImages[page.slug] : undefined;
+
+const isLocation = corePage?.pageType === 'location';
+const isServicesHub = corePage?.slug === 'handyman-services-salisbury';
+const townName = corePage?.shortLabel ?? corePage?.h1 ?? '';
+const nearbyTowns = isLocation
+  ? (corePage?.nearby ?? [])
+      .map((s) => allCorePages.find((p) => p.slug === s))
+      .filter((p): p is CorePage => Boolean(p))
+  : [];
 ---
 
 {corePage && (
@@ -100,12 +109,13 @@ const pageImage = page ? pageImages[page.slug] : undefined;
     parentLabel={parentLabel}
     parentSlug={parentSlugStr}
     macroContext={corePage.macroContext}
+    breadcrumbLabel={isLocation ? `Handyman in ${townName}` : undefined}
   >
     <Hero
       variant={heroVariant as 'service' | 'location'}
       title={corePage.h1}
       subtitle={corePage.macroContext}
-      badge={corePage.pageType === 'location' ? `Handyman in ${corePage.shortLabel ?? corePage.h1}` : undefined}
+      badge={isLocation ? `Handyman in ${townName}` : undefined}
       ctaPrimary={{ text: 'Get a Free Quote', href: '/contact' }}
       ctaSecondary={{ text: 'Call Now', href: `tel:${site.phone}` }}
     />
@@ -165,8 +175,10 @@ const pageImage = page ? pageImages[page.slug] : undefined;
         <div class="container">
           <div class="section-header">
             <h2>
-              {corePage.pageType === 'location'
-                ? `Our Services in ${corePage.shortLabel ?? corePage.h1}`
+              {isLocation
+                ? `Our Services in ${townName}`
+                : isServicesHub
+                ? 'All Our Services'
                 : 'Related Services'}
             </h2>
           </div>
@@ -180,6 +192,23 @@ const pageImage = page ? pageImages[page.slug] : undefined;
               </a>
             ))}
           </div>
+        </div>
+      </section>
+    )}
+
+    {nearbyTowns.length > 0 && (
+      <section class="section nearby-areas" aria-labelledby="nearby-heading">
+        <div class="container">
+          <h2 id="nearby-heading">Nearby Areas We Cover</h2>
+          <p>
+            Working in {townName}? We also cover
+            {nearbyTowns.map((t, i) => (
+              <>
+                {i > 0 && (i === nearbyTowns.length - 1 ? ' and ' : ', ')}
+                <a href={`/${t.slug}`}>{t.shortLabel ?? t.h1}</a>
+              </>
+            ))}, or see our <a href="/handyman-services-salisbury">full list of services</a>.
+          </p>
         </div>
       </section>
     )}
@@ -200,7 +229,7 @@ const pageImage = page ? pageImages[page.slug] : undefined;
     description={outerPage.metaDescription}
     h1={outerPage.h1}
     slug={outerPage.slug}
-    faqs={outerPage.faqs}
+    faqs={outerActiveFaqs}
   >
     <Hero
       variant="article"
@@ -271,6 +300,9 @@ const pageImage = page ? pageImages[page.slug] : undefined;
   .related-list { list-style: none; display: flex; flex-direction: column; gap: .4rem; }
   .related-list a { font-size: .875rem; color: var(--text-muted); display: flex; align-items: center; gap: .4rem; padding: .3rem 0; border-bottom: 1px solid var(--border); }
   .related-list a:hover { color: var(--navy); }
+  .nearby-areas h2 { color: var(--navy); font-size: 1.25rem; margin-bottom: .5rem; }
+  .nearby-areas p { color: var(--text-muted); line-height: 1.75; }
+  .nearby-areas a { color: var(--navy); font-weight: 600; text-decoration: underline; }
   /* Related grid */
   .linked-card { display: flex; flex-direction: column; gap: .4rem; text-decoration: none; transition: transform .2s, box-shadow .2s; }
   .linked-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }

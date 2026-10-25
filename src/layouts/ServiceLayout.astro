@@ -12,14 +12,15 @@ interface Props {
   parentLabel?: string;
   parentSlug?: string;
   macroContext: string;
+  breadcrumbLabel?: string;
 }
 
-const { title, description, h1, slug, pageType, parentLabel, parentSlug, macroContext } = Astro.props;
+const { title, description, h1, slug, pageType, parentLabel, parentSlug, macroContext, breadcrumbLabel } = Astro.props;
 
 const breadcrumbs = [
   { label: 'Home', href: '/' },
   ...(parentSlug && parentLabel ? [{ label: parentLabel, href: `/${parentSlug}` }] : []),
-  { label: h1, href: `/${slug}` },
+  { label: breadcrumbLabel ?? h1, href: `/${slug}` },
 ];
 
 const serviceSchema = {

@@ -1,4 +1,6 @@
 ---
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import { site } from '../data/site';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -14,14 +16,24 @@ interface Props {
   noindex?: boolean;
 }
 
+// Canonicals never carry a trailing slash, matching the URLs the site serves (home is the bare origin).
+const withoutTrailingSlash = (url: string) => url.replace(/\/+$/, '');
+
 const {
   title,
   description,
-  canonical = new URL(Astro.url.pathname, site.url).href,
-  ogImage = `${site.url}/og-default.jpg`,
+  canonical: canonicalProp,
+  ogImage: ogImageProp,
   schema,
   noindex = false,
 } = Astro.props;
+
+const canonical = withoutTrailingSlash(canonicalProp ?? new URL(Astro.url.pathname, site.url).href);
+// Social image: an explicit prop wins, then the generated card for this page (public/og/<slug>.jpg,
+// made by scripts/generate_og_images.py), then the shared default card.
+const ogSlug = Astro.url.pathname.replace(/^\/+|\/+$/g, '') || 'home';
+const hasPageCard = existsSync(join(process.cwd(), 'public', 'og', `${ogSlug}.jpg`));
+const ogImage = new URL(ogImageProp ?? (hasPageCard ? `/og/${ogSlug}.jpg` : '/og/default.jpg'), site.url).href;
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',

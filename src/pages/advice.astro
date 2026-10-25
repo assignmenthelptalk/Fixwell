@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import CTABanner from '../components/CTABanner.astro';
+import BreadcrumbNav from '../components/BreadcrumbNav.astro';
+import { site } from '../data/site';
+import { allOuterPages } from '../data/outerPages';
+import { articleMeta, articleCategories, formatArticleDate } from '../data/articleMeta';
+
+const crumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Advice', href: '/advice' },
+];
+
+const groups = articleCategories.map((category) => ({
+  category,
+  articles: allOuterPages
+    .filter((p) => articleMeta[p.slug]?.category === category)
+    .sort((a, b) => articleMeta[b.slug].updated.localeCompare(articleMeta[a.slug].updated)),
+}));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Handyman and Property Maintenance Advice',
+  url: `${site.url}/advice`,
+  hasPart: groups.flatMap((g) =>
+    g.articles.map((a) => ({ '@type': 'Article', headline: a.h1, url: `${site.url}/${a.slug}` }))
+  ),
+};
+---
+<BaseLayout
+  title="Handyman & Property Maintenance Advice | FixWell Services Salisbury"
+  description="Practical advice from FixWell Services on landlord repair duties, handyman costs, choosing a tradesperson and keeping your Salisbury home in good repair."
+  schema={schema}
+>
+  <BreadcrumbNav crumbs={crumbs} />
+  <Hero
+    variant="article"
+    title="Advice for Homeowners and Landlords"
+    subtitle="Plain-English guides on repair responsibilities, costs and keeping a property in good condition. Each article shows when it was last updated."
+    ctaPrimary={{ text: 'Get a Free Quote', href: '/contact' }}
+  />
+
+  <section class="section advice-hub">
+    <div class="container">
+      {groups.map((g) => (
+        <div class="advice-group">
+          <h2>{g.category}</h2>
+          <div class="grid-3">
+            {g.articles.map((a) => (
+              <a href={`/${a.slug}`} class="card advice-card">
+                <h3>{a.h1}</h3>
+                <p>{a.metaDescription.slice(0, 120).trimEnd()}…</p>
+                <span class="advice-card__date">Updated {formatArticleDate(articleMeta[a.slug].updated)}</span>
+                <span class="advice-card__cta">Read the guide →</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <CTABanner heading="Need a Hand With a Job?" variant="navy" />
+</BaseLayout>
+
+<style>
+  .advice-group + .advice-group { margin-top: 3rem; }
+  .advice-group h2 { color: var(--navy); margin-bottom: 1.25rem; }
+  .advice-card { display: flex; flex-direction: column; gap: .5rem; text-decoration: none; transition: transform .2s, box-shadow .2s; }
+  .advice-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+  .advice-card h3 { color: var(--navy); font-size: 1rem; line-height: 1.4; }
+  .advice-card p { color: var(--text-muted); font-size: .875rem; line-height: 1.6; flex: 1; }
+  .advice-card__date { font-size: .8rem; color: var(--text-light); }
+  .advice-card__cta { font-size: .875rem; font-weight: 600; color: var(--orange); margin-top: auto; }
+</style>

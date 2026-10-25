@@ -1,7 +1,9 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import BreadcrumbNav from '../components/BreadcrumbNav.astro';
+import { getEntry } from 'astro:content';
 import { site } from '../data/site';
+import { articleMeta, formatArticleDate } from '../data/articleMeta';
 
 interface Props {
   title: string;
@@ -13,8 +15,13 @@ interface Props {
 
 const { title, description, h1, slug, faqs = [] } = Astro.props;
 
+const meta = articleMeta[slug];
+const credentials = (await getEntry('trustBadges', 'main'))?.data;
+const authorName = credentials?.ownerName ?? site.name;
+
 const breadcrumbs = [
   { label: 'Home', href: '/' },
+  { label: 'Advice', href: '/advice' },
   { label: h1, href: `/${slug}` },
 ];
 
@@ -27,18 +34,15 @@ const articleSchema = {
   headline: h1,
   description,
   url: `${site.url}/${slug}`,
-  author: {
-    '@type': 'Organization',
-    name: site.name,
-    url: site.url,
-  },
+  author: credentials?.ownerName
+    ? { '@type': 'Person', name: credentials.ownerName, worksFor: { '@type': 'Organization', name: site.name, url: site.url } }
+    : { '@type': 'Organization', name: site.name, url: site.url },
   publisher: {
     '@type': 'Organization',
     name: site.name,
     url: site.url,
   },
-  datePublished: '2026-06-17',
-  dateModified: new Date().toISOString().split('T')[0],
+  ...(meta ? { datePublished: meta.published, dateModified: meta.updated } : {}),
 };
 
 const breadcrumbSchema = {
@@ -73,8 +77,21 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
   <BreadcrumbNav crumbs={breadcrumbs} />
   <div class="article-meta">
     <div class="container">
-      <span class="tag">Advice</span>
+      <a href="/advice" class="tag">Advice</a>
       <span class="read-time">{readTime} min read</span>
+      <span class="byline">
+        By {authorName}
+        {meta && (
+          <>
+            <span aria-hidden="true"> · </span>Published <time datetime={meta.published}>{formatArticleDate(meta.published)}</time>
+            {meta.updated !== meta.published && (
+              <>
+                <span aria-hidden="true"> · </span>Last updated <time datetime={meta.updated}>{formatArticleDate(meta.updated)}</time>
+              </>
+            )}
+          </>
+        )}
+      </span>
     </div>
   </div>
   <slot />
@@ -89,7 +106,12 @@ const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : 
   .article-meta .container {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: .5rem 1rem;
+  }
+  .byline {
+    font-size: .875rem;
+    color: var(--text-muted);
   }
   .read-time {
     font-size: .875rem;

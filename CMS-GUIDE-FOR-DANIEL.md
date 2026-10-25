@@ -16,7 +16,7 @@ Your website can be updated at:
 
 - **Business Info & Contact Details** — phone number, email, address, opening hours, areas you cover
 - **Overall Rating Display** — the link to your Google reviews page and the overall rating shown on the site
-- **Certificate Numbers** — your Public Liability policy number and DBS certificate number
+- **Credentials & About Details** — your Public Liability policy number, DBS certificate number, insurer, company number, qualifications, and your name, photo and short bio for the About page (anything you leave blank is simply not shown)
 - **Testimonials** — customer reviews shown on the homepage
 - **Work Gallery** — photos of completed jobs, with captions
 - **Services & Info Pages** — the written content (intro, sections, FAQs) on each service and info page

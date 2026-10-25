@@ -20,6 +20,9 @@ export const mainNav: NavItem[] = [
       { label: 'Carpentry', href: '/carpentry-services-salisbury' },
       { label: 'Renovation', href: '/renovation-services-salisbury' },
       { label: 'Plumbing Repairs', href: '/plumbing-repairs-salisbury' },
+      { label: 'Electrical Repairs', href: '/electrical-repairs-salisbury' },
+      { label: 'Roof Repair', href: '/roof-repair-salisbury' },
+      { label: 'All Services →', href: '/handyman-services-salisbury' },
     ],
   },
   {
@@ -35,7 +38,7 @@ export const mainNav: NavItem[] = [
     ],
   },
   { label: 'About', href: '/about' },
-  { label: 'Advice', href: '/what-does-a-handyman-do' },
+  { label: 'Advice', href: '/advice' },
   { label: 'Contact', href: '/contact' },
 ];
 
@@ -49,8 +52,16 @@ export const footerServiceLinks = [
   { label: 'Painting & Decorating', href: '/painting-decorating-salisbury' },
   { label: 'Carpentry Services', href: '/carpentry-services-salisbury' },
   { label: 'Plumbing Repairs', href: '/plumbing-repairs-salisbury' },
+  { label: 'Plumbing Leak Repairs', href: '/plumbing-leak-repairs-salisbury' },
+  { label: 'Electrical Repairs', href: '/electrical-repairs-salisbury' },
+  { label: 'Lock & Door Repair', href: '/lock-door-repair-salisbury' },
+  { label: 'Roof Repair', href: '/roof-repair-salisbury' },
   { label: 'Fence Repair', href: '/fence-repair-salisbury' },
   { label: 'Gutter Cleaning', href: '/gutter-cleaning-salisbury' },
+  { label: 'Shelf Installation', href: '/shelf-installation-salisbury' },
+  { label: 'Furniture Assembly', href: '/furniture-assembly-salisbury' },
+  { label: 'Between-Tenancy Preparation', href: '/between-tenancy-property-preparation-salisbury' },
+  { label: 'All Services', href: '/handyman-services-salisbury' },
 ];
 
 export const footerAreaLinks = [
@@ -63,6 +74,7 @@ export const footerAreaLinks = [
 ];
 
 export const footerInfoLinks = [
+  { label: 'All Advice Articles', href: '/advice' },
   { label: 'What Does a Handyman Do?', href: '/what-does-a-handyman-do' },
   { label: 'Handyman Cost Guide', href: '/handyman-cost-salisbury' },
   { label: 'Handyman vs Tradesman', href: '/handyman-vs-tradesman' },

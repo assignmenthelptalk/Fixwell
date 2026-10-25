@@ -1,12 +1,23 @@
 ---
-const signals = [
-  { icon: '🛡️', label: 'Fully Insured', detail: 'Public liability covered' },
-  { icon: '🎓', label: 'Qualified', detail: 'Industry-recognised qualifications' },
-  { icon: '⚡', label: 'Same-Day Available', detail: 'Emergency callouts covered' },
-  { icon: '📍', label: 'Local Experts', detail: 'Salisbury & Wiltshire based' },
+import { getEntry } from 'astro:content';
+
+const credentials = (await getEntry('trustBadges', 'main'))?.data;
+const reviews = (await getEntry('reviewsSettings', 'main'))?.data;
+
+// Each signal states something checkable. "Qualified" only appears once the qualifications are entered in the CMS.
+const candidates = [
+  { icon: '🛡️', label: 'Fully Insured', detail: 'Public liability up to £2 million' },
+  { icon: '✅', label: 'DBS Checked', detail: 'Enhanced background check' },
+  credentials?.qualifications
+    ? { icon: '🎓', label: 'Qualified', detail: credentials.qualifications }
+    : { icon: '⚡', label: 'Same-Day Available', detail: 'Emergency callouts covered' },
+  { icon: '📍', label: 'Local Business', detail: 'Based in Salisbury, SP2' },
   { icon: '💬', label: 'Free Quotes', detail: 'No obligation estimates' },
-  { icon: '⭐', label: 'Trusted Service', detail: 'Highly rated by customers' },
+  reviews && reviews.reviewCount > 0
+    ? { icon: '⭐', label: `${reviews.overallRating} on Google`, detail: `Based on ${reviews.reviewCount} Google reviews` }
+    : { icon: '⚡', label: 'Same-Day Available', detail: 'Emergency callouts covered' },
 ];
+const signals = [...new Map(candidates.map((s) => [s.label, s])).values()];
 ---
 
 <section class="trust-bar section--light" aria-label="Trust signals">

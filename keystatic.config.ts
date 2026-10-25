@@ -65,7 +65,7 @@ export default config({
     }),
 
     trustBadges: singleton({
-      label: 'Certificate Numbers',
+      label: 'Credentials & About Details',
       path: 'src/content/trustBadges/main',
       format: { data: 'json' },
       schema: {
@@ -73,6 +73,32 @@ export default config({
           label: 'Public Liability Insurance policy number',
         }),
         dbsCertificateNumber: fields.text({ label: 'DBS certificate number' }),
+        insurerName: fields.text({
+          label: 'Insurer',
+          description: 'Optional, e.g. the name of your public liability insurer. Shown on the About page.',
+        }),
+        companyNumber: fields.text({
+          label: 'Company number',
+          description: 'Optional. Companies House number if you trade as a limited company.',
+        }),
+        qualifications: fields.text({
+          label: 'Qualifications',
+          description: 'Optional. Named qualifications, e.g. NVQ Level 2 Carpentry. Shown in the trust bar and on the About page.',
+        }),
+        ownerName: fields.text({
+          label: 'Your name',
+          description: 'Optional. Shown on the About page and as the author of advice articles.',
+        }),
+        ownerRole: fields.text({ label: 'Your role', description: 'Optional, e.g. Owner and lead handyman' }),
+        ownerBio: fields.text({
+          label: 'Short bio',
+          multiline: true,
+          description: 'Optional. A few sentences on your experience and the work you do.',
+        }),
+        ownerPhoto: fields.text({
+          label: 'Photo path',
+          description: 'Optional. Path under /public, e.g. /owner.jpg',
+        }),
       },
     }),
   },

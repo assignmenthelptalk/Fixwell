@@ -3,15 +3,15 @@
   "sections": [
     {
       "heading": "What Minor Electrical Repair Work Involves",
-      "body": "Under UK Building Regulations Part P, a competent handyman may replace like-for-like electrical fittings, such as a damaged socket faceplate, a broken light switch, or a failed pendant light fitting, in ordinary rooms (not kitchens or bathrooms) without formal notification. This is distinct from notifiable work, which includes installing new circuits, adding sockets in kitchens or bathrooms, or any work in the areas defined as \"special locations\" under BS 7671. FixWell Services works precisely within this boundary. We replace single and double sockets (BS 1363), one-way and two-way light switches, ceiling roses, pendant lamp holders, batten holders, and GU10 and GU5.3 recessed downlighters in ordinary living spaces. We also identify whether a broader electrical fault, such as a repeated MCB trip or a dead zone on a ring main, has a simple cause or requires a registered NICEIC or NAPIT electrician for investigation."
+      "body": "Under UK Building Regulations Part P, a competent handyman may replace like-for-like electrical fittings, such as a damaged socket faceplate, a broken light switch, or a failed pendant light fitting, without formal notification, and kitchens stopped being a notifiable location in 2013. This is distinct from notifiable work, which includes installing new circuits, replacing a consumer unit, and altering circuits in special locations such as bathrooms. FixWell Services works precisely within this boundary. We replace single and double sockets (BS 1363), one-way and two-way light switches, ceiling roses, pendant lamp holders, batten holders, and GU10 and GU5.3 recessed downlighters in ordinary living spaces. We do not investigate faults inside the wiring: if a problem such as a repeated MCB trip or a dead zone on a ring main is not down to a simple worn fitting, we recommend a registered electrician (for example a NICEIC or NAPIT member)."
     },
     {
       "heading": "Common Electrical Faults in Salisbury Homes",
-      "body": "The most frequent electrical faults we attend in Salisbury properties are loose terminal connections causing intermittent failures or visible arcing marks inside socket faceplates; cracked or broken socket and switch faceplates (particularly in older 1970s–80s properties where cream and white plastic has become brittle); failed lamp holders in pendant fittings where the heat of older incandescent bulbs has melted the thermoplastic body; and GU10 LED driver failures in recessed downlighters. Many Salisbury homes built in the 1960s–70s, particularly on estates in Bemerton Heath and Harnham, still have older wiring infrastructure with single-circuit ring mains that are loaded to modern demand; here we check for overloaded circuits before attributing a trip to a faulty fitting. Fluorescent strip light failures in garages and utility rooms are also common and usually caused by a failed starter or ballast rather than the tube itself."
+      "body": "The most frequent electrical faults we attend in Salisbury properties are loose terminal connections causing intermittent failures or visible arcing marks inside socket faceplates; cracked or broken socket and switch faceplates (particularly in older 1970s–80s properties where cream and white plastic has become brittle); failed lamp holders in pendant fittings where the heat of older incandescent bulbs has melted the thermoplastic body; and GU10 LED driver failures in recessed downlighters. Many Salisbury homes built in the 1960s–70s, particularly on estates in Bemerton Heath and Harnham, still have older wiring infrastructure with single-circuit ring mains that are loaded to modern demand; here we look for obvious signs of overload before attributing a trip to a faulty fitting. Fluorescent strip light failures in garages and utility rooms are also common and usually caused by a failed starter or ballast rather than the tube itself."
     },
     {
       "heading": "How FixWell Carries Out Electrical Repairs",
-      "body": "Every electrical job begins with safe isolation at the consumer unit: we switch off the relevant MCB, apply our test meter to confirm the circuit is dead, and only then remove the fitting. For a socket or switch replacement, we photograph the existing wiring connections before disconnecting, match the new fitting precisely, and torque terminals to the manufacturer specification to prevent loose connections recurring. For a failed light fitting, we confirm whether the issue is the fitting itself, the lamp (including LED driver failure in integrated fittings), or the supply. Before restoring power we carry out a visual check of all conductor insulation within the back box. For GU10 downlighter replacements we ensure the new fitting has the same IP rating as the original where it is in proximity to a bathroom. After restoring supply we test the circuit under load before leaving. Where we identify a fault that falls outside handyman scope, such as a discoloured back box indicating arcing, or a circuit that trips repeatedly under normal load, we advise the customer and recommend a registered electrician."
+      "body": "Every electrical job begins with safe isolation at the consumer unit: we switch off the relevant MCB, confirm the circuit is dead with a voltage tester, and only then remove the fitting. For a socket or switch replacement, we photograph the existing wiring connections before disconnecting, match the new fitting precisely, and torque terminals to the manufacturer specification to prevent loose connections recurring. For a failed light fitting, we confirm whether the issue is the fitting itself, the lamp (including LED driver failure in integrated fittings), or the supply. Before restoring power we carry out a visual check of all conductor insulation within the back box. For GU10 downlighter replacements we ensure the new fitting has the same IP rating as the original where it is in proximity to a bathroom. After restoring supply we check that the fitting works correctly before leaving. Where we identify a fault that falls outside handyman scope, such as a discoloured back box indicating arcing, or a circuit that trips repeatedly under normal load, we advise the customer and recommend a registered electrician."
     },
     {
       "heading": "Cost, Timeframe, and Older Wiring in Salisbury",
@@ -25,7 +25,7 @@
   "faqs": [
     {
       "q": "What electrical work can a handyman legally carry out in the UK?",
-      "a": "Under Part P of the Building Regulations, a handyman can replace like-for-like electrical fittings (sockets, switches, light fittings) in ordinary rooms (not kitchens, bathrooms, or outdoors) without notification. Installing new circuits, adding sockets in kitchens or bathrooms, or any work in special locations requires a Part P registered electrician."
+      "a": "Under Part P of the Building Regulations, a handyman can replace like-for-like electrical fittings (sockets, switches, light fittings) without notification, including in kitchens, which stopped being a notifiable location in 2013. Installing new circuits, replacing a consumer unit, or altering circuits in bathrooms and other special locations requires a Part P registered electrician."
     },
     {
       "q": "My socket has burn marks around it. Is that an emergency?",
@@ -33,7 +33,7 @@
     },
     {
       "q": "Can you find out why a circuit breaker keeps tripping?",
-      "a": "We can carry out basic fault-finding: checking for overloaded circuits, identifying a faulty appliance causing nuisance trips, and confirming whether the MCB itself is failing. If the fault requires an Insulation Resistance Test or a full circuit trace, we will refer you to a registered electrician."
+      "a": "We can carry out basic checks, such as unplugging appliances to see whether one is causing nuisance trips and looking for obvious signs of overload or a worn fitting. We do not carry out electrical testing or diagnose faults inside the wiring. If the trip persists, we will refer you to a registered electrician."
     },
     {
       "q": "How much does a socket or light fitting replacement cost in Salisbury?",
@@ -41,7 +41,7 @@
     },
     {
       "q": "Can you replace bathroom or kitchen light fittings?",
-      "a": "Replacing a like-for-like fitting in a bathroom or kitchen that is not in the splash zone and does not require any wiring alteration may fall within permitted work, but it is a nuanced area of Part P. We assess each job on its merits and will tell you clearly if the work requires a registered electrician."
+      "a": "Replacing a like-for-like light fitting in a kitchen is permitted work. In a bathroom, a like-for-like replacement is only suitable where the new fitting has the right IP rating for its zone and no wiring alteration is needed; otherwise a registered electrician is required. We will tell you clearly before we start."
     },
     {
       "q": "Are you insured to carry out electrical repairs in Salisbury?",

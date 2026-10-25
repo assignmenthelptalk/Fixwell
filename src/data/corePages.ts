@@ -25,6 +25,8 @@ export interface CorePage {
   parentSlug?: string;
   icon?: string;
   shortLabel?: string;
+  /** Location pages only: slugs of neighbouring towns to cross-link. */
+  nearby?: string[];
 }
 
 export const coreHubPages: CorePage[] = [
@@ -50,6 +52,25 @@ export const coreHubPages: CorePage[] = [
       'carpentry-services-salisbury',
       'renovation-services-salisbury',
       'plumbing-repairs-salisbury',
+      'plumbing-leak-repairs-salisbury',
+      'electrical-repairs-salisbury',
+      'lock-door-repair-salisbury',
+      'roof-repair-salisbury',
+      'gutter-cleaning-salisbury',
+      'fence-repair-salisbury',
+      'paving-slab-replacement-salisbury',
+      'window-repair-salisbury',
+      'door-hinge-repair-salisbury',
+      'shelf-installation-salisbury',
+      'furniture-assembly-salisbury',
+      'tv-wall-mounting-salisbury',
+      'curtain-blind-fitting-salisbury',
+      'skirting-board-painting-salisbury',
+      'tiling-services-salisbury',
+      'flooring-fitting-salisbury',
+      'kitchen-renovation-salisbury',
+      'bathroom-renovation-salisbury',
+      'between-tenancy-property-preparation-salisbury',
     ],
     icon: '🔨',
     shortLabel: 'All Services',
@@ -122,12 +143,12 @@ export const coreHubPages: CorePage[] = [
     id: 'core-hub-03',
     slug: 'property-maintenance-salisbury',
     pageType: 'service-hub',
-    title: 'Property Maintenance Salisbury | Home & Landlord Services | FixWell',
+    title: 'Property Maintenance Salisbury | Routine Upkeep & Inspections | FixWell',
     h1: 'Property Maintenance Salisbury: Reliable, Insured Service',
     metaDescription:
-      'Comprehensive property maintenance in Salisbury and Wiltshire: routine inspections, seasonal upkeep, preventive repairs, and landlord compliance work. Fully insured. FixWell Services.',
+      'Property maintenance in Salisbury and Wiltshire: routine inspections, seasonal upkeep and preventive repairs for homeowners and property owners. Renting out? See our landlord service. Fully insured. FixWell Services.',
     macroContext:
-      'Comprehensive property maintenance in Salisbury covering routine checks, seasonal upkeep, and landlord compliance work',
+      'Property maintenance in Salisbury covering routine checks, seasonal upkeep, and preventive repairs',
     priority: 'P0',
     linksTo: [
       'landlord-property-maintenance-salisbury',
@@ -371,12 +392,12 @@ export const coreHubPages: CorePage[] = [
     id: 'core-hub-11',
     slug: 'plumbing-repairs-salisbury',
     pageType: 'service-hub',
-    title: 'Plumbing Repairs Salisbury | Leaks, Taps & Drains | FixWell',
-    h1: 'Plumbing Repairs in Salisbury: Leaks, Taps & Drains Fixed Fast',
+    title: 'Plumbing Repairs Salisbury | Taps, Toilets & Waste Traps | FixWell',
+    h1: 'Plumbing Repairs in Salisbury: Taps, Toilets & Waste Traps Fixed Fast',
     metaDescription:
-      'Minor plumbing repairs in Salisbury: leaking taps, running toilets, blocked drains, burst pipes, and emergency plumbing callouts. Within Water Regulations 1999 scope. Fully insured. FixWell Services.',
+      'Minor plumbing repairs in Salisbury: leaking taps, running toilets, blocked sinks and waste traps, and tap or shower replacement. For burst pipes and leaks see our leak repair service. Fully insured. FixWell Services.',
     macroContext:
-      'Minor plumbing repairs in Salisbury: leaking taps, running toilets, blocked drains, burst pipes, tap installation, and emergency plumbing callouts',
+      'Minor plumbing repairs in Salisbury: leaking taps, running toilets, blocked sinks and waste traps, tap installation, and shower or toilet fitting replacement',
     priority: 'P2',
     linksTo: ['emergency-handyman-salisbury', 'plumbing-leak-repairs-salisbury'],
     icon: '🚿',
@@ -384,11 +405,11 @@ export const coreHubPages: CorePage[] = [
     faqs: [
       {
         q: 'What plumbing repairs do you handle in Salisbury?',
-        a: 'We handle minor plumbing repairs within legal handyman scope: fixing leaking taps, dripping showerheads, running toilets, blocked drains, replacing washers and valves, and responding to burst pipe emergencies.',
+        a: 'We handle minor plumbing repairs within legal handyman scope: fixing leaking taps, dripping showerheads, running toilets, blocked sinks and waste traps, and replacing washers and valves. For burst pipes and leaks see our plumbing leak repair service.',
       },
       {
         q: 'Do you need to be a qualified plumber to do plumbing repairs?',
-        a: 'For minor repairs such as fixing taps, replacing washers, and unblocking drains, a qualified handyman can legally carry out the work. For gas work or major plumbing installations, a Gas Safe registered engineer is required. We will advise if that applies to your job.',
+        a: 'For minor repairs such as fixing taps, replacing washers, and unblocking sinks and waste traps, a qualified handyman can legally carry out the work. For gas work or major plumbing installations, a Gas Safe registered engineer is required. We will advise if that applies to your job.',
       },
     ],
   },
@@ -411,7 +432,7 @@ export const tier2ServicePages: CorePage[] = [
     faqs: [
       {
         q: 'How quickly can you fix a leaking pipe in Salisbury?',
-        a: 'For emergency leaks, we aim for same-day response. For routine drips and leaks, we can usually attend within 1–2 days across Salisbury and Wiltshire.',
+        a: 'For emergency leaks, we aim for same-day response. For routine drips and leaks, we can usually attend within 1–3 days across Salisbury and Wiltshire.',
       },
       {
         q: 'Can a burst pipe cause serious damage?',
@@ -423,19 +444,19 @@ export const tier2ServicePages: CorePage[] = [
     id: 'core-sub-02',
     slug: 'electrical-repairs-salisbury',
     pageType: 'service-detail',
-    title: 'Electrical Repairs Salisbury | Sockets, Lights & Faults | FixWell',
-    h1: 'Electrical Repairs in Salisbury: Sockets, Lights & Faults',
+    title: 'Electrical Repairs Salisbury | Sockets, Lights & Switches | FixWell',
+    h1: 'Electrical Repairs in Salisbury: Sockets, Lights & Switches',
     metaDescription:
-      'Minor electrical repairs in Salisbury: faulty sockets, light fitting replacement, switch repairs and circuit fault-finding within UK Part P legal limits. Fully insured. FixWell Services.',
+      'Minor electrical repairs in Salisbury: faulty sockets, light fitting replacement, switch repairs and basic circuit checks within UK Part P limits. Fully insured. FixWell Services.',
     macroContext:
-      'Minor electrical repairs in Salisbury: faulty sockets, light fitting replacement, switch repairs, circuit fault finding (within UK legal limits)',
+      'Minor electrical repairs in Salisbury: faulty sockets, light fitting replacement, switch repairs, basic circuit checks (within UK legal limits)',
     priority: 'P1',
     parentSlug: 'home-repairs-salisbury',
     linksTo: ['home-repairs-salisbury', 'emergency-handyman-salisbury'],
     faqs: [
       {
         q: 'What electrical work can a handyman legally do in the UK?',
-        a: 'Under UK building regulations (Part P), a handyman can replace like-for-like electrical fittings such as sockets, switches, and light fittings outside kitchens and bathrooms without notification. We work within these legal limits and advise when a fully qualified electrician is needed.',
+        a: 'Under UK building regulations (Part P), a handyman can replace like-for-like electrical fittings such as sockets, switches, and light fittings without notification. Kitchens stopped being a notifiable location in 2013, so like-for-like work there is fine. New circuits, consumer unit replacement, and alterations to bathroom circuits remain notifiable work for a registered electrician. We work within these limits and advise when one is needed.',
       },
     ],
   },
@@ -468,7 +489,7 @@ export const tier2ServicePages: CorePage[] = [
     metaDescription:
       'Between-tenancy property preparation in Salisbury: snag repairs, repainting, compliance checks, silicone resealing and full void-period preparation for landlords. FixWell Services, fully insured.',
     macroContext:
-      'Between-tenancy property preparation in Salisbury: cleaning, repairs, repainting, carpet checks, compliance inspections before new tenant',
+      'Between-tenancy property preparation in Salisbury: repairs, repainting, carpet checks, compliance inspections and cleaner coordination before the new tenant',
     priority: 'P1',
     parentSlug: 'landlord-property-maintenance-salisbury',
     linksTo: [
@@ -814,10 +835,12 @@ export const locationPages: CorePage[] = [
     id: 'loc-01',
     slug: 'handyman-amesbury',
     pageType: 'location',
+    shortLabel: 'Amesbury',
+    nearby: ['handyman-wilton', 'handyman-tidworth', 'handyman-andover'],
     title: 'Handyman Amesbury | FixWell Services',
     h1: 'Handyman in Amesbury: Local, Reliable & Fully Insured',
     metaDescription:
-      'Professional handyman in Amesbury, SP4: home repairs, property maintenance, landlord services and same-day emergency callouts. FixWell Services, 10 miles from Salisbury. Call +44 7391 599 078.',
+      'Professional handyman in Amesbury, SP4: home repairs, property maintenance, landlord services and same-day emergency callouts. FixWell Services, 8 miles from Salisbury. Call +44 7391 599 078.',
     macroContext: 'Handyman services in Amesbury, Wiltshire: home repairs, maintenance and emergency callouts',
     priority: 'P2',
     linksTo: [
@@ -841,6 +864,8 @@ export const locationPages: CorePage[] = [
     id: 'loc-02',
     slug: 'handyman-wilton',
     pageType: 'location',
+    shortLabel: 'Wilton',
+    nearby: ['handyman-amesbury', 'handyman-downton'],
     title: 'Handyman Wilton | FixWell Services',
     h1: 'Handyman in Wilton: Professional Home Repair Service',
     metaDescription:
@@ -863,6 +888,8 @@ export const locationPages: CorePage[] = [
     id: 'loc-03',
     slug: 'handyman-tidworth',
     pageType: 'location',
+    shortLabel: 'Tidworth',
+    nearby: ['handyman-amesbury', 'handyman-andover'],
     title: 'Handyman Tidworth | FixWell Services',
     h1: 'Handyman in Tidworth: Reliable Local Service',
     metaDescription:
@@ -885,6 +912,8 @@ export const locationPages: CorePage[] = [
     id: 'loc-04',
     slug: 'handyman-fordingbridge',
     pageType: 'location',
+    shortLabel: 'Fordingbridge',
+    nearby: ['handyman-downton'],
     title: 'Handyman Fordingbridge | FixWell Services',
     h1: 'Handyman in Fordingbridge: Trusted Local Repairs',
     metaDescription:
@@ -907,10 +936,12 @@ export const locationPages: CorePage[] = [
     id: 'loc-05',
     slug: 'handyman-downton',
     pageType: 'location',
+    shortLabel: 'Downton',
+    nearby: ['handyman-fordingbridge', 'handyman-wilton'],
     title: 'Handyman Downton | FixWell Services',
     h1: 'Handyman in Downton: Professional Local Service',
     metaDescription:
-      'Professional handyman in Downton, SP5: period cottage repairs, carpentry, painting, home maintenance and same-day emergency callouts. FixWell Services, 7 miles from Salisbury. Call +44 7391 599 078.',
+      'Professional handyman in Downton, SP5: period cottage repairs, carpentry, painting, home maintenance and same-day emergency callouts. FixWell Services, 6 miles from Salisbury. Call +44 7391 599 078.',
     macroContext: 'Handyman services in Downton, Wiltshire: home repairs, property maintenance and emergency callouts',
     priority: 'P2',
     linksTo: [
@@ -921,7 +952,7 @@ export const locationPages: CorePage[] = [
     faqs: [
       {
         q: 'Do you provide handyman services in Downton?',
-        a: 'Yes. Downton is about 5 miles south of Salisbury and is within our regular service area. We provide fully insured handyman and property maintenance services to Downton residents.',
+        a: 'Yes. Downton is about 6 miles south of Salisbury and is within our regular service area. We provide fully insured handyman and property maintenance services to Downton residents.',
       },
     ],
   },
@@ -929,6 +960,8 @@ export const locationPages: CorePage[] = [
     id: 'loc-06',
     slug: 'handyman-andover',
     pageType: 'location',
+    shortLabel: 'Andover',
+    nearby: ['handyman-tidworth', 'handyman-amesbury'],
     title: 'Handyman Andover | FixWell Services',
     h1: 'Handyman in Andover: Skilled, Insured & Local',
     metaDescription:

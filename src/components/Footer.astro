@@ -1,6 +1,8 @@
 ---
 import { site } from '../data/site';
 import { footerServiceLinks, footerAreaLinks, footerInfoLinks } from '../data/navigation';
+
+const onContactPage = Astro.url.pathname.replace(/\/+$/, '') === '/contact';
 ---
 
 <footer class="footer">
@@ -64,13 +66,13 @@ import { footerServiceLinks, footerAreaLinks, footerInfoLinks } from '../data/na
         <h3>Why FixWell?</h3>
         <ul class="footer__trust">
           <li>✅ Fully insured</li>
-          <li>✅ Industry qualifications</li>
+          <li>✅ DBS checked</li>
           <li>✅ Same-day emergency callouts</li>
           <li>✅ No job too big or small</li>
           <li>✅ Competitive rates £20–£40/hr</li>
           <li>✅ Serving Salisbury since 2020</li>
         </ul>
-        <a href="/contact" class="btn btn--primary" style="margin-top:1.5rem;width:100%;justify-content:center;">
+        <a href={onContactPage ? '#quote' : '/contact'} class="btn btn--primary" style="margin-top:1.5rem;width:100%;justify-content:center;">
           Get a Free Quote
         </a>
       </div>
