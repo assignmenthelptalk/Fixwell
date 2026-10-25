@@ -136,6 +136,17 @@ const {
     flex-wrap: wrap;
   }
 
+  /* Global .btn--outline is navy-on-navy here, so invert it for the dark hero */
+  .hero__actions .btn--outline {
+    background: rgba(255,255,255,.12);
+    color: white;
+    border-color: white;
+  }
+  .hero__actions .btn--outline:hover {
+    background: white;
+    color: var(--navy);
+  }
+
   .hero__phone-cta {
     display: flex;
     align-items: center;
