@@ -10,6 +10,10 @@ export default defineConfig({
   trailingSlash: 'never',
   output: 'static',
   adapter: vercel(),
+  // Lets Astro trust the real host name, otherwise Keystatic's GitHub login sends https://localhost as the redirect address.
+  security: {
+    allowedDomains: [{ hostname: 'www.fixwellservices.co.uk', protocol: 'https' }],
+  },
   integrations: [
     sitemap({
       changefreq: 'monthly',
